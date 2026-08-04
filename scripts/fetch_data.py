@@ -64,11 +64,16 @@ SERPAPI_QUOTA_EXHAUSTED = False  # set True once we hit a quota error, so we
                                   # this run once the free tier is used up
 
 
+_CONSECUTIVE_FULL_FAILURES = 0  # tracks repeated total-retry-exhaustion across
+                                 # DIFFERENT calls — if this keeps happening,
+                                 # it's a real quota limit, not a momentary blip
+
+
 def _serpapi_get(params, name):
     """Shared SerpAPI request helper with retry-on-429 and quota detection.
     Returns the parsed JSON response, or None if the request failed, was
     rate-limited past retries, or the monthly quota is exhausted."""
-    global SERPAPI_QUOTA_EXHAUSTED
+    global SERPAPI_QUOTA_EXHAUSTED, _CONSECUTIVE_FULL_FAILURES
     if not _SERPAPI_KEY or SERPAPI_QUOTA_EXHAUSTED:
         return None
 
@@ -81,6 +86,19 @@ def _serpapi_get(params, name):
             return None
 
         if resp.status_code == 429:
+            # The 429 response body sometimes contains the actual quota
+            # message — check it before assuming this is just a momentary
+            # rate limit worth retrying.
+            try:
+                body_error = resp.json().get("error", "")
+            except ValueError:
+                body_error = ""
+            if any(kw in body_error.lower() for kw in ("run out of searches", "monthly", "limit", "quota")):
+                print("    [warn] SerpAPI quota exhausted — skipping Scholar data for the rest of this run.",
+                      file=sys.stderr)
+                SERPAPI_QUOTA_EXHAUSTED = True
+                return None
+
             wait = 5 * (attempt + 1)
             print(f"    [warn] SerpAPI rate-limited for {name}, waiting {wait}s...", file=sys.stderr)
             time.sleep(wait)
@@ -96,9 +114,51 @@ def _serpapi_get(params, name):
             else:
                 print(f"    [warn] SerpAPI error for {name}: {error}", file=sys.stderr)
             return None
+        _CONSECUTIVE_FULL_FAILURES = 0  # a real success resets the counter
         return data
 
+    # Exhausted all 3 retries without success. If this keeps happening
+    # across different calls (not just one flaky request), it's almost
+    # certainly the monthly quota, not a passing rate-limit blip — stop
+    # entirely rather than burning the same futile retry cycle on every
+    # single remaining paper.
+    _CONSECUTIVE_FULL_FAILURES += 1
+    if _CONSECUTIVE_FULL_FAILURES >= 2:
+        print("    [warn] Repeated rate-limiting across multiple requests — treating as quota "
+              "exhaustion and stopping Scholar calls for the rest of this run.", file=sys.stderr)
+        SERPAPI_QUOTA_EXHAUSTED = True
     return None
+
+
+def fetch_precise_publication_date(scholar_id, citation_id, name):
+    """Fetches the exact publication date (often day-precision, e.g.
+    '2023/2/23') for a single paper via SerpAPI's citation-detail view.
+    Only called for papers dated in a person's exact join year, where
+    day-precision determines whether they should actually count — costs
+    one extra API call per paper checked, so used sparingly rather than
+    for every single paper."""
+    if not scholar_id or not citation_id:
+        return None
+    data = _serpapi_get({
+        "engine": "google_scholar_author",
+        "author_id": scholar_id,
+        "view_op": "view_citation",
+        "citation_id": citation_id,
+    }, name)
+    if not data:
+        return None
+    date_str = (data.get("citation") or {}).get("publication_date")
+    if not date_str:
+        return None
+    parts = date_str.split("/")
+    try:
+        from datetime import date
+        year = int(parts[0])
+        month = int(parts[1]) if len(parts) > 1 else 1
+        day = int(parts[2]) if len(parts) > 2 else 1
+        return date(year, month, day)
+    except (ValueError, IndexError):
+        return None
 
 
 def fetch_scholar_h_index(scholar_id, name):
@@ -204,6 +264,7 @@ def simplify_scholar_article(article, scientist_name):
         "venue": venue_str,
         "cited_by_count": cited_by,
         "doi": None,  # not available from Google Scholar
+        "citation_id": article.get("citation_id"),  # internal use only, for precise-date lookups
         "authors": authors,  # often abbreviated first names — a known Scholar limitation
         "institution_ids": [],  # not available from Google Scholar
         "scientist": scientist_name,
@@ -492,13 +553,13 @@ def compute_member_collaborations(all_publications, member_lookup):
 
 
 def dedupe_by_title(all_publications):
-    """OpenAlex sometimes creates two separate work records for the same
-    real-world paper (e.g. an arXiv preprint version and a published-venue
-    version each get their own work ID). Since our main dedup only checks
-    exact OpenAlex work ID, these slip through as if they were different
-    papers — inflating publication counts and causing the same paper to
-    show up twice in collaboration detail lists. This catches and merges
-    them by normalized title, keeping whichever entry was seen first."""
+    """Google Scholar sometimes indexes the same real-world paper twice under
+    slightly different titles — once per co-author's profile, occasionally
+    with words reordered or lightly reworded (e.g. 'X is Required for Y' vs
+    'Is X Required for Y?'). Two passes: first an exact-substring match
+    (catches near-identical titles), then a same-word-set match (catches
+    reordered/rephrased duplicates the first pass misses). Keeps whichever
+    entry was seen first."""
     seen_titles = {}
     removed = 0
     for wid in list(all_publications.keys()):
@@ -511,6 +572,19 @@ def dedupe_by_title(all_publications):
             removed += 1
         else:
             seen_titles[norm] = wid
+
+    seen_word_sets = {}
+    for wid in list(all_publications.keys()):
+        title = all_publications[wid].get("title") or ""
+        words = frozenset(re.sub(r"[^a-z0-9 ]", "", title.lower()).split())
+        if not words:
+            continue
+        if words in seen_word_sets:
+            del all_publications[wid]
+            removed += 1
+        else:
+            seen_word_sets[words] = wid
+
     return removed
 
 
@@ -617,6 +691,36 @@ def main():
         kept = [p for p in simplified_all if simplified_pub_is_after_join_date(p, joined_date)]
         print(f"    kept {len(kept)} of {before_count} after join-date filter (since {joined_date})")
 
+        # Precise day-level check — only for papers dated in the person's
+        # EXACT join year, since those are the only ones where whole-year
+        # granularity could be wrong (a paper from months before they
+        # joined, in the same calendar year). Costs one extra API call per
+        # such paper, so deliberately NOT done for every paper.
+        if join_year and joined_date:
+            from datetime import date as _date
+            join_date_obj = _date(*(int(x) for x in joined_date.split("-")))
+            borderline_count = sum(1 for p in kept if p.get("year") == join_year)
+            if borderline_count:
+                print(f"    Checking precise dates for {borderline_count} paper(s) dated exactly {join_year} "
+                      f"(the only ones whole-year filtering can't resolve on its own)...")
+            excluded_precise = 0
+            still_kept = []
+            for p in kept:
+                if p.get("year") != join_year:
+                    still_kept.append(p)
+                    continue
+                precise_date = fetch_precise_publication_date(scholar_id, p.get("citation_id"), scientist["name"])
+                if precise_date is None:
+                    still_kept.append(p)  # fail open — don't exclude on an API hiccup
+                elif precise_date >= join_date_obj:
+                    still_kept.append(p)
+                else:
+                    excluded_precise += 1
+            kept = still_kept
+            if excluded_precise:
+                print(f"    Excluded {excluded_precise} paper(s) after precise-date check "
+                      f"(published before the actual join date, same calendar year)")
+
         for simplified in kept:
             wid = simplified["id"]
             if wid not in all_publications:
@@ -707,6 +811,25 @@ def main():
     }
 
     OUT_PATH.parent.mkdir(parents=True, exist_ok=True)
+
+    # Safety net: if the SerpAPI quota ran out early in this run, we'd
+    # otherwise silently overwrite good existing data with a mostly-empty
+    # result. Refuse to write if the new count looks suspiciously low
+    # compared to what's already there.
+    if OUT_PATH.exists():
+        try:
+            existing = json.loads(OUT_PATH.read_text())
+            existing_count = existing.get("total_publications", 0)
+            new_count = output["total_publications"]
+            if existing_count > 20 and new_count < existing_count * 0.5:
+                print(f"[error] New publication count ({new_count}) is less than half of the "
+                      f"existing count ({existing_count}) — this looks like a quota-exhausted, "
+                      f"degraded run. Refusing to overwrite good data. Re-run once your SerpAPI "
+                      f"quota has reset.", file=sys.stderr)
+                sys.exit(1)
+        except (json.JSONDecodeError, KeyError):
+            pass  # existing file unreadable — proceed and write fresh
+
     OUT_PATH.write_text(json.dumps(output, indent=2))
     print(f"Wrote {OUT_PATH} with {output['total_publications']} publications.")
 
