@@ -1,0 +1,837 @@
+{
+  "_comment": "Manually curated ground-truth venue overrides. These ALWAYS win over OpenAlex/Semantic Scholar tagging, since conference program pages are more authoritative than automated indexing (which often never catches up for ML conferences that don't publish traditional proceedings). Add more papers here anytime by pasting a program list to Claude.",
+  "papers": [
+    {
+      "title": "Position: Safety Must Precede the Deployment of Open-Ended AI Agents",
+      "venue": "ICML"
+    },
+    {
+      "title": "Computational Arbitrage in AI Model Markets",
+      "venue": "ICML"
+    },
+    {
+      "title": "Training with Honeypots: Reshaping How LLMs Fail",
+      "venue": "ICML"
+    },
+    {
+      "title": "Is Generation Required for Data-Efficient Perception?",
+      "venue": "ICML"
+    },
+    {
+      "title": "When Does Sparsity Mitigate the Curse of Depth in LLMs",
+      "venue": "ICML"
+    },
+    {
+      "title": "Search or Accelerate: Confidence-Switched Position Beam Search for Diffusion Language Models",
+      "venue": "ICML"
+    },
+    {
+      "title": "Helpful to a Fault: Measuring Illicit Assistance in Multi-Turn, Multilingual LLM Agents",
+      "venue": "ICML"
+    },
+    {
+      "title": "α-PFN: Fast Entropy Search via In-Context Learning",
+      "venue": "ICML"
+    },
+    {
+      "title": "Use What You Know: Causal Foundation Models with Partial Graphs",
+      "venue": "ICML"
+    },
+    {
+      "title": "On the Interaction of Batch Noise, Adaptivity, and Compression",
+      "venue": "ICML"
+    },
+    {
+      "title": "Position: Safe Models Do Not Guarantee Safe Societies: The Case for Sociopolitical Risk",
+      "venue": "ICML"
+    },
+    {
+      "title": "Position: LLM for Physics Research Requires Domain-Specialized Training and Tooling",
+      "venue": "ICML"
+    },
+    {
+      "title": "Position: Trustworthy AI Suffers from Invariance Conflicts and Causality is The Solution",
+      "venue": "ICML"
+    },
+    {
+      "title": "Position: Causality is Key for Interpretability Claims to Generalise",
+      "venue": "ICML"
+    },
+    {
+      "title": "Training AI Co-Scientists Using Rubric Rewards",
+      "venue": "ICML"
+    },
+    {
+      "title": "Rewiring Experts on the Fly: Continuous Rerouting for Better Online Adaptation in Mixture-of-Expert Models",
+      "venue": "ICML"
+    },
+    {
+      "title": "Efficient Parallel Samplers for Recurrent-Depth Models",
+      "venue": "ICML"
+    },
+    {
+      "title": "GradientStabilizer: Fix the Norm, Not the Gradient",
+      "venue": "ICML"
+    },
+    {
+      "title": "Motion-Aware Caching for Efficient Autoregressive Video Generation",
+      "venue": "ICML"
+    },
+    {
+      "title": "One LR Doesn't Fit All: Heavy-Tail Guided Layerwise Learning Rates for LLMs",
+      "venue": "ICML"
+    },
+    {
+      "title": "PostTrainBench: Can LLM Agents Automate LLM Post-Training?",
+      "venue": "ICML"
+    },
+    {
+      "title": "Neural Low-Discrepancy Sequences",
+      "venue": "ICML"
+    },
+    {
+      "title": "CauSciBench: Evaluating LLM Causal Inference for Scientific Research",
+      "venue": "ICML"
+    },
+    {
+      "title": "MentisOculi: Revealing the Limits of Reasoning with Mental Imagery",
+      "venue": "ICML"
+    },
+    {
+      "title": "Curating the Future: A Scalable Recipe for Training Open-Ended Forecasters",
+      "venue": "ICML"
+    },
+    {
+      "title": "Riemannian Networks over Full-Rank Correlation Matrices",
+      "venue": "ICML"
+    },
+    {
+      "title": "Diffusion language models know the answer before decoding",
+      "venue": "ICLR",
+      "year": 2026
+    },
+    {
+      "title": "Adaptive Attacks on Trusted Monitors Subvert AI Control Protocols",
+      "venue": "ICLR",
+      "year": 2026
+    },
+    {
+      "title": "Selective Rotary Position Embedding",
+      "venue": "ICLR",
+      "year": 2026
+    },
+    {
+      "title": "How does the optimizer implicitly bias the model merging loss landscape?",
+      "venue": "ICLR",
+      "year": 2026
+    },
+    {
+      "title": "Sample Smart, Not Hard: Correctness-First Decoding for Better Reasoning in LLMs",
+      "venue": "ICLR",
+      "year": 2026
+    },
+    {
+      "title": "RigidSSL: Rigidity-based Geometric Pretraining for Protein Generation",
+      "venue": "ICLR",
+      "year": 2026
+    },
+    {
+      "title": "Proper Velocity Neural Networks",
+      "venue": "ICLR",
+      "year": 2026
+    },
+    {
+      "title": "Learning Nonlinear Causal Reductions to Explain Reinforcement Learning Policies",
+      "venue": "ICLR",
+      "year": 2026
+    },
+    {
+      "title": "Improving LLM-Based Global optimization with Search Space Partitioning",
+      "venue": "ICLR",
+      "year": 2026
+    },
+    {
+      "title": "Capability-Based Scaling Laws for LLM Red-Teaming",
+      "venue": "ICLR",
+      "year": 2026
+    },
+    {
+      "title": "The Curious Case of In-Training Compression of State Space Models",
+      "venue": "ICLR",
+      "year": 2026
+    },
+    {
+      "title": "Scaling Behavior of Discrete Diffusion Language Models",
+      "venue": "ICLR",
+      "year": 2026
+    },
+    {
+      "title": "Low-Pass Filtering Improves Behavioral Alignment of Vision Models",
+      "venue": "ICLR",
+      "year": 2026
+    },
+    {
+      "title": "Training Dynamics Impact Post-Training Quantization Robustness",
+      "venue": "ICLR",
+      "year": 2026
+    },
+    {
+      "title": "The Illusion of Diminishing Returns: Measuring Long Horizon Execution in LLMs",
+      "venue": "ICLR",
+      "year": 2026
+    },
+    {
+      "title": "MATH-Beyond: A Benchmark for RL to Expand Beyond the Base Model",
+      "venue": "ICLR",
+      "year": 2026
+    },
+    {
+      "title": "Neural Sum-of-Squares: Certifying the Nonnegativity of Polynomials with Transformers",
+      "venue": "ICLR",
+      "year": 2026
+    },
+    {
+      "title": "GPTailor: Large Language Model Pruning Through Layer Cutting and Stitching",
+      "venue": "ICLR",
+      "year": 2026
+    },
+    {
+      "title": "Pitfalls in Evaluating Language Model Forecasters",
+      "venue": "ICLR",
+      "year": 2026
+    },
+    {
+      "title": "Skill learning via policy diversity yields identifiable representations for reinforcement learning",
+      "venue": "ICLR",
+      "year": 2026
+    },
+    {
+      "title": "Strategic Dishonesty Can Undermine AI Safety Evaluations of Frontier LLMs",
+      "venue": "ICLR",
+      "year": 2026
+    },
+    {
+      "title": "Monitoring Decomposition Attacks in LLMs with Lightweight Sequential Monitors",
+      "venue": "ICLR",
+      "year": 2026
+    },
+    {
+      "title": "Generalized Linear Mode Connectivity for Transformers",
+      "venue": "NeurIPS",
+      "year": 2025
+    },
+    {
+      "title": "In Search of Adam's Secret Sauce",
+      "venue": "NeurIPS",
+      "year": 2025
+    },
+    {
+      "title": "The Hawthorne Effect in Reasoning Models: Evaluating and Steering Test Awareness",
+      "venue": "NeurIPS",
+      "year": 2025
+    },
+    {
+      "title": "OS-Harm: A Benchmark for Measuring Safety of Computer Use Agents",
+      "venue": "NeurIPS",
+      "year": 2025
+    },
+    {
+      "title": "Scaling up Test-Time Compute with Latent Reasoning: A Recurrent Depth Approach",
+      "venue": "NeurIPS",
+      "year": 2025
+    },
+    {
+      "title": "TabArena: A Living Benchmark for Machine Learning on Tabular Data",
+      "venue": "NeurIPS",
+      "year": 2025
+    },
+    {
+      "title": "Do-PFN: In-context Learning for Causal Effect Estimation",
+      "venue": "NeurIPS",
+      "year": 2025
+    },
+    {
+      "title": "Fixed-Point RNNs: Interpolating from Diagonal to Dense",
+      "venue": "NeurIPS",
+      "year": 2025
+    },
+    {
+      "title": "Contextual Integrity in LLMs via Reasoning and Reinforcement Learning",
+      "venue": "NeurIPS",
+      "year": 2025
+    },
+    {
+      "title": "Direct Alignment with Heterogeneous Preferences",
+      "venue": "NeurIPS",
+      "year": 2025
+    },
+    {
+      "title": "Quantifying Uncertainty in Error Consistency",
+      "venue": "NeurIPS",
+      "year": 2025
+    },
+    {
+      "title": "Reparameterized LLM Training via Orthogonal Equivalence Transformation",
+      "venue": "NeurIPS",
+      "year": 2025
+    },
+    {
+      "title": "EquiTabPFN: A Target-Permutation Equivariant Prior Fitted Network",
+      "venue": "NeurIPS",
+      "year": 2025
+    },
+    {
+      "title": "Gompertz Linear Units: Leveraging Asymmetry for Enhanced Learning Dynamics",
+      "venue": "NeurIPS",
+      "year": 2025
+    },
+    {
+      "title": "Learning in Compact Spaces with Approximately Normalized Transformer",
+      "venue": "NeurIPS",
+      "year": 2025
+    },
+    {
+      "title": "DeltaProduct: Improving State-Tracking in Linear RNNs via Householder Products",
+      "venue": "NeurIPS",
+      "year": 2025
+    },
+    {
+      "title": "GPAS: Accelerating Convergence of LLM Pretraining via Gradient-Preserving Activation Scaling",
+      "venue": "NeurIPS",
+      "year": 2025
+    },
+    {
+      "title": "The Curse of Depth in Large Language Models",
+      "venue": "NeurIPS",
+      "year": 2025
+    },
+    {
+      "title": "AlphaDecay: Module-Wise Weight Decay for Heavy-Tailed Balancing in LLMs",
+      "venue": "NeurIPS",
+      "year": 2025
+    },
+    {
+      "title": "Collective Reasoning in Performative Prediction",
+      "venue": "NeurIPS",
+      "year": 2025
+    },
+    {
+      "title": "Performative Validity of Recourse Explanations",
+      "venue": "NeurIPS",
+      "year": 2025
+    },
+    {
+      "title": "Enhancing Optimizer Stability: Momentum Adaptation of The NGN Step-size",
+      "venue": "NeurIPS",
+      "year": 2025
+    },
+    {
+      "title": "Counterfactual reasoning: an analysis of in-context emergence",
+      "venue": "NeurIPS",
+      "year": 2025
+    },
+    {
+      "title": "Language Models Are Inefficient Reasoners: An Analysis on Arithmetic Proof Search",
+      "venue": "NeurIPS",
+      "year": 2025
+    },
+    {
+      "title": "SPARTAN: A Sparse Transformer World Model Attending to What Matters",
+      "venue": "NeurIPS",
+      "year": 2025
+    },
+    {
+      "title": "Cultural Alien Sampler: Open-ended Art Generation Balancing Originality and Coherence",
+      "venue": "NeurIPS",
+      "year": 2025
+    },
+    {
+      "title": "Learning Joint Interventional Effects from Single-Variable Interventions in Additive Models",
+      "venue": "ICML"
+    },
+    {
+      "title": "Generative Intervention Models for Causal Perturbation Modeling",
+      "venue": "ICML"
+    },
+    {
+      "title": "Generalized Interpolating Discrete Diffusion",
+      "venue": "ICML"
+    },
+    {
+      "title": "LLMs on the Line: Data Determines Loss-to-Loss Scaling Laws",
+      "venue": "ICML"
+    },
+    {
+      "title": "LAION-C: An Out-of-Distribution Benchmark for Web-Scale Vision Models",
+      "venue": "ICML"
+    },
+    {
+      "title": "Position: An Empirically Grounded Identifiability Theory Will Accelerate Self Supervised Learning Research",
+      "venue": "ICML"
+    },
+    {
+      "title": "When, Where and Why to Average Weights?",
+      "venue": "ICML"
+    },
+    {
+      "title": "An Interpretable N-gram Perplexity Threat Model for Large Language Model Jailbreaks",
+      "venue": "ICML"
+    },
+    {
+      "title": "Great Language Models Think Alike and this Undermines AI Oversight",
+      "venue": "ICML"
+    },
+    {
+      "title": "Bayesian Neural Scaling Law Extrapolation with Prior-Data Fitted Networks",
+      "venue": "ICML"
+    },
+    {
+      "title": "FairPFN: A Tabular Foundation Model for Causal Fairness",
+      "venue": "ICML"
+    },
+    {
+      "title": "Tuning LLM Judge Design Decisions for 1/1000 of the Cost",
+      "venue": "ICML"
+    },
+    {
+      "title": "Position: The Future of Bayesian Prediction Is Prior-Fitted",
+      "venue": "ICML"
+    },
+    {
+      "title": "From Low Rank Gradient Subspace Stabilization to Low-Rank Weights",
+      "venue": "ICML"
+    },
+    {
+      "title": "LIFT the Veil for the Truth: Principal Weights Emerge after Rank Reduction",
+      "venue": "ICML"
+    },
+    {
+      "title": "Mask-Enhanced Autoregressive Prediction: Pay Less Attention to Learn More",
+      "venue": "ICML"
+    },
+    {
+      "title": "Questioning the Survey Responses of Large Language Models",
+      "venue": "NeurIPS"
+    },
+    {
+      "title": "Do Finetti: On Causal Effects for Exchangeable Data",
+      "venue": "NeurIPS"
+    },
+    {
+      "title": "Privacy Backdoors: Enhancing Membership Inference through Poisoning Pre-trained Models",
+      "venue": "NeurIPS"
+    },
+    {
+      "title": "Be like a Goldfish, Don't Memorize! Mitigating Memorization in Generative LLMs",
+      "venue": "NeurIPS"
+    },
+    {
+      "title": "Drift-Resilient TabPFN: In-Context Learning Temporal Distribution Shifts on Tabular Data",
+      "venue": "NeurIPS"
+    },
+    {
+      "title": "HW-GPT-Bench: Hardware-Aware Architecture Benchmark for Language Models",
+      "venue": "NeurIPS"
+    },
+    {
+      "title": "Understanding the differences in Foundation Models",
+      "venue": "NeurIPS"
+    },
+    {
+      "title": "Cooperate or Collapse: Emergence of Sustainable Cooperation in a Society of LLM Agents",
+      "venue": "NeurIPS"
+    },
+    {
+      "title": "Loss Landscape Characterization of Neural Networks without Over-Parametrization",
+      "venue": "NeurIPS"
+    },
+    {
+      "title": "Super Consistency of Neural Network Landscapes and Learning Rate Transfer",
+      "venue": "NeurIPS"
+    },
+    {
+      "title": "TuneTables: Context Optimization for Scalable Prior-Data Fitted Networks",
+      "venue": "NeurIPS"
+    },
+    {
+      "title": "Theoretical Foundations of Deep Selective State-Space Models",
+      "venue": "NeurIPS"
+    },
+    {
+      "title": "Recurrent neural networks: vanishing and exploding gradients are not the end of the story",
+      "venue": "NeurIPS"
+    },
+    {
+      "title": "On Affine Homotopy between Language Encoders",
+      "venue": "NeurIPS"
+    },
+    {
+      "title": "Metrizing Weak Convergence with Maximum Mean Discrepancies",
+      "venue": "NeurIPS"
+    },
+    {
+      "title": "From Causal to Concept-Based Representation Learning",
+      "venue": "NeurIPS"
+    },
+    {
+      "title": "Causal vs. Anticausal merging of predictors",
+      "venue": "NeurIPS"
+    },
+    {
+      "title": "Limits of Transformer Language Models on Learning to Compose Algorithms",
+      "venue": "NeurIPS"
+    },
+    {
+      "title": "Algorithmic Collective Action in Recommender Systems",
+      "venue": "NeurIPS"
+    },
+    {
+      "title": "Evaluating Language Models as Risk Scores",
+      "venue": "NeurIPS"
+    },
+    {
+      "title": "Transformers Can Do Arithmetic with the Right Embeddings",
+      "venue": "NeurIPS"
+    },
+    {
+      "title": "Improving Deep Learning Optimization through Constrained Parameter Regularization",
+      "venue": "NeurIPS"
+    },
+    {
+      "title": "Measuring Per-Unit Interpretability at Scale Without Humans",
+      "venue": "NeurIPS"
+    },
+    {
+      "title": "An engine not a camera: Measuring performative power of online search",
+      "venue": "NeurIPS"
+    },
+    {
+      "title": "CALVIN: Improved Contextual Video Captioning via Instruction Tuning",
+      "venue": "NeurIPS"
+    },
+    {
+      "title": "Rule Extrapolation in Language Modeling",
+      "venue": "NeurIPS"
+    },
+    {
+      "title": "Can Large Language Models Understand Symbolic Graphics Programs?",
+      "venue": "ICLR",
+      "year": 2025
+    },
+    {
+      "title": "The Directionality of Optimization Trajectories in Neural Networks",
+      "venue": "ICLR",
+      "year": 2025
+    },
+    {
+      "title": "MathGAP: Out-of-Distribution Evaluation on Problems with Arbitrarily Complex Proofs",
+      "venue": "ICLR",
+      "year": 2025
+    },
+    {
+      "title": "Conformal Generative Modeling with Improved Sample Efficiency through Sequential Greedy Filtering",
+      "venue": "ICLR",
+      "year": 2025
+    },
+    {
+      "title": "Identifiable Exchangeable Mechanisms for Causal Structure and Representation Learning",
+      "venue": "ICLR",
+      "year": 2025
+    },
+    {
+      "title": "Language Model Alignment in Multilingual Trolley Problems",
+      "venue": "ICLR",
+      "year": 2025
+    },
+    {
+      "title": "Standardizing Structural Causal Models",
+      "venue": "ICLR",
+      "year": 2025
+    },
+    {
+      "title": "Preference Elicitation for Offline Reinforcement Learning",
+      "venue": "ICLR",
+      "year": 2025
+    },
+    {
+      "title": "Geometric Inductive Biases of Deep Networks: The Role of Data and Architecture",
+      "venue": "ICLR",
+      "year": 2025
+    },
+    {
+      "title": "Adaptive Methods through the Lens of SDEs: Theoretical Insights on the Role of Noise",
+      "venue": "ICLR",
+      "year": 2025
+    },
+    {
+      "title": "In Search of Forgotten Domain Generalization",
+      "venue": "ICLR",
+      "year": 2025
+    },
+    {
+      "title": "Cross-Entropy Is All You Need To Invert the Data Generating Process",
+      "venue": "ICLR",
+      "year": 2025
+    },
+    {
+      "title": "Interaction Asymmetry: A General Principle for Learning Composable Abstractions",
+      "venue": "ICLR",
+      "year": 2025
+    },
+    {
+      "title": "The Hidden Cost of Waiting for Accurate Predictions",
+      "venue": "ICLR",
+      "year": 2025
+    },
+    {
+      "title": "Policy Design in Long-run Welfare Dynamics",
+      "venue": "ICLR",
+      "year": 2025
+    },
+    {
+      "title": "Lawma: The Power of Specialization for Legal Annotation",
+      "venue": "ICLR",
+      "year": 2025
+    },
+    {
+      "title": "Multi-objective Differentiable Neural Architecture Search",
+      "venue": "ICLR",
+      "year": 2025
+    },
+    {
+      "title": "KinPFN: Bayesian Approximation of RNA Folding Kinetics using Prior-Data Fitted Networks",
+      "venue": "ICLR",
+      "year": 2025
+    },
+    {
+      "title": "Unlocking State-Tracking in Linear RNNs Through Negative Eigenvalues",
+      "venue": "ICLR",
+      "year": 2025
+    },
+    {
+      "title": "Diffusion-based Neural Network Weights Generation",
+      "venue": "ICLR",
+      "year": 2025
+    },
+    {
+      "title": "Beyond Random Augmentations: Pretraining with Hard Views",
+      "venue": "ICLR",
+      "year": 2025
+    },
+    {
+      "title": "A General Framework for User-Guided Bayesian Optimization",
+      "venue": "ICLR",
+      "year": 2024
+    },
+    {
+      "title": "Quick-Tune: Quickly Learning Which Pretrained Model to Finetune and How",
+      "venue": "ICLR",
+      "year": 2024
+    },
+    {
+      "title": "Delphic Offline Reinforcement Learning under Nonidentifiable Hidden Confounding",
+      "venue": "ICLR",
+      "year": 2024
+    },
+    {
+      "title": "Parameter-Efficient Orthogonal Finetuning via Butterfly Factorization",
+      "venue": "ICLR",
+      "year": 2024
+    },
+    {
+      "title": "Ghost on the Shell: An Expressive Representation of General 3D Shapes",
+      "venue": "ICLR",
+      "year": 2024
+    },
+    {
+      "title": "Skill or Luck? Return Decomposition via Advantage Functions",
+      "venue": "ICLR",
+      "year": 2024
+    },
+    {
+      "title": "Identifying Policy Gradient Subspaces",
+      "venue": "ICLR",
+      "year": 2024
+    },
+    {
+      "title": "Can Large Language Models Infer Causation from Correlation?",
+      "venue": "ICLR",
+      "year": 2024
+    },
+    {
+      "title": "Out-of-Variable Generalisation for Discriminative Models",
+      "venue": "ICLR",
+      "year": 2024
+    },
+    {
+      "title": "The Expressive Leaky Memory Neuron: an Efficient and Expressive Phenomenological Neuron Model Can Solve Long-Horizon Tasks",
+      "venue": "ICLR",
+      "year": 2024
+    },
+    {
+      "title": "Effective Pruning of Web-Scale Datasets Based on Complexity of Concept Clusters",
+      "venue": "ICLR",
+      "year": 2024
+    },
+    {
+      "title": "Does CLIP's Generalization Performance Mainly Stem from High Train-Test Similarity?",
+      "venue": "ICLR",
+      "year": 2024
+    },
+    {
+      "title": "Provable Compositional Generalization for Object-Centric Learning",
+      "venue": "ICLR",
+      "year": 2024
+    },
+    {
+      "title": "Universal Guidance for Diffusion Models",
+      "venue": "ICLR",
+      "year": 2024
+    },
+    {
+      "title": "NEFTune: Noisy Embeddings Improve Instruction Finetuning",
+      "venue": "ICLR",
+      "year": 2024
+    },
+    {
+      "title": "On the Reliability of Watermarks for Large Language Models",
+      "venue": "ICLR",
+      "year": 2024
+    },
+    {
+      "title": "Recurrent Distance Filtering for Graph Representation Learning",
+      "venue": null,
+      "_note": "Excluded from ICML classification per institute request — only Bernhard's papers should count for ICML 2023."
+    },
+    {
+      "title": "In Search of Adam's Secret Sauce",
+      "venue": "NeurIPS",
+      "year": 2025,
+      "scientist": "Antonio Orvieto",
+      "authors": [
+        "Antonio Orvieto",
+        "Robert Gower"
+      ]
+    },
+    {
+      "title": "Contextual Integrity in LLMs via Reasoning and Reinforcement Learning",
+      "venue": "NeurIPS",
+      "year": 2025,
+      "scientist": "Sahar Abdelnabi",
+      "authors": [
+        "Guangchen (Eric) Lan",
+        "Huseyin A. Inan",
+        "Sahar Abdelnabi",
+        "Janardhan Kulkarni",
+        "Lukas Wutschitz",
+        "Reza Shokri",
+        "Christopher Brinton",
+        "Robert Sim"
+      ]
+    },
+    {
+      "title": "The Hawthorne Effect in Reasoning Models: Evaluating and Steering Test Awareness",
+      "venue": "NeurIPS",
+      "year": 2025,
+      "scientist": "Sahar Abdelnabi",
+      "authors": [
+        "Sahar Abdelnabi",
+        "Ahmed Salem"
+      ]
+    },
+    {
+      "title": "OS-Harm: A Benchmark for Measuring Safety of Computer Use Agents",
+      "venue": "NeurIPS",
+      "year": 2025,
+      "scientist": "Maksym Andriushchenko",
+      "authors": [
+        "Thomas Kuntz",
+        "Agatha Duzan",
+        "Hao Zhao",
+        "Francesco Croce",
+        "J. Zico Kolter",
+        "Nicolas Flammarion",
+        "Maksym Andriushchenko"
+      ]
+    },
+    {
+      "title": "GPAS: Accelerating Convergence of LLM Pretraining via Gradient-Preserving Activation Scaling",
+      "venue": "NeurIPS",
+      "year": 2025,
+      "scientist": "Shiwei Liu",
+      "authors": [
+        "Tianhao Chen",
+        "Xin Xu",
+        "Zijing Liu",
+        "Pengxiang Li",
+        "Xinyuan Song",
+        "Ajay Jaiswal",
+        "Fan Zhang",
+        "Jishan Hu",
+        "Yang Wang",
+        "Hao Chen",
+        "Shizhe Diao",
+        "Shiwei Liu",
+        "Yu Li",
+        "Lu Yin",
+        "Can Yang"
+      ]
+    },
+    {
+      "title": "The Curse of Depth in Large Language Models",
+      "venue": "NeurIPS",
+      "year": 2025,
+      "scientist": "Shiwei Liu",
+      "authors": [
+        "Wenfang Sun",
+        "Xinyuan Song",
+        "Pengxiang Li",
+        "Lu Yin",
+        "Yefeng Zheng",
+        "Shiwei Liu"
+      ]
+    },
+    {
+      "title": "AlphaDecay: Module-wise Weight Decay for Heavy-Tailed Balancing in LLMs",
+      "venue": "NeurIPS",
+      "year": 2025,
+      "scientist": "Shiwei Liu",
+      "authors": [
+        "Di He",
+        "Ajay Jaiswal",
+        "Songjun Tu",
+        "Li Shen",
+        "Ganzhao Yuan",
+        "Shiwei Liu",
+        "Lu Yin"
+      ]
+    },
+    {
+      "title": "Collective Reasoning in Performative Prediction",
+      "venue": "NeurIPS",
+      "year": 2025,
+      "scientist": "Celestine Mendler-Dünner",
+      "authors": [
+        "Haiqing Zhu",
+        "Tijana Zrnic",
+        "Celestine Mendler-Dünner"
+      ]
+    },
+    {
+      "title": "Language Models Are Inefficient Reasoners: An Analysis on Arithmetic Proof Search",
+      "venue": "NeurIPS",
+      "year": 2025,
+      "scientist": "Bernhard Schölkopf",
+      "authors": [
+        "Andreas Opedal",
+        "Yanick Zengaffinen",
+        "Haruki Shirakami",
+        "Clemente Pasti",
+        "Mrinmaya Sachan",
+        "Abulhair Saparov",
+        "Ryan Cotterell",
+        "Bernhard Schölkopf"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,177 @@
+{
+  "_comment": "Run `python scripts/lookup_authors.py` to resolve openalex_id for each person interactively — it'll show you candidate matches so you can confirm before writing.",
+  "institute": {
+    "name": "ELLIS Institute Tübingen",
+    "openalex_institution_id": "I4405263145",
+    "affiliation_keywords": [
+      "ELLIS Institute Tübingen",
+      "ELLIS Institute Tuebingen",
+      "ELLIS Institute, Tübingen"
+    ]
+  },
+  "scientists": [
+    {
+      "name": "Celestine Mendler-Dünner",
+      "role": "TBD",
+      "openalex_id": "A5075276537",
+      "joined_date": "2023-09-01",
+      "google_scholar_id": "UqtDdZUAAAAJ"
+    },
+    {
+      "name": "Sahar Abdelnabi",
+      "role": "TBD",
+      "openalex_id": "A5040674721",
+      "joined_date": "2025-10-01",
+      "google_scholar_id": "QEiYbDYAAAAJ"
+    },
+    {
+      "name": "Jakob Macke",
+      "role": "TBD",
+      "openalex_id": "A5080225154",
+      "joined_date": "2026-06-01",
+      "google_scholar_id": "FKOqtF8AAAAJ"
+    },
+    {
+      "name": "Wieland Brendel",
+      "role": "TBD",
+      "joined_date": "2023-09-01",
+      "openalex_ids": [
+        "A5086801305",
+        "A5127813615"
+      ],
+      "google_scholar_id": "v-JL-hsAAAAJ"
+    },
+    {
+      "name": "Jonas Geiping",
+      "role": "TBD",
+      "joined_date": "2023-10-15",
+      "openalex_ids": [
+        "A5049400969",
+        "A5127814884",
+        "A5116189061",
+        "A5120692418",
+        "A5098970362"
+      ],
+      "google_scholar_id": "206vNCEAAAAJ"
+    },
+    {
+      "name": "Frank Hutter",
+      "role": "TBD",
+      "openalex_id": "A5031002895",
+      "joined_date": "2024-05-01",
+      "google_scholar_id": "YUrxwrkAAAAJ"
+    },
+    {
+      "name": "T. Konstantin Rusch",
+      "role": "TBD",
+      "joined_date": "2025-06-01",
+      "openalex_ids": [
+        "A5102790508",
+        "A5127827003",
+        "A5125180674",
+        "A5137671225",
+        "A5137875950",
+        "A5137974951"
+      ],
+      "google_scholar_id": "9LajlSsAAAAJ"
+    },
+    {
+      "name": "Shiwei Liu",
+      "role": "TBD",
+      "openalex_id": "A5100415810",
+      "joined_date": "2025-09-01",
+      "google_scholar_id": "73IbXtsAAAAJ"
+    },
+    {
+      "name": "Maksym Andriushchenko",
+      "role": "TBD",
+      "joined_date": "2025-09-01",
+      "openalex_ids": [
+        "A5057136518",
+        "A5120034502",
+        "A5127862600",
+        "A5136173842",
+        "A5126845656",
+        "A5135712363",
+        "A5126433505",
+        "A5139196629",
+        "A5139235846",
+        "A5126518499",
+        "A5128683866"
+      ],
+      "google_scholar_id": "ZNtuJYoAAAAJ"
+    },
+    {
+      "name": "Maximilian Dax",
+      "role": "TBD",
+      "joined_date": "2024-10-01",
+      "openalex_ids": [
+        "A5004309436",
+        "A5127851105",
+        "A5119789395",
+        "A5130855443",
+        "A5130113979",
+        "A5099847828"
+      ],
+      "google_scholar_id": "VRBv6mEAAAAJ"
+    },
+    {
+      "name": "Rediet Abebe",
+      "role": "TBD",
+      "joined_date": "2025-01-01",
+      "openalex_ids": [
+        "A5072647467",
+        "A5136582182"
+      ],
+      "google_scholar_id": "sDHHglIAAAAJ"
+    },
+    {
+      "name": "Antonio Orvieto",
+      "role": "TBD",
+      "joined_date": "2023-09-20",
+      "openalex_ids": [
+        "A5081990239",
+        "A5136719739",
+        "A5129972840",
+        "A5139226157",
+        "A5066827692",
+        "A5139147344",
+        "A5136605581",
+        "A5138642039",
+        "A5138700737"
+      ],
+      "google_scholar_id": "xkuLyHoAAAAJ"
+    },
+    {
+      "name": "Bernhard Schölkopf",
+      "role": "TBD",
+      "joined_date": "2023-07-01",
+      "openalex_ids": [
+        "A5044005697",
+        "A5105158762"
+      ],
+      "google_scholar_id": "DZ-fHPgAAAAJ"
+    },
+    {
+      "name": "Aaron Klein",
+      "role": "TBD",
+      "openalex_id": "A5044806693",
+      "joined_date": "2025-06-01",
+      "google_scholar_id": "usl__skAAAAJ"
+    },
+    {
+      "name": "David Salinas",
+      "role": "TBD",
+      "openalex_id": "A5078696011",
+      "joined_date": "2025-04-01",
+      "google_scholar_id": "D0WjJlsAAAAJ"
+    },
+    {
+      "name": "Kashyap Chitta",
+      "role": "TBD",
+      "openalex_id": "A5000000006",
+      "joined_date": "2026-08-01",
+      "google_scholar_id": "vX5i2CcAAAAJ"
+    }
+  ]
+}

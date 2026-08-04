@@ -1,0 +1,61 @@
+name: Update dashboard data (Google Scholar edition)
+
+on:
+  schedule:
+    # Every Monday at 05:00 UTC. Adjust as you like: https://crontab.guru
+    - cron: "0 5 * * 1"
+  workflow_dispatch: {}   # lets you trigger a refresh manually from the Actions tab
+  push:
+    branches: [main]
+    paths:
+      - "config/**"
+      - "scripts/**"
+      - "docs/**"
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Fetch latest publication data from Google Scholar
+        env:
+          SERPAPI_API_KEY: ${{ secrets.SERPAPI_API_KEY }}
+        run: python scripts/fetch_data.py
+
+      - name: Commit updated data if changed
+        run: |
+          git config user.name "ellis-dashboard-scholar-bot"
+          git config user.email "actions@github.com"
+          git add docs/data/publications.json docs/data/activities.json
+          git diff --cached --quiet || git commit -m "chore: refresh publication data from Google Scholar"
+          git push
+
+  deploy-pages:
+    needs: update-data
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
+      - id: deployment
+        uses: actions/deploy-pages@v4
