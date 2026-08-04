@@ -2,15 +2,16 @@ name: Update dashboard data (Google Scholar edition)
 
 on:
   schedule:
-    # Every Monday at 05:00 UTC. Adjust as you like: https://crontab.guru
-    - cron: "0 5 * * 1"
+    # First day of every month at 05:00 UTC. Changed from weekly to monthly
+    # since a full run (including precise-date checks) uses 300-400+ SerpAPI
+    # searches — weekly would burn through most paid-tier monthly quotas.
+    # Adjust as needed: https://crontab.guru
+    - cron: "0 5 1 * *"
   workflow_dispatch: {}   # lets you trigger a refresh manually from the Actions tab
-  push:
-    branches: [main]
-    paths:
-      - "config/**"
-      - "scripts/**"
-      - "docs/**"
+  # No automatic "push" trigger — unlike the OpenAlex-based dashboard, every
+  # run here costs real SerpAPI quota (300-400+ searches with precise-date
+  # checks), so config/script changes don't auto-trigger a refresh. Use the
+  # manual "Run workflow" button when you want one after editing config.
 
 permissions:
   contents: write
