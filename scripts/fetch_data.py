@@ -796,8 +796,14 @@ def main():
     removed_dupes = dedupe_by_title(all_publications)
     print(f"    Removed {removed_dupes} duplicate Google Scholar records for the same paper (matched by title)")
 
-    manual_count = apply_manual_additions(all_publications, known_venues.get("papers", []))
-    print(f"    Manually added {manual_count} papers the normal fetch pipeline missed")
+    # Manual paper insertion (apply_manual_additions) is intentionally NOT
+    # used on this dashboard. That mechanism was built for the OpenAlex-based
+    # dashboard to patch specific fetch gaps, but it bypasses the
+    # day-precision join-date verification this pipeline otherwise relies on
+    # — which caused a real, confirmed error (a manually-inserted paper for
+    # one PI turned out to predate their actual join date by several
+    # months). Every paper shown here goes through the same verified
+    # fetch + precise-date-check pipeline, with no manual exceptions.
 
     override_count = apply_known_venue_overrides(all_publications, known_venues.get("papers", []))
     print(f"    Applied {override_count} manual venue overrides from config/known_venues.json")

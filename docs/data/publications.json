@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-05T15:11:48Z",
+  "generated_at": "2026-08-05T16:03:40Z",
   "institute": "ELLIS Institute T\u00fcbingen",
-  "total_publications": 615,
+  "total_publications": 611,
   "confirmed_affiliation_count": 0,
   "open_access_count": 0,
   "open_access_percent": 0.0,
@@ -9015,92 +9015,6 @@
       "is_oa": false
     },
     {
-      "id": "manual-contextualintegrityinllmsviareasoningand",
-      "title": "Contextual Integrity in LLMs via Reasoning and Reinforcement Learning",
-      "year": 2025,
-      "venue": "NeurIPS",
-      "cited_by_count": 0,
-      "doi": null,
-      "authors": [
-        "Guangchen (Eric) Lan",
-        "Huseyin A. Inan",
-        "Sahar Abdelnabi",
-        "Janardhan Kulkarni",
-        "Lukas Wutschitz",
-        "Reza Shokri",
-        "Christopher Brinton",
-        "Robert Sim"
-      ],
-      "institution_ids": [],
-      "scientist": "Sahar Abdelnabi",
-      "confirmed_ellis_affiliation": false,
-      "venue_category": "NeurIPS",
-      "is_oa": false
-    },
-    {
-      "id": "manual-osharmabenchmarkformeasuringsafetyofcomp",
-      "title": "OS-Harm: A Benchmark for Measuring Safety of Computer Use Agents",
-      "year": 2025,
-      "venue": "NeurIPS",
-      "cited_by_count": 0,
-      "doi": null,
-      "authors": [
-        "Thomas Kuntz",
-        "Agatha Duzan",
-        "Hao Zhao",
-        "Francesco Croce",
-        "J. Zico Kolter",
-        "Nicolas Flammarion",
-        "Maksym Andriushchenko"
-      ],
-      "institution_ids": [],
-      "scientist": "Maksym Andriushchenko",
-      "confirmed_ellis_affiliation": false,
-      "venue_category": "NeurIPS",
-      "is_oa": false
-    },
-    {
-      "id": "manual-collectivereasoninginperformativepredict",
-      "title": "Collective Reasoning in Performative Prediction",
-      "year": 2025,
-      "venue": "NeurIPS",
-      "cited_by_count": 0,
-      "doi": null,
-      "authors": [
-        "Haiqing Zhu",
-        "Tijana Zrnic",
-        "Celestine Mendler-D\u00fcnner"
-      ],
-      "institution_ids": [],
-      "scientist": "Celestine Mendler-D\u00fcnner",
-      "confirmed_ellis_affiliation": false,
-      "venue_category": "NeurIPS",
-      "is_oa": false
-    },
-    {
-      "id": "manual-languagemodelsareinefficientreasonersana",
-      "title": "Language Models Are Inefficient Reasoners: An Analysis on Arithmetic Proof Search",
-      "year": 2025,
-      "venue": "NeurIPS",
-      "cited_by_count": 0,
-      "doi": null,
-      "authors": [
-        "Andreas Opedal",
-        "Yanick Zengaffinen",
-        "Haruki Shirakami",
-        "Clemente Pasti",
-        "Mrinmaya Sachan",
-        "Abulhair Saparov",
-        "Ryan Cotterell",
-        "Bernhard Sch\u00f6lkopf"
-      ],
-      "institution_ids": [],
-      "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": false,
-      "venue_category": "NeurIPS",
-      "is_oa": false
-    },
-    {
       "id": "scholar-UqtDdZUAAAAJ:YFjsv_pBGBYC",
       "title": "Evaluating language models as risk scores",
       "year": 2024,
@@ -13162,7 +13076,7 @@
       "Nature": 1
     },
     "2025": {
-      "NeurIPS": 29,
+      "NeurIPS": 25,
       "ICML": 17,
       "ICLR": 21,
       "Nature": 5
@@ -13175,10 +13089,10 @@
     }
   },
   "ellis_member_collaborations": {
-    "Unit Zurich": 51,
+    "Unit Zurich": 50,
     "Unit T\u00fcbingen": 33,
     "Unit Oxford": 14,
-    "Unit Lausanne": 11,
+    "Unit Lausanne": 10,
     "Unit Saarbr\u00fccken": 7,
     "Unit Cambridge": 7,
     "Unit London": 6,
@@ -13201,8 +13115,7 @@
     "Unit Milan": 1,
     "Unit Madrid": 1,
     "Unit Barcelona": 1,
-    "Unit Vienna": 1,
-    "Institute Finland": 1
+    "Unit Vienna": 1
   },
   "ellis_member_collaboration_details": {
     "Unit Zurich": [
@@ -13379,13 +13292,6 @@
         "year": 2025,
         "scientist": "Bernhard Sch\u00f6lkopf",
         "co_author": "G R\u00e4tsch (matched: gunnar ratsch)",
-        "doi": null
-      },
-      {
-        "title": "Language Models Are Inefficient Reasoners: An Analysis on Arithmetic Proof Search",
-        "year": 2025,
-        "scientist": "Bernhard Sch\u00f6lkopf",
-        "co_author": "Mrinmaya Sachan",
         "doi": null
       },
       {
@@ -14036,13 +13942,6 @@
         "doi": null
       },
       {
-        "title": "OS-Harm: A Benchmark for Measuring Safety of Computer Use Agents",
-        "year": 2025,
-        "scientist": "Maksym Andriushchenko",
-        "co_author": "Nicolas Flammarion",
-        "doi": null
-      },
-      {
         "title": "Causal triplet: An open challenge for intervention-centric causal representation learning",
         "year": 2023,
         "scientist": "Bernhard Sch\u00f6lkopf",
@@ -14518,15 +14417,6 @@
         "co_author": "F Locatello (matched: francesco locatello)",
         "doi": null
       }
-    ],
-    "Institute Finland": [
-      {
-        "title": "OS-Harm: A Benchmark for Measuring Safety of Computer Use Agents",
-        "year": 2025,
-        "scientist": "Maksym Andriushchenko",
-        "co_author": "Francesco Croce",
-        "doi": null
-      }
     ]
   },
   "h_index_distribution": [
@@ -14559,7 +14449,7 @@
   },
   "venue_counts": {
     "ICML": 56,
-    "NeurIPS": 71,
+    "NeurIPS": 67,
     "ICLR": 62
   },
   "broader_venue_counts": {
@@ -14575,5 +14465,5 @@
     "AISTATS": 1,
     "UAI": 1
   },
-  "top_tier_total_count": 219
+  "top_tier_total_count": 215
 }
