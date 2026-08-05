@@ -1,6 +1,6 @@
 # ELLIS Institute Tübingen — Dashboard (Google Scholar Edition)
 
-**Status as of August 2026: automation paused, pending SerpAPI quota reset.**
+**Status as of August 2026: fully live and running weekly automation.**
 
 This is an **experimental**, separate version of the main ELLIS Institute Tübingen research dashboard, built to use **Google Scholar (via the SerpAPI service)** as its data source instead of OpenAlex. It was created as a side-by-side alternative so the original, stable OpenAlex-based dashboard would never be put at risk while testing this approach.
 
@@ -28,14 +28,16 @@ Google Scholar and OpenAlex are fundamentally different data sources with differ
 
 Every API call (per-person h-index, per-person article-list pages, and each individual precise-date check) counts as one "search" against your SerpAPI plan.
 
-**Rough cost per full run, for all ~16 tracked people:**
-- h-index + article lists: ~40-45 searches
-- Precise-date checks (only for join-year-boundary papers): **~250-400+ additional searches**, depending on how many people have papers landing exactly in their join year
+**Confirmed real cost per full run, for all 16 tracked people: ~330 searches.**
 
-**This adds up to 300-450+ searches for one complete run.** Because of this:
-- The GitHub Actions workflow is scheduled **monthly**, not weekly (`.github/workflows/update-dashboard.yml`)
-- It does **not** auto-trigger on every config/code push (unlike the original dashboard) — trigger it manually from the Actions tab when you want a refresh
-- Recommended: a SerpAPI plan with at least 1,000-2,500 searches/month for comfortable headroom, not just enough for exactly one run
+Currently on SerpAPI's **Developer plan** ($75/month, 5,000 searches/month), which comfortably supports:
+- **Weekly automated runs**: ~330 × ~4.3 weeks ≈ 1,420 searches/month (~28% of quota)
+- Plenty of headroom left over for ad-hoc manual runs, testing, or adding new PIs mid-month
+
+**This adds up to ~330 searches for one complete run.** Because of this:
+- The GitHub Actions workflow is scheduled **weekly** (every Monday, `.github/workflows/update-dashboard.yml`)
+- It does **not** auto-trigger on every config/code push (unlike the original dashboard) — trigger it manually from the Actions tab when you want an extra ad-hoc refresh
+- If usage patterns change (e.g. more tracked people, more join-year-boundary papers), re-check actual quota usage in the SerpAPI dashboard and adjust the schedule/plan accordingly
 
 If the quota runs out **mid-run**, the pipeline is built to fail safely:
 - Repeated rate-limiting is detected and treated as quota exhaustion, stopping further calls rather than retrying every remaining paper forever
@@ -74,4 +76,4 @@ Then commit and push `docs/data/*.json` as usual.
 
 ## Current known state (August 2026)
 
-The live data currently reflects a **partially-completed run** from when the SerpAPI quota ran out mid-fetch: 3 of 16 people show an h-index of 0, and total publications is somewhat lower than a complete run would show. This is expected to self-correct the next time a full run completes successfully after the quota resets — no action needed in the meantime.
+The live data reflects a complete, clean run: **615 publications** across all 16 tracked people, with precise-date refinement successfully applied to every join-year-boundary paper (no rate-limiting or quota issues). Weekly automation is enabled and running normally.
