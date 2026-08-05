@@ -2,11 +2,11 @@ name: Update dashboard data (Google Scholar edition)
 
 on:
   schedule:
-    # First day of every month at 05:00 UTC. Changed from weekly to monthly
-    # since a full run (including precise-date checks) uses 300-400+ SerpAPI
-    # searches — weekly would burn through most paid-tier monthly quotas.
-    # Adjust as needed: https://crontab.guru
-    - cron: "0 5 1 * *"
+    # Every Monday at 05:00 UTC. A full run costs ~330 SerpAPI searches
+    # (confirmed from real usage), and the Developer plan has 5,000/month —
+    # weekly uses only ~27% of quota, leaving plenty of room for manual
+    # ad-hoc runs. Adjust as needed: https://crontab.guru
+    - cron: "0 5 * * 1"
   workflow_dispatch: {}   # lets you trigger a refresh manually from the Actions tab
   # No automatic "push" trigger — unlike the OpenAlex-based dashboard, every
   # run here costs real SerpAPI quota (300-400+ searches with precise-date
