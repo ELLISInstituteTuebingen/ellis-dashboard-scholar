@@ -276,59 +276,6 @@ function renderTable(data) {
   draw();
 }
 
-function renderGrowthChart(data) {
-  const joinDates = (data.scientist_join_dates || []).slice().sort();
-  if (!joinDates.length) return;
-
-  const formatLabel = iso => {
-    const d = new Date(iso + 'T00:00:00');
-    return d.toLocaleDateString('en-US', { month: 'short', year: 'numeric' });
-  };
-
-  const labels = joinDates.map(formatLabel);
-  const cumulative = joinDates.map((_, i) => i + 1);
-
-  // Extend the line to "today" so it doesn't just stop at the last join date.
-  const today = new Date().toISOString().slice(0, 10);
-  if (today > joinDates[joinDates.length - 1]) {
-    labels.push(formatLabel(today));
-    cumulative.push(cumulative[cumulative.length - 1]);
-  }
-
-  new Chart(document.getElementById('growthChart'), {
-    type: 'line',
-    data: {
-      labels,
-      datasets: [{
-        label: 'PIs & project leaders',
-        data: cumulative,
-        borderColor: COLORS.sandstone,
-        backgroundColor: COLORS.sandstone,
-        stepped: 'before',
-        pointRadius: 3,
-        pointBackgroundColor: COLORS.sandstone,
-        fill: false,
-      }],
-    },
-    options: {
-      responsive: true,
-      maintainAspectRatio: false,
-      plugins: { legend: { display: false } },
-      scales: {
-        x: {
-          ticks: { color: COLORS.muted, font: { family: 'JetBrains Mono', size: 10 }, maxRotation: 45, minRotation: 45 },
-          grid: { color: COLORS.line },
-        },
-        y: {
-          beginAtZero: true,
-          ticks: { color: COLORS.muted, precision: 0 },
-          grid: { color: COLORS.line },
-        },
-      },
-    },
-  });
-}
-
 function renderHIndex(data) {
   const container = document.getElementById('hindexPlot');
   const values = data.h_index_distribution || [];
@@ -380,70 +327,6 @@ function renderHIndex(data) {
   container.innerHTML = svg;
 }
 
-function switchTab(name) {
-  document.querySelectorAll('.tab-btn').forEach(btn => {
-    btn.classList.toggle('active', btn.dataset.tab === name);
-  });
-  document.querySelectorAll('.tab-panel').forEach(panel => {
-    panel.classList.toggle('active', panel.id === `tab-${name}`);
-  });
-}
-
-async function loadActivities() {
-  try {
-    const res = await fetch('data/activities.json');
-    if (!res.ok) return;
-    const data = await res.json();
-    initActivities(data.entries || []);
-  } catch (err) {
-    console.warn('Could not load activities.json:', err.message);
-  }
-}
-
-const ACTIVITY_TYPE_LABELS = {
-  talk: 'Talk', press: 'Press', media: 'Media', award: 'Award',
-  grant: 'Grant', recognition: 'Recognition', panel: 'Panel',
-  organizing: 'Organizing', podcast: 'Podcast', startup: 'Start-up',
-};
-
-function initActivities(entries) {
-  const typeFilter = document.getElementById('activityTypeFilter');
-  const listEl = document.getElementById('activityList');
-  if (!listEl) return;
-
-  function draw() {
-    const type = typeFilter.value;
-    const filtered = entries.filter(e => !type || e.type === type);
-
-    if (!filtered.length) {
-      listEl.innerHTML = `<p style="color:var(--muted); font-size:13.5px; padding:20px 0;">No activities match this filter yet.</p>`;
-      return;
-    }
-
-    listEl.innerHTML = filtered.map(e => {
-      const titleHtml = e.url
-        ? `<a href="${e.url}" target="_blank" rel="noopener">${e.title}</a>`
-        : e.title;
-      const dateLabel = e.date
-        ? new Date(e.date + 'T00:00:00').toLocaleDateString('en-US', { month: 'short', year: 'numeric' })
-        : '';
-      return `
-        <div class="activity-row">
-          <div class="activity-type-badge ${e.type}">${ACTIVITY_TYPE_LABELS[e.type] || e.type}</div>
-          <div class="activity-content">
-            <div class="activity-title">${titleHtml}</div>
-            <div class="activity-meta">${[dateLabel, e.venue].filter(Boolean).join(' · ')}</div>
-            ${e.description ? `<div class="activity-description">${e.description}</div>` : ''}
-          </div>
-        </div>
-      `;
-    }).join('');
-  }
-
-  typeFilter.addEventListener('change', draw);
-  draw();
-}
-
 let CURRENT_DATA = null;
 
 loadData().then(data => {
@@ -451,7 +334,6 @@ loadData().then(data => {
   renderStats(data);
   renderVenues(data);
   renderTrendChart(data);
-  renderGrowthChart(data);
   renderHIndex(data);
   renderNetwork(data);
   renderTable(data);
@@ -459,8 +341,6 @@ loadData().then(data => {
   document.querySelector('.wrap').innerHTML =
     `<p style="padding:60px 0;color:#E38E48;font-family:monospace;">Could not load data/publications.json — ${err.message}</p>`;
 });
-
-loadActivities();
 
 function openPapersModal(title, papers) {
   document.getElementById('collabModalTitle').textContent = `${title} — ${papers.length} paper${papers.length === 1 ? '' : 's'}`;

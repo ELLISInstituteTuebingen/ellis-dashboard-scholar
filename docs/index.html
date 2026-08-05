@@ -26,18 +26,10 @@
     <div class="updated-note" id="updated-note"></div>
   </header>
 
-  <div class="tab-bar">
-    <button class="tab-btn active" data-tab="research" onclick="switchTab('research')">Research Output</button>
-    <button class="tab-btn" data-tab="activities" onclick="switchTab('activities')">PR &amp; Activities</button>
-  </div>
-
-  <div class="tab-panel active" id="tab-research">
-
   <nav class="section-nav">
     <a href="#trends">Output</a>
     <a href="#network">Collaboration</a>
     <a href="#venues">Venues</a>
-    <a href="#growth">Growth</a>
     <a href="#hindex">Impact</a>
     <a href="#publications">All publications</a>
   </nav>
@@ -80,16 +72,6 @@
     <div class="updated-note" id="venue-breakdown"></div>
   </section>
 
-  <section class="block" id="growth">
-    <div class="block-head">
-      <h2>Growth in PIs &amp; project leaders</h2>
-      <div class="sub">Cumulative headcount of tracked PIs and project leaders over time, by join date — shown as a growth curve, not attributed to individuals.</div>
-    </div>
-    <div class="chart-card" style="height:260px;">
-      <canvas id="growthChart"></canvas>
-    </div>
-  </section>
-
   <section class="block" id="hindex">
     <div class="block-head">
       <h2>Research impact (h-index)</h2>
@@ -119,33 +101,6 @@
       </table>
     </div>
   </section>
-
-  </div>
-
-  <div class="tab-panel" id="tab-activities">
-    <section class="block" id="activities">
-      <div class="block-head">
-        <h2>PR &amp; Activities</h2>
-        <div class="sub">Talks, press mentions, awards, panels, podcasts, and organizing roles — manually curated, since no API tracks this the way Google Scholar tracks publications. <strong>List updated as of July 15, 2026.</strong></div>
-      </div>
-      <div class="filters" id="activityFilters">
-        <select id="activityTypeFilter">
-          <option value="">All types</option>
-          <option value="talk">Talks</option>
-          <option value="press">Press</option>
-          <option value="media">Media</option>
-          <option value="award">Awards</option>
-          <option value="grant">Grants</option>
-          <option value="recognition">Recognition</option>
-          <option value="panel">Panels</option>
-          <option value="organizing">Organizing roles</option>
-          <option value="podcast">Podcasts</option>
-          <option value="startup">Start-ups</option>
-        </select>
-      </div>
-      <div id="activityList"></div>
-    </section>
-  </div>
 
   <footer>
     Data source: Google Scholar (via SerpAPI) · Institute: ELLIS Institute Tübingen · Auto-refreshed weekly via GitHub Actions
