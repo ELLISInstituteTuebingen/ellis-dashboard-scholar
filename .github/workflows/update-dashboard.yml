@@ -8,10 +8,10 @@ on:
     # ad-hoc runs. Adjust as needed: https://crontab.guru
     - cron: "0 5 * * 1"
   workflow_dispatch: {}   # lets you trigger a refresh manually from the Actions tab
-  # No automatic "push" trigger — unlike the OpenAlex-based dashboard, every
-  # run here costs real SerpAPI quota (300-400+ searches with precise-date
-  # checks), so config/script changes don't auto-trigger a refresh. Use the
-  # manual "Run workflow" button when you want one after editing config.
+  push:
+    branches: [main]   # deploys the site on every push — but does NOT
+                        # re-fetch from Scholar (see update-data's `if`
+                        # below), so this costs zero SerpAPI quota.
 
 permissions:
   contents: write
@@ -20,6 +20,10 @@ permissions:
 
 jobs:
   update-data:
+    # Only re-fetch from Google Scholar on a schedule or manual trigger —
+    # NOT on every push, since each run costs ~330 SerpAPI searches. A
+    # regular content/code push just deploys whatever's already committed.
+    if: github.event_name != 'push'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -46,6 +50,7 @@ jobs:
 
   deploy-pages:
     needs: update-data
+    if: always() && (needs.update-data.result == 'success' || needs.update-data.result == 'skipped')
     runs-on: ubuntu-latest
     environment:
       name: github-pages
