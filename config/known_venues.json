@@ -832,6 +832,12 @@
         "Ryan Cotterell",
         "Bernhard Schölkopf"
       ]
+    },
+    {
+      "title": "Are language models efficient reasoners? A perspective from logic programming",
+      "venue": "NeurIPS",
+      "year": 2025,
+      "_note": "Genuine NeurIPS 2025 paper (proceedings vol. 38) — Scholar indexed the citation in 2026 and defaulted its year field to that instead of the true 2025 conference date."
     }
   ]
 }

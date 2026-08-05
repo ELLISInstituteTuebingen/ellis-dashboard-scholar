@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-05T16:03:40Z",
+  "generated_at": "2026-08-05T16:17:05Z",
   "institute": "ELLIS Institute T\u00fcbingen",
   "total_publications": 611,
   "confirmed_affiliation_count": 0,
@@ -3775,29 +3775,6 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": "ICML",
-      "is_oa": false
-    },
-    {
-      "id": "scholar-DZ-fHPgAAAAJ:kHf6Y_keyIwC",
-      "title": "Are language models efficient reasoners? A perspective from logic programming",
-      "year": 2026,
-      "venue": "Advances in Neural Information Processing Systems 38, 68388-68424, 2026",
-      "cited_by_count": 3,
-      "doi": null,
-      "citation_id": "DZ-fHPgAAAAJ:kHf6Y_keyIwC",
-      "authors": [
-        "A Opedal",
-        "Y Zengaffinen",
-        "H Shirakami",
-        "C Pasti",
-        "M Sachan",
-        "A Saparov",
-        "..."
-      ],
-      "institution_ids": [],
-      "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": false,
-      "venue_category": "NeurIPS",
       "is_oa": false
     },
     {
@@ -7789,6 +7766,29 @@
         "A Lei",
         "B Sch\u00f6lkopf",
         "I Posner"
+      ],
+      "institution_ids": [],
+      "scientist": "Bernhard Sch\u00f6lkopf",
+      "confirmed_ellis_affiliation": false,
+      "venue_category": "NeurIPS",
+      "is_oa": false
+    },
+    {
+      "id": "scholar-DZ-fHPgAAAAJ:kHf6Y_keyIwC",
+      "title": "Are language models efficient reasoners? A perspective from logic programming",
+      "year": 2025,
+      "venue": "Advances in Neural Information Processing Systems 38, 68388-68424, 2026",
+      "cited_by_count": 3,
+      "doi": null,
+      "citation_id": "DZ-fHPgAAAAJ:kHf6Y_keyIwC",
+      "authors": [
+        "A Opedal",
+        "Y Zengaffinen",
+        "H Shirakami",
+        "C Pasti",
+        "M Sachan",
+        "A Saparov",
+        "..."
       ],
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
@@ -13076,7 +13076,7 @@
       "Nature": 1
     },
     "2025": {
-      "NeurIPS": 25,
+      "NeurIPS": 26,
       "ICML": 17,
       "ICLR": 21,
       "Nature": 5
@@ -13084,8 +13084,7 @@
     "2026": {
       "ICML": 25,
       "Nature": 1,
-      "ICLR": 26,
-      "NeurIPS": 1
+      "ICLR": 26
     }
   },
   "ellis_member_collaborations": {
@@ -13197,13 +13196,6 @@
         "doi": null
       },
       {
-        "title": "Are language models efficient reasoners? A perspective from logic programming",
-        "year": 2026,
-        "scientist": "Bernhard Sch\u00f6lkopf",
-        "co_author": "M Sachan (matched: mrinmaya sachan)",
-        "doi": null
-      },
-      {
         "title": "Latent causal diffusions for single-cell perturbation modeling",
         "year": 2026,
         "scientist": "Bernhard Sch\u00f6lkopf",
@@ -13236,6 +13228,13 @@
         "year": 2025,
         "scientist": "Antonio Orvieto",
         "co_author": "T Hofmann (matched: thomas hofmann)",
+        "doi": null
+      },
+      {
+        "title": "Are language models efficient reasoners? A perspective from logic programming",
+        "year": 2025,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "M Sachan (matched: mrinmaya sachan)",
         "doi": null
       },
       {
