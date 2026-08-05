@@ -495,20 +495,69 @@ def _normalize_name(name):
     return name
 
 
+def _split_initials_and_last_name(normalized_name):
+    """Splits a normalized name into (initials, last_name). Works for both
+    full names ('andreas krause' -> ('a', 'krause')) and Google Scholar's
+    abbreviated author format ('a krause' -> ('a', 'krause'), or
+    'tk buening' -> ('tk', 'buening')) — both reduce to the same shape once
+    every given-name token is collapsed to its first letter."""
+    tokens = normalized_name.split()
+    if len(tokens) < 2:
+        return "", normalized_name
+    last_name = tokens[-1]
+    initials = "".join(t[0] for t in tokens[:-1] if t)
+    return initials, last_name
+
+
 def build_member_lookup(members, team):
-    """Returns {normalized_name: [units]}, skipping our own tracked
-    scientists (co-authoring with yourself isn't an external collaboration)."""
+    """Returns (exact_lookup, fuzzy_lookup):
+      exact_lookup: {normalized_full_name: [units]}
+      fuzzy_lookup: {last_name: [(initials, full_name, units), ...]}
+    Both skip our own tracked scientists (co-authoring with yourself isn't
+    an external collaboration). The fuzzy index exists because Google
+    Scholar abbreviates author first names to initials (e.g. 'A Krause'
+    instead of 'Andreas Krause'), which would never match the exact-name
+    lookup OpenAlex-based matching relied on."""
     own_names = {_normalize_name(s["name"]) for s in team["scientists"]}
-    lookup = {}
+    exact_lookup = {}
+    fuzzy_lookup = defaultdict(list)
     for m in members:
         norm = _normalize_name(m["name"])
         if norm in own_names or not m.get("units"):
             continue
-        lookup[norm] = m["units"]
-    return lookup
+        exact_lookup[norm] = m["units"]
+        initials, last_name = _split_initials_and_last_name(norm)
+        if last_name:
+            fuzzy_lookup[last_name].append((initials, norm, m["units"]))
+    return exact_lookup, dict(fuzzy_lookup)
 
 
-def compute_member_collaborations(all_publications, member_lookup):
+def _fuzzy_match_author(author_norm, fuzzy_lookup):
+    """Tries to match an abbreviated Scholar author name ('a krause') against
+    the roster via last-name + initials-compatibility. Only returns a match
+    if exactly one roster candidate is plausible — if two different people
+    share both a last name AND compatible initials, we skip rather than
+    risk crediting the wrong person."""
+    author_initials, author_last = _split_initials_and_last_name(author_norm)
+    if not author_last:
+        return None
+    candidates = fuzzy_lookup.get(author_last, [])
+    if not candidates:
+        return None
+
+    def initials_compatible(a, b):
+        if not a or not b:
+            return True  # missing initials on either side — don't rule it out
+        return a.startswith(b) or b.startswith(a)
+
+    matches = [(full_name, units) for (cand_initials, full_name, units) in candidates
+               if initials_compatible(author_initials, cand_initials)]
+    if len(matches) == 1:
+        return matches[0]
+    return None  # zero or ambiguous multiple matches — don't guess
+
+
+def compute_member_collaborations(all_publications, exact_lookup, fuzzy_lookup):
     """Cross-checks every co-author name on every tracked publication against
     the real ELLIS Fellows/Scholars/Members roster. Far more precise than
     institution-level matching, since it only counts a genuine named ELLIS
@@ -526,10 +575,17 @@ def compute_member_collaborations(all_publications, member_lookup):
     for pub in all_publications.values():
         hit_units_this_paper = {}  # unit -> first matching co-author name
         for author in pub.get("authors", []):
-            units = member_lookup.get(_normalize_name(author))
+            author_norm = _normalize_name(author)
+            units = exact_lookup.get(author_norm)
+            matched_name = author
+            if not units:
+                fuzzy_result = _fuzzy_match_author(author_norm, fuzzy_lookup)
+                if fuzzy_result:
+                    matched_name_norm, units = fuzzy_result
+                    matched_name = f"{author} (matched: {matched_name_norm})"
             if units:
                 for u in units:
-                    hit_units_this_paper.setdefault(u, author)
+                    hit_units_this_paper.setdefault(u, matched_name)
         for u, co_author in hit_units_this_paper.items():
             if pub["id"] not in unit_papers[u]:
                 unit_papers[u].add(pub["id"])
@@ -746,8 +802,8 @@ def main():
     override_count = apply_known_venue_overrides(all_publications, known_venues.get("papers", []))
     print(f"    Applied {override_count} manual venue overrides from config/known_venues.json")
 
-    member_lookup = build_member_lookup(members, team)
-    member_collaborations, member_collaboration_details = compute_member_collaborations(all_publications, member_lookup)
+    exact_lookup, fuzzy_lookup = build_member_lookup(members, team)
+    member_collaborations, member_collaboration_details = compute_member_collaborations(all_publications, exact_lookup, fuzzy_lookup)
 
     top_venues_of_interest = ["NeurIPS", "ICML", "ICLR", "Nature"]
     top_venues_by_year = defaultdict(lambda: defaultdict(int))
@@ -758,7 +814,7 @@ def main():
             top_venues_by_year[str(year)][cat] += 1
     top_venues_by_year = {y: dict(v) for y, v in sorted(top_venues_by_year.items())}
     print(f"    Found real-member collaborations across {len(member_collaborations)} ELLIS Sites "
-          f"(checked against {len(member_lookup)} named roster entries)")
+          f"(checked against {len(exact_lookup)} named roster entries)")
 
     # Recompute venue tallies from final (possibly Semantic-Scholar-upgraded) categories.
     all_venue_counts = defaultdict(int)

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-05T14:44:35Z",
+  "generated_at": "2026-08-05T15:11:48Z",
   "institute": "ELLIS Institute T\u00fcbingen",
   "total_publications": 615,
   "confirmed_affiliation_count": 0,
@@ -13175,35 +13175,1356 @@
     }
   },
   "ellis_member_collaborations": {
-    "Institute Finland": 1,
-    "Unit Lausanne": 1,
-    "Unit Zurich": 1
+    "Unit Zurich": 51,
+    "Unit T\u00fcbingen": 33,
+    "Unit Oxford": 14,
+    "Unit Lausanne": 11,
+    "Unit Saarbr\u00fccken": 7,
+    "Unit Cambridge": 7,
+    "Unit London": 6,
+    "Unit Munich": 5,
+    "Unit Franconia": 5,
+    "Unit Trento": 5,
+    "Unit Copenhagen": 5,
+    "Unit Denmark": 5,
+    "Unit Edinburgh": 3,
+    "Unit Berlin": 3,
+    "Unit NRW": 3,
+    "Unit Stuttgart": 2,
+    "Unit Delft": 2,
+    "Unit Genoa": 2,
+    "Unit Paris": 2,
+    "Unit Jena": 2,
+    "Unit Haifa": 1,
+    "Unit Darmstadt": 1,
+    "Unit Amsterdam": 1,
+    "Unit Milan": 1,
+    "Unit Madrid": 1,
+    "Unit Barcelona": 1,
+    "Unit Vienna": 1,
+    "Institute Finland": 1
   },
   "ellis_member_collaboration_details": {
-    "Institute Finland": [
+    "Unit Zurich": [
       {
-        "title": "OS-Harm: A Benchmark for Measuring Safety of Computer Use Agents",
+        "title": "Partition, Prompt, Aggregate: Statistical Self-Consistency in Language Models",
+        "year": 2026,
+        "scientist": "Celestine Mendler-D\u00fcnner",
+        "co_author": "A Krause (matched: andreas krause)",
+        "doi": null
+      },
+      {
+        "title": "Efficient Test-Time Inference via Deterministic Exploration of Truncated Decoding Trees",
+        "year": 2026,
+        "scientist": "Jonas Geiping",
+        "co_author": "M Sachan (matched: mrinmaya sachan)",
+        "doi": null
+      },
+      {
+        "title": "Sample smart, not hard: Correctness-first decoding for better reasoning in llms",
+        "year": 2026,
+        "scientist": "Jonas Geiping",
+        "co_author": "M Sachan (matched: mrinmaya sachan)",
+        "doi": null
+      },
+      {
+        "title": "Fixed-Point Reasoning: Stable and Adaptive Deep Looped Models",
+        "year": 2026,
+        "scientist": "T. Konstantin Rusch",
+        "co_author": "T Hofmann (matched: thomas hofmann)",
+        "doi": null
+      },
+      {
+        "title": "When Does Sparsity Mitigate the Curse of Depth in LLMs",
+        "year": 2026,
+        "scientist": "Shiwei Liu",
+        "co_author": "T Hofmann (matched: thomas hofmann)",
+        "doi": null
+      },
+      {
+        "title": "Muown Implicitly Performs Angular Step-size Decay",
+        "year": 2026,
+        "scientist": "Antonio Orvieto",
+        "co_author": "N He (matched: niao he)",
+        "doi": null
+      },
+      {
+        "title": "Fixed-Point Reasoners: Stable and Adaptive Deep Looped Transformers",
+        "year": 2026,
+        "scientist": "Antonio Orvieto",
+        "co_author": "T Hofmann (matched: thomas hofmann)",
+        "doi": null
+      },
+      {
+        "title": "Muown: Row-norm control for muon optimization",
+        "year": 2026,
+        "scientist": "Antonio Orvieto",
+        "co_author": "N He (matched: niao he)",
+        "doi": null
+      },
+      {
+        "title": "Scaling behavior of discrete diffusion language models",
+        "year": 2026,
+        "scientist": "Antonio Orvieto",
+        "co_author": "T Hofmann (matched: thomas hofmann)",
+        "doi": null
+      },
+      {
+        "title": "What Does a Discrete Diffusion Model Learn?",
+        "year": 2026,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "T Hofmann (matched: thomas hofmann)",
+        "doi": null
+      },
+      {
+        "title": "Learning to Reason Efficiently with A* Post-Training",
+        "year": 2026,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "M Sachan (matched: mrinmaya sachan)",
+        "doi": null
+      },
+      {
+        "title": "Are language models efficient reasoners? A perspective from logic programming",
+        "year": 2026,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "M Sachan (matched: mrinmaya sachan)",
+        "doi": null
+      },
+      {
+        "title": "Latent causal diffusions for single-cell perturbation modeling",
+        "year": 2026,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "A Krause (matched: andreas krause)",
+        "doi": null
+      },
+      {
+        "title": "Cross-Entropy Is All You Need To Invert the Data Generating Process",
         "year": 2025,
+        "scientist": "Wieland Brendel",
+        "co_author": "JE Vogt (matched: julia vogt)",
+        "doi": null
+      },
+      {
+        "title": "Generalized linear mode connectivity for transformers",
+        "year": 2025,
+        "scientist": "Antonio Orvieto",
+        "co_author": "V Boeva (matched: valentina boeva)",
+        "doi": null
+      },
+      {
+        "title": "Design Principles for Sequence Models via Coefficient Dynamics",
+        "year": 2025,
+        "scientist": "Antonio Orvieto",
+        "co_author": "MN Zeilinger (matched: melanie zeilinger)",
+        "doi": null
+      },
+      {
+        "title": "Generalized interpolating discrete diffusion",
+        "year": 2025,
+        "scientist": "Antonio Orvieto",
+        "co_author": "T Hofmann (matched: thomas hofmann)",
+        "doi": null
+      },
+      {
+        "title": "Improving large language model safety with contrastive representation learning",
+        "year": 2025,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "M Sachan (matched: mrinmaya sachan)",
+        "doi": null
+      },
+      {
+        "title": "Corrupted by reasoning: Reasoning language models become free-riders in public goods games",
+        "year": 2025,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "M Sachan (matched: mrinmaya sachan)",
+        "doi": null
+      },
+      {
+        "title": "Adaptable cardiovascular disease risk prediction from heterogeneous data using large language models",
+        "year": 2025,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "A Krause (matched: andreas krause)",
+        "doi": null
+      },
+      {
+        "title": "The directionality of optimization trajectories in neural networks",
+        "year": 2025,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "T Hofmann (matched: thomas hofmann)",
+        "doi": null
+      },
+      {
+        "title": "Mathgap: Out-of-distribution evaluation on problems with arbitrarily complex proofs",
+        "year": 2025,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "M Sachan (matched: mrinmaya sachan)",
+        "doi": null
+      },
+      {
+        "title": "Standardizing structural causal models",
+        "year": 2025,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "A Krause (matched: andreas krause)",
+        "doi": null
+      },
+      {
+        "title": "From pixels to components: eigenvector masking for visual representation learning",
+        "year": 2025,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "JE Vogt (matched: julia vogt)",
+        "doi": null
+      },
+      {
+        "title": "Preference elicitation for offline reinforcement learning",
+        "year": 2025,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "G R\u00e4tsch (matched: gunnar ratsch)",
+        "doi": null
+      },
+      {
+        "title": "Language Models Are Inefficient Reasoners: An Analysis on Arithmetic Proof Search",
+        "year": 2025,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "Mrinmaya Sachan",
+        "doi": null
+      },
+      {
+        "title": "Dieting: Self-supervised learning with instance discrimination learns identifiable features",
+        "year": 2024,
+        "scientist": "Wieland Brendel",
+        "co_author": "JE Vogt (matched: julia vogt)",
+        "doi": null
+      },
+      {
+        "title": "Super consistency of neural network landscapes and learning rate transfer",
+        "year": 2024,
+        "scientist": "Antonio Orvieto",
+        "co_author": "T Hofmann (matched: thomas hofmann)",
+        "doi": null
+      },
+      {
+        "title": "Understanding the differences in foundation models: Attention, state space models, and recurrent neural networks",
+        "year": 2024,
+        "scientist": "Antonio Orvieto",
+        "co_author": "M Zeilinger (matched: melanie zeilinger)",
+        "doi": null
+      },
+      {
+        "title": "Cooperate or collapse: Emergence of sustainable cooperation in a society of llm agents",
+        "year": 2024,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "M Sachan (matched: mrinmaya sachan)",
+        "doi": null
+      },
+      {
+        "title": "Generative intervention models for causal perturbation modeling",
+        "year": 2024,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "A Krause (matched: andreas krause)",
+        "doi": null
+      },
+      {
+        "title": "Do llms think fast and slow? a causal study on sentiment analysis",
+        "year": 2024,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "M Sachan (matched: mrinmaya sachan)",
+        "doi": null
+      },
+      {
+        "title": "Competition of mechanisms: Tracing how language models handle facts and counterfactuals",
+        "year": 2024,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "M Sachan (matched: mrinmaya sachan)",
+        "doi": null
+      },
+      {
+        "title": "CausalCite: a causal formulation of paper citations",
+        "year": 2024,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "M Sachan (matched: mrinmaya sachan)",
+        "doi": null
+      },
+      {
+        "title": "Landscaping linear mode connectivity",
+        "year": 2024,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "T Hofmann (matched: thomas hofmann)",
+        "doi": null
+      },
+      {
+        "title": "Can large language models infer causation from correlation?",
+        "year": 2024,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "M Sachan (matched: mrinmaya sachan)",
+        "doi": null
+      },
+      {
+        "title": "Delphic offline reinforcement learning under nonidentifiable hidden confounding",
+        "year": 2024,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "G Ratsch (matched: gunnar ratsch)",
+        "doi": null
+      },
+      {
+        "title": "Causal modeling with stationary diffusions",
+        "year": 2024,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "A Krause (matched: andreas krause)",
+        "doi": null
+      },
+      {
+        "title": "A probabilistic model behind self-supervised learning",
+        "year": 2024,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "C Allen (matched: carl allen)",
+        "doi": null
+      },
+      {
+        "title": "Do language models exhibit the same cognitive biases in problem solving as human learners?",
+        "year": 2024,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "R Cotterell (matched: ryan cotterell)",
+        "doi": null
+      },
+      {
+        "title": "Testing occupational gender bias in language models: Towards robust measurement and zero-shot debiasing",
+        "year": 2024,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "M Sachan (matched: mrinmaya sachan)",
+        "doi": null
+      },
+      {
+        "title": "Causalquest: Collecting natural causal questions for ai agents",
+        "year": 2024,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "M Sachan (matched: mrinmaya sachan)",
+        "doi": null
+      },
+      {
+        "title": "On the causal nature of sentiment analysis",
+        "year": 2024,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "M Sachan (matched: mrinmaya sachan)",
+        "doi": null
+      },
+      {
+        "title": "Hallmarks of optimization trajectories in neural networks and LLMs: The lengths, bends, and dead ends",
+        "year": 2024,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "T Hofmann (matched: thomas hofmann)",
+        "doi": null
+      },
+      {
+        "title": "Escaping Random Teacher Initialization Enhances Signal Propagation and Representation",
+        "year": 2023,
+        "scientist": "Antonio Orvieto",
+        "co_author": "T Hofmann (matched: thomas hofmann)",
+        "doi": null
+      },
+      {
+        "title": "Recurrent distance filtering for graph representation learning",
+        "year": 2023,
+        "scientist": "Antonio Orvieto",
+        "co_author": "T Hofmann (matched: thomas hofmann)",
+        "doi": null
+      },
+      {
+        "title": "Beyond good intentions: Reporting the research landscape of NLP for social good",
+        "year": 2023,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "M Sachan (matched: mrinmaya sachan)",
+        "doi": null
+      },
+      {
+        "title": "Stochastic marginal likelihood gradients using neural tangent kernels",
+        "year": 2023,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "G Ratsch (matched: gunnar ratsch)",
+        "doi": null
+      },
+      {
+        "title": "On the identifiability and estimation of causal location-scale noise models",
+        "year": 2023,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "JE Vogt (matched: julia vogt)",
+        "doi": null
+      },
+      {
+        "title": "Membership inference attacks against language models via neighbourhood comparison",
+        "year": 2023,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "M Sachan (matched: mrinmaya sachan)",
+        "doi": null
+      },
+      {
+        "title": "A causal framework to quantify the robustness of mathematical reasoning with language models",
+        "year": 2023,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "M Sachan (matched: mrinmaya sachan)",
+        "doi": null
+      }
+    ],
+    "Unit T\u00fcbingen": [
+      {
+        "title": "Stochastic wage suppression on gig platforms and how to organize against it",
+        "year": 2026,
+        "scientist": "Celestine Mendler-D\u00fcnner",
+        "co_author": "M Hardt (matched: moritz hardt)",
+        "doi": null
+      },
+      {
+        "title": "Learning Hybrid Biophysical Neuron Models with Neural ODEs",
+        "year": 2026,
+        "scientist": "Jakob Macke",
+        "co_author": "P Berens (matched: philipp berens)",
+        "doi": null
+      },
+      {
+        "title": "FutureSim: Replaying world events to evaluate adaptive agents",
+        "year": 2026,
+        "scientist": "Jonas Geiping",
+        "co_author": "M Hardt (matched: moritz hardt)",
+        "doi": null
+      },
+      {
+        "title": "Curating the Future: A Scalable Recipe for Training Open-Ended Forecasters",
+        "year": 2026,
+        "scientist": "Jonas Geiping",
+        "co_author": "M Hardt (matched: moritz hardt)",
+        "doi": null
+      },
+      {
+        "title": "Evaluating Long-Form Forecasts by Their Effect on Downstream Predictions",
+        "year": 2026,
         "scientist": "Maksym Andriushchenko",
-        "co_author": "Francesco Croce",
+        "co_author": "M Hardt (matched: moritz hardt)",
+        "doi": null
+      },
+      {
+        "title": "GASP: Guided asymmetric self-play for coding LLMs",
+        "year": 2026,
+        "scientist": "Antonio Orvieto",
+        "co_author": "G Martius (matched: georg martius)",
+        "doi": null
+      },
+      {
+        "title": "A critical perspective on finite sample conformal prediction theory in medical applications",
+        "year": 2026,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "M Muehlebach (matched: michael muehlebach)",
+        "doi": null
+      },
+      {
+        "title": "Echoes of the Prior: A Computational Phenomenology of Forgetting",
+        "year": 2026,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "A Geiger (matched: andreas geiger)",
+        "doi": null
+      },
+      {
+        "title": "Trajectory Forcing: Structure-First Generation with Controllable Semantic Trajectories",
+        "year": 2026,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "A Geiger (matched: andreas geiger)",
+        "doi": null
+      },
+      {
+        "title": "Slots, Transitions, Loops: Learning Composable World Models for ARC",
+        "year": 2026,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "A Geiger (matched: andreas geiger)",
+        "doi": null
+      },
+      {
+        "title": "Adaptive Inverted-Index Routing for Granular Mixtures-of-Experts",
+        "year": 2026,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "M Muehlebach (matched: michael muehlebach)",
+        "doi": null
+      },
+      {
+        "title": "Drifting fields are not conservative",
+        "year": 2026,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "G Martius (matched: georg martius)",
+        "doi": null
+      },
+      {
+        "title": "Computational Arbitrage in AI Model Markets",
+        "year": 2026,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "M Hardt (matched: moritz hardt)",
+        "doi": null
+      },
+      {
+        "title": "Performative validity of recourse explanations",
+        "year": 2025,
+        "scientist": "Celestine Mendler-D\u00fcnner",
+        "co_author": "U von Luxburg (matched: ulrike von luxburg)",
+        "doi": null
+      },
+      {
+        "title": "Decline now: A combinatorial model for algorithmic collective action",
+        "year": 2025,
+        "scientist": "Celestine Mendler-D\u00fcnner",
+        "co_author": "M Hardt (matched: moritz hardt)",
+        "doi": null
+      },
+      {
+        "title": "Performative prediction: Past and future",
+        "year": 2025,
+        "scientist": "Celestine Mendler-D\u00fcnner",
+        "co_author": "M Hardt (matched: moritz hardt)",
+        "doi": null
+      },
+      {
+        "title": "Scaling open-ended reasoning to predict the future",
+        "year": 2025,
+        "scientist": "Jonas Geiping",
+        "co_author": "M Hardt (matched: moritz hardt)",
+        "doi": null
+      },
+      {
+        "title": "Answer matching outperforms multiple choice for language model evaluation",
+        "year": 2025,
+        "scientist": "Jonas Geiping",
+        "co_author": "M Hardt (matched: moritz hardt)",
+        "doi": null
+      },
+      {
+        "title": "Difficult lessons on social prediction from Wisconsin public schools",
+        "year": 2025,
+        "scientist": "Rediet Abebe",
+        "co_author": "M Hardt (matched: moritz hardt)",
+        "doi": null
+      },
+      {
+        "title": "PENEX: AdaBoost-Inspired Neural Network Regularization",
+        "year": 2025,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "M Muehlebach (matched: michael muehlebach)",
+        "doi": null
+      },
+      {
+        "title": "Is single-view mesh reconstruction ready for robotics?",
+        "year": 2025,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "A Geiger (matched: andreas geiger)",
+        "doi": null
+      },
+      {
+        "title": "Conformal generative modeling with improved sample efficiency through sequential greedy filtering",
+        "year": 2025,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "M Muehlebach (matched: michael muehlebach)",
+        "doi": null
+      },
+      {
+        "title": "Evaluating language models as risk scores",
+        "year": 2024,
+        "scientist": "Celestine Mendler-D\u00fcnner",
+        "co_author": "M Hardt (matched: moritz hardt)",
+        "doi": null
+      },
+      {
+        "title": "An engine not a camera: Measuring performative power of online search",
+        "year": 2024,
+        "scientist": "Celestine Mendler-D\u00fcnner",
+        "co_author": "M Hardt (matched: moritz hardt)",
+        "doi": null
+      },
+      {
+        "title": "A realistic threat model for large language model jailbreaks",
+        "year": 2024,
+        "scientist": "Jonas Geiping",
+        "co_author": "M Hein (matched: matthias hein)",
+        "doi": null
+      },
+      {
+        "title": "Graphdreamer: Compositional 3d scene synthesis from scene graphs",
+        "year": 2024,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "A Geiger (matched: andreas geiger)",
+        "doi": null
+      },
+      {
+        "title": "The Expressive Leaky Memory Neuron: an Efficient and Expressive Phenomenological Neuron Model Can Solve Long-Horizon Tasks.",
+        "year": 2024,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "G Martius (matched: georg martius)",
+        "doi": null
+      },
+      {
+        "title": "Ghost on the shell: An expressive representation of general 3d shapes",
+        "year": 2024,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "MJ Black (matched: michael j black)",
+        "doi": null
+      },
+      {
+        "title": "Reinforcement learning with model-based feedforward inputs for robotic table tennis",
+        "year": 2023,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "M Muehlebach (matched: michael muehlebach)",
+        "doi": null
+      },
+      {
+        "title": "Deep backtracking counterfactuals for causally compliant explanations",
+        "year": 2023,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "M Muehlebach (matched: michael muehlebach)",
+        "doi": null
+      },
+      {
+        "title": "Data-efficient online learning of ball placement in robot table tennis",
+        "year": 2023,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "M Muehlebach (matched: michael muehlebach)",
+        "doi": null
+      },
+      {
+        "title": "Pairwise similarity learning is simple",
+        "year": 2023,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "MJ Black (matched: michael j black)",
+        "doi": null
+      },
+      {
+        "title": "Causal effect estimation from observational and interventional data through matrix weighted linear estimators",
+        "year": 2023,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "M Muehlebach (matched: michael muehlebach)",
+        "doi": null
+      }
+    ],
+    "Unit Saarbr\u00fccken": [
+      {
+        "title": "Position: Safety Must Precede the Deployment of Open-Ended AI",
+        "year": 2026,
+        "scientist": "Sahar Abdelnabi",
+        "co_author": "M Fritz (matched: mario fritz)",
+        "doi": null
+      },
+      {
+        "title": "Hidden in memory: Sleeper memory poisoning in LLM agents",
+        "year": 2026,
+        "scientist": "Sahar Abdelnabi",
+        "co_author": "M Fritz (matched: mario fritz)",
+        "doi": null
+      },
+      {
+        "title": "Trustworthy AI Suffers from Invariance Conflicts and Causality is The Solution",
+        "year": 2026,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "M Fritz (matched: mario fritz)",
+        "doi": null
+      },
+      {
+        "title": "Context-Aware Reasoning On Parametric Knowledge for Inferring Causal Variables",
+        "year": 2025,
+        "scientist": "Sahar Abdelnabi",
+        "co_author": "M Fritz (matched: mario fritz)",
+        "doi": null
+      },
+      {
+        "title": "Causality is key to understand and balance multiple goals in trustworthy ml and foundation models",
+        "year": 2025,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "M Fritz (matched: mario fritz)",
+        "doi": null
+      },
+      {
+        "title": "Optimal decision making under strategic behavior",
+        "year": 2024,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "A Singla (matched: adish singla)",
+        "doi": null
+      },
+      {
+        "title": "A measure-theoretic axiomatisation of causality",
+        "year": 2023,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "K Muandet (matched: krikamol muandet)",
+        "doi": null
+      }
+    ],
+    "Unit Edinburgh": [
+      {
+        "title": "Decomposing and Measuring Evaluation Awareness",
+        "year": 2026,
+        "scientist": "Sahar Abdelnabi",
+        "co_author": "C Li (matched: changjian li)",
+        "doi": null
+      },
+      {
+        "title": "AI poses risks to democratic and social systems",
+        "year": 2026,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "C Li (matched: changjian li)",
+        "doi": null
+      },
+      {
+        "title": "Evolutionary Architecture Search through Grammar-Based Sequence Alignment",
+        "year": 2025,
+        "scientist": "Aaron Klein",
+        "co_author": "S McDonagh (matched: steven mcdonagh)",
+        "doi": null
+      }
+    ],
+    "Unit Oxford": [
+      {
+        "title": "Detecting Multi-Agent Collusion Through Multi-Agent Interpretability",
+        "year": 2026,
+        "scientist": "Sahar Abdelnabi",
+        "co_author": "P Torr (matched: philip h s torr)",
+        "doi": null
+      },
+      {
+        "title": "From Observation to Insight: Mechanistic World Models and the Quest for Autonomous Discovery",
+        "year": 2026,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "I Posner (matched: ingmar posner)",
+        "doi": null
+      },
+      {
+        "title": "Sim-to-Real Transfer for Muscle-Actuated Robots via Generalized Actuator Networks",
+        "year": 2026,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "I Posner (matched: ingmar posner)",
+        "doi": null
+      },
+      {
+        "title": "Imagining and building wise machines: The centrality of AI metacognition",
+        "year": 2026,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "N Chater (matched: nick chater)",
+        "doi": null
+      },
+      {
+        "title": "Relaxed Equivariance via Multitask Learning",
+        "year": 2025,
+        "scientist": "T. Konstantin Rusch",
+        "co_author": "M Bronstein (matched: michael bronstein)",
+        "doi": null
+      },
+      {
+        "title": "Spartan: A sparse transformer world model attending to what matters",
+        "year": 2025,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "I Posner (matched: ingmar posner)",
+        "doi": null
+      },
+      {
+        "title": "Intrinsically Interpretable Attention via Sparse Post-Training",
+        "year": 2025,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "I Posner (matched: ingmar posner)",
+        "doi": null
+      },
+      {
+        "title": "Sparse attention post-training for mechanistic interpretability",
+        "year": 2025,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "I Posner (matched: ingmar posner)",
+        "doi": null
+      },
+      {
+        "title": "Is single-view mesh reconstruction ready for robotics?",
+        "year": 2025,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "I Posner (matched: ingmar posner)",
+        "doi": null
+      },
+      {
+        "title": "Theoretical foundations of deep selective state-space models",
+        "year": 2024,
+        "scientist": "Antonio Orvieto",
+        "co_author": "T Lyons (matched: terry lyons)",
+        "doi": null
+      },
+      {
+        "title": "Compete and compose: Learning independent mechanisms for modular world models",
+        "year": 2024,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "I Posner (matched: ingmar posner)",
+        "doi": null
+      },
+      {
+        "title": "Spartan: A sparse transformer learning local causation",
+        "year": 2024,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "I Posner (matched: ingmar posner)",
+        "doi": null
+      },
+      {
+        "title": "Modular World Models with Competitive Independent Mechanisms",
+        "year": 2024,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "I Posner (matched: ingmar posner)",
+        "doi": null
+      },
+      {
+        "title": "On the interventional Kullback-Leibler divergence",
+        "year": 2023,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "A Bhattacharyya (matched: arnab bhattacharyya)",
         "doi": null
       }
     ],
     "Unit Lausanne": [
+      {
+        "title": "Stabilizing Extrapolation in Looped Transformers via Learned Stochastic Stopping",
+        "year": 2026,
+        "scientist": "Wieland Brendel",
+        "co_author": "M Jaggi (matched: martin jaggi)",
+        "doi": null
+      },
+      {
+        "title": "Sequence Modeling Architectures: Foundations [Special Issue on the Mathematics of Deep Learning]",
+        "year": 2026,
+        "scientist": "Jonas Geiping",
+        "co_author": "C Gulcehre (matched: caglar gulcehre)",
+        "doi": null
+      },
+      {
+        "title": "Adaptive attacks on trusted monitors subvert AI control protocols",
+        "year": 2026,
+        "scientist": "Jonas Geiping",
+        "co_author": "C Gulcehre (matched: caglar gulcehre)",
+        "doi": null
+      },
+      {
+        "title": "Selective rotary position embedding",
+        "year": 2026,
+        "scientist": "Frank Hutter",
+        "co_author": "V Cevher (matched: volkan cevher)",
+        "doi": null
+      },
+      {
+        "title": "Allocation, Not Volume: Test-Time Compute for Agentic Forecasting",
+        "year": 2026,
+        "scientist": "Maksym Andriushchenko",
+        "co_author": "N Flammarion (matched: nicolas flammarion)",
+        "doi": null
+      },
+      {
+        "title": "Helpful to a Fault: Measuring Illicit Assistance in Multi-Turn, Multilingual LLM Agents",
+        "year": 2026,
+        "scientist": "Maksym Andriushchenko",
+        "co_author": "A Bosselut (matched: antoine bosselut)",
+        "doi": null
+      },
+      {
+        "title": "HalluHard: A Hard Multi-Turn Hallucination Benchmark",
+        "year": 2026,
+        "scientist": "Maksym Andriushchenko",
+        "co_author": "N Flammarion (matched: nicolas flammarion)",
+        "doi": null
+      },
+      {
+        "title": "GRASP: Deterministic argument ranking in interaction graphs",
+        "year": 2026,
+        "scientist": "Rediet Abebe",
+        "co_author": "V Cevher (matched: volkan cevher)",
+        "doi": null
+      },
+      {
+        "title": "Latent causal diffusions for single-cell perturbation modeling",
+        "year": 2026,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "C Bunne (matched: charlotte bunne)",
+        "doi": null
+      },
       {
         "title": "OS-Harm: A Benchmark for Measuring Safety of Computer Use Agents",
         "year": 2025,
         "scientist": "Maksym Andriushchenko",
         "co_author": "Nicolas Flammarion",
         "doi": null
+      },
+      {
+        "title": "Causal triplet: An open challenge for intervention-centric causal representation learning",
+        "year": 2023,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "A Alahi (matched: alexandre alahi)",
+        "doi": null
       }
     ],
-    "Unit Zurich": [
+    "Unit London": [
       {
-        "title": "Language Models Are Inefficient Reasoners: An Analysis on Arithmetic Proof Search",
+        "title": "Transcending Bayesian Inference: Transformers Extrapolate Rules Compositionally Under Model Misspecification",
+        "year": 2025,
+        "scientist": "Wieland Brendel",
+        "co_author": "F Husz\u00e1r (matched: ferenc huszar)",
+        "doi": null
+      },
+      {
+        "title": "Identifiable Exchangeable Mechanisms for Causal Structure and Representation Learning",
+        "year": 2025,
+        "scientist": "Wieland Brendel",
+        "co_author": "F Husz\u00e1r (matched: ferenc huszar)",
+        "doi": null
+      },
+      {
+        "title": "Rule Extrapolation in Language Models: A Study of Compositional Generalization on OOD Prompts",
+        "year": 2024,
+        "scientist": "Wieland Brendel",
+        "co_author": "F Husz\u00e1r (matched: ferenc huszar)",
+        "doi": null
+      },
+      {
+        "title": "Understanding LLMs Requires More Than Statistical Generalization",
+        "year": 2024,
+        "scientist": "Wieland Brendel",
+        "co_author": "F Husz\u00e1r (matched: ferenc huszar)",
+        "doi": null
+      },
+      {
+        "title": "Do finetti: On causal effects for exchangeable data",
+        "year": 2024,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "F Husz\u00e1r (matched: ferenc huszar)",
+        "doi": null
+      },
+      {
+        "title": "Learning beyond pattern matching? assaying mathematical understanding in llms",
+        "year": 2024,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "F Husz\u00e1r (matched: ferenc huszar)",
+        "doi": null
+      }
+    ],
+    "Unit Munich": [
+      {
+        "title": "Vggsounder: Audio-visual evaluations for foundation models",
+        "year": 2025,
+        "scientist": "Wieland Brendel",
+        "co_author": "A Koepke (matched: a sophia koepke)",
+        "doi": null
+      },
+      {
+        "title": "Generative intervention models for causal perturbation modeling",
+        "year": 2024,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "N Kilbertus (matched: niki kilbertus)",
+        "doi": null
+      },
+      {
+        "title": "Real robot challenge 2022: Learning dexterous manipulation from offline data in the real world",
+        "year": 2023,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "S Bauer (matched: stefan bauer)",
+        "doi": null
+      },
+      {
+        "title": "Benchmarking offline reinforcement learning on real-robot hardware",
+        "year": 2023,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "S Bauer (matched: stefan bauer)",
+        "doi": null
+      },
+      {
+        "title": "Diffusion based representation learning",
+        "year": 2023,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "S Bauer (matched: stefan bauer)",
+        "doi": null
+      }
+    ],
+    "Unit Stuttgart": [
+      {
+        "title": "FutureSim: Replaying world events to evaluate adaptive agents",
+        "year": 2026,
+        "scientist": "Jonas Geiping",
+        "co_author": "S Staab (matched: steffen staab)",
+        "doi": null
+      },
+      {
+        "title": "The illusion of diminishing returns: Measuring long horizon execution in llms",
+        "year": 2026,
+        "scientist": "Jonas Geiping",
+        "co_author": "S Staab (matched: steffen staab)",
+        "doi": null
+      }
+    ],
+    "Unit Berlin": [
+      {
+        "title": "Strategic dishonesty can undermine ai safety evaluations of frontier llms",
+        "year": 2026,
+        "scientist": "Jonas Geiping",
+        "co_author": "W Samek (matched: wojciech samek)",
+        "doi": null
+      },
+      {
+        "title": "Hyperparameter optimization in machine learning",
+        "year": 2025,
+        "scientist": "Aaron Klein",
+        "co_author": "C Archambeau (matched: cedric archambeau)",
+        "doi": null
+      },
+      {
+        "title": "Resource-efficient techniques for repeated hyper-parameter optimization",
+        "year": 2025,
+        "scientist": "David Salinas",
+        "co_author": "CP Archambeau (matched: cedric archambeau)",
+        "doi": null
+      }
+    ],
+    "Unit Cambridge": [
+      {
+        "title": "Use what you know: Causal foundation models with partial graphs",
+        "year": 2026,
+        "scientist": "Frank Hutter",
+        "co_author": "A Weller (matched: adrian weller)",
+        "doi": null
+      },
+      {
+        "title": "Training Data Reconstruction: Privacy due to Uncertainty?",
+        "year": 2025,
+        "scientist": "Jonas Geiping",
+        "co_author": "CB Sch\u00f6nlieb (matched: carola bibiane schonlieb)",
+        "doi": null
+      },
+      {
+        "title": "Orthogonal finetuning made scalable",
         "year": 2025,
         "scientist": "Bernhard Sch\u00f6lkopf",
-        "co_author": "Mrinmaya Sachan",
+        "co_author": "A Weller (matched: adrian weller)",
+        "doi": null
+      },
+      {
+        "title": "Can large language models understand symbolic graphics programs?",
+        "year": 2025,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "A Weller (matched: adrian weller)",
+        "doi": null
+      },
+      {
+        "title": "Machine learning for science: mathematics at the interface of data-driven and mechanistic modelling",
+        "year": 2023,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "N Lawrence (matched: neil d lawrence)",
+        "doi": null
+      },
+      {
+        "title": "Controlling text-to-image diffusion by orthogonal finetuning",
+        "year": 2023,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "A Weller (matched: adrian weller)",
+        "doi": null
+      },
+      {
+        "title": "Pairwise similarity learning is simple",
+        "year": 2023,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "A Weller (matched: adrian weller)",
+        "doi": null
+      }
+    ],
+    "Unit Delft": [
+      {
+        "title": "-PFN: Fast Entropy Search via In-Context Learning",
+        "year": 2026,
+        "scientist": "Frank Hutter",
+        "co_author": "T Viering (matched: tom viering)",
+        "doi": null
+      },
+      {
+        "title": "\u03b1-pfn: In-context learning entropy search",
+        "year": 2025,
+        "scientist": "Frank Hutter",
+        "co_author": "TJ Viering (matched: tom viering)",
+        "doi": null
+      }
+    ],
+    "Unit Franconia": [
+      {
+        "title": "When is Warmstarting Effective for Scaling Language Models?",
+        "year": 2026,
+        "scientist": "Frank Hutter",
+        "co_author": "J Grabocka (matched: josif grabocka)",
+        "doi": null
+      },
+      {
+        "title": "Warmstarting for scaling language models",
+        "year": 2024,
+        "scientist": "Frank Hutter",
+        "co_author": "J Grabocka (matched: josif grabocka)",
+        "doi": null
+      },
+      {
+        "title": "Ensembling finetuned language models for text classification",
+        "year": 2024,
+        "scientist": "Frank Hutter",
+        "co_author": "J Grabocka (matched: josif grabocka)",
+        "doi": null
+      },
+      {
+        "title": "Regularized Neural Ensemblers",
+        "year": 2024,
+        "scientist": "Frank Hutter",
+        "co_author": "J Grabocka (matched: josif grabocka)",
+        "doi": null
+      },
+      {
+        "title": "Quick-tune: Quickly learning which pretrained model to finetune and how",
+        "year": 2024,
+        "scientist": "Frank Hutter",
+        "co_author": "J Grabocka (matched: josif grabocka)",
+        "doi": null
+      }
+    ],
+    "Unit Haifa": [
+      {
+        "title": "STRABLE: Benchmarking Tabular Machine Learning with Strings",
+        "year": 2026,
+        "scientist": "Frank Hutter",
+        "co_author": "R Reichart (matched: roi reichart)",
+        "doi": null
+      }
+    ],
+    "Unit Genoa": [
+      {
+        "title": "Deltaproduct: Improving state-tracking in linear rnns via householder products",
+        "year": 2025,
+        "scientist": "Frank Hutter",
+        "co_author": "M Pontil (matched: massimiliano pontil)",
+        "doi": null
+      },
+      {
+        "title": "Deltaproduct: Increasing the expressivity of deltanet through products of householders",
+        "year": 2025,
+        "scientist": "Frank Hutter",
+        "co_author": "M Pontil (matched: massimiliano pontil)",
+        "doi": null
+      }
+    ],
+    "Unit Darmstadt": [
+      {
+        "title": "Challenges and Opportunities of Table Representation Learning (Dagstuhl Seminar 25182)",
+        "year": 2025,
+        "scientist": "Frank Hutter",
+        "co_author": "C Binnig (matched: carsten binnig)",
+        "doi": null
+      }
+    ],
+    "Unit Amsterdam": [
+      {
+        "title": "Challenges and Opportunities of Table Representation Learning (Dagstuhl Seminar 25182)",
+        "year": 2025,
+        "scientist": "Frank Hutter",
+        "co_author": "M Hulsebos (matched: madelon hulsebos)",
+        "doi": null
+      }
+    ],
+    "Unit NRW": [
+      {
+        "title": "AMLTK: A modular AutoML toolkit in Python",
+        "year": 2024,
+        "scientist": "Frank Hutter",
+        "co_author": "M Feurer (matched: matthias feurer)",
+        "doi": null
+      },
+      {
+        "title": "Landscaping linear mode connectivity",
+        "year": 2024,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "M Kamp (matched: michael kamp)",
+        "doi": null
+      },
+      {
+        "title": "On the identifiability and estimation of causal location-scale noise models",
+        "year": 2023,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "A Marx (matched: alexander marx)",
+        "doi": null
+      }
+    ],
+    "Unit Milan": [
+      {
+        "title": "Learning to Move in Rhythm: Task-Conditioned Motion Policies with Orbital Stability Guarantees",
+        "year": 2025,
+        "scientist": "T. Konstantin Rusch",
+        "co_author": "F Stella (matched: fabio stella)",
+        "doi": null
+      }
+    ],
+    "Unit Trento": [
+      {
+        "title": "ELAS: Efficient Pre-Training of Low-Rank Large Language Models via 2: 4 Activation Sparsity",
+        "year": 2026,
+        "scientist": "Shiwei Liu",
+        "co_author": "W Wang (matched: wei wang)",
+        "doi": null
+      },
+      {
+        "title": "Riemannian Networks over Full-Rank Correlation Matrices",
+        "year": 2026,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "N Sebe (matched: nicu sebe)",
+        "doi": null
+      },
+      {
+        "title": "Proper Velocity Neural Networks",
+        "year": 2026,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "N Sebe (matched: nicu sebe)",
+        "doi": null
+      },
+      {
+        "title": "Hyperbolic Busemann Neural Networks",
+        "year": 2026,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "N Sebe (matched: nicu sebe)",
+        "doi": null
+      },
+      {
+        "title": "Riemannian batch normalization: A gyro approach",
+        "year": 2025,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "N Sebe (matched: nicu sebe)",
+        "doi": null
+      }
+    ],
+    "Unit Madrid": [
+      {
+        "title": "Neural Sum-of-Squares: Certifying the Nonnegativity of Polynomials with Transformers",
+        "year": 2026,
+        "scientist": "Shiwei Liu",
+        "co_author": "D Mart\u00ednez-Rubio (matched: david martinez rubio)",
+        "doi": null
+      }
+    ],
+    "Unit Barcelona": [
+      {
+        "title": "Deep search for joint sources of gravitational waves and high-energy neutrinos with IceCube during the third observing run of LIGO and Virgo",
+        "year": 2026,
+        "scientist": "Maximilian Dax",
+        "co_author": "JA Aguilar (matched: juan a rodriguez aguilar)",
+        "doi": null
+      }
+    ],
+    "Unit Paris": [
+      {
+        "title": "An uncertainty principle for linear recurrent neural networks",
+        "year": 2025,
+        "scientist": "Antonio Orvieto",
+        "co_author": "F Bach (matched: francis bach)",
+        "doi": null
+      },
+      {
+        "title": "Raven: rethinking adversarial video generation with efficient tri-plane networks",
+        "year": 2025,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "C Schmid (matched: cordelia schmid)",
+        "doi": null
+      }
+    ],
+    "Unit Copenhagen": [
+      {
+        "title": "LoRA and Privacy: When Random Projections Help (and When They Don't)",
+        "year": 2026,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "A Sanyal (matched: amartya sanyal)",
+        "doi": null
+      },
+      {
+        "title": "Online learning and unlearning",
+        "year": 2025,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "A Sanyal (matched: amartya sanyal)",
+        "doi": null
+      },
+      {
+        "title": "Accuracy on the wrong line: On the pitfalls of noisy data for out-of-distribution generalisation",
+        "year": 2024,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "A Sanyal (matched: amartya sanyal)",
+        "doi": null
+      },
+      {
+        "title": "Provable privacy with non-private pre-processing",
+        "year": 2024,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "A Sanyal (matched: amartya sanyal)",
+        "doi": null
+      },
+      {
+        "title": "Accuracy on the wrong line: On the pitfalls of noisy data for OOD generalisation",
+        "year": 2024,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "A Sanyal (matched: amartya sanyal)",
+        "doi": null
+      }
+    ],
+    "Unit Denmark": [
+      {
+        "title": "LoRA and Privacy: When Random Projections Help (and When They Don't)",
+        "year": 2026,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "A Sanyal (matched: amartya sanyal)",
+        "doi": null
+      },
+      {
+        "title": "Online learning and unlearning",
+        "year": 2025,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "A Sanyal (matched: amartya sanyal)",
+        "doi": null
+      },
+      {
+        "title": "Accuracy on the wrong line: On the pitfalls of noisy data for out-of-distribution generalisation",
+        "year": 2024,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "A Sanyal (matched: amartya sanyal)",
+        "doi": null
+      },
+      {
+        "title": "Provable privacy with non-private pre-processing",
+        "year": 2024,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "A Sanyal (matched: amartya sanyal)",
+        "doi": null
+      },
+      {
+        "title": "Accuracy on the wrong line: On the pitfalls of noisy data for OOD generalisation",
+        "year": 2024,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "A Sanyal (matched: amartya sanyal)",
+        "doi": null
+      }
+    ],
+    "Unit Jena": [
+      {
+        "title": "Early warning of complex climate risk with integrated artificial intelligence",
+        "year": 2025,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "M Reichstein (matched: markus reichstein)",
+        "doi": null
+      },
+      {
+        "title": "Early warning of complex climate risk with integrated artificial intelligence, Nat. Commun., 16, 2564",
+        "year": 2025,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "M Reichstein (matched: markus reichstein)",
+        "doi": null
+      }
+    ],
+    "Unit Vienna": [
+      {
+        "title": "Causal triplet: An open challenge for intervention-centric causal representation learning",
+        "year": 2023,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "F Locatello (matched: francesco locatello)",
+        "doi": null
+      }
+    ],
+    "Institute Finland": [
+      {
+        "title": "OS-Harm: A Benchmark for Measuring Safety of Computer Use Agents",
+        "year": 2025,
+        "scientist": "Maksym Andriushchenko",
+        "co_author": "Francesco Croce",
         "doi": null
       }
     ]
