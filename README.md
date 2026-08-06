@@ -77,3 +77,4 @@ Then commit and push `docs/data/*.json` as usual.
 ## Current known state (August 2026)
 
 The live data reflects a complete, clean run: **615 publications** across all 16 tracked people, with precise-date refinement successfully applied to every join-year-boundary paper (no rate-limiting or quota issues). Weekly automation is enabled and running normally.
+Deploy retry marker
