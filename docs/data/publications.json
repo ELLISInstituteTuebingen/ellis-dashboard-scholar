@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-05T16:17:05Z",
+  "generated_at": "2026-08-06T09:54:42Z",
   "institute": "ELLIS Institute T\u00fcbingen",
   "total_publications": 611,
   "confirmed_affiliation_count": 0,
@@ -83,7 +83,10 @@
         "C Mendler-D\u00fcnner"
       ],
       "institution_ids": [],
-      "scientist": "Celestine Mendler-D\u00fcnner",
+      "scientist": [
+        "Celestine Mendler-D\u00fcnner",
+        "Rediet Abebe"
+      ],
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
       "is_oa": false
@@ -145,7 +148,10 @@
         "S Abdelnabi"
       ],
       "institution_ids": [],
-      "scientist": "Sahar Abdelnabi",
+      "scientist": [
+        "Sahar Abdelnabi",
+        "Jonas Geiping"
+      ],
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
       "is_oa": false
@@ -167,7 +173,10 @@
         "M Andriushchenko"
       ],
       "institution_ids": [],
-      "scientist": "Sahar Abdelnabi",
+      "scientist": [
+        "Sahar Abdelnabi",
+        "Maksym Andriushchenko"
+      ],
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
       "is_oa": false
@@ -312,7 +321,10 @@
         "M Andriushchenko"
       ],
       "institution_ids": [],
-      "scientist": "Sahar Abdelnabi",
+      "scientist": [
+        "Sahar Abdelnabi",
+        "Maksym Andriushchenko"
+      ],
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
       "is_oa": false
@@ -422,7 +434,11 @@
         "..."
       ],
       "institution_ids": [],
-      "scientist": "Jakob Macke",
+      "scientist": [
+        "Jakob Macke",
+        "Maximilian Dax",
+        "Bernhard Sch\u00f6lkopf"
+      ],
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
       "is_oa": false
@@ -631,7 +647,10 @@
         "W Brendel"
       ],
       "institution_ids": [],
-      "scientist": "Wieland Brendel",
+      "scientist": [
+        "Wieland Brendel",
+        "Bernhard Sch\u00f6lkopf"
+      ],
       "confirmed_ellis_affiliation": false,
       "venue_category": "ICLR",
       "is_oa": false
@@ -690,7 +709,10 @@
         "..."
       ],
       "institution_ids": [],
-      "scientist": "Jonas Geiping",
+      "scientist": [
+        "Jonas Geiping",
+        "Antonio Orvieto"
+      ],
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
       "is_oa": false
@@ -736,7 +758,10 @@
         "..."
       ],
       "institution_ids": [],
-      "scientist": "Jonas Geiping",
+      "scientist": [
+        "Jonas Geiping",
+        "Maksym Andriushchenko"
+      ],
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
       "is_oa": false
@@ -820,7 +845,10 @@
         "..."
       ],
       "institution_ids": [],
-      "scientist": "Jonas Geiping",
+      "scientist": [
+        "Jonas Geiping",
+        "Maksym Andriushchenko"
+      ],
       "confirmed_ellis_affiliation": false,
       "venue_category": "ICLR",
       "is_oa": false
@@ -882,7 +910,10 @@
         "..."
       ],
       "institution_ids": [],
-      "scientist": "Jonas Geiping",
+      "scientist": [
+        "Jonas Geiping",
+        "Maksym Andriushchenko"
+      ],
       "confirmed_ellis_affiliation": false,
       "venue_category": "ICLR",
       "is_oa": false
@@ -925,7 +956,10 @@
         "J Geiping"
       ],
       "institution_ids": [],
-      "scientist": "Jonas Geiping",
+      "scientist": [
+        "Jonas Geiping",
+        "Shiwei Liu"
+      ],
       "confirmed_ellis_affiliation": false,
       "venue_category": "ICLR",
       "is_oa": false
@@ -967,7 +1001,10 @@
         "..."
       ],
       "institution_ids": [],
-      "scientist": "Jonas Geiping",
+      "scientist": [
+        "Jonas Geiping",
+        "Maksym Andriushchenko"
+      ],
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
       "is_oa": false
@@ -1236,7 +1273,10 @@
         "..."
       ],
       "institution_ids": [],
-      "scientist": "Frank Hutter",
+      "scientist": [
+        "Frank Hutter",
+        "Aaron Klein"
+      ],
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
       "is_oa": false
@@ -1261,7 +1301,11 @@
         "..."
       ],
       "institution_ids": [],
-      "scientist": "Frank Hutter",
+      "scientist": [
+        "Frank Hutter",
+        "Bernhard Sch\u00f6lkopf",
+        "David Salinas"
+      ],
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
       "is_oa": false
@@ -1330,7 +1374,10 @@
         "V Cevher"
       ],
       "institution_ids": [],
-      "scientist": "Frank Hutter",
+      "scientist": [
+        "Frank Hutter",
+        "Antonio Orvieto"
+      ],
       "confirmed_ellis_affiliation": false,
       "venue_category": "ICLR",
       "is_oa": false
@@ -1353,7 +1400,11 @@
         "A Zela"
       ],
       "institution_ids": [],
-      "scientist": "Frank Hutter",
+      "scientist": [
+        "Frank Hutter",
+        "Aaron Klein",
+        "David Salinas"
+      ],
       "confirmed_ellis_affiliation": false,
       "venue_category": "ICLR",
       "is_oa": false
@@ -1462,7 +1513,10 @@
         "..."
       ],
       "institution_ids": [],
-      "scientist": "Frank Hutter",
+      "scientist": [
+        "Frank Hutter",
+        "Bernhard Sch\u00f6lkopf"
+      ],
       "confirmed_ellis_affiliation": false,
       "venue_category": "ICML",
       "is_oa": false
@@ -1483,7 +1537,10 @@
         "A Zela"
       ],
       "institution_ids": [],
-      "scientist": "Frank Hutter",
+      "scientist": [
+        "Frank Hutter",
+        "David Salinas"
+      ],
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
       "is_oa": false
@@ -1649,7 +1706,10 @@
         "S Liu"
       ],
       "institution_ids": [],
-      "scientist": "T. Konstantin Rusch",
+      "scientist": [
+        "T. Konstantin Rusch",
+        "Shiwei Liu"
+      ],
       "confirmed_ellis_affiliation": false,
       "venue_category": "ICLR",
       "is_oa": false
@@ -2222,7 +2282,10 @@
         "..."
       ],
       "institution_ids": [],
-      "scientist": "Maksym Andriushchenko",
+      "scientist": [
+        "Maksym Andriushchenko",
+        "Bernhard Sch\u00f6lkopf"
+      ],
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
       "is_oa": false
@@ -2672,7 +2735,10 @@
         "..."
       ],
       "institution_ids": [],
-      "scientist": "Maximilian Dax",
+      "scientist": [
+        "Maximilian Dax",
+        "Bernhard Sch\u00f6lkopf"
+      ],
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
       "is_oa": false
@@ -2831,7 +2897,10 @@
         "..."
       ],
       "institution_ids": [],
-      "scientist": "Maximilian Dax",
+      "scientist": [
+        "Maximilian Dax",
+        "Bernhard Sch\u00f6lkopf"
+      ],
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
       "is_oa": false
@@ -2855,7 +2924,10 @@
         "..."
       ],
       "institution_ids": [],
-      "scientist": "Maximilian Dax",
+      "scientist": [
+        "Maximilian Dax",
+        "Bernhard Sch\u00f6lkopf"
+      ],
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
       "is_oa": false
@@ -2875,7 +2947,10 @@
         "V Cevher"
       ],
       "institution_ids": [],
-      "scientist": "Rediet Abebe",
+      "scientist": [
+        "Rediet Abebe",
+        "Antonio Orvieto"
+      ],
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
       "is_oa": false
@@ -3084,7 +3159,10 @@
         "A Orvieto"
       ],
       "institution_ids": [],
-      "scientist": "Antonio Orvieto",
+      "scientist": [
+        "Antonio Orvieto",
+        "Bernhard Sch\u00f6lkopf"
+      ],
       "confirmed_ellis_affiliation": false,
       "venue_category": "ICLR",
       "is_oa": false
@@ -3150,7 +3228,11 @@
         "A Orvieto"
       ],
       "institution_ids": [],
-      "scientist": "Antonio Orvieto",
+      "scientist": [
+        "Antonio Orvieto",
+        "Bernhard Sch\u00f6lkopf",
+        "Aaron Klein"
+      ],
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
       "is_oa": false
@@ -4326,7 +4408,10 @@
         "D Salinas"
       ],
       "institution_ids": [],
-      "scientist": "Aaron Klein",
+      "scientist": [
+        "Aaron Klein",
+        "David Salinas"
+      ],
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
       "is_oa": false
@@ -4500,7 +4585,10 @@
         "M Andriushchenko"
       ],
       "institution_ids": [],
-      "scientist": "Sahar Abdelnabi",
+      "scientist": [
+        "Sahar Abdelnabi",
+        "Maksym Andriushchenko"
+      ],
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
       "is_oa": false
@@ -4588,7 +4676,10 @@
         "W Brendel"
       ],
       "institution_ids": [],
-      "scientist": "Wieland Brendel",
+      "scientist": [
+        "Wieland Brendel",
+        "Bernhard Sch\u00f6lkopf"
+      ],
       "confirmed_ellis_affiliation": false,
       "venue_category": "ICML",
       "is_oa": false
@@ -4842,7 +4933,10 @@
         "W Brendel"
       ],
       "institution_ids": [],
-      "scientist": "Wieland Brendel",
+      "scientist": [
+        "Wieland Brendel",
+        "Bernhard Sch\u00f6lkopf"
+      ],
       "confirmed_ellis_affiliation": false,
       "venue_category": "ICLR",
       "is_oa": false
@@ -4933,7 +5027,10 @@
         "S Liu"
       ],
       "institution_ids": [],
-      "scientist": "Jonas Geiping",
+      "scientist": [
+        "Jonas Geiping",
+        "Shiwei Liu"
+      ],
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
       "is_oa": false
@@ -4974,7 +5071,10 @@
         "J Geiping"
       ],
       "institution_ids": [],
-      "scientist": "Jonas Geiping",
+      "scientist": [
+        "Jonas Geiping",
+        "Shiwei Liu"
+      ],
       "confirmed_ellis_affiliation": false,
       "venue_category": "ICML",
       "is_oa": false
@@ -5034,7 +5134,10 @@
         "A Orvieto"
       ],
       "institution_ids": [],
-      "scientist": "Jonas Geiping",
+      "scientist": [
+        "Jonas Geiping",
+        "Antonio Orvieto"
+      ],
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
       "is_oa": false
@@ -5075,7 +5178,10 @@
         "J Geiping"
       ],
       "institution_ids": [],
-      "scientist": "Jonas Geiping",
+      "scientist": [
+        "Jonas Geiping",
+        "Antonio Orvieto"
+      ],
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
       "is_oa": false
@@ -5137,7 +5243,10 @@
         "J Geiping"
       ],
       "institution_ids": [],
-      "scientist": "Jonas Geiping",
+      "scientist": [
+        "Jonas Geiping",
+        "Antonio Orvieto"
+      ],
       "confirmed_ellis_affiliation": false,
       "venue_category": "ICML",
       "is_oa": false
@@ -5224,7 +5333,10 @@
         "..."
       ],
       "institution_ids": [],
-      "scientist": "Frank Hutter",
+      "scientist": [
+        "Frank Hutter",
+        "David Salinas"
+      ],
       "confirmed_ellis_affiliation": false,
       "venue_category": "NeurIPS",
       "is_oa": false
@@ -5246,7 +5358,10 @@
         "B Sch\u00f6lkopf"
       ],
       "institution_ids": [],
-      "scientist": "Frank Hutter",
+      "scientist": [
+        "Frank Hutter",
+        "Bernhard Sch\u00f6lkopf"
+      ],
       "confirmed_ellis_affiliation": false,
       "venue_category": "NeurIPS",
       "is_oa": false
@@ -5309,7 +5424,10 @@
         "F Hutter"
       ],
       "institution_ids": [],
-      "scientist": "Frank Hutter",
+      "scientist": [
+        "Frank Hutter",
+        "David Salinas"
+      ],
       "confirmed_ellis_affiliation": false,
       "venue_category": "NeurIPS",
       "is_oa": false
@@ -5420,7 +5538,10 @@
         "..."
       ],
       "institution_ids": [],
-      "scientist": "Frank Hutter",
+      "scientist": [
+        "Frank Hutter",
+        "Bernhard Sch\u00f6lkopf"
+      ],
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
       "is_oa": false
@@ -5645,7 +5766,10 @@
         "..."
       ],
       "institution_ids": [],
-      "scientist": "Frank Hutter",
+      "scientist": [
+        "Frank Hutter",
+        "Aaron Klein"
+      ],
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
       "is_oa": false
@@ -6712,7 +6836,10 @@
         "..."
       ],
       "institution_ids": [],
-      "scientist": "Maksym Andriushchenko",
+      "scientist": [
+        "Maksym Andriushchenko",
+        "Bernhard Sch\u00f6lkopf"
+      ],
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
       "is_oa": false
@@ -6736,7 +6863,10 @@
         "..."
       ],
       "institution_ids": [],
-      "scientist": "Maksym Andriushchenko",
+      "scientist": [
+        "Maksym Andriushchenko",
+        "Bernhard Sch\u00f6lkopf"
+      ],
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
       "is_oa": false
@@ -6759,7 +6889,10 @@
         "..."
       ],
       "institution_ids": [],
-      "scientist": "Maksym Andriushchenko",
+      "scientist": [
+        "Maksym Andriushchenko",
+        "Bernhard Sch\u00f6lkopf"
+      ],
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
       "is_oa": false
@@ -6781,7 +6914,10 @@
         "W Liu"
       ],
       "institution_ids": [],
-      "scientist": "Maximilian Dax",
+      "scientist": [
+        "Maximilian Dax",
+        "Bernhard Sch\u00f6lkopf"
+      ],
       "confirmed_ellis_affiliation": false,
       "venue_category": "NeurIPS",
       "is_oa": false
@@ -6914,7 +7050,10 @@
         "..."
       ],
       "institution_ids": [],
-      "scientist": "Maximilian Dax",
+      "scientist": [
+        "Maximilian Dax",
+        "Bernhard Sch\u00f6lkopf"
+      ],
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
       "is_oa": false
@@ -7246,7 +7385,10 @@
         "..."
       ],
       "institution_ids": [],
-      "scientist": "Maximilian Dax",
+      "scientist": [
+        "Maximilian Dax",
+        "Bernhard Sch\u00f6lkopf"
+      ],
       "confirmed_ellis_affiliation": false,
       "venue_category": "Nature",
       "is_oa": false
@@ -7675,7 +7817,10 @@
         "T Hofmann"
       ],
       "institution_ids": [],
-      "scientist": "Antonio Orvieto",
+      "scientist": [
+        "Antonio Orvieto",
+        "Bernhard Sch\u00f6lkopf"
+      ],
       "confirmed_ellis_affiliation": false,
       "venue_category": "ICML",
       "is_oa": false
@@ -10412,7 +10557,7 @@
       "title": "Flow matching for atmospheric retrieval of exoplanets: Where reliability meets adaptive noise levels",
       "year": 2024,
       "venue": "Astronomy & Astrophysics 693, A42, 2024",
-      "cited_by_count": 18,
+      "cited_by_count": 25,
       "doi": null,
       "citation_id": "VRBv6mEAAAAJ:qUcmZB5y_30C",
       "authors": [
@@ -10425,7 +10570,10 @@
         "..."
       ],
       "institution_ids": [],
-      "scientist": "Maximilian Dax",
+      "scientist": [
+        "Maximilian Dax",
+        "Bernhard Sch\u00f6lkopf"
+      ],
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
       "is_oa": false
@@ -12290,7 +12438,7 @@
       "title": "Causal component analysis",
       "year": 2023,
       "venue": "Advances in Neural Information Processing Systems 36, 32481-32520, 2023",
-      "cited_by_count": 36,
+      "cited_by_count": 46,
       "doi": null,
       "citation_id": "DZ-fHPgAAAAJ:MZEFunz8frsC",
       "authors": [
@@ -13177,7 +13325,7 @@
       {
         "title": "Scaling behavior of discrete diffusion language models",
         "year": 2026,
-        "scientist": "Antonio Orvieto",
+        "scientist": "Antonio Orvieto, Bernhard Sch\u00f6lkopf",
         "co_author": "T Hofmann (matched: thomas hofmann)",
         "doi": null
       },
@@ -13226,7 +13374,7 @@
       {
         "title": "Generalized interpolating discrete diffusion",
         "year": 2025,
-        "scientist": "Antonio Orvieto",
+        "scientist": "Antonio Orvieto, Bernhard Sch\u00f6lkopf",
         "co_author": "T Hofmann (matched: thomas hofmann)",
         "doi": null
       },
@@ -13487,7 +13635,7 @@
       {
         "title": "FutureSim: Replaying world events to evaluate adaptive agents",
         "year": 2026,
-        "scientist": "Jonas Geiping",
+        "scientist": "Jonas Geiping, Maksym Andriushchenko",
         "co_author": "M Hardt (matched: moritz hardt)",
         "doi": null
       },
@@ -13757,7 +13905,7 @@
       {
         "title": "Decomposing and Measuring Evaluation Awareness",
         "year": 2026,
-        "scientist": "Sahar Abdelnabi",
+        "scientist": "Sahar Abdelnabi, Maksym Andriushchenko",
         "co_author": "C Li (matched: changjian li)",
         "doi": null
       },
@@ -13887,21 +14035,21 @@
       {
         "title": "Sequence Modeling Architectures: Foundations [Special Issue on the Mathematics of Deep Learning]",
         "year": 2026,
-        "scientist": "Jonas Geiping",
+        "scientist": "Jonas Geiping, Antonio Orvieto",
         "co_author": "C Gulcehre (matched: caglar gulcehre)",
         "doi": null
       },
       {
         "title": "Adaptive attacks on trusted monitors subvert AI control protocols",
         "year": 2026,
-        "scientist": "Jonas Geiping",
+        "scientist": "Jonas Geiping, Maksym Andriushchenko",
         "co_author": "C Gulcehre (matched: caglar gulcehre)",
         "doi": null
       },
       {
         "title": "Selective rotary position embedding",
         "year": 2026,
-        "scientist": "Frank Hutter",
+        "scientist": "Frank Hutter, Antonio Orvieto",
         "co_author": "V Cevher (matched: volkan cevher)",
         "doi": null
       },
@@ -13929,7 +14077,7 @@
       {
         "title": "GRASP: Deterministic argument ranking in interaction graphs",
         "year": 2026,
-        "scientist": "Rediet Abebe",
+        "scientist": "Rediet Abebe, Antonio Orvieto",
         "co_author": "V Cevher (matched: volkan cevher)",
         "doi": null
       },
@@ -13959,7 +14107,7 @@
       {
         "title": "Identifiable Exchangeable Mechanisms for Causal Structure and Representation Learning",
         "year": 2025,
-        "scientist": "Wieland Brendel",
+        "scientist": "Wieland Brendel, Bernhard Sch\u00f6lkopf",
         "co_author": "F Husz\u00e1r (matched: ferenc huszar)",
         "doi": null
       },
@@ -14033,7 +14181,7 @@
       {
         "title": "FutureSim: Replaying world events to evaluate adaptive agents",
         "year": 2026,
-        "scientist": "Jonas Geiping",
+        "scientist": "Jonas Geiping, Maksym Andriushchenko",
         "co_author": "S Staab (matched: steffen staab)",
         "doi": null
       },
@@ -14049,7 +14197,7 @@
       {
         "title": "Strategic dishonesty can undermine ai safety evaluations of frontier llms",
         "year": 2026,
-        "scientist": "Jonas Geiping",
+        "scientist": "Jonas Geiping, Maksym Andriushchenko",
         "co_author": "W Samek (matched: wojciech samek)",
         "doi": null
       },
@@ -14072,7 +14220,7 @@
       {
         "title": "Use what you know: Causal foundation models with partial graphs",
         "year": 2026,
-        "scientist": "Frank Hutter",
+        "scientist": "Frank Hutter, Bernhard Sch\u00f6lkopf",
         "co_author": "A Weller (matched: adrian weller)",
         "doi": null
       },
@@ -14139,7 +14287,7 @@
       {
         "title": "When is Warmstarting Effective for Scaling Language Models?",
         "year": 2026,
-        "scientist": "Frank Hutter",
+        "scientist": "Frank Hutter, Aaron Klein",
         "co_author": "J Grabocka (matched: josif grabocka)",
         "doi": null
       },

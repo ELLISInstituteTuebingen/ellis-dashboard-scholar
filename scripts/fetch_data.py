@@ -608,6 +608,24 @@ def compute_member_collaborations(all_publications, exact_lookup, fuzzy_lookup):
     return counts, details
 
 
+def _merge_scientist_credit(keep_pub, dupe_pub):
+    """Before discarding a duplicate entry, merge its scientist attribution
+    into the surviving one — otherwise a paper genuinely co-authored by two
+    tracked PIs would silently lose credit for whichever one's copy got
+    deleted, even though the overall publication count is correctly
+    deduplicated."""
+    existing = keep_pub.get("scientist")
+    existing_list = existing if isinstance(existing, list) else [existing] if existing else []
+    incoming = dupe_pub.get("scientist")
+    incoming_list = incoming if isinstance(incoming, list) else [incoming] if incoming else []
+    merged = list(dict.fromkeys(existing_list + incoming_list))  # preserve order, drop exact dupes
+    keep_pub["scientist"] = merged[0] if len(merged) == 1 else merged
+    # Prefer whichever record has richer citation data, since Scholar's
+    # per-profile citation counts for the same paper can differ slightly.
+    if (dupe_pub.get("cited_by_count") or 0) > (keep_pub.get("cited_by_count") or 0):
+        keep_pub["cited_by_count"] = dupe_pub["cited_by_count"]
+
+
 def dedupe_by_title(all_publications):
     """Google Scholar sometimes indexes the same real-world paper twice under
     slightly different titles — once per co-author's profile, occasionally
@@ -615,7 +633,8 @@ def dedupe_by_title(all_publications):
     'Is X Required for Y?'). Two passes: first an exact-substring match
     (catches near-identical titles), then a same-word-set match (catches
     reordered/rephrased duplicates the first pass misses). Keeps whichever
-    entry was seen first."""
+    entry was seen first, but merges scientist attribution from the
+    discarded entry so co-authorship credit isn't silently lost."""
     seen_titles = {}
     removed = 0
     for wid in list(all_publications.keys()):
@@ -624,6 +643,7 @@ def dedupe_by_title(all_publications):
         if not norm:
             continue
         if norm in seen_titles:
+            _merge_scientist_credit(all_publications[seen_titles[norm]], all_publications[wid])
             del all_publications[wid]
             removed += 1
         else:
@@ -636,6 +656,7 @@ def dedupe_by_title(all_publications):
         if not words:
             continue
         if words in seen_word_sets:
+            _merge_scientist_credit(all_publications[seen_word_sets[words]], all_publications[wid])
             del all_publications[wid]
             removed += 1
         else:
