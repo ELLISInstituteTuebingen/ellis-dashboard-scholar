@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-06T14:20:59Z",
+  "generated_at": "2026-08-07T08:13:37Z",
   "institute": "ELLIS Institute T\u00fcbingen",
   "total_publications": 611,
   "confirmed_affiliation_count": 0,
@@ -897,7 +897,7 @@
       "title": "Strategic dishonesty can undermine ai safety evaluations of frontier llms",
       "year": 2026,
       "venue": "International Conference on Learning Representations 2026, 49352-49410, 2026",
-      "cited_by_count": 15,
+      "cited_by_count": 16,
       "doi": null,
       "citation_id": "206vNCEAAAAJ:hMsQuOkrut0C",
       "authors": [
@@ -4539,7 +4539,7 @@
       "title": "The Hawthorne Effect in Reasoning Models: Evaluating and Steering Test Awareness",
       "year": 2025,
       "venue": "NeurIPS (Spotlight \ud83c\udfc6), 2025",
-      "cited_by_count": 42,
+      "cited_by_count": 43,
       "doi": null,
       "citation_id": "QEiYbDYAAAAJ:_mQi-xiA4oYC",
       "authors": [
@@ -5256,7 +5256,7 @@
       "title": "Scaling up test-time compute with latent reasoning: A recurrent depth approach",
       "year": 2025,
       "venue": "The Thirty-ninth Annual Conference on Neural Information Processing Systems, 2025",
-      "cited_by_count": 324,
+      "cited_by_count": 325,
       "doi": null,
       "citation_id": "206vNCEAAAAJ:t6usbXjVLHcC",
       "authors": [
@@ -5297,7 +5297,7 @@
       "title": "Great models think alike and this undermines ai oversight",
       "year": 2025,
       "venue": "arXiv preprint arXiv:2502.04313, 2025",
-      "cited_by_count": 48,
+      "cited_by_count": 49,
       "doi": null,
       "citation_id": "206vNCEAAAAJ:XiVPGOgt02cC",
       "authors": [
@@ -6348,7 +6348,7 @@
       "title": "Accurate predictions on small data with a tabular foundation model",
       "year": 2025,
       "venue": "Nature 637 (8045), 319-326, 2025",
-      "cited_by_count": 1584,
+      "cited_by_count": 1591,
       "doi": null,
       "citation_id": "YUrxwrkAAAAJ:ZqE1mSdD_DYC",
       "authors": [
@@ -6949,7 +6949,7 @@
       "title": "GWTC-4.0: An introduction to version 4.0 of the gravitational-wave transient catalog",
       "year": 2025,
       "venue": "The Astrophysical Journal Letters 995 (1), L18, 2025",
-      "cited_by_count": 115,
+      "cited_by_count": 117,
       "doi": null,
       "citation_id": "VRBv6mEAAAAJ:r0BpntZqJG4C",
       "authors": [
@@ -7217,7 +7217,7 @@
       "title": "GWTC-4.0: Updating the gravitational-wave transient catalog with observations from the first part of the fourth LIGO-Virgo-KAGRA observing run",
       "year": 2025,
       "venue": "arXiv preprint arXiv:2508.18082, 2025",
-      "cited_by_count": 269,
+      "cited_by_count": 270,
       "doi": null,
       "citation_id": "VRBv6mEAAAAJ:maZDTaKrznsC",
       "authors": [
@@ -8201,7 +8201,7 @@
       "title": "In silico biological discovery with large perturbation models",
       "year": 2025,
       "venue": "Nature Computational Science 5 (11), 1029-1040, 2025",
-      "cited_by_count": 19,
+      "cited_by_count": 20,
       "doi": null,
       "citation_id": "DZ-fHPgAAAAJ:RmNfB3aBSJEC",
       "authors": [
@@ -8475,7 +8475,7 @@
       "title": "Adaptable cardiovascular disease risk prediction from heterogeneous data using large language models",
       "year": 2025,
       "venue": "arXiv preprint arXiv:2505.24655, 2025",
-      "cited_by_count": 6,
+      "cited_by_count": 7,
       "doi": null,
       "citation_id": "DZ-fHPgAAAAJ:Rz4odBi1C0wC",
       "authors": [
@@ -8747,7 +8747,7 @@
       "title": "Early warning of complex climate risk with integrated artificial intelligence",
       "year": 2025,
       "venue": "Nature Communications 16 (1), 2564, 2025",
-      "cited_by_count": 165,
+      "cited_by_count": 167,
       "doi": null,
       "citation_id": "DZ-fHPgAAAAJ:ndteoNauYT4C",
       "authors": [
@@ -8792,7 +8792,7 @@
       "title": "Artificial intelligence for modelling infectious disease epidemics",
       "year": 2025,
       "venue": "Nature 638 (8051), 623-635, 2025",
-      "cited_by_count": 213,
+      "cited_by_count": 215,
       "doi": null,
       "citation_id": "DZ-fHPgAAAAJ:nELodgEtCAkC",
       "authors": [
@@ -9858,7 +9858,7 @@
       "title": "Universal guidance for diffusion models",
       "year": 2024,
       "venue": "The Twelfth International Conference on Learning Representations, 2024",
-      "cited_by_count": 613,
+      "cited_by_count": 614,
       "doi": null,
       "citation_id": "206vNCEAAAAJ:_Qo2XoVZTnwC",
       "authors": [
@@ -9967,7 +9967,7 @@
       "title": "The tabular foundation model tabpfn outperforms specialized time series forecasting models based on simple features",
       "year": 2024,
       "venue": "NeurIPS workshop on time series in the age of large models, 2024",
-      "cited_by_count": 131,
+      "cited_by_count": 133,
       "doi": null,
       "citation_id": "YUrxwrkAAAAJ:T_ojBgVMvoEC",
       "authors": [
@@ -10629,7 +10629,7 @@
       "title": "Super consistency of neural network landscapes and learning rate transfer",
       "year": 2024,
       "venue": "Advances in Neural Information Processing Systems 37, 102696-102743, 2024",
-      "cited_by_count": 39,
+      "cited_by_count": 40,
       "doi": null,
       "citation_id": "xkuLyHoAAAAJ:JV2RwH3_ST0C",
       "authors": [
@@ -10889,7 +10889,7 @@
       "title": "From causal to concept-based representation learning",
       "year": 2024,
       "venue": "Advances in Neural Information Processing Systems 37, 101250-101296, 2024",
-      "cited_by_count": 36,
+      "cited_by_count": 38,
       "doi": null,
       "citation_id": "DZ-fHPgAAAAJ:VwfM2gf8564C",
       "authors": [
@@ -11067,7 +11067,7 @@
       "title": "Causal responsibility attribution for human-ai collaboration",
       "year": 2024,
       "venue": "arXiv preprint arXiv:2411.03275, 2024",
-      "cited_by_count": 2,
+      "cited_by_count": 3,
       "doi": null,
       "citation_id": "DZ-fHPgAAAAJ:8asMA1BQqT0C",
       "authors": [
@@ -11239,7 +11239,7 @@
       "title": "Mo\u00fbsai: Efficient text-to-music diffusion models",
       "year": 2024,
       "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational \u2026, 2024",
-      "cited_by_count": 288,
+      "cited_by_count": 289,
       "doi": null,
       "citation_id": "DZ-fHPgAAAAJ:Mjvec00rDE4C",
       "authors": [
@@ -11325,7 +11325,7 @@
       "title": "Accuracy on the wrong line: On the pitfalls of noisy data for out-of-distribution generalisation",
       "year": 2024,
       "venue": "arXiv preprint arXiv:2406.19049, 2024",
-      "cited_by_count": 15,
+      "cited_by_count": 16,
       "doi": null,
       "citation_id": "DZ-fHPgAAAAJ:yOA6RG8w9-QC",
       "authors": [
@@ -11622,7 +11622,7 @@
       "title": "Can large language models infer causation from correlation?",
       "year": 2024,
       "venue": "International Conference on Learning Representations 2024, 28663-28679, 2024",
-      "cited_by_count": 279,
+      "cited_by_count": 280,
       "doi": null,
       "citation_id": "DZ-fHPgAAAAJ:oM9rj33-3hoC",
       "authors": [
@@ -11706,7 +11706,7 @@
       "title": "Open x-embodiment: Robotic learning datasets and rt-x models: Open x-embodiment collaboration 0",
       "year": 2024,
       "venue": "2024 IEEE International Conference on Robotics and Automation (ICRA), 6892-6903, 2024",
-      "cited_by_count": 1939,
+      "cited_by_count": 1943,
       "doi": null,
       "citation_id": "DZ-fHPgAAAAJ:8ETf1LOvnQIC",
       "authors": [
@@ -12158,7 +12158,7 @@
       "title": "A performance-driven benchmark for feature selection in tabular deep learning",
       "year": 2023,
       "venue": "Advances in Neural Information Processing Systems 36, 41956-41979, 2023",
-      "cited_by_count": 60,
+      "cited_by_count": 61,
       "doi": null,
       "citation_id": "206vNCEAAAAJ:NaGl4SEjCO4C",
       "authors": [
@@ -12481,7 +12481,7 @@
       "title": "Cladder: Assessing causal reasoning in language models",
       "year": 2023,
       "venue": "Advances in Neural Information Processing Systems 36, 31038-31065, 2023",
-      "cited_by_count": 351,
+      "cited_by_count": 353,
       "doi": null,
       "citation_id": "DZ-fHPgAAAAJ:vtsb3mgoJX0C",
       "authors": [
@@ -14583,6 +14583,744 @@
     47,
     107,
     200
+  ],
+  "citation_history_by_person": [
+    [
+      {
+        "year": 2016,
+        "citations": 8
+      },
+      {
+        "year": 2017,
+        "citations": 28
+      },
+      {
+        "year": 2018,
+        "citations": 48
+      },
+      {
+        "year": 2019,
+        "citations": 77
+      },
+      {
+        "year": 2020,
+        "citations": 110
+      },
+      {
+        "year": 2021,
+        "citations": 133
+      },
+      {
+        "year": 2022,
+        "citations": 195
+      },
+      {
+        "year": 2023,
+        "citations": 300
+      },
+      {
+        "year": 2024,
+        "citations": 433
+      },
+      {
+        "year": 2025,
+        "citations": 518
+      },
+      {
+        "year": 2026,
+        "citations": 522
+      }
+    ],
+    [
+      {
+        "year": 2021,
+        "citations": 46
+      },
+      {
+        "year": 2022,
+        "citations": 89
+      },
+      {
+        "year": 2023,
+        "citations": 309
+      },
+      {
+        "year": 2024,
+        "citations": 746
+      },
+      {
+        "year": 2025,
+        "citations": 1312
+      },
+      {
+        "year": 2026,
+        "citations": 2074
+      }
+    ],
+    [
+      {
+        "year": 2009,
+        "citations": 33
+      },
+      {
+        "year": 2010,
+        "citations": 65
+      },
+      {
+        "year": 2011,
+        "citations": 65
+      },
+      {
+        "year": 2012,
+        "citations": 76
+      },
+      {
+        "year": 2013,
+        "citations": 117
+      },
+      {
+        "year": 2014,
+        "citations": 113
+      },
+      {
+        "year": 2015,
+        "citations": 176
+      },
+      {
+        "year": 2016,
+        "citations": 231
+      },
+      {
+        "year": 2017,
+        "citations": 306
+      },
+      {
+        "year": 2018,
+        "citations": 316
+      },
+      {
+        "year": 2019,
+        "citations": 404
+      },
+      {
+        "year": 2020,
+        "citations": 469
+      },
+      {
+        "year": 2021,
+        "citations": 607
+      },
+      {
+        "year": 2022,
+        "citations": 883
+      },
+      {
+        "year": 2023,
+        "citations": 1125
+      },
+      {
+        "year": 2024,
+        "citations": 1510
+      },
+      {
+        "year": 2025,
+        "citations": 1953
+      },
+      {
+        "year": 2026,
+        "citations": 1806
+      }
+    ],
+    [
+      {
+        "year": 2017,
+        "citations": 83
+      },
+      {
+        "year": 2018,
+        "citations": 172
+      },
+      {
+        "year": 2019,
+        "citations": 723
+      },
+      {
+        "year": 2020,
+        "citations": 1523
+      },
+      {
+        "year": 2021,
+        "citations": 2392
+      },
+      {
+        "year": 2022,
+        "citations": 3172
+      },
+      {
+        "year": 2023,
+        "citations": 3649
+      },
+      {
+        "year": 2024,
+        "citations": 3622
+      },
+      {
+        "year": 2025,
+        "citations": 3896
+      },
+      {
+        "year": 2026,
+        "citations": 3098
+      }
+    ],
+    [
+      {
+        "year": 2020,
+        "citations": 49
+      },
+      {
+        "year": 2021,
+        "citations": 244
+      },
+      {
+        "year": 2022,
+        "citations": 590
+      },
+      {
+        "year": 2023,
+        "citations": 1600
+      },
+      {
+        "year": 2024,
+        "citations": 3455
+      },
+      {
+        "year": 2025,
+        "citations": 4794
+      },
+      {
+        "year": 2026,
+        "citations": 3693
+      }
+    ],
+    [
+      {
+        "year": 2013,
+        "citations": 485
+      },
+      {
+        "year": 2014,
+        "citations": 703
+      },
+      {
+        "year": 2015,
+        "citations": 732
+      },
+      {
+        "year": 2016,
+        "citations": 982
+      },
+      {
+        "year": 2017,
+        "citations": 1366
+      },
+      {
+        "year": 2018,
+        "citations": 2471
+      },
+      {
+        "year": 2019,
+        "citations": 4261
+      },
+      {
+        "year": 2020,
+        "citations": 6602
+      },
+      {
+        "year": 2021,
+        "citations": 10299
+      },
+      {
+        "year": 2022,
+        "citations": 13955
+      },
+      {
+        "year": 2023,
+        "citations": 18212
+      },
+      {
+        "year": 2024,
+        "citations": 23456
+      },
+      {
+        "year": 2025,
+        "citations": 29779
+      },
+      {
+        "year": 2026,
+        "citations": 23296
+      }
+    ],
+    [
+      {
+        "year": 2020,
+        "citations": 7
+      },
+      {
+        "year": 2021,
+        "citations": 38
+      },
+      {
+        "year": 2022,
+        "citations": 76
+      },
+      {
+        "year": 2023,
+        "citations": 216
+      },
+      {
+        "year": 2024,
+        "citations": 438
+      },
+      {
+        "year": 2025,
+        "citations": 573
+      },
+      {
+        "year": 2026,
+        "citations": 431
+      }
+    ],
+    [
+      {
+        "year": 2020,
+        "citations": 22
+      },
+      {
+        "year": 2021,
+        "citations": 84
+      },
+      {
+        "year": 2022,
+        "citations": 163
+      },
+      {
+        "year": 2023,
+        "citations": 434
+      },
+      {
+        "year": 2024,
+        "citations": 825
+      },
+      {
+        "year": 2025,
+        "citations": 1548
+      },
+      {
+        "year": 2026,
+        "citations": 1252
+      }
+    ],
+    [
+      {
+        "year": 2018,
+        "citations": 68
+      },
+      {
+        "year": 2019,
+        "citations": 123
+      },
+      {
+        "year": 2020,
+        "citations": 302
+      },
+      {
+        "year": 2021,
+        "citations": 642
+      },
+      {
+        "year": 2022,
+        "citations": 1019
+      },
+      {
+        "year": 2023,
+        "citations": 1284
+      },
+      {
+        "year": 2024,
+        "citations": 1709
+      },
+      {
+        "year": 2025,
+        "citations": 2826
+      },
+      {
+        "year": 2026,
+        "citations": 2832
+      }
+    ],
+    [
+      {
+        "year": 2020,
+        "citations": 17
+      },
+      {
+        "year": 2021,
+        "citations": 45
+      },
+      {
+        "year": 2022,
+        "citations": 105
+      },
+      {
+        "year": 2023,
+        "citations": 232
+      },
+      {
+        "year": 2024,
+        "citations": 511
+      },
+      {
+        "year": 2025,
+        "citations": 1128
+      },
+      {
+        "year": 2026,
+        "citations": 1888
+      }
+    ],
+    [
+      {
+        "year": 2013,
+        "citations": 15
+      },
+      {
+        "year": 2014,
+        "citations": 11
+      },
+      {
+        "year": 2015,
+        "citations": 32
+      },
+      {
+        "year": 2016,
+        "citations": 53
+      },
+      {
+        "year": 2017,
+        "citations": 72
+      },
+      {
+        "year": 2018,
+        "citations": 79
+      },
+      {
+        "year": 2019,
+        "citations": 106
+      },
+      {
+        "year": 2020,
+        "citations": 224
+      },
+      {
+        "year": 2021,
+        "citations": 334
+      },
+      {
+        "year": 2022,
+        "citations": 432
+      },
+      {
+        "year": 2023,
+        "citations": 537
+      },
+      {
+        "year": 2024,
+        "citations": 732
+      },
+      {
+        "year": 2025,
+        "citations": 880
+      },
+      {
+        "year": 2026,
+        "citations": 596
+      }
+    ],
+    [
+      {
+        "year": 2020,
+        "citations": 24
+      },
+      {
+        "year": 2021,
+        "citations": 59
+      },
+      {
+        "year": 2022,
+        "citations": 152
+      },
+      {
+        "year": 2023,
+        "citations": 310
+      },
+      {
+        "year": 2024,
+        "citations": 562
+      },
+      {
+        "year": 2025,
+        "citations": 885
+      },
+      {
+        "year": 2026,
+        "citations": 833
+      }
+    ],
+    [
+      {
+        "year": 2001,
+        "citations": 1046
+      },
+      {
+        "year": 2002,
+        "citations": 1477
+      },
+      {
+        "year": 2003,
+        "citations": 2390
+      },
+      {
+        "year": 2004,
+        "citations": 3382
+      },
+      {
+        "year": 2005,
+        "citations": 4323
+      },
+      {
+        "year": 2006,
+        "citations": 5304
+      },
+      {
+        "year": 2007,
+        "citations": 6107
+      },
+      {
+        "year": 2008,
+        "citations": 6732
+      },
+      {
+        "year": 2009,
+        "citations": 7419
+      },
+      {
+        "year": 2010,
+        "citations": 7639
+      },
+      {
+        "year": 2011,
+        "citations": 7945
+      },
+      {
+        "year": 2012,
+        "citations": 8199
+      },
+      {
+        "year": 2013,
+        "citations": 8978
+      },
+      {
+        "year": 2014,
+        "citations": 9453
+      },
+      {
+        "year": 2015,
+        "citations": 10128
+      },
+      {
+        "year": 2016,
+        "citations": 10755
+      },
+      {
+        "year": 2017,
+        "citations": 10930
+      },
+      {
+        "year": 2018,
+        "citations": 12758
+      },
+      {
+        "year": 2019,
+        "citations": 14396
+      },
+      {
+        "year": 2020,
+        "citations": 16643
+      },
+      {
+        "year": 2021,
+        "citations": 18367
+      },
+      {
+        "year": 2022,
+        "citations": 20121
+      },
+      {
+        "year": 2023,
+        "citations": 21748
+      },
+      {
+        "year": 2024,
+        "citations": 23727
+      },
+      {
+        "year": 2025,
+        "citations": 26835
+      },
+      {
+        "year": 2026,
+        "citations": 19428
+      }
+    ],
+    [
+      {
+        "year": 2016,
+        "citations": 50
+      },
+      {
+        "year": 2017,
+        "citations": 162
+      },
+      {
+        "year": 2018,
+        "citations": 380
+      },
+      {
+        "year": 2019,
+        "citations": 781
+      },
+      {
+        "year": 2020,
+        "citations": 1227
+      },
+      {
+        "year": 2021,
+        "citations": 1569
+      },
+      {
+        "year": 2022,
+        "citations": 1535
+      },
+      {
+        "year": 2023,
+        "citations": 1557
+      },
+      {
+        "year": 2024,
+        "citations": 1585
+      },
+      {
+        "year": 2025,
+        "citations": 1640
+      },
+      {
+        "year": 2026,
+        "citations": 1043
+      }
+    ],
+    [
+      {
+        "year": 2012,
+        "citations": 24
+      },
+      {
+        "year": 2013,
+        "citations": 33
+      },
+      {
+        "year": 2014,
+        "citations": 24
+      },
+      {
+        "year": 2015,
+        "citations": 14
+      },
+      {
+        "year": 2016,
+        "citations": 20
+      },
+      {
+        "year": 2017,
+        "citations": 23
+      },
+      {
+        "year": 2018,
+        "citations": 45
+      },
+      {
+        "year": 2019,
+        "citations": 149
+      },
+      {
+        "year": 2020,
+        "citations": 347
+      },
+      {
+        "year": 2021,
+        "citations": 738
+      },
+      {
+        "year": 2022,
+        "citations": 1007
+      },
+      {
+        "year": 2023,
+        "citations": 1294
+      },
+      {
+        "year": 2024,
+        "citations": 1555
+      },
+      {
+        "year": 2025,
+        "citations": 2050
+      },
+      {
+        "year": 2026,
+        "citations": 1543
+      }
+    ],
+    [
+      {
+        "year": 2020,
+        "citations": 29
+      },
+      {
+        "year": 2021,
+        "citations": 135
+      },
+      {
+        "year": 2022,
+        "citations": 373
+      },
+      {
+        "year": 2023,
+        "citations": 675
+      },
+      {
+        "year": 2024,
+        "citations": 1410
+      },
+      {
+        "year": 2025,
+        "citations": 2615
+      },
+      {
+        "year": 2026,
+        "citations": 2736
+      }
+    ]
   ],
   "budget_by_year": {
     "2023": 316627.0,

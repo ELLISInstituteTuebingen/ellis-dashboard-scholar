@@ -364,6 +364,48 @@ function renderGrowthChart(data) {
   });
 }
 
+function renderCitationGrowthChart(data) {
+  const histories = data.citation_history_by_person || [];
+  if (!histories.length) return;
+
+  const allYears = new Set();
+  histories.forEach(h => h.forEach(pt => allYears.add(pt.year)));
+  const years = [...allYears].sort((a, b) => a - b);
+
+  const datasets = histories.map(h => {
+    const byYear = {};
+    h.forEach(pt => { byYear[pt.year] = pt.citations; });
+    return {
+      data: years.map(y => (byYear[y] > 0 ? byYear[y] : null)),
+      borderColor: COLORS.network,
+      backgroundColor: 'transparent',
+      borderWidth: 1.5,
+      pointRadius: 0,
+      spanGaps: false,
+      tension: 0.15,
+    };
+  });
+
+  new Chart(document.getElementById('citationGrowthChart'), {
+    type: 'line',
+    data: { labels: years, datasets },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      plugins: { legend: { display: false } },
+      scales: {
+        x: { ticks: { color: COLORS.muted, font: { family: 'JetBrains Mono', size: 11 } }, grid: { color: COLORS.line } },
+        y: {
+          type: 'logarithmic',
+          ticks: { color: COLORS.muted, font: { family: 'JetBrains Mono', size: 11 } },
+          grid: { color: COLORS.line },
+          title: { display: true, text: 'Citations received that year (log scale)', color: COLORS.muted, font: { family: 'JetBrains Mono', size: 11 } },
+        },
+      },
+    },
+  });
+}
+
 function renderHIndex(data) {
   const container = document.getElementById('hindexPlot');
   const values = data.h_index_distribution || [];
@@ -489,6 +531,7 @@ loadData().then(data => {
   renderCitationChart(data);
   renderGrowthChart(data);
   renderHIndex(data);
+  renderCitationGrowthChart(data);
   renderNetwork(data);
   renderTable(data);
 }).catch(err => {

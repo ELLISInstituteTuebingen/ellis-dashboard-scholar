@@ -161,22 +161,27 @@ def fetch_precise_publication_date(scholar_id, citation_id, name):
         return None
 
 
-def fetch_scholar_h_index(scholar_id, name):
-    """Fetches h-index directly from a person's real Google Scholar profile
-    via SerpAPI. Google Scholar indexes much more broadly than OpenAlex
-    (workshop papers, technical reports, less strict deduplication), so its
-    h-index is typically noticeably higher than OpenAlex's for the same
-    person — that's expected, not an error."""
+def fetch_scholar_profile_stats(scholar_id, name):
+    """Fetches h-index AND citations-received-per-year from a person's real
+    Google Scholar profile, in a single API call (Google Scholar indexes
+    much more broadly than OpenAlex, so h-index is typically noticeably
+    higher than OpenAlex's for the same person — that's expected, not an
+    error). Returns (h_index, citation_history) where citation_history is a
+    list of {"year": Y, "citations": C} — citations RECEIVED that year
+    across their full career, not cumulative and not limited to their time
+    at the Institute."""
     if not scholar_id:
-        return None
+        return None, []
     data = _serpapi_get({"engine": "google_scholar_author", "author_id": scholar_id}, name)
     if not data:
-        return None
-    table = data.get("cited_by", {}).get("table", [])
-    for row in table:
+        return None, []
+    h_index = None
+    for row in data.get("cited_by", {}).get("table", []):
         if "h_index" in row:
-            return row["h_index"].get("all")
-    return None
+            h_index = row["h_index"].get("all")
+            break
+    citation_history = data.get("cited_by", {}).get("graph", [])
+    return h_index, citation_history
 
 
 MAX_SCHOLAR_PAGES = 5  # safety cap (≈500 articles) so one very prolific
@@ -736,6 +741,7 @@ def main():
         per_scientist_counts[scientist["name"]] = 0
 
     h_index_values = []  # anonymized list, no names attached — for the plot
+    citation_history_by_person = []  # anonymized list of per-year citation histories
 
     for scientist in team["scientists"]:
         scholar_id = scientist.get("google_scholar_id")
@@ -748,9 +754,10 @@ def main():
         joined_date = scientist.get("joined_date")
         join_year = int(joined_date[:4]) if joined_date else None
 
-        # h-index comes directly from Scholar's own profile summary (one
-        # API call, independent of the paginated article list below).
-        scholar_h_index = fetch_scholar_h_index(scholar_id, scientist["name"])
+        # h-index and citation history both come from Scholar's own profile
+        # summary — a single API call, independent of the paginated article
+        # list below.
+        scholar_h_index, citation_history = fetch_scholar_profile_stats(scholar_id, scientist["name"])
         if scholar_h_index is not None:
             h_index_values.append(scholar_h_index)
             print(f"Fetching Google Scholar data for {scientist['name']} ({scholar_id})...")
@@ -760,6 +767,9 @@ def main():
             print(f"Fetching Google Scholar data for {scientist['name']} ({scholar_id})...")
             print(f"    [warn] No h-index available (quota exhausted, API key missing, "
                   f"or profile fetch failed) — recorded as 0.")
+
+        if citation_history:
+            citation_history_by_person.append(citation_history)
 
         articles = fetch_scholar_articles(scholar_id, scientist["name"], join_year)
         before_count = len(articles)
@@ -884,6 +894,7 @@ def main():
         "ellis_member_collaborations": member_collaborations,
         "ellis_member_collaboration_details": member_collaboration_details,
         "h_index_distribution": sorted(h_index_values),
+        "citation_history_by_person": citation_history_by_person,
         "budget_by_year": budget_cfg.get("budget_by_year", {}),
         "budget_partial_years": budget_cfg.get("partial_years", {}),
         "venue_counts": {v: all_venue_counts.get(v, 0) for v in CORE_VENUE_PATTERNS},
