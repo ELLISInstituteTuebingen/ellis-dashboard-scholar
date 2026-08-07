@@ -769,7 +769,9 @@ def main():
                   f"or profile fetch failed) — recorded as 0.")
 
         if citation_history:
-            citation_history_by_person.append(citation_history)
+            filtered_history = [pt for pt in citation_history if join_year and pt.get("year", 0) >= join_year]
+            if filtered_history:
+                citation_history_by_person.append(filtered_history)
 
         articles = fetch_scholar_articles(scholar_id, scientist["name"], join_year)
         before_count = len(articles)
