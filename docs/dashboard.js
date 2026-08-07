@@ -105,41 +105,6 @@ function renderVenues(data) {
   }
 }
 
-function renderCitationChart(data) {
-  const citationsByYear = {};
-  (data.publications || []).forEach(p => {
-    if (p.year && typeof p.cited_by_count === 'number') {
-      citationsByYear[p.year] = (citationsByYear[p.year] || 0) + p.cited_by_count;
-    }
-  });
-
-  const years = Object.keys(citationsByYear).sort();
-  const totals = years.map(y => citationsByYear[y]);
-
-  new Chart(document.getElementById('citationChart'), {
-    type: 'bar',
-    data: {
-      labels: years,
-      datasets: [{
-        label: 'Total citations',
-        data: totals,
-        backgroundColor: COLORS.network,
-        borderRadius: 2,
-        maxBarThickness: 46,
-      }],
-    },
-    options: {
-      responsive: true,
-      maintainAspectRatio: false,
-      plugins: { legend: { display: false } },
-      scales: {
-        x: { ticks: { color: COLORS.muted, font: { family: 'JetBrains Mono', size: 11 } }, grid: { color: COLORS.line } },
-        y: { beginAtZero: true, ticks: { color: COLORS.muted, precision: 0 }, grid: { color: COLORS.line } },
-      },
-    },
-  });
-}
-
 function renderTrendChart(data) {
   const venuesByYear = data.top_venues_by_year || {};
   const years = Object.keys(venuesByYear).sort();
@@ -311,59 +276,6 @@ function renderTable(data) {
   draw();
 }
 
-function renderGrowthChart(data) {
-  const joinDates = (data.scientist_join_dates || []).slice().sort();
-  if (!joinDates.length) return;
-
-  const formatLabel = iso => {
-    const d = new Date(iso + 'T00:00:00');
-    return d.toLocaleDateString('en-US', { month: 'short', year: 'numeric' });
-  };
-
-  const labels = joinDates.map(formatLabel);
-  const cumulative = joinDates.map((_, i) => i + 1);
-
-  // Extend the line to "today" so it doesn't just stop at the last join date.
-  const today = new Date().toISOString().slice(0, 10);
-  if (today > joinDates[joinDates.length - 1]) {
-    labels.push(formatLabel(today));
-    cumulative.push(cumulative[cumulative.length - 1]);
-  }
-
-  new Chart(document.getElementById('growthChart'), {
-    type: 'line',
-    data: {
-      labels,
-      datasets: [{
-        label: 'PIs & project leaders',
-        data: cumulative,
-        borderColor: COLORS.sandstone,
-        backgroundColor: COLORS.sandstone,
-        stepped: 'before',
-        pointRadius: 3,
-        pointBackgroundColor: COLORS.sandstone,
-        fill: false,
-      }],
-    },
-    options: {
-      responsive: true,
-      maintainAspectRatio: false,
-      plugins: { legend: { display: false } },
-      scales: {
-        x: {
-          ticks: { color: COLORS.muted, font: { family: 'JetBrains Mono', size: 10 }, maxRotation: 45, minRotation: 45 },
-          grid: { color: COLORS.line },
-        },
-        y: {
-          beginAtZero: true,
-          ticks: { color: COLORS.muted, precision: 0 },
-          grid: { color: COLORS.line },
-        },
-      },
-    },
-  });
-}
-
 function renderCitationGrowthTotalChart(data) {
   const histories = data.citation_history_by_person || [];
   if (!histories.length) return;
@@ -524,8 +436,6 @@ loadData().then(data => {
   renderStats(data);
   renderVenues(data);
   renderTrendChart(data);
-  renderCitationChart(data);
-  renderGrowthChart(data);
   renderHIndex(data);
   renderCitationGrowthTotalChart(data);
   renderNetwork(data);
