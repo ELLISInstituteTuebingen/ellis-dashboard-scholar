@@ -406,6 +406,44 @@ function renderCitationGrowthChart(data) {
   });
 }
 
+function renderCitationGrowthTotalChart(data) {
+  const histories = data.citation_history_by_person || [];
+  if (!histories.length) return;
+
+  const totalsByYear = {};
+  histories.forEach(h => {
+    h.forEach(pt => {
+      totalsByYear[pt.year] = (totalsByYear[pt.year] || 0) + pt.citations;
+    });
+  });
+
+  const years = Object.keys(totalsByYear).sort();
+  const totals = years.map(y => totalsByYear[y]);
+
+  new Chart(document.getElementById('citationGrowthTotalChart'), {
+    type: 'bar',
+    data: {
+      labels: years,
+      datasets: [{
+        label: 'Total citations',
+        data: totals,
+        backgroundColor: COLORS.sandstone,
+        borderRadius: 2,
+        maxBarThickness: 60,
+      }],
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      plugins: { legend: { display: false } },
+      scales: {
+        x: { ticks: { color: COLORS.muted, font: { family: 'JetBrains Mono', size: 11 } }, grid: { color: COLORS.line } },
+        y: { beginAtZero: true, ticks: { color: COLORS.muted, precision: 0 }, grid: { color: COLORS.line } },
+      },
+    },
+  });
+}
+
 function renderHIndex(data) {
   const container = document.getElementById('hindexPlot');
   const values = data.h_index_distribution || [];
@@ -532,6 +570,7 @@ loadData().then(data => {
   renderGrowthChart(data);
   renderHIndex(data);
   renderCitationGrowthChart(data);
+  renderCitationGrowthTotalChart(data);
   renderNetwork(data);
   renderTable(data);
 }).catch(err => {
