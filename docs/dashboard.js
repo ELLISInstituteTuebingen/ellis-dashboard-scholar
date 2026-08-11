@@ -7,6 +7,15 @@ const COLORS = {
   surface: '#171E22',
 };
 
+// Escape untrusted strings (paper titles, author names, venues from Google
+// Scholar) before injecting them via innerHTML. A stray "<" in a title would
+// otherwise break rendering or, in the worst case, inject markup.
+function esc(s) {
+  return String(s ?? '').replace(/[&<>"']/g, c => (
+    { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]
+  ));
+}
+
 async function loadData() {
   const res = await fetch('data/publications.json');
   return res.json();
@@ -25,10 +34,17 @@ function renderStats(data) {
     { num: numUnits, label: 'ELLIS Sites collaborated with' },
   ];
 
+  // Only surface the open-access stat once the pipeline has actually
+  // populated it (it stays hidden until the first enriched run), so the
+  // card never shows a misleading 0%.
+  if (data.open_access_count > 0) {
+    stats.push({ num: `${data.open_access_percent}%`, label: 'Open access', isRaw: true });
+  }
+
   const row = document.getElementById('stat-row');
   row.innerHTML = stats.map(s => `
     <div class="stat">
-      <div class="num">${s.num.toLocaleString()}</div>
+      <div class="num">${s.isRaw ? s.num : s.num.toLocaleString()}</div>
       <div class="label">${s.label}</div>
     </div>
   `).join('');
@@ -36,29 +52,6 @@ function renderStats(data) {
   const updated = new Date(data.generated_at);
   document.getElementById('updated-note').textContent =
     `Last updated ${updated.toLocaleDateString(undefined, { year: 'numeric', month: 'long', day: 'numeric' })}`;
-}
-
-function renderMemberCollaborations(data) {
-  const container = document.getElementById('member-collab-list');
-  const collabs = data.ellis_member_collaborations || {};
-  const entries = Object.entries(collabs);
-
-  if (!entries.length) {
-    container.innerHTML = `<p style="color:var(--muted); font-size:13.5px;">No confirmed collaborations found yet against the current ELLIS member roster.</p>`;
-    return;
-  }
-
-  const maxCount = Math.max(...entries.map(([, c]) => c));
-  container.innerHTML = entries.map(([site, count]) => {
-    const pct = Math.max(4, Math.round((count / maxCount) * 100));
-    return `
-      <div class="member-collab-row">
-        <div class="site-name">${site.replace('Unit ', '').replace('Institute ', '')}</div>
-        <div class="bar-track"><div class="bar-fill" style="width:${pct}%"></div></div>
-        <div class="count">${count}</div>
-      </div>
-    `;
-  }).join('');
 }
 
 let VENUE_PAPERS_CACHE = {};
@@ -183,11 +176,11 @@ function renderNetwork(data) {
     edges += `<path class="edge" d="M ${cx} ${cy} L ${x} ${y}" stroke-width="${strokeWidth.toFixed(1)}" />`;
     nodes += `
       <g class="node-unit" transform="translate(${x},${y})" tabindex="0" role="button"
-         aria-label="View shared papers with ${name}"
+         aria-label="View shared papers with ${esc(name)}"
          onclick="openCollabModal('${name.replace(/'/g, "\\'")}')"
          onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();openCollabModal('${name.replace(/'/g, "\\'")}')}">
         <circle r="${r.toFixed(1)}" />
-        <text text-anchor="middle" dy="${r + 15}" font-size="${labelSize.toFixed(1)}">${name.replace('ELLIS Unit ', '').replace('Unit ', '').replace('Institute ', '')}</text>
+        <text text-anchor="middle" dy="${r + 15}" font-size="${labelSize.toFixed(1)}">${esc(name.replace('ELLIS Unit ', '').replace('Unit ', '').replace('Institute ', ''))}</text>
         <text text-anchor="middle" dy="4" font-size="${(labelSize - 1).toFixed(1)}" fill="${COLORS.network}">${count}</text>
       </g>`;
   });
@@ -206,10 +199,10 @@ function renderNetwork(data) {
 
   if (sideList) {
     const rows = minorUnits.map(([name, count]) => `
-      <div class="side-row" tabindex="0" role="button" aria-label="View shared papers with ${name}"
+      <div class="side-row" tabindex="0" role="button" aria-label="View shared papers with ${esc(name)}"
            onclick="openCollabModal('${name.replace(/'/g, "\\'")}')"
            onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();openCollabModal('${name.replace(/'/g, "\\'")}')}">
-        <span class="site-name">${name.replace('ELLIS Unit ', '').replace('Unit ', '').replace('Institute ', '')}</span>
+        <span class="site-name">${esc(name.replace('ELLIS Unit ', '').replace('Unit ', '').replace('Institute ', ''))}</span>
         <span class="site-count">${count}</span>
       </div>
     `).join('');
@@ -217,11 +210,46 @@ function renderNetwork(data) {
   }
 }
 
+// ---- Most-cited papers -----------------------------------------------------
+function renderMostCited(data) {
+  const container = document.getElementById('topCitedList');
+  if (!container) return;
+
+  const top = (data.publications || [])
+    .slice()
+    .sort((a, b) => (b.cited_by_count || 0) - (a.cited_by_count || 0))
+    .slice(0, 5);
+
+  if (!top.length) {
+    container.innerHTML = `<p style="color:var(--muted); font-size:13.5px;">No publications available yet.</p>`;
+    return;
+  }
+
+  container.innerHTML = top.map((p, i) => {
+    const scientistStr = Array.isArray(p.scientist) ? p.scientist.join(', ') : p.scientist;
+    return `
+      <div class="topcited-row">
+        <div class="topcited-rank">${i + 1}</div>
+        <div class="topcited-main">
+          <div class="pub-title">${esc(p.title)}</div>
+          <div class="pub-meta">${esc(scientistStr)} · ${esc(p.venue || p.venue_category || '—')} · ${p.year || '—'}</div>
+        </div>
+        <div class="topcited-cites">
+          <div class="topcited-cites-num">${(p.cited_by_count || 0).toLocaleString()}</div>
+          <div class="topcited-cites-label">citations</div>
+        </div>
+      </div>
+    `;
+  }).join('');
+}
+
 function renderTable(data) {
   const tbody = document.getElementById('pubTableBody');
   const scientistFilter = document.getElementById('scientistFilter');
   const yearFilter = document.getElementById('yearFilter');
   const searchBox = document.getElementById('searchBox');
+  const PAGE_SIZE = 60;
+  let visibleCount = PAGE_SIZE;
 
   const scientists = Object.keys(data.per_scientist_counts).sort();
   scientists.forEach(s => {
@@ -237,7 +265,30 @@ function renderTable(data) {
     yearFilter.appendChild(opt);
   });
 
-  function draw() {
+  // ---- Shareable filter state via the URL hash --------------------------
+  // Encodes the current search/scientist/year into the address bar so a
+  // filtered view can be bookmarked or shared as a link.
+  function readHash() {
+    const raw = window.location.hash.replace(/^#/, '');
+    if (!raw.startsWith('pubs?')) return;
+    const params = new URLSearchParams(raw.slice('pubs?'.length));
+    if (params.has('q')) searchBox.value = params.get('q');
+    if (params.has('scientist')) scientistFilter.value = params.get('scientist');
+    if (params.has('year')) yearFilter.value = params.get('year');
+  }
+
+  function writeHash() {
+    const params = new URLSearchParams();
+    if (searchBox.value) params.set('q', searchBox.value);
+    if (scientistFilter.value) params.set('scientist', scientistFilter.value);
+    if (yearFilter.value) params.set('year', yearFilter.value);
+    const str = params.toString();
+    const newHash = str ? `#pubs?${str}` : '#publications';
+    history.replaceState(null, '', newHash);
+  }
+
+  function draw(resetPage = true) {
+    if (resetPage) visibleCount = PAGE_SIZE;
     const q = searchBox.value.toLowerCase();
     const sFilter = scientistFilter.value;
     const yFilter = yearFilter.value;
@@ -254,25 +305,41 @@ function renderTable(data) {
       return matchesSearch && matchesScientist && matchesYear;
     });
 
-    tbody.innerHTML = rows.map(p => {
+    const shown = rows.slice(0, visibleCount);
+
+    tbody.innerHTML = shown.map(p => {
       const scientistList = Array.isArray(p.scientist) ? p.scientist.join(', ') : p.scientist;
       return `
         <tr>
           <td>
-            <div class="pub-title">${p.title}</div>
-            <div class="pub-meta">${p.venue || '—'} · ${p.authors.join(', ')}</div>
+            <div class="pub-title">${esc(p.title)}</div>
+            <div class="pub-meta">${esc(p.venue || '—')} · ${esc(p.authors.join(', '))}</div>
           </td>
-          <td>${scientistList}</td>
+          <td>${esc(scientistList)}</td>
           <td class="year-tag">${p.year || '—'}</td>
           <td class="cite-tag">${p.cited_by_count ?? 0}</td>
         </tr>
       `;
     }).join('') || `<tr><td colspan="4" style="color:var(--muted); padding:20px 12px;">No publications match those filters.</td></tr>`;
+
+    const moreWrap = document.getElementById('pubShowMoreWrap');
+    if (moreWrap) {
+      const remaining = rows.length - shown.length;
+      moreWrap.innerHTML = remaining > 0
+        ? `<button id="pubShowMore" class="show-more-btn">Show ${Math.min(PAGE_SIZE, remaining)} more (${remaining} hidden)</button>`
+        : (rows.length > PAGE_SIZE
+            ? `<span class="show-more-note">Showing all ${rows.length} matching publications</span>`
+            : '');
+      const btn = document.getElementById('pubShowMore');
+      if (btn) btn.addEventListener('click', () => { visibleCount += PAGE_SIZE; draw(false); });
+    }
   }
 
-  searchBox.addEventListener('input', draw);
-  scientistFilter.addEventListener('change', draw);
-  yearFilter.addEventListener('change', draw);
+  searchBox.addEventListener('input', () => { draw(); writeHash(); });
+  scientistFilter.addEventListener('change', () => { draw(); writeHash(); });
+  yearFilter.addEventListener('change', () => { draw(); writeHash(); });
+
+  readHash();
   draw();
 }
 
@@ -365,70 +432,6 @@ function renderHIndex(data) {
   container.innerHTML = svg;
 }
 
-function switchTab(name) {
-  document.querySelectorAll('.tab-btn').forEach(btn => {
-    btn.classList.toggle('active', btn.dataset.tab === name);
-  });
-  document.querySelectorAll('.tab-panel').forEach(panel => {
-    panel.classList.toggle('active', panel.id === `tab-${name}`);
-  });
-}
-
-async function loadActivities() {
-  try {
-    const res = await fetch('data/activities.json');
-    if (!res.ok) return;
-    const data = await res.json();
-    initActivities(data.entries || []);
-  } catch (err) {
-    console.warn('Could not load activities.json:', err.message);
-  }
-}
-
-const ACTIVITY_TYPE_LABELS = {
-  talk: 'Talk', press: 'Press', media: 'Media', award: 'Award',
-  grant: 'Grant', recognition: 'Recognition', panel: 'Panel',
-  organizing: 'Organizing', podcast: 'Podcast', startup: 'Start-up',
-};
-
-function initActivities(entries) {
-  const typeFilter = document.getElementById('activityTypeFilter');
-  const listEl = document.getElementById('activityList');
-  if (!listEl) return;
-
-  function draw() {
-    const type = typeFilter.value;
-    const filtered = entries.filter(e => !type || e.type === type);
-
-    if (!filtered.length) {
-      listEl.innerHTML = `<p style="color:var(--muted); font-size:13.5px; padding:20px 0;">No activities match this filter yet.</p>`;
-      return;
-    }
-
-    listEl.innerHTML = filtered.map(e => {
-      const titleHtml = e.url
-        ? `<a href="${e.url}" target="_blank" rel="noopener">${e.title}</a>`
-        : e.title;
-      const dateLabel = e.date
-        ? new Date(e.date + 'T00:00:00').toLocaleDateString('en-US', { month: 'short', year: 'numeric' })
-        : '';
-      return `
-        <div class="activity-row">
-          <div class="activity-type-badge ${e.type}">${ACTIVITY_TYPE_LABELS[e.type] || e.type}</div>
-          <div class="activity-content">
-            <div class="activity-title">${titleHtml}</div>
-            <div class="activity-meta">${[dateLabel, e.venue].filter(Boolean).join(' · ')}</div>
-            ${e.description ? `<div class="activity-description">${e.description}</div>` : ''}
-          </div>
-        </div>
-      `;
-    }).join('');
-  }
-
-  typeFilter.addEventListener('change', draw);
-  draw();
-}
-
 let CURRENT_DATA = null;
 
 loadData().then(data => {
@@ -439,13 +442,23 @@ loadData().then(data => {
   renderHIndex(data);
   renderCitationGrowthTotalChart(data);
   renderNetwork(data);
+  renderMostCited(data);
   renderTable(data);
 }).catch(err => {
   document.querySelector('.wrap').innerHTML =
-    `<p style="padding:60px 0;color:#E38E48;font-family:monospace;">Could not load data/publications.json — ${err.message}</p>`;
+    `<p style="padding:60px 0;color:#E38E48;font-family:monospace;">Could not load data/publications.json — ${esc(err.message)}</p>`;
 });
 
-loadActivities();
+// ---- Modal -----------------------------------------------------------------
+let LAST_FOCUSED = null;
+
+function openModalShell() {
+  LAST_FOCUSED = document.activeElement;
+  const overlay = document.getElementById('collabModalOverlay');
+  overlay.classList.add('open');
+  const closeBtn = overlay.querySelector('.modal-close');
+  if (closeBtn) closeBtn.focus();
+}
 
 function openPapersModal(title, papers) {
   document.getElementById('collabModalTitle').textContent = `${title} — ${papers.length} paper${papers.length === 1 ? '' : 's'}`;
@@ -459,11 +472,11 @@ function openPapersModal(title, papers) {
           const scientistStr = Array.isArray(p.scientist) ? p.scientist.join(', ') : p.scientist;
           return `
             <div class="modal-pub-row">
-              <div class="pub-title">${p.title}</div>
+              <div class="pub-title">${esc(p.title)}</div>
               <div class="pub-meta">
                 <span class="highlight">${p.year || '—'}</span> ·
-                ${scientistStr} ·
-                ${p.venue || p.venue_category || '—'}
+                ${esc(scientistStr)} ·
+                ${esc(p.venue || p.venue_category || '—')}
               </div>
             </div>
           `;
@@ -471,7 +484,7 @@ function openPapersModal(title, papers) {
         .join('')
     : `<p style="color:var(--muted); font-size:13.5px;">No papers found.</p>`;
 
-  document.getElementById('collabModalOverlay').classList.add('open');
+  openModalShell();
 }
 
 function openCollabModal(unitName) {
@@ -485,19 +498,30 @@ function openCollabModal(unitName) {
   body.innerHTML = papers.length
     ? papers.map(p => `
         <div class="modal-pub-row">
-          <div class="pub-title">${p.title}</div>
+          <div class="pub-title">${esc(p.title)}</div>
           <div class="pub-meta">
             <span class="highlight">${p.year || '—'}</span> ·
-            our scientist: ${p.scientist} ·
-            ELLIS co-author: <span class="highlight">${p.co_author}</span>
+            our scientist: ${esc(p.scientist)} ·
+            ELLIS co-author: <span class="highlight">${esc(p.co_author)}</span>
           </div>
         </div>
       `).join('')
     : `<p style="color:var(--muted); font-size:13.5px;">No paper details available.</p>`;
 
-  document.getElementById('collabModalOverlay').classList.add('open');
+  openModalShell();
 }
 
 function closeCollabModal() {
   document.getElementById('collabModalOverlay').classList.remove('open');
+  if (LAST_FOCUSED && typeof LAST_FOCUSED.focus === 'function') {
+    LAST_FOCUSED.focus();
+    LAST_FOCUSED = null;
+  }
 }
+
+// Close the modal on Escape, matching standard dialog behaviour.
+document.addEventListener('keydown', e => {
+  if (e.key === 'Escape' && document.getElementById('collabModalOverlay').classList.contains('open')) {
+    closeCollabModal();
+  }
+});

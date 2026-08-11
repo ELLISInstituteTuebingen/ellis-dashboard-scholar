@@ -32,6 +32,7 @@
     <a href="#venues">Venues</a>
     <a href="#citation-growth-total">Citation growth</a>
     <a href="#hindex">Impact</a>
+    <a href="#topcited">Most cited</a>
     <a href="#publications">All publications</a>
   </nav>
 
@@ -93,6 +94,16 @@
     </div>
   </section>
 
+  <section class="block" id="topcited">
+    <div class="block-head">
+      <h2>Most-cited papers</h2>
+      <div class="sub">The five most-cited publications across all tracked scientists.</div>
+    </div>
+    <div class="topcited-card" id="topCitedList">
+      <!-- filled by JS -->
+    </div>
+  </section>
+
   <section class="block" id="publications">
     <div class="block-head">
       <h2>Publications</h2>
@@ -111,6 +122,7 @@
         <tbody id="pubTableBody"></tbody>
       </table>
     </div>
+    <div class="show-more-wrap" id="pubShowMoreWrap"></div>
   </section>
 
   <footer>

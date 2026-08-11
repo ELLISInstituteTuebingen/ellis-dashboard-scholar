@@ -1,8 +1,10 @@
 #!/usr/bin/env python3
 """
 fetch_data.py — pulls publication data for ELLIS Institute Tübingen scientists
-from OpenAlex, detects collaborations with other ELLIS Units, and writes a
-single JSON file the dashboard reads.
+from Google Scholar (via SerpAPI) as the primary source, enriches open-access
+status / DOIs from OpenAlex on a best-effort per-title basis, detects
+collaborations with other ELLIS Units, and writes a single JSON file the
+dashboard reads.
 
 Usage:
     python scripts/fetch_data.py
@@ -724,6 +726,131 @@ def process_activities():
     print(f"    Wrote {dest_path} with {len(cleaned)} PR & Activities entries.")
 
 
+def warn_on_future_dated(all_publications):
+    """Flag any paper dated beyond the current year. Google Scholar sometimes
+    indexes a paper under a future year (a late-year NeurIPS paper shown as
+    next year's edition, or an arXiv id mis-parsed as a future date) — this
+    has produced a real, confirmed mis-dating on this dashboard before.
+
+    This only WARNS in the run log; it deliberately does NOT drop or alter
+    anything, since a genuinely future-dated preprint is legitimate. The point
+    is to put a human's eyes on suspicious dates rather than silently trust
+    them."""
+    import datetime
+    current_year = datetime.datetime.utcnow().year
+    suspects = [p for p in all_publications.values()
+                if p.get("year") and int(p["year"]) > current_year]
+    if suspects:
+        print(f"    [warn] {len(suspects)} publication(s) dated beyond {current_year} — "
+              f"possible Google Scholar mis-dating, worth a manual check:", file=sys.stderr)
+        for p in sorted(suspects, key=lambda p: p["year"], reverse=True)[:20]:
+            print(f"            {p['year']}  {p['title'][:72]}", file=sys.stderr)
+    else:
+        print(f"    Date sanity check: no publications dated beyond {current_year}.")
+
+
+OPENALEX_WORKS_URL = f"{OPENALEX_BASE}/works"
+
+
+def _titles_match(a, b):
+    """Strong title match: normalized equality, or ≥0.9 token-set Jaccard.
+    Kept deliberately strict so we never attach the wrong paper's metadata."""
+    na, nb = _normalize_title(a), _normalize_title(b)
+    if not na or not nb:
+        return False
+    if na == nb:
+        return True
+    ta, tb = set(na.split()), set(nb.split())
+    if not ta or not tb:
+        return False
+    return len(ta & tb) / len(ta | tb) >= 0.9
+
+
+def enrich_open_access(all_publications):
+    """Best-effort open-access + DOI enrichment via OpenAlex title search.
+
+    Google Scholar gives us no DOI and no open-access flag, so both fields are
+    otherwise always empty. Here we look each paper up in OpenAlex by title
+    (relevance-ranked search), accept the top hit ONLY on a strong title match
+    — and, when both years are known, a matching year — then copy over its DOI
+    and open-access status.
+
+    Deliberately conservative: an ambiguous or weak match is left untouched
+    (is_oa stays False, doi stays None) rather than risk mislabeling a paper.
+    It uses OpenAlex purely as a per-title lookup, so it does NOT reintroduce
+    the author-profile fragmentation problem that made author-ID-based OpenAlex
+    fetching unreliable.
+
+    Fully defensive: every request is wrapped, so network errors / rate limits
+    / schema changes degrade to "no enrichment" and can never crash the run.
+    Enrichment only ADDS doi/is_oa — it never removes, reorders, or filters the
+    publication set. Set DISABLE_OA_ENRICHMENT in the environment to skip it."""
+    if os.environ.get("DISABLE_OA_ENRICHMENT"):
+        print("    [skip] Open-access enrichment disabled via DISABLE_OA_ENRICHMENT.")
+        return
+
+    pubs = list(all_publications.values())
+    resolved = 0   # strong title match found
+    oa_true = 0    # of those, confirmed open access
+    errors = 0
+    print(f"    Enriching open-access status from OpenAlex for {len(pubs)} papers "
+          f"(best-effort, strong-title-match only)...")
+
+    for i, pub in enumerate(pubs):
+        title = (pub.get("title") or "").strip()
+        if not title:
+            continue
+        try:
+            resp = requests.get(
+                OPENALEX_WORKS_URL,
+                params={
+                    "search": title,
+                    "per_page": 1,
+                    "select": "title,publication_year,doi,open_access",
+                },
+                headers=HEADERS,
+                timeout=20,
+            )
+            if resp.status_code == 429:
+                time.sleep(2)
+                continue
+            resp.raise_for_status()
+            results = resp.json().get("results", [])
+        except Exception as e:  # best-effort: never fatal
+            errors += 1
+            if errors <= 3 or errors % 50 == 0:
+                print(f"    [warn] OpenAlex lookup issue (continuing): {e}", file=sys.stderr)
+            time.sleep(0.5)
+            continue
+
+        if not results:
+            time.sleep(0.1)
+            continue
+
+        cand = results[0]
+        if not _titles_match(title, cand.get("title") or ""):
+            time.sleep(0.1)
+            continue
+
+        py = cand.get("publication_year")
+        if pub.get("year") and py and abs(int(pub["year"]) - int(py)) > 1:
+            time.sleep(0.1)  # top hit is a different edition/paper — skip
+            continue
+
+        resolved += 1
+        oa = cand.get("open_access") or {}
+        pub["is_oa"] = bool(oa.get("is_oa"))
+        if not pub.get("doi") and cand.get("doi"):
+            pub["doi"] = cand["doi"]
+        if pub["is_oa"]:
+            oa_true += 1
+        time.sleep(0.1)  # polite pacing for the OpenAlex polite pool
+
+    print(f"    Open-access enrichment: matched {resolved} of {len(pubs)} papers in OpenAlex, "
+          f"{oa_true} confirmed open access"
+          + (f" ({errors} lookups skipped on errors)" if errors else ""))
+
+
 def main():
     team, known_venues, members, budget_cfg = load_config()
 
@@ -840,6 +967,19 @@ def main():
 
     override_count = apply_known_venue_overrides(all_publications, known_venues.get("papers", []))
     print(f"    Applied {override_count} manual venue overrides from config/known_venues.json")
+
+    # Flag any suspiciously future-dated papers (a known Google Scholar
+    # indexing artifact) — warning only, changes nothing.
+    warn_on_future_dated(all_publications)
+
+    # Best-effort open-access / DOI enrichment via OpenAlex. Wrapped as an
+    # extra safety net on top of the function's own per-request guards, so
+    # even an unexpected failure here can't abort the run or lose data.
+    try:
+        enrich_open_access(all_publications)
+    except Exception as e:  # noqa: BLE001
+        print(f"    [warn] Open-access enrichment step failed entirely, continuing without it: {e}",
+              file=sys.stderr)
 
     exact_lookup, fuzzy_lookup = build_member_lookup(members, team)
     member_collaborations, member_collaboration_details = compute_member_collaborations(all_publications, exact_lookup, fuzzy_lookup)
