@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-08-10T10:12:52Z",
+  "generated_at": "2026-08-11T13:19:32Z",
   "institute": "ELLIS Institute T\u00fcbingen",
   "total_publications": 616,
   "confirmed_affiliation_count": 0,
-  "open_access_count": 0,
-  "open_access_percent": 0.0,
+  "open_access_count": 29,
+  "open_access_percent": 4.7,
   "scientist_join_dates": [
     "2023-07-01",
     "2023-09-01",
@@ -48,7 +48,8 @@
       "scientist": "Celestine Mendler-D\u00fcnner",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-UqtDdZUAAAAJ:J_g5lzvAfSwC",
@@ -56,7 +57,7 @@
       "year": 2026,
       "venue": "Proceedings of the ACM Web Conference 2026, 408-419, 2026",
       "cited_by_count": 0,
-      "doi": null,
+      "doi": "https://doi.org/10.1145/3774904.3792740",
       "citation_id": "UqtDdZUAAAAJ:J_g5lzvAfSwC",
       "authors": [
         "AA Stoica",
@@ -67,7 +68,8 @@
       "scientist": "Celestine Mendler-D\u00fcnner",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1145/3774904.3792740"
     },
     {
       "id": "scholar-UqtDdZUAAAAJ:RYcK_YlVTxYC",
@@ -89,7 +91,8 @@
       ],
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-QEiYbDYAAAAJ:q0uBw5dMOAkC",
@@ -110,7 +113,8 @@
       "scientist": "Sahar Abdelnabi",
       "confirmed_ellis_affiliation": false,
       "venue_category": "ICML",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-QEiYbDYAAAAJ:v_tt_AnqfNMC",
@@ -131,7 +135,8 @@
       "scientist": "Sahar Abdelnabi",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-QEiYbDYAAAAJ:urP0JZOBBUsC",
@@ -154,7 +159,8 @@
       ],
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-QEiYbDYAAAAJ:_9Xh93LWpsYC",
@@ -179,7 +185,8 @@
       ],
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-QEiYbDYAAAAJ:xii_ZKWM4-0C",
@@ -187,7 +194,7 @@
       "year": 2026,
       "venue": "arXiv preprint arXiv:2605.22568, 2026",
       "cited_by_count": 2,
-      "doi": null,
+      "doi": "https://doi.org/10.48550/arxiv.2605.22568",
       "citation_id": "QEiYbDYAAAAJ:xii_ZKWM4-0C",
       "authors": [
         "S Abdelnabi",
@@ -199,7 +206,8 @@
       "scientist": "Sahar Abdelnabi",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.48550/arxiv.2605.22568"
     },
     {
       "id": "scholar-QEiYbDYAAAAJ:vD2iS2Kej30C",
@@ -217,7 +225,8 @@
       "scientist": "Sahar Abdelnabi",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-QEiYbDYAAAAJ:oynPyU19kbsC",
@@ -240,7 +249,8 @@
       "scientist": "Sahar Abdelnabi",
       "confirmed_ellis_affiliation": false,
       "venue_category": "ICML",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-QEiYbDYAAAAJ:eAUscmXIlQ8C",
@@ -263,7 +273,8 @@
       "scientist": "Sahar Abdelnabi",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-QEiYbDYAAAAJ:XtJa11BXPS4C",
@@ -285,7 +296,8 @@
       "scientist": "Sahar Abdelnabi",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-QEiYbDYAAAAJ:HKviVsUxM5wC",
@@ -304,7 +316,8 @@
       "scientist": "Sahar Abdelnabi",
       "confirmed_ellis_affiliation": false,
       "venue_category": "ACL",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-QEiYbDYAAAAJ:It0W0vAlS5QC",
@@ -327,7 +340,8 @@
       ],
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-QEiYbDYAAAAJ:IHkkN1K1AlAC",
@@ -350,7 +364,8 @@
       "scientist": "Sahar Abdelnabi",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2602.15198"
     },
     {
       "id": "scholar-QEiYbDYAAAAJ:BPS1z4jHU5cC",
@@ -369,7 +384,8 @@
       "scientist": "Sahar Abdelnabi",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2602.08563"
     },
     {
       "id": "scholar-FKOqtF8AAAAJ:SNyOjmPOlygC",
@@ -393,7 +409,8 @@
       "scientist": "Jakob Macke",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-FKOqtF8AAAAJ:u1IMlZnpNFQC",
@@ -413,7 +430,8 @@
       "scientist": "Jakob Macke",
       "confirmed_ellis_affiliation": false,
       "venue_category": "Nature",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-FKOqtF8AAAAJ:tFyepMjQr3wC",
@@ -421,7 +439,7 @@
       "year": 2026,
       "venue": "Physical Review Letters 136 (25), 251401, 2026",
       "cited_by_count": 10,
-      "doi": null,
+      "doi": "https://doi.org/10.1103/n3ld-b4wv",
       "citation_id": "FKOqtF8AAAAJ:tFyepMjQr3wC",
       "authors": [
         "A Kofler",
@@ -441,7 +459,8 @@
       ],
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1103/n3ld-b4wv"
     },
     {
       "id": "scholar-FKOqtF8AAAAJ:9UF2BbDYXHIC",
@@ -462,7 +481,8 @@
       "scientist": "Jakob Macke",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-v-JL-hsAAAAJ:wbdj-CoPYUoC",
@@ -480,7 +500,8 @@
       "scientist": "Wieland Brendel",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2607.18360"
     },
     {
       "id": "scholar-v-JL-hsAAAAJ:V3AGJWp-ZtQC",
@@ -501,7 +522,8 @@
       "scientist": "Wieland Brendel",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2606.29983"
     },
     {
       "id": "scholar-v-JL-hsAAAAJ:BrmTIyaxlBUC",
@@ -523,7 +545,8 @@
       "scientist": "Wieland Brendel",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-v-JL-hsAAAAJ:eflP2zaiRacC",
@@ -545,7 +568,8 @@
       "scientist": "Wieland Brendel",
       "confirmed_ellis_affiliation": false,
       "venue_category": "ICML",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-v-JL-hsAAAAJ:VOx2b1Wkg3QC",
@@ -566,7 +590,8 @@
       "scientist": "Wieland Brendel",
       "confirmed_ellis_affiliation": false,
       "venue_category": "ICLR",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-v-JL-hsAAAAJ:D_sINldO8mEC",
@@ -574,7 +599,7 @@
       "year": 2026,
       "venue": "Journal of Vision 26 (2), 9-9, 2026",
       "cited_by_count": 1,
-      "doi": null,
+      "doi": "https://doi.org/10.1167/jov.26.2.9",
       "citation_id": "v-JL-hsAAAAJ:D_sINldO8mEC",
       "authors": [
         "T Klein",
@@ -585,7 +610,8 @@
       "scientist": "Wieland Brendel",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": true,
+      "oa_url": "https://jov.arvojournals.org/arvo/content_public/journal/jov/938745/i1534-7362-26-2-9_1771061532.29777.pdf"
     },
     {
       "id": "scholar-v-JL-hsAAAAJ:fQNAKQ3IYiAC",
@@ -593,7 +619,7 @@
       "year": 2026,
       "venue": "ICML 2026, 2026",
       "cited_by_count": 3,
-      "doi": null,
+      "doi": "https://doi.org/10.48550/arxiv.2602.02465",
       "citation_id": "v-JL-hsAAAAJ:fQNAKQ3IYiAC",
       "authors": [
         "J Zeller",
@@ -608,7 +634,8 @@
       "scientist": "Wieland Brendel",
       "confirmed_ellis_affiliation": false,
       "venue_category": "ICML",
-      "is_oa": false
+      "is_oa": true,
+      "oa_url": null
     },
     {
       "id": "scholar-v-JL-hsAAAAJ:geHnlv5EZngC",
@@ -628,7 +655,8 @@
       "scientist": "Wieland Brendel",
       "confirmed_ellis_affiliation": false,
       "venue_category": "ICLR",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-v-JL-hsAAAAJ:B3FOqHPlNUQC",
@@ -653,7 +681,8 @@
       ],
       "confirmed_ellis_affiliation": false,
       "venue_category": "ICLR",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-206vNCEAAAAJ:4vMrXwiscB8C",
@@ -671,7 +700,8 @@
       "scientist": "Jonas Geiping",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-206vNCEAAAAJ:HtS1dXgVpQUC",
@@ -689,7 +719,8 @@
       "scientist": "Jonas Geiping",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-206vNCEAAAAJ:yFnVuubrUp4C",
@@ -715,7 +746,8 @@
       ],
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-206vNCEAAAAJ:DJbcl8HfkQkC",
@@ -738,7 +770,8 @@
       "scientist": "Jonas Geiping",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2606.11063"
     },
     {
       "id": "scholar-206vNCEAAAAJ:dBIO0h50nwkC",
@@ -764,7 +797,8 @@
       ],
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2605.15188"
     },
     {
       "id": "scholar-206vNCEAAAAJ:QYdC8u9Cj1oC",
@@ -772,7 +806,7 @@
       "year": 2026,
       "venue": "arXiv preprint arXiv:2605.12460, 2026",
       "cited_by_count": 3,
-      "doi": null,
+      "doi": "https://doi.org/10.48550/arxiv.2605.12460",
       "citation_id": "206vNCEAAAAJ:QYdC8u9Cj1oC",
       "authors": [
         "G Su",
@@ -784,7 +818,8 @@
       "scientist": "Jonas Geiping",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.48550/arxiv.2605.12460"
     },
     {
       "id": "scholar-206vNCEAAAAJ:FPJr55Dyh1AC",
@@ -806,7 +841,8 @@
       "scientist": "Jonas Geiping",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2604.20500"
     },
     {
       "id": "scholar-206vNCEAAAAJ:Ug5p-4gJ2f0C",
@@ -826,14 +862,15 @@
       "scientist": "Jonas Geiping",
       "confirmed_ellis_affiliation": false,
       "venue_category": "ICLR",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-206vNCEAAAAJ:gsN89kCJA0AC",
       "title": "Adaptive attacks on trusted monitors subvert AI control protocols",
       "year": 2026,
       "venue": "International Conference on Learning Representations 2026, 51514-51565, 2026",
-      "cited_by_count": 21,
+      "cited_by_count": 22,
       "doi": null,
       "citation_id": "206vNCEAAAAJ:gsN89kCJA0AC",
       "authors": [
@@ -851,7 +888,8 @@
       ],
       "confirmed_ellis_affiliation": false,
       "venue_category": "ICLR",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-206vNCEAAAAJ:tYavs44e6CUC",
@@ -871,7 +909,8 @@
       "scientist": "Jonas Geiping",
       "confirmed_ellis_affiliation": false,
       "venue_category": "ICLR",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-206vNCEAAAAJ:KUbvn5osdkgC",
@@ -890,7 +929,8 @@
       "scientist": "Jonas Geiping",
       "confirmed_ellis_affiliation": false,
       "venue_category": "ICLR",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-206vNCEAAAAJ:hMsQuOkrut0C",
@@ -898,7 +938,7 @@
       "year": 2026,
       "venue": "International Conference on Learning Representations 2026, 49352-49410, 2026",
       "cited_by_count": 16,
-      "doi": null,
+      "doi": "https://doi.org/10.48550/arxiv.2509.18058",
       "citation_id": "206vNCEAAAAJ:hMsQuOkrut0C",
       "authors": [
         "A Panfilov",
@@ -916,7 +956,8 @@
       ],
       "confirmed_ellis_affiliation": false,
       "venue_category": "ICLR",
-      "is_oa": false
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2509.18058"
     },
     {
       "id": "scholar-206vNCEAAAAJ:ILKRHgRFtOwC",
@@ -924,7 +965,7 @@
       "year": 2026,
       "venue": "International Conference on Learning Representations 2026, 35184-35211, 2026",
       "cited_by_count": 56,
-      "doi": null,
+      "doi": "https://doi.org/10.48550/arxiv.2509.09677",
       "citation_id": "206vNCEAAAAJ:ILKRHgRFtOwC",
       "authors": [
         "A Sinha",
@@ -937,7 +978,8 @@
       "scientist": "Jonas Geiping",
       "confirmed_ellis_affiliation": false,
       "venue_category": "ICLR",
-      "is_oa": false
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2509.09677"
     },
     {
       "id": "scholar-206vNCEAAAAJ:-_dYPAW6P2MC",
@@ -945,7 +987,7 @@
       "year": 2026,
       "venue": "International Conference on Learning Representations 2026, 56440-56469, 2026",
       "cited_by_count": 3,
-      "doi": null,
+      "doi": "https://doi.org/10.48550/arxiv.2506.20480",
       "citation_id": "206vNCEAAAAJ:-_dYPAW6P2MC",
       "authors": [
         "G Su",
@@ -962,7 +1004,8 @@
       ],
       "confirmed_ellis_affiliation": false,
       "venue_category": "ICLR",
-      "is_oa": false
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2506.20480"
     },
     {
       "id": "scholar-206vNCEAAAAJ:evX43VCCuoAC",
@@ -982,7 +1025,8 @@
       "scientist": "Jonas Geiping",
       "confirmed_ellis_affiliation": false,
       "venue_category": "ICLR",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-206vNCEAAAAJ:0N-VGjzr574C",
@@ -1007,7 +1051,8 @@
       ],
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2603.24511"
     },
     {
       "id": "scholar-206vNCEAAAAJ:nrtMV_XWKgEC",
@@ -1015,7 +1060,7 @@
       "year": 2026,
       "venue": "Proceedings of the AAAI Conference on Artificial Intelligence 40 (14), 11757 \u2026, 2026",
       "cited_by_count": 8,
-      "doi": null,
+      "doi": "https://doi.org/10.1609/aaai.v40i14.38161",
       "citation_id": "206vNCEAAAAJ:nrtMV_XWKgEC",
       "authors": [
         "Y Yang",
@@ -1029,7 +1074,8 @@
       "scientist": "Jonas Geiping",
       "confirmed_ellis_affiliation": false,
       "venue_category": "AAAI",
-      "is_oa": false
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1609/aaai.v40i14.38161"
     },
     {
       "id": "scholar-206vNCEAAAAJ:XoXfffV-tXoC",
@@ -1037,7 +1083,7 @@
       "year": 2026,
       "venue": "arXiv preprint arXiv:2602.16756, 2026",
       "cited_by_count": 2,
-      "doi": null,
+      "doi": "https://doi.org/10.48550/arxiv.2602.16756",
       "citation_id": "206vNCEAAAAJ:XoXfffV-tXoC",
       "authors": [
         "J Bertram",
@@ -1047,7 +1093,8 @@
       "scientist": "Jonas Geiping",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": true,
+      "oa_url": null
     },
     {
       "id": "scholar-206vNCEAAAAJ:OcBU2YAGkTUC",
@@ -1068,7 +1115,8 @@
       "scientist": "Jonas Geiping",
       "confirmed_ellis_affiliation": false,
       "venue_category": "ICML",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-206vNCEAAAAJ:bKqednn6t2AC",
@@ -1089,7 +1137,8 @@
       "scientist": "Jonas Geiping",
       "confirmed_ellis_affiliation": false,
       "venue_category": "ICML",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-YUrxwrkAAAAJ:6ZzL7HXColQC",
@@ -1110,7 +1159,8 @@
       "scientist": "Frank Hutter",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-YUrxwrkAAAAJ:I858iXPj1OkC",
@@ -1133,7 +1183,8 @@
       "scientist": "Frank Hutter",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-YUrxwrkAAAAJ:kUhpeDhEZMUC",
@@ -1153,7 +1204,8 @@
       "scientist": "Frank Hutter",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-YUrxwrkAAAAJ:U0iAMwwPxtsC",
@@ -1171,7 +1223,8 @@
       "scientist": "Frank Hutter",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-YUrxwrkAAAAJ:R22Rs3tN8aoC",
@@ -1194,7 +1247,8 @@
       "scientist": "Frank Hutter",
       "confirmed_ellis_affiliation": false,
       "venue_category": "ICML",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-YUrxwrkAAAAJ:aEW5N-EHWIMC",
@@ -1214,7 +1268,8 @@
       "scientist": "Frank Hutter",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-YUrxwrkAAAAJ:PlWzFYVEG4EC",
@@ -1234,7 +1289,8 @@
       "scientist": "Frank Hutter",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-YUrxwrkAAAAJ:rLGzs9wiiwIC",
@@ -1253,7 +1309,8 @@
       "scientist": "Frank Hutter",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-YUrxwrkAAAAJ:rOcdG6UcVlcC",
@@ -1279,7 +1336,8 @@
       ],
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-YUrxwrkAAAAJ:xGWFX6Gbr9MC",
@@ -1308,7 +1366,8 @@
       ],
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-YUrxwrkAAAAJ:YPNY0knpFBYC",
@@ -1332,7 +1391,8 @@
       "scientist": "Frank Hutter",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-YUrxwrkAAAAJ:3_LpOwP6eMYC",
@@ -1355,7 +1415,8 @@
       "scientist": "Frank Hutter",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-YUrxwrkAAAAJ:lg2tdxc6qMwC",
@@ -1380,7 +1441,8 @@
       ],
       "confirmed_ellis_affiliation": false,
       "venue_category": "ICLR",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-YUrxwrkAAAAJ:lYAcb2jw7qUC",
@@ -1407,7 +1469,8 @@
       ],
       "confirmed_ellis_affiliation": false,
       "venue_category": "ICLR",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-YUrxwrkAAAAJ:yeL6HyUMUGUC",
@@ -1427,7 +1490,8 @@
       "scientist": "Frank Hutter",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-YUrxwrkAAAAJ:bVQMTfhMCi4C",
@@ -1451,7 +1515,8 @@
       "scientist": "Frank Hutter",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-YUrxwrkAAAAJ:yTLRzDEmwhEC",
@@ -1472,7 +1537,8 @@
       "scientist": "Frank Hutter",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-YUrxwrkAAAAJ:In6cVmBjs0IC",
@@ -1492,7 +1558,8 @@
       "scientist": "Frank Hutter",
       "confirmed_ellis_affiliation": false,
       "venue_category": "ICLR",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-YUrxwrkAAAAJ:7H_jS4BsgvYC",
@@ -1519,7 +1586,8 @@
       ],
       "confirmed_ellis_affiliation": false,
       "venue_category": "ICML",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-YUrxwrkAAAAJ:6VlyvFCUEfcC",
@@ -1543,7 +1611,8 @@
       ],
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-YUrxwrkAAAAJ:QoJ_w57xiyAC",
@@ -1564,7 +1633,8 @@
       "scientist": "Frank Hutter",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-YUrxwrkAAAAJ:WwIwg2wKZ0QC",
@@ -1583,7 +1653,8 @@
       "scientist": "Frank Hutter",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-YUrxwrkAAAAJ:aDl3D7KC1E4C",
@@ -1604,7 +1675,8 @@
       "scientist": "Frank Hutter",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-9LajlSsAAAAJ:gsN89kCJA0AC",
@@ -1622,7 +1694,8 @@
       "scientist": "T. Konstantin Rusch",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-9LajlSsAAAAJ:TIZ-Mc8IlK0C",
@@ -1645,7 +1718,8 @@
       "scientist": "T. Konstantin Rusch",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-9LajlSsAAAAJ:1yQoGdGgb4wC",
@@ -1666,7 +1740,8 @@
       "scientist": "T. Konstantin Rusch",
       "confirmed_ellis_affiliation": false,
       "venue_category": "ICML",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-9LajlSsAAAAJ:ZuybSZzF8UAC",
@@ -1686,7 +1761,8 @@
       "scientist": "T. Konstantin Rusch",
       "confirmed_ellis_affiliation": false,
       "venue_category": "ICLR",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-9LajlSsAAAAJ:g3aElNc5_aQC",
@@ -1712,7 +1788,8 @@
       ],
       "confirmed_ellis_affiliation": false,
       "venue_category": "ICLR",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-9LajlSsAAAAJ:hMsQuOkrut0C",
@@ -1730,7 +1807,8 @@
       "scientist": "T. Konstantin Rusch",
       "confirmed_ellis_affiliation": false,
       "venue_category": "ICLR",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-73IbXtsAAAAJ:2KloaMYe4IUC",
@@ -1753,7 +1831,8 @@
       "scientist": "Shiwei Liu",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-73IbXtsAAAAJ:_Re3VWB3Y0AC",
@@ -1772,7 +1851,8 @@
       "scientist": "Shiwei Liu",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-73IbXtsAAAAJ:dQ2og3OwTAUC",
@@ -1796,7 +1876,8 @@
       "scientist": "Shiwei Liu",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-73IbXtsAAAAJ:ZfRJV9d4-WMC",
@@ -1817,7 +1898,8 @@
       "scientist": "Shiwei Liu",
       "confirmed_ellis_affiliation": false,
       "venue_category": "ICML",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-73IbXtsAAAAJ:_Ybze24A_UAC",
@@ -1840,7 +1922,8 @@
       "scientist": "Shiwei Liu",
       "confirmed_ellis_affiliation": false,
       "venue_category": "ICML",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-73IbXtsAAAAJ:uLbwQdceFCQC",
@@ -1861,7 +1944,8 @@
       "scientist": "Shiwei Liu",
       "confirmed_ellis_affiliation": false,
       "venue_category": "ICML",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-73IbXtsAAAAJ:JQOojiI6XY0C",
@@ -1882,7 +1966,8 @@
       "scientist": "Shiwei Liu",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-73IbXtsAAAAJ:evX43VCCuoAC",
@@ -1901,7 +1986,8 @@
       "scientist": "Shiwei Liu",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-73IbXtsAAAAJ:1yQoGdGgb4wC",
@@ -1923,7 +2009,8 @@
       "scientist": "Shiwei Liu",
       "confirmed_ellis_affiliation": false,
       "venue_category": "ICLR",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-73IbXtsAAAAJ:7T2F9Uy0os0C",
@@ -1948,7 +2035,8 @@
       "scientist": "Shiwei Liu",
       "confirmed_ellis_affiliation": false,
       "venue_category": "ICLR",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-73IbXtsAAAAJ:UHK10RUVsp4C",
@@ -1972,7 +2060,8 @@
       "scientist": "Shiwei Liu",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-ZNtuJYoAAAAJ:LPZeul_q3PIC",
@@ -1996,7 +2085,8 @@
       "scientist": "Maksym Andriushchenko",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-ZNtuJYoAAAAJ:5Ul4iDaHHb8C",
@@ -2016,7 +2106,8 @@
       "scientist": "Maksym Andriushchenko",
       "confirmed_ellis_affiliation": false,
       "venue_category": "ICML",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-ZNtuJYoAAAAJ:8AbLer7MMksC",
@@ -2036,7 +2127,8 @@
       "scientist": "Maksym Andriushchenko",
       "confirmed_ellis_affiliation": false,
       "venue_category": "ICML",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-ZNtuJYoAAAAJ:geHnlv5EZngC",
@@ -2060,7 +2152,8 @@
       "scientist": "Maksym Andriushchenko",
       "confirmed_ellis_affiliation": false,
       "venue_category": "ICML",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-ZNtuJYoAAAAJ:B3FOqHPlNUQC",
@@ -2081,7 +2174,8 @@
       "scientist": "Maksym Andriushchenko",
       "confirmed_ellis_affiliation": false,
       "venue_category": "ICML",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-ZNtuJYoAAAAJ:tS2w5q8j5-wC",
@@ -2100,7 +2194,8 @@
       "scientist": "Maksym Andriushchenko",
       "confirmed_ellis_affiliation": false,
       "venue_category": "ICML",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-ZNtuJYoAAAAJ:l7t_Zn2s7bgC",
@@ -2119,7 +2214,8 @@
       "scientist": "Maksym Andriushchenko",
       "confirmed_ellis_affiliation": false,
       "venue_category": "ICML",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-ZNtuJYoAAAAJ:WbkHhVStYXYC",
@@ -2142,7 +2238,8 @@
       "scientist": "Maksym Andriushchenko",
       "confirmed_ellis_affiliation": false,
       "venue_category": "ICML",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-ZNtuJYoAAAAJ:OU6Ihb5iCvQC",
@@ -2163,7 +2260,8 @@
       "scientist": "Maksym Andriushchenko",
       "confirmed_ellis_affiliation": false,
       "venue_category": "ICML",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-ZNtuJYoAAAAJ:dshw04ExmUIC",
@@ -2183,7 +2281,8 @@
       "scientist": "Maksym Andriushchenko",
       "confirmed_ellis_affiliation": false,
       "venue_category": "ICML",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-ZNtuJYoAAAAJ:tOudhMTPpwUC",
@@ -2202,7 +2301,8 @@
       "scientist": "Maksym Andriushchenko",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-ZNtuJYoAAAAJ:RGFaLdJalmkC",
@@ -2224,7 +2324,8 @@
       "scientist": "Maksym Andriushchenko",
       "confirmed_ellis_affiliation": false,
       "venue_category": "ICLR",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-ZNtuJYoAAAAJ:ns9cj8rnVeAC",
@@ -2244,7 +2345,8 @@
       "scientist": "Maksym Andriushchenko",
       "confirmed_ellis_affiliation": false,
       "venue_category": "ICLR",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-ZNtuJYoAAAAJ:K3LRdlH-MEoC",
@@ -2262,7 +2364,8 @@
       "scientist": "Maksym Andriushchenko",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-ZNtuJYoAAAAJ:XiSMed-E-HIC",
@@ -2288,7 +2391,8 @@
       ],
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-VRBv6mEAAAAJ:ns9cj8rnVeAC",
@@ -2310,7 +2414,8 @@
       "scientist": "Maximilian Dax",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-VRBv6mEAAAAJ:SP6oXDckpogC",
@@ -2329,7 +2434,8 @@
       "scientist": "Maximilian Dax",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-VRBv6mEAAAAJ:UxriW0iASnsC",
@@ -2352,7 +2458,8 @@
       "scientist": "Maximilian Dax",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-VRBv6mEAAAAJ:vV6vV6tmYwMC",
@@ -2374,7 +2481,8 @@
       "scientist": "Maximilian Dax",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-VRBv6mEAAAAJ:O3NaXMp0MMsC",
@@ -2396,7 +2504,8 @@
       "scientist": "Maximilian Dax",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-VRBv6mEAAAAJ:BqipwSGYUEgC",
@@ -2418,7 +2527,8 @@
       "scientist": "Maximilian Dax",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-VRBv6mEAAAAJ:a0OBvERweLwC",
@@ -2441,7 +2551,8 @@
       "scientist": "Maximilian Dax",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-VRBv6mEAAAAJ:nb7KW1ujOQ8C",
@@ -2464,7 +2575,8 @@
       "scientist": "Maximilian Dax",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-VRBv6mEAAAAJ:g5m5HwL7SMYC",
@@ -2486,7 +2598,8 @@
       "scientist": "Maximilian Dax",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-VRBv6mEAAAAJ:1sJd4Hv_s6UC",
@@ -2508,7 +2621,8 @@
       "scientist": "Maximilian Dax",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-VRBv6mEAAAAJ:pyW8ca7W8N0C",
@@ -2530,7 +2644,8 @@
       "scientist": "Maximilian Dax",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-VRBv6mEAAAAJ:iH-uZ7U-co4C",
@@ -2553,7 +2668,8 @@
       "scientist": "Maximilian Dax",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-VRBv6mEAAAAJ:KxtntwgDAa4C",
@@ -2576,7 +2692,8 @@
       "scientist": "Maximilian Dax",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-VRBv6mEAAAAJ:P5F9QuxV20EC",
@@ -2599,7 +2716,8 @@
       "scientist": "Maximilian Dax",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-VRBv6mEAAAAJ:ldfaerwXgEUC",
@@ -2622,7 +2740,8 @@
       "scientist": "Maximilian Dax",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-VRBv6mEAAAAJ:NhqRSupF_l8C",
@@ -2645,7 +2764,8 @@
       "scientist": "Maximilian Dax",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-VRBv6mEAAAAJ:abG-DnoFyZgC",
@@ -2667,7 +2787,8 @@
       "scientist": "Maximilian Dax",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-VRBv6mEAAAAJ:xtRiw3GOFMkC",
@@ -2691,7 +2812,8 @@
       "scientist": "Maximilian Dax",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-VRBv6mEAAAAJ:EUQCXRtRnyEC",
@@ -2714,7 +2836,8 @@
       "scientist": "Maximilian Dax",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-VRBv6mEAAAAJ:j3f4tGmQtD8C",
@@ -2736,7 +2859,8 @@
       "scientist": "Maximilian Dax",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-VRBv6mEAAAAJ:D03iK_w7-QYC",
@@ -2763,7 +2887,8 @@
       ],
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-VRBv6mEAAAAJ:_xSYboBqXhAC",
@@ -2787,7 +2912,8 @@
       "scientist": "Maximilian Dax",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-VRBv6mEAAAAJ:fPk4N6BV_jEC",
@@ -2809,7 +2935,8 @@
       "scientist": "Maximilian Dax",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-VRBv6mEAAAAJ:u_35RYKgDlwC",
@@ -2831,7 +2958,8 @@
       "scientist": "Maximilian Dax",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-VRBv6mEAAAAJ:zA6iFVUQeVQC",
@@ -2853,7 +2981,8 @@
       "scientist": "Maximilian Dax",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-VRBv6mEAAAAJ:3s1wT3WcHBgC",
@@ -2876,7 +3005,8 @@
       "scientist": "Maximilian Dax",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-VRBv6mEAAAAJ:OU6Ihb5iCvQC",
@@ -2898,7 +3028,8 @@
       "scientist": "Maximilian Dax",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-VRBv6mEAAAAJ:p2g8aNsByqUC",
@@ -2925,7 +3056,8 @@
       ],
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-VRBv6mEAAAAJ:dshw04ExmUIC",
@@ -2952,7 +3084,8 @@
       ],
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-sDHHglIAAAAJ:nVrZBo8bIpAC",
@@ -2975,7 +3108,8 @@
       ],
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-sDHHglIAAAAJ:nZcligLrVowC",
@@ -2996,7 +3130,8 @@
       "scientist": "Rediet Abebe",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-xkuLyHoAAAAJ:l7t_Zn2s7bgC",
@@ -3016,7 +3151,8 @@
       "scientist": "Antonio Orvieto",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-xkuLyHoAAAAJ:K3LRdlH-MEoC",
@@ -3035,7 +3171,8 @@
       "scientist": "Antonio Orvieto",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-xkuLyHoAAAAJ:ZHo1McVdvXMC",
@@ -3059,7 +3196,8 @@
       "scientist": "Antonio Orvieto",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-xkuLyHoAAAAJ:WbkHhVStYXYC",
@@ -3079,7 +3217,8 @@
       "scientist": "Antonio Orvieto",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-xkuLyHoAAAAJ:XiSMed-E-HIC",
@@ -3102,7 +3241,8 @@
       "scientist": "Antonio Orvieto",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-xkuLyHoAAAAJ:u9iWguZQMMsC",
@@ -3124,7 +3264,8 @@
       "scientist": "Antonio Orvieto",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-xkuLyHoAAAAJ:KxtntwgDAa4C",
@@ -3141,7 +3282,8 @@
       "scientist": "Antonio Orvieto",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-xkuLyHoAAAAJ:35N4QoGY0k4C",
@@ -3161,7 +3303,8 @@
       "scientist": "Antonio Orvieto",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-xkuLyHoAAAAJ:P5F9QuxV20EC",
@@ -3182,7 +3325,8 @@
       "scientist": "Antonio Orvieto",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-xkuLyHoAAAAJ:pyW8ca7W8N0C",
@@ -3207,7 +3351,8 @@
       ],
       "confirmed_ellis_affiliation": false,
       "venue_category": "ICLR",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-xkuLyHoAAAAJ:fPk4N6BV_jEC",
@@ -3229,7 +3374,8 @@
       "scientist": "Antonio Orvieto",
       "confirmed_ellis_affiliation": false,
       "venue_category": "ICLR",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-xkuLyHoAAAAJ:CHSYGLWDkRkC",
@@ -3251,7 +3397,8 @@
       "scientist": "Antonio Orvieto",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-xkuLyHoAAAAJ:xtRiw3GOFMkC",
@@ -3277,7 +3424,8 @@
       ],
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-xkuLyHoAAAAJ:_xSYboBqXhAC",
@@ -3296,7 +3444,8 @@
       "scientist": "Antonio Orvieto",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-xkuLyHoAAAAJ:bFI3QPDXJZMC",
@@ -3315,7 +3464,8 @@
       "scientist": "Antonio Orvieto",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-xkuLyHoAAAAJ:70eg2SAEIzsC",
@@ -3334,7 +3484,8 @@
       "scientist": "Antonio Orvieto",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-xkuLyHoAAAAJ:NhqRSupF_l8C",
@@ -3353,7 +3504,8 @@
       "scientist": "Antonio Orvieto",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:jKDndaUStp4C",
@@ -3374,7 +3526,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:xBGfnI2HyV0C",
@@ -3394,7 +3547,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:F7-PPLTuqqMC",
@@ -3415,7 +3569,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:ov8qWdt4VJkC",
@@ -3437,7 +3592,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:BohJfZfAf6oC",
@@ -3456,7 +3612,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:chjAzUkeghIC",
@@ -3476,7 +3633,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:CJ98GCcPK54C",
@@ -3497,7 +3655,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:maT92bZuikUC",
@@ -3516,7 +3675,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:0_dNHEfHC9YC",
@@ -3540,7 +3700,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:mZN8b2zY5_QC",
@@ -3560,7 +3721,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:1pey-SaUeH0C",
@@ -3584,7 +3746,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:aZrIyCXyVZYC",
@@ -3607,7 +3770,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:37C3itOipUAC",
@@ -3629,7 +3793,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:s0PHN3aRImwC",
@@ -3649,7 +3814,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:94lqp62Sop0C",
@@ -3668,7 +3834,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:jXLDEt3wmJwC",
@@ -3686,7 +3853,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:3Y8oUG17k5cC",
@@ -3704,7 +3872,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:eD4gBvjuy14C",
@@ -3723,7 +3892,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:PxEURkLdyT8C",
@@ -3742,7 +3912,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:kNGtqwmDeL8C",
@@ -3765,7 +3936,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:2GvbujVKL5cC",
@@ -3788,7 +3960,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:EILk6ercW-AC",
@@ -3810,7 +3983,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:AVuyoiFtmP8C",
@@ -3830,7 +4004,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": "ICML",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:anPBnDefqi8C",
@@ -3854,7 +4029,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:jEt36SqvAKIC",
@@ -3877,7 +4053,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:Fkmlf-G3tl8C",
@@ -3897,7 +4074,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:tvhbelPlAjoC",
@@ -3919,7 +4097,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": "ICML",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:ji29sEi2x40C",
@@ -3943,7 +4122,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:pAH53Kh41cwC",
@@ -3963,7 +4143,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": "ICLR",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:6cRkBLN27MIC",
@@ -3983,7 +4164,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": "ICLR",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:DspxCbLp1X0C",
@@ -4004,7 +4186,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:ADj4jZSmIC0C",
@@ -4027,7 +4210,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:_u2mwAEfKnEC",
@@ -4048,7 +4232,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:VwjN40uvqCUC",
@@ -4068,7 +4253,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:bR5oKgKGZ9kC",
@@ -4087,7 +4273,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": "ICML",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:Sfpquvl-xlAC",
@@ -4112,7 +4299,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:UEK1zEMUXZYC",
@@ -4135,7 +4323,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:1jRQbpGgOMsC",
@@ -4158,7 +4347,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:FqJ3NLYPKWkC",
@@ -4180,14 +4370,15 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": "ACL",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:86o5xOGsEc8C",
       "title": "Democratic or authoritarian? probing a new dimension of political biases in large language models",
       "year": 2026,
       "venue": "Proceedings of the 19th Conference of the European Chapter of the \u2026, 2026",
-      "cited_by_count": 8,
+      "cited_by_count": 9,
       "doi": null,
       "citation_id": "DZ-fHPgAAAAJ:86o5xOGsEc8C",
       "authors": [
@@ -4200,7 +4391,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:R_yaT-ZWpE0C",
@@ -4219,7 +4411,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:f0J-wGb7OGEC",
@@ -4242,7 +4435,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:__HUcASOQKkC",
@@ -4261,7 +4455,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:dDWX_BJh2WwC",
@@ -4284,7 +4479,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:--G0sfWZqeYC",
@@ -4303,7 +4499,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:RaBBm4l2bqQC",
@@ -4323,7 +4520,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:H5bw_hU6nZgC",
@@ -4345,7 +4543,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:q5Ewq_saJAcC",
@@ -4366,7 +4565,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:lEOYFCBqCX4C",
@@ -4390,7 +4590,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:F0NXhNG7aVsC",
@@ -4410,7 +4611,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": "ICML",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:2IrBy7oA4F0C",
@@ -4433,7 +4635,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": "ICLR",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-usl__skAAAAJ:B3FOqHPlNUQC",
@@ -4453,7 +4656,8 @@
       "scientist": "Aaron Klein",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-usl__skAAAAJ:4fKUyHm3Qg0C",
@@ -4476,7 +4680,8 @@
       ],
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-D0WjJlsAAAAJ:35r97b3x0nAC",
@@ -4499,7 +4704,8 @@
       "scientist": "David Salinas",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-D0WjJlsAAAAJ:ZfRJV9d4-WMC",
@@ -4517,7 +4723,8 @@
       "scientist": "David Salinas",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-D0WjJlsAAAAJ:Fu2w8maKXqMC",
@@ -4540,7 +4747,8 @@
       "scientist": "David Salinas",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-UqtDdZUAAAAJ:RGFaLdJalmkC",
@@ -4559,7 +4767,8 @@
       "scientist": "Celestine Mendler-D\u00fcnner",
       "confirmed_ellis_affiliation": false,
       "venue_category": "NeurIPS",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-UqtDdZUAAAAJ:ns9cj8rnVeAC",
@@ -4580,7 +4789,8 @@
       "scientist": "Celestine Mendler-D\u00fcnner",
       "confirmed_ellis_affiliation": false,
       "venue_category": "NeurIPS",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-UqtDdZUAAAAJ:GnPB-g6toBAC",
@@ -4588,7 +4798,7 @@
       "year": 2025,
       "venue": "ACM CHI 2025 - Proceedings of the 2025 CHI Conference on Human Factors in \u2026, 2025",
       "cited_by_count": 15,
-      "doi": null,
+      "doi": "https://doi.org/10.1145/3706598.3713966",
       "citation_id": "UqtDdZUAAAAJ:GnPB-g6toBAC",
       "authors": [
         "D Sigg",
@@ -4599,7 +4809,8 @@
       "scientist": "Celestine Mendler-D\u00fcnner",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": true,
+      "oa_url": "https://dl.acm.org/doi/pdf/10.1145/3706598.3713966"
     },
     {
       "id": "scholar-UqtDdZUAAAAJ:M3NEmzRMIkIC",
@@ -4617,7 +4828,8 @@
       "scientist": "Celestine Mendler-D\u00fcnner",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-QEiYbDYAAAAJ:_mQi-xiA4oYC",
@@ -4625,7 +4837,7 @@
       "year": 2025,
       "venue": "NeurIPS (Spotlight \ud83c\udfc6), 2025",
       "cited_by_count": 42,
-      "doi": null,
+      "doi": "https://doi.org/10.52202/085713-4731",
       "citation_id": "QEiYbDYAAAAJ:_mQi-xiA4oYC",
       "authors": [
         "S Abdelnabi",
@@ -4635,7 +4847,8 @@
       "scientist": "Sahar Abdelnabi",
       "confirmed_ellis_affiliation": false,
       "venue_category": "NeurIPS",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-QEiYbDYAAAAJ:5LPo_wSKItgC",
@@ -4654,7 +4867,8 @@
       "scientist": "Sahar Abdelnabi",
       "confirmed_ellis_affiliation": false,
       "venue_category": "EMNLP",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-QEiYbDYAAAAJ:oldoQiaHq2UC",
@@ -4676,7 +4890,8 @@
       ],
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-QEiYbDYAAAAJ:AFXcoJnoRH0C",
@@ -4698,7 +4913,8 @@
       "scientist": "Sahar Abdelnabi",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-v-JL-hsAAAAJ:4fKUyHm3Qg0C",
@@ -4719,7 +4935,8 @@
       "scientist": "Wieland Brendel",
       "confirmed_ellis_affiliation": false,
       "venue_category": "NeurIPS",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-v-JL-hsAAAAJ:5Ul4iDaHHb8C",
@@ -4743,7 +4960,8 @@
       "scientist": "Wieland Brendel",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-v-JL-hsAAAAJ:8AbLer7MMksC",
@@ -4767,7 +4985,8 @@
       ],
       "confirmed_ellis_affiliation": false,
       "venue_category": "ICML",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-v-JL-hsAAAAJ:sSrBHYA8nusC",
@@ -4787,7 +5006,8 @@
       "scientist": "Wieland Brendel",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-v-JL-hsAAAAJ:WbkHhVStYXYC",
@@ -4808,7 +5028,8 @@
       "scientist": "Wieland Brendel",
       "confirmed_ellis_affiliation": false,
       "venue_category": "ICML",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-v-JL-hsAAAAJ:08ZZubdj9fEC",
@@ -4828,7 +5049,8 @@
       "scientist": "Wieland Brendel",
       "confirmed_ellis_affiliation": false,
       "venue_category": "ICML",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-v-JL-hsAAAAJ:l7t_Zn2s7bgC",
@@ -4848,7 +5070,8 @@
       "scientist": "Wieland Brendel",
       "confirmed_ellis_affiliation": false,
       "venue_category": "ICML",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-v-JL-hsAAAAJ:Tiz5es2fbqcC",
@@ -4869,7 +5092,8 @@
       "scientist": "Wieland Brendel",
       "confirmed_ellis_affiliation": false,
       "venue_category": "ICML",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-v-JL-hsAAAAJ:UxriW0iASnsC",
@@ -4890,7 +5114,8 @@
       "scientist": "Wieland Brendel",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-v-JL-hsAAAAJ:q3oQSFYPqjQC",
@@ -4911,7 +5136,8 @@
       "scientist": "Wieland Brendel",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-v-JL-hsAAAAJ:vRqMK49ujn8C",
@@ -4919,7 +5145,7 @@
       "year": 2025,
       "venue": "Proceedings of the ieee/cvf international conference on computer vision \u2026, 2025",
       "cited_by_count": 9,
-      "doi": null,
+      "doi": "https://doi.org/10.1109/iccv51701.2025.00103",
       "citation_id": "v-JL-hsAAAAJ:vRqMK49ujn8C",
       "authors": [
         "D Zverev",
@@ -4933,7 +5159,8 @@
       "scientist": "Wieland Brendel",
       "confirmed_ellis_affiliation": false,
       "venue_category": "ICCV",
-      "is_oa": false
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2508.08237"
     },
     {
       "id": "scholar-v-JL-hsAAAAJ:dshw04ExmUIC",
@@ -4955,7 +5182,8 @@
       "scientist": "Wieland Brendel",
       "confirmed_ellis_affiliation": false,
       "venue_category": "ICLR",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-v-JL-hsAAAAJ:nb7KW1ujOQ8C",
@@ -4963,7 +5191,7 @@
       "year": 2025,
       "venue": "ICLR 2025, 2024",
       "cited_by_count": 34,
-      "doi": null,
+      "doi": "https://doi.org/10.48550/arxiv.2410.21869",
       "citation_id": "v-JL-hsAAAAJ:nb7KW1ujOQ8C",
       "authors": [
         "P Reizinger",
@@ -4978,15 +5206,16 @@
       "scientist": "Wieland Brendel",
       "confirmed_ellis_affiliation": false,
       "venue_category": "ICLR",
-      "is_oa": false
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2410.21869"
     },
     {
       "id": "scholar-v-JL-hsAAAAJ:NhqRSupF_l8C",
       "title": "In search of forgotten domain generalization",
       "year": 2025,
       "venue": "ICLR 2025, 2024",
-      "cited_by_count": 26,
-      "doi": null,
+      "cited_by_count": 27,
+      "doi": "https://doi.org/10.48550/arxiv.2410.08258",
       "citation_id": "v-JL-hsAAAAJ:NhqRSupF_l8C",
       "authors": [
         "P Mayilvahanan",
@@ -5000,7 +5229,8 @@
       "scientist": "Wieland Brendel",
       "confirmed_ellis_affiliation": false,
       "venue_category": "ICLR",
-      "is_oa": false
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2410.08258"
     },
     {
       "id": "scholar-v-JL-hsAAAAJ:_xSYboBqXhAC",
@@ -5024,7 +5254,8 @@
       ],
       "confirmed_ellis_affiliation": false,
       "venue_category": "ICLR",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-206vNCEAAAAJ:TIZ-Mc8IlK0C",
@@ -5045,7 +5276,8 @@
       "scientist": "Jonas Geiping",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-206vNCEAAAAJ:foquWX3nUaYC",
@@ -5069,7 +5301,8 @@
       "scientist": "Jonas Geiping",
       "confirmed_ellis_affiliation": false,
       "venue_category": "ICML",
-      "is_oa": false
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2512.23707"
     },
     {
       "id": "scholar-206vNCEAAAAJ:WZBGuue-350C",
@@ -5077,7 +5310,7 @@
       "year": 2025,
       "venue": "arXiv preprint arXiv:2511.07384, 2025",
       "cited_by_count": 17,
-      "doi": null,
+      "doi": "https://doi.org/10.48550/arxiv.2511.07384",
       "citation_id": "206vNCEAAAAJ:WZBGuue-350C",
       "authors": [
         "S McLeish",
@@ -5092,7 +5325,8 @@
       "scientist": "Jonas Geiping",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.48550/arxiv.2511.07384"
     },
     {
       "id": "scholar-206vNCEAAAAJ:tuHXwOkdijsC",
@@ -5118,7 +5352,8 @@
       ],
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-206vNCEAAAAJ:b1wdh0AR-JQC",
@@ -5137,7 +5372,8 @@
       "scientist": "Jonas Geiping",
       "confirmed_ellis_affiliation": false,
       "venue_category": "ICML",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-206vNCEAAAAJ:kuK5TVdYjLIC",
@@ -5162,7 +5398,8 @@
       ],
       "confirmed_ellis_affiliation": false,
       "venue_category": "ICML",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-206vNCEAAAAJ:XD-gHx7UXLsC",
@@ -5182,7 +5419,8 @@
       "scientist": "Jonas Geiping",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-206vNCEAAAAJ:fEOibwPWpKIC",
@@ -5203,7 +5441,8 @@
       "scientist": "Jonas Geiping",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-206vNCEAAAAJ:35r97b3x0nAC",
@@ -5225,7 +5464,8 @@
       ],
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-206vNCEAAAAJ:sSrBHYA8nusC",
@@ -5246,7 +5486,8 @@
       "scientist": "Jonas Geiping",
       "confirmed_ellis_affiliation": false,
       "venue_category": "CVPR",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-206vNCEAAAAJ:tKAzc9rXhukC",
@@ -5269,7 +5510,8 @@
       ],
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-206vNCEAAAAJ:tzM49s52ZIMC",
@@ -5277,7 +5519,7 @@
       "year": 2025,
       "venue": "Findings of the Association for Computational Linguistics: NAACL 2025, 5231-5249, 2025",
       "cited_by_count": 2,
-      "doi": null,
+      "doi": "https://doi.org/10.18653/v1/2025.findings-naacl.290",
       "citation_id": "206vNCEAAAAJ:tzM49s52ZIMC",
       "authors": [
         "JS Li",
@@ -5290,7 +5532,8 @@
       "scientist": "Jonas Geiping",
       "confirmed_ellis_affiliation": false,
       "venue_category": "ACL",
-      "is_oa": false
+      "is_oa": true,
+      "oa_url": "https://aclanthology.org/2025.findings-naacl.290.pdf"
     },
     {
       "id": "scholar-206vNCEAAAAJ:7T2F9Uy0os0C",
@@ -5312,7 +5555,8 @@
       "scientist": "Jonas Geiping",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-206vNCEAAAAJ:Mojj43d5GZwC",
@@ -5334,7 +5578,8 @@
       ],
       "confirmed_ellis_affiliation": false,
       "venue_category": "ICML",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-206vNCEAAAAJ:t6usbXjVLHcC",
@@ -5357,7 +5602,8 @@
       "scientist": "Jonas Geiping",
       "confirmed_ellis_affiliation": false,
       "venue_category": "NeurIPS",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-206vNCEAAAAJ:olpn-zPbct0C",
@@ -5375,7 +5621,8 @@
       "scientist": "Jonas Geiping",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-206vNCEAAAAJ:XiVPGOgt02cC",
@@ -5398,14 +5645,15 @@
       "scientist": "Jonas Geiping",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-YUrxwrkAAAAJ:sJPMR1oEGYQC",
       "title": "Tabarena: A living benchmark for machine learning on tabular data",
       "year": 2025,
       "venue": "Advances in Neural Information Processing Systems 38, 2026",
-      "cited_by_count": 175,
+      "cited_by_count": 177,
       "doi": null,
       "citation_id": "YUrxwrkAAAAJ:sJPMR1oEGYQC",
       "authors": [
@@ -5424,7 +5672,8 @@
       ],
       "confirmed_ellis_affiliation": false,
       "venue_category": "NeurIPS",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-YUrxwrkAAAAJ:dAp6zn-oMfAC",
@@ -5449,7 +5698,8 @@
       ],
       "confirmed_ellis_affiliation": false,
       "venue_category": "NeurIPS",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-YUrxwrkAAAAJ:37UQlXuwjP4C",
@@ -5471,7 +5721,8 @@
       "scientist": "Frank Hutter",
       "confirmed_ellis_affiliation": false,
       "venue_category": "NeurIPS",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-YUrxwrkAAAAJ:s85pQhAUCrAC",
@@ -5493,7 +5744,8 @@
       "scientist": "Frank Hutter",
       "confirmed_ellis_affiliation": false,
       "venue_category": "NeurIPS",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-YUrxwrkAAAAJ:s9ia6_kGH2AC",
@@ -5515,7 +5767,8 @@
       ],
       "confirmed_ellis_affiliation": false,
       "venue_category": "NeurIPS",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-YUrxwrkAAAAJ:RuPIJ_LgqDgC",
@@ -5535,7 +5788,8 @@
       "scientist": "Frank Hutter",
       "confirmed_ellis_affiliation": false,
       "venue_category": "NeurIPS",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-YUrxwrkAAAAJ:xm0LlTxljI0C",
@@ -5556,7 +5810,8 @@
       "scientist": "Frank Hutter",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-YUrxwrkAAAAJ:nqdriD65xNoC",
@@ -5578,7 +5833,8 @@
       "scientist": "Frank Hutter",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-YUrxwrkAAAAJ:ymY9cBF3mdcC",
@@ -5601,7 +5857,8 @@
       "scientist": "Frank Hutter",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-YUrxwrkAAAAJ:M0leSnx2MbUC",
@@ -5629,7 +5886,8 @@
       ],
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-YUrxwrkAAAAJ:hNSvKAmkeYkC",
@@ -5648,7 +5906,8 @@
       "scientist": "Frank Hutter",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-YUrxwrkAAAAJ:jmjb1lOE9QIC",
@@ -5669,7 +5928,8 @@
       "scientist": "Frank Hutter",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-YUrxwrkAAAAJ:n3vGvpFsckwC",
@@ -5691,7 +5951,8 @@
       "scientist": "Frank Hutter",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-YUrxwrkAAAAJ:9DLIHnF0jcYC",
@@ -5712,7 +5973,8 @@
       "scientist": "Frank Hutter",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-YUrxwrkAAAAJ:nPTYJWkExTIC",
@@ -5732,7 +5994,8 @@
       "scientist": "Frank Hutter",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-YUrxwrkAAAAJ:1r-w4gtu6w8C",
@@ -5753,7 +6016,8 @@
       "scientist": "Frank Hutter",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-YUrxwrkAAAAJ:R-LXmdHK_14C",
@@ -5774,7 +6038,8 @@
       "scientist": "Frank Hutter",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-YUrxwrkAAAAJ:4Yq6kJLCcecC",
@@ -5794,7 +6059,8 @@
       "scientist": "Frank Hutter",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-YUrxwrkAAAAJ:qmtmRrLr0tkC",
@@ -5813,7 +6079,8 @@
       "scientist": "Frank Hutter",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-YUrxwrkAAAAJ:4e5Qn2KL_jwC",
@@ -5832,7 +6099,8 @@
       "scientist": "Frank Hutter",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-YUrxwrkAAAAJ:sfnaS5RM6jYC",
@@ -5857,7 +6125,8 @@
       ],
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-YUrxwrkAAAAJ:Zh0EY9V9P6UC",
@@ -5877,7 +6146,8 @@
       "scientist": "Frank Hutter",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-YUrxwrkAAAAJ:iyewoVqAXLQC",
@@ -5898,7 +6168,8 @@
       "scientist": "Frank Hutter",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-YUrxwrkAAAAJ:ji7lAbPyDbYC",
@@ -5918,7 +6189,8 @@
       "scientist": "Frank Hutter",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-YUrxwrkAAAAJ:wUn16MOA3RoC",
@@ -5938,7 +6210,8 @@
       "scientist": "Frank Hutter",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-YUrxwrkAAAAJ:m92CDrhVnKEC",
@@ -5958,7 +6231,8 @@
       "scientist": "Frank Hutter",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-YUrxwrkAAAAJ:2vr6o8x5NLkC",
@@ -5979,7 +6253,8 @@
       "scientist": "Frank Hutter",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-YUrxwrkAAAAJ:naSTrk-c4S8C",
@@ -6000,7 +6275,8 @@
       "scientist": "Frank Hutter",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-YUrxwrkAAAAJ:OzeSX8-yOCQC",
@@ -6022,7 +6298,8 @@
       "scientist": "Frank Hutter",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-YUrxwrkAAAAJ:ijdKiLOsEJMC",
@@ -6041,7 +6318,8 @@
       "scientist": "Frank Hutter",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-YUrxwrkAAAAJ:JWITY9-sCbMC",
@@ -6062,7 +6340,8 @@
       "scientist": "Frank Hutter",
       "confirmed_ellis_affiliation": false,
       "venue_category": "ICML",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-YUrxwrkAAAAJ:QVtou7C4vgoC",
@@ -6086,7 +6365,8 @@
       "scientist": "Frank Hutter",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-YUrxwrkAAAAJ:W2uZP3ddy8sC",
@@ -6110,7 +6390,8 @@
       "scientist": "Frank Hutter",
       "confirmed_ellis_affiliation": false,
       "venue_category": "ICML",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-YUrxwrkAAAAJ:Ic1VZgkJnDsC",
@@ -6131,7 +6412,8 @@
       "scientist": "Frank Hutter",
       "confirmed_ellis_affiliation": false,
       "venue_category": "ICML",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-YUrxwrkAAAAJ:LPtt_HFRSbwC",
@@ -6149,7 +6431,8 @@
       "scientist": "Frank Hutter",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-YUrxwrkAAAAJ:jlhcAiayVhoC",
@@ -6172,7 +6455,8 @@
       "scientist": "Frank Hutter",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-YUrxwrkAAAAJ:c_xDhezhKKUC",
@@ -6196,7 +6480,8 @@
       "scientist": "Frank Hutter",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-YUrxwrkAAAAJ:zwpXiJ37cpgC",
@@ -6217,7 +6502,8 @@
       "scientist": "Frank Hutter",
       "confirmed_ellis_affiliation": false,
       "venue_category": "ICLR",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-YUrxwrkAAAAJ:MIg0yeAD4ggC",
@@ -6239,7 +6525,8 @@
       "scientist": "Frank Hutter",
       "confirmed_ellis_affiliation": false,
       "venue_category": "ICLR",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-YUrxwrkAAAAJ:PkcyUWeTMh0C",
@@ -6262,7 +6549,8 @@
       "scientist": "Frank Hutter",
       "confirmed_ellis_affiliation": false,
       "venue_category": "ICLR",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-YUrxwrkAAAAJ:DkZNVXde3BIC",
@@ -6282,14 +6570,15 @@
       "scientist": "Frank Hutter",
       "confirmed_ellis_affiliation": false,
       "venue_category": "ICLR",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-YUrxwrkAAAAJ:TaaCk18tZOkC",
       "title": "Frozen layers: Memory-efficient many-fidelity hyperparameter optimization",
       "year": 2025,
       "venue": "arXiv preprint arXiv:2504.10735, 2025",
-      "cited_by_count": 6,
+      "cited_by_count": 7,
       "doi": null,
       "citation_id": "YUrxwrkAAAAJ:TaaCk18tZOkC",
       "authors": [
@@ -6302,7 +6591,8 @@
       "scientist": "Frank Hutter",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-YUrxwrkAAAAJ:_AeoHAGD03cC",
@@ -6322,7 +6612,8 @@
       "scientist": "Frank Hutter",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-YUrxwrkAAAAJ:L1USKYWJimsC",
@@ -6341,7 +6632,8 @@
       "scientist": "Frank Hutter",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-YUrxwrkAAAAJ:hQUaER0FWQ4C",
@@ -6363,7 +6655,8 @@
       "scientist": "Frank Hutter",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-YUrxwrkAAAAJ:8dzOF9BpDQoC",
@@ -6385,7 +6678,8 @@
       "scientist": "Frank Hutter",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-YUrxwrkAAAAJ:RtRctb2lSbAC",
@@ -6407,7 +6701,8 @@
       "scientist": "Frank Hutter",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-YUrxwrkAAAAJ:G1UMdFYMoxkC",
@@ -6426,14 +6721,15 @@
       "scientist": "Frank Hutter",
       "confirmed_ellis_affiliation": false,
       "venue_category": "ICML",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-YUrxwrkAAAAJ:ZqE1mSdD_DYC",
       "title": "Accurate predictions on small data with a tabular foundation model",
       "year": 2025,
       "venue": "Nature 637 (8045), 319-326, 2025",
-      "cited_by_count": 1650,
+      "cited_by_count": 1655,
       "doi": null,
       "citation_id": "YUrxwrkAAAAJ:ZqE1mSdD_DYC",
       "authors": [
@@ -6449,7 +6745,8 @@
       "scientist": "Frank Hutter",
       "confirmed_ellis_affiliation": false,
       "venue_category": "Nature",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-YUrxwrkAAAAJ:EaFouW7jFu4C",
@@ -6469,7 +6766,8 @@
       "scientist": "Frank Hutter",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-YUrxwrkAAAAJ:E7VqQtBCVmcC",
@@ -6496,7 +6794,8 @@
       ],
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-YUrxwrkAAAAJ:L24QuVWYgZ0C",
@@ -6514,7 +6813,8 @@
       "scientist": "Frank Hutter",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-YUrxwrkAAAAJ:KS-xo-ZNxMsC",
@@ -6534,7 +6834,8 @@
       "scientist": "Frank Hutter",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-YUrxwrkAAAAJ:orDZ08hpP44C",
@@ -6554,7 +6855,8 @@
       "scientist": "Frank Hutter",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-YUrxwrkAAAAJ:QsKbpXNoaWkC",
@@ -6578,7 +6880,8 @@
       "scientist": "Frank Hutter",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-YUrxwrkAAAAJ:PQEM9vzQD9gC",
@@ -6599,7 +6902,8 @@
       "scientist": "Frank Hutter",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-YUrxwrkAAAAJ:X0DADzN9RKwC",
@@ -6622,7 +6926,8 @@
       "scientist": "Frank Hutter",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-YUrxwrkAAAAJ:LK8CI43ZvvMC",
@@ -6644,7 +6949,8 @@
       "scientist": "Frank Hutter",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-YUrxwrkAAAAJ:oPLKW5k6eA4C",
@@ -6666,7 +6972,8 @@
       "scientist": "Frank Hutter",
       "confirmed_ellis_affiliation": false,
       "venue_category": "ICLR",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-9LajlSsAAAAJ:35r97b3x0nAC",
@@ -6685,7 +6992,8 @@
       "scientist": "T. Konstantin Rusch",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-9LajlSsAAAAJ:3s1wT3WcHBgC",
@@ -6705,7 +7013,8 @@
       "scientist": "T. Konstantin Rusch",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-9LajlSsAAAAJ:HoB7MX3m0LUC",
@@ -6725,7 +7034,8 @@
       "scientist": "T. Konstantin Rusch",
       "confirmed_ellis_affiliation": false,
       "venue_category": "CoRL",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-9LajlSsAAAAJ:tkaPQYYpVKoC",
@@ -6745,7 +7055,8 @@
       "scientist": "T. Konstantin Rusch",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-9LajlSsAAAAJ:Y5dfb0dijaUC",
@@ -6768,7 +7079,8 @@
       "scientist": "T. Konstantin Rusch",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-73IbXtsAAAAJ:ye4kPcJQO24C",
@@ -6789,7 +7101,8 @@
       "scientist": "Shiwei Liu",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-73IbXtsAAAAJ:WA5NYHcadZ8C",
@@ -6812,7 +7125,8 @@
       "scientist": "Shiwei Liu",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-73IbXtsAAAAJ:B3FOqHPlNUQC",
@@ -6834,7 +7148,8 @@
       "scientist": "Shiwei Liu",
       "confirmed_ellis_affiliation": false,
       "venue_category": "NeurIPS",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-73IbXtsAAAAJ:JoZmwDi-zQgC",
@@ -6860,7 +7175,8 @@
       "scientist": "Shiwei Liu",
       "confirmed_ellis_affiliation": false,
       "venue_category": "NeurIPS",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-73IbXtsAAAAJ:Mojj43d5GZwC",
@@ -6883,7 +7199,8 @@
       "scientist": "Shiwei Liu",
       "confirmed_ellis_affiliation": false,
       "venue_category": "NeurIPS",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-73IbXtsAAAAJ:LjlpjdlvIbIC",
@@ -6904,7 +7221,8 @@
       "scientist": "Shiwei Liu",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-ZNtuJYoAAAAJ:NhqRSupF_l8C",
@@ -6928,7 +7246,8 @@
       "scientist": "Maksym Andriushchenko",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-ZNtuJYoAAAAJ:abG-DnoFyZgC",
@@ -6954,7 +7273,8 @@
       ],
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-ZNtuJYoAAAAJ:fQNAKQ3IYiAC",
@@ -6981,7 +7301,8 @@
       ],
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-ZNtuJYoAAAAJ:_xSYboBqXhAC",
@@ -7007,7 +7328,8 @@
       ],
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-VRBv6mEAAAAJ:e5wmG9Sq2KIC",
@@ -7032,7 +7354,8 @@
       ],
       "confirmed_ellis_affiliation": false,
       "venue_category": "NeurIPS",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-VRBv6mEAAAAJ:M05iB0D1s5AC",
@@ -7054,7 +7377,8 @@
       "scientist": "Maximilian Dax",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-VRBv6mEAAAAJ:r0BpntZqJG4C",
@@ -7077,7 +7401,8 @@
       "scientist": "Maximilian Dax",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-VRBv6mEAAAAJ:2P1L_qKh6hAC",
@@ -7099,7 +7424,8 @@
       "scientist": "Maximilian Dax",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-VRBv6mEAAAAJ:YFjsv_pBGBYC",
@@ -7121,7 +7447,8 @@
       "scientist": "Maximilian Dax",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-VRBv6mEAAAAJ:R3hNpaxXUhUC",
@@ -7143,7 +7470,8 @@
       "scientist": "Maximilian Dax",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-VRBv6mEAAAAJ:aqlVkmm33-oC",
@@ -7168,7 +7496,8 @@
       ],
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-VRBv6mEAAAAJ:RGFaLdJalmkC",
@@ -7190,7 +7519,8 @@
       "scientist": "Maximilian Dax",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-VRBv6mEAAAAJ:M3NEmzRMIkIC",
@@ -7212,7 +7542,8 @@
       "scientist": "Maximilian Dax",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-VRBv6mEAAAAJ:70eg2SAEIzsC",
@@ -7234,7 +7565,8 @@
       "scientist": "Maximilian Dax",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-VRBv6mEAAAAJ:35N4QoGY0k4C",
@@ -7256,7 +7588,8 @@
       "scientist": "Maximilian Dax",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-VRBv6mEAAAAJ:JV2RwH3_ST0C",
@@ -7278,7 +7611,8 @@
       "scientist": "Maximilian Dax",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-VRBv6mEAAAAJ:k_IJM867U9cC",
@@ -7300,7 +7634,8 @@
       "scientist": "Maximilian Dax",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-VRBv6mEAAAAJ:maZDTaKrznsC",
@@ -7323,7 +7658,8 @@
       "scientist": "Maximilian Dax",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-VRBv6mEAAAAJ:TFP_iSt0sucC",
@@ -7345,7 +7681,8 @@
       "scientist": "Maximilian Dax",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-VRBv6mEAAAAJ:bEWYMUwI8FkC",
@@ -7367,7 +7704,8 @@
       "scientist": "Maximilian Dax",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-VRBv6mEAAAAJ:blknAaTinKkC",
@@ -7386,7 +7724,8 @@
       "scientist": "Maximilian Dax",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-VRBv6mEAAAAJ:IWHjjKOFINEC",
@@ -7409,7 +7748,8 @@
       "scientist": "Maximilian Dax",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-VRBv6mEAAAAJ:hC7cP41nSMkC",
@@ -7432,7 +7772,8 @@
       "scientist": "Maximilian Dax",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-VRBv6mEAAAAJ:dhFuZR0502QC",
@@ -7454,7 +7795,8 @@
       "scientist": "Maximilian Dax",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-VRBv6mEAAAAJ:HDshCWvjkbEC",
@@ -7481,7 +7823,8 @@
       ],
       "confirmed_ellis_affiliation": false,
       "venue_category": "Nature",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-VRBv6mEAAAAJ:TQgYirikUcIC",
@@ -7502,7 +7845,8 @@
       "scientist": "Maximilian Dax",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-VRBv6mEAAAAJ:pqnbT2bcN3wC",
@@ -7519,7 +7863,8 @@
       "scientist": "Maximilian Dax",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-VRBv6mEAAAAJ:lSLTfruPkqcC",
@@ -7543,7 +7888,8 @@
       "scientist": "Maximilian Dax",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-sDHHglIAAAAJ:EYYDruWGBe4C",
@@ -7565,7 +7911,8 @@
       "scientist": "Rediet Abebe",
       "confirmed_ellis_affiliation": false,
       "venue_category": "NeurIPS",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-sDHHglIAAAAJ:TIZ-Mc8IlK0C",
@@ -7584,7 +7931,8 @@
       "scientist": "Rediet Abebe",
       "confirmed_ellis_affiliation": false,
       "venue_category": "ICLR",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-sDHHglIAAAAJ:KUbvn5osdkgC",
@@ -7604,7 +7952,8 @@
       "scientist": "Rediet Abebe",
       "confirmed_ellis_affiliation": false,
       "venue_category": "ICLR",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-sDHHglIAAAAJ:-FonjvnnhkoC",
@@ -7626,7 +7975,8 @@
       "scientist": "Rediet Abebe",
       "confirmed_ellis_affiliation": false,
       "venue_category": "ICLR",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-sDHHglIAAAAJ:qxL8FJ1GzNcC",
@@ -7646,7 +7996,8 @@
       "scientist": "Rediet Abebe",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-xkuLyHoAAAAJ:dfsIfKJdRG4C",
@@ -7666,7 +8017,8 @@
       "scientist": "Antonio Orvieto",
       "confirmed_ellis_affiliation": false,
       "venue_category": "NeurIPS",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-xkuLyHoAAAAJ:M05iB0D1s5AC",
@@ -7688,7 +8040,8 @@
       "scientist": "Antonio Orvieto",
       "confirmed_ellis_affiliation": false,
       "venue_category": "NeurIPS",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-xkuLyHoAAAAJ:RYcK_YlVTxYC",
@@ -7706,7 +8059,8 @@
       "scientist": "Antonio Orvieto",
       "confirmed_ellis_affiliation": false,
       "venue_category": "NeurIPS",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-xkuLyHoAAAAJ:GnPB-g6toBAC",
@@ -7726,7 +8080,8 @@
       "scientist": "Antonio Orvieto",
       "confirmed_ellis_affiliation": false,
       "venue_category": "NeurIPS",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-xkuLyHoAAAAJ:yD5IFk8b50cC",
@@ -7744,7 +8099,8 @@
       "scientist": "Antonio Orvieto",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-xkuLyHoAAAAJ:pqnbT2bcN3wC",
@@ -7764,7 +8120,8 @@
       "scientist": "Antonio Orvieto",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-xkuLyHoAAAAJ:4OULZ7Gr8RgC",
@@ -7784,7 +8141,8 @@
       "scientist": "Antonio Orvieto",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-xkuLyHoAAAAJ:NaGl4SEjCO4C",
@@ -7802,7 +8160,8 @@
       "scientist": "Antonio Orvieto",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-xkuLyHoAAAAJ:SeFeTyx0c_EC",
@@ -7822,7 +8181,8 @@
       "scientist": "Antonio Orvieto",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-xkuLyHoAAAAJ:EUQCXRtRnyEC",
@@ -7844,7 +8204,8 @@
       "scientist": "Antonio Orvieto",
       "confirmed_ellis_affiliation": false,
       "venue_category": "ICML",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-xkuLyHoAAAAJ:vV6vV6tmYwMC",
@@ -7864,7 +8225,8 @@
       "scientist": "Antonio Orvieto",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-xkuLyHoAAAAJ:blknAaTinKkC",
@@ -7886,7 +8248,8 @@
       "scientist": "Antonio Orvieto",
       "confirmed_ellis_affiliation": false,
       "venue_category": "ICLR",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-xkuLyHoAAAAJ:k_IJM867U9cC",
@@ -7905,7 +8268,8 @@
       "scientist": "Antonio Orvieto",
       "confirmed_ellis_affiliation": false,
       "venue_category": "ICLR",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-xkuLyHoAAAAJ:1sJd4Hv_s6UC",
@@ -7930,7 +8294,8 @@
       ],
       "confirmed_ellis_affiliation": false,
       "venue_category": "ICML",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-xkuLyHoAAAAJ:4DMP91E08xMC",
@@ -7947,7 +8312,8 @@
       "scientist": "Antonio Orvieto",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-xkuLyHoAAAAJ:YFjsv_pBGBYC",
@@ -7966,7 +8332,8 @@
       "scientist": "Antonio Orvieto",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-xkuLyHoAAAAJ:3s1wT3WcHBgC",
@@ -7984,7 +8351,8 @@
       "scientist": "Antonio Orvieto",
       "confirmed_ellis_affiliation": false,
       "venue_category": "ICML",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-xkuLyHoAAAAJ:ldfaerwXgEUC",
@@ -8004,7 +8372,8 @@
       "scientist": "Antonio Orvieto",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:XRth-JKzQvcC",
@@ -8023,7 +8392,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": "NeurIPS",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:kHf6Y_keyIwC",
@@ -8046,7 +8416,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": "NeurIPS",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:OX23M3FD-1oC",
@@ -8065,7 +8436,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": "NeurIPS",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:CuKqH-V-M3UC",
@@ -8084,7 +8456,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:KR8-Jx_BTx0C",
@@ -8105,7 +8478,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:Xr_kXds1DwcC",
@@ -8125,7 +8499,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:eZ3Jd4XgJWUC",
@@ -8148,7 +8523,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:X-kyIj4Jmq4C",
@@ -8172,7 +8548,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:0L9qyEHVNWwC",
@@ -8193,7 +8570,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:iTIPypF6y-oC",
@@ -8217,7 +8595,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:zpiM1xuKXZIC",
@@ -8239,7 +8618,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:tENBw-I8_u0C",
@@ -8259,7 +8639,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:gGo9PeUW_JsC",
@@ -8279,7 +8660,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:9t3yfu3yIAcC",
@@ -8301,7 +8683,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:RmNfB3aBSJEC",
@@ -8324,7 +8707,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": "Nature",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:wfG9CW_pno8C",
@@ -8347,7 +8731,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": "NeurIPS",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:Nm_okVSxvOsC",
@@ -8369,7 +8754,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:pzJoL9iqVMkC",
@@ -8388,7 +8774,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:5kPk9ySVCH0C",
@@ -8406,7 +8793,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:_m4KnnXV18oC",
@@ -8426,7 +8814,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:6MDFJeX3rOoC",
@@ -8446,7 +8835,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:2z2LaJNcrwkC",
@@ -8467,14 +8857,15 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:YfAA0ZJ8dU0C",
       "title": "Voices of her: Analyzing gender differences in the AI publication world",
       "year": 2025,
       "venue": "Proceedings of the Fourth Workshop on NLP for Positive Impact (NLP4PI), 196-214, 2025",
-      "cited_by_count": 8,
+      "cited_by_count": 9,
       "doi": null,
       "citation_id": "DZ-fHPgAAAAJ:YfAA0ZJ8dU0C",
       "authors": [
@@ -8490,7 +8881,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:ZHhyYFt6n1oC",
@@ -8512,7 +8904,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:h8Z0oieY4pgC",
@@ -8534,7 +8927,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:GqNTHwZWsfMC",
@@ -8553,7 +8947,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": "ICML",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:IEFOukzuKpAC",
@@ -8575,7 +8970,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:Rz4odBi1C0wC",
@@ -8598,7 +8994,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:nbe_yQ1PItwC",
@@ -8620,7 +9017,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:LXJi0SSOA9oC",
@@ -8640,7 +9038,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:GeK8YprAuG8C",
@@ -8659,14 +9058,15 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:F7Fv8X21nM8C",
       "title": "The directionality of optimization trajectories in neural networks",
       "year": 2025,
       "venue": "International Conference on Learning Representations 2025, 21802-21862, 2025",
-      "cited_by_count": 5,
+      "cited_by_count": 6,
       "doi": null,
       "citation_id": "DZ-fHPgAAAAJ:F7Fv8X21nM8C",
       "authors": [
@@ -8679,7 +9079,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": "ICLR",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:fGf7eakw1skC",
@@ -8702,7 +9103,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": "ICLR",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:wrCxuZLGs6cC",
@@ -8723,7 +9125,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": "ICLR",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:crj7m7lBAXMC",
@@ -8742,7 +9145,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": "ICLR",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:JpZHB2EbTyIC",
@@ -8767,7 +9171,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": "ICLR",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:i0D1HAYyf8wC",
@@ -8788,7 +9193,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": "ICLR",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:BgA9TAIr_78C",
@@ -8810,7 +9216,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:DVyGZPgByDIC",
@@ -8829,7 +9236,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:E_zovw6Xb7EC",
@@ -8847,14 +9255,15 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:ndteoNauYT4C",
       "title": "Early warning of complex climate risk with integrated artificial intelligence",
       "year": 2025,
       "venue": "Nature Communications 16 (1), 2564, 2025",
-      "cited_by_count": 171,
+      "cited_by_count": 172,
       "doi": null,
       "citation_id": "DZ-fHPgAAAAJ:ndteoNauYT4C",
       "authors": [
@@ -8870,7 +9279,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": "Nature",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:urTNpwCjgKkC",
@@ -8892,14 +9302,15 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:nELodgEtCAkC",
       "title": "Artificial intelligence for modelling infectious disease epidemics",
       "year": 2025,
       "venue": "Nature 638 (8051), 623-635, 2025",
-      "cited_by_count": 221,
+      "cited_by_count": 224,
       "doi": null,
       "citation_id": "DZ-fHPgAAAAJ:nELodgEtCAkC",
       "authors": [
@@ -8915,7 +9326,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": "Nature",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:RBGOXS4gXTcC",
@@ -8938,7 +9350,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:SOSuX3g8JewC",
@@ -8960,14 +9373,15 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:tNmn4cwa0ScC",
       "title": "Causality can systematically address the monsters under the bench (marks)",
       "year": 2025,
       "venue": "arXiv preprint arXiv:2502.05085, 2025",
-      "cited_by_count": 3,
+      "cited_by_count": 4,
       "doi": null,
       "citation_id": "DZ-fHPgAAAAJ:tNmn4cwa0ScC",
       "authors": [
@@ -8979,7 +9393,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:4V3fHkrxY_EC",
@@ -8998,7 +9413,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:n1-s7hfOtUIC",
@@ -9021,7 +9437,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:IcIzTWRFbyYC",
@@ -9044,7 +9461,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:cD5VUFgRq_UC",
@@ -9067,7 +9485,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:SCyikjQ18VQC",
@@ -9091,7 +9510,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": "NeurIPS",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:FYP7VdfJizgC",
@@ -9114,7 +9534,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": "NeurIPS",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:NffKZMvbRDkC",
@@ -9134,7 +9555,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": "ICLR",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-usl__skAAAAJ:K3LRdlH-MEoC",
@@ -9157,7 +9579,8 @@
       "scientist": "Aaron Klein",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-usl__skAAAAJ:dshw04ExmUIC",
@@ -9180,7 +9603,8 @@
       "scientist": "Aaron Klein",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-D0WjJlsAAAAJ:dQ2og3OwTAUC",
@@ -9199,7 +9623,8 @@
       "scientist": "David Salinas",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-D0WjJlsAAAAJ:hkOj_22Ku90C",
@@ -9223,7 +9648,8 @@
       "scientist": "David Salinas",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-D0WjJlsAAAAJ:PR6Y55bgFSsC",
@@ -9245,7 +9671,8 @@
       "scientist": "David Salinas",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-D0WjJlsAAAAJ:SdhP9T11ey4C",
@@ -9264,7 +9691,8 @@
       "scientist": "David Salinas",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-UqtDdZUAAAAJ:YFjsv_pBGBYC",
@@ -9283,7 +9711,8 @@
       "scientist": "Celestine Mendler-D\u00fcnner",
       "confirmed_ellis_affiliation": false,
       "venue_category": "NeurIPS",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-UqtDdZUAAAAJ:hMod-77fHWUC",
@@ -9291,7 +9720,7 @@
       "year": 2024,
       "venue": "NeurIPS 2024, 2024",
       "cited_by_count": 16,
-      "doi": null,
+      "doi": "https://doi.org/10.52202/079017-1891",
       "citation_id": "UqtDdZUAAAAJ:hMod-77fHWUC",
       "authors": [
         "C Mendler-D\u00fcnner",
@@ -9302,7 +9731,8 @@
       "scientist": "Celestine Mendler-D\u00fcnner",
       "confirmed_ellis_affiliation": false,
       "venue_category": "NeurIPS",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-UqtDdZUAAAAJ:blknAaTinKkC",
@@ -9310,7 +9740,7 @@
       "year": 2024,
       "venue": "NeurIPS 2024, 2024",
       "cited_by_count": 19,
-      "doi": null,
+      "doi": "https://doi.org/10.52202/079017-3784",
       "citation_id": "UqtDdZUAAAAJ:blknAaTinKkC",
       "authors": [
         "J Baumann",
@@ -9320,7 +9750,8 @@
       "scientist": "Celestine Mendler-D\u00fcnner",
       "confirmed_ellis_affiliation": false,
       "venue_category": "NeurIPS",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-v-JL-hsAAAAJ:CHSYGLWDkRkC",
@@ -9339,7 +9770,8 @@
       "scientist": "Wieland Brendel",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-v-JL-hsAAAAJ:xtRiw3GOFMkC",
@@ -9360,15 +9792,16 @@
       "scientist": "Wieland Brendel",
       "confirmed_ellis_affiliation": false,
       "venue_category": "NeurIPS",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-v-JL-hsAAAAJ:EUQCXRtRnyEC",
       "title": "InfoNCE: Identifying the Gap Between Theory and Practice",
       "year": 2024,
       "venue": "AISTATS 2025, 2024",
-      "cited_by_count": 98,
-      "doi": null,
+      "cited_by_count": 99,
+      "doi": "https://doi.org/10.48550/arxiv.2407.00143",
       "citation_id": "v-JL-hsAAAAJ:EUQCXRtRnyEC",
       "authors": [
         "E Rusak",
@@ -9382,7 +9815,8 @@
       "scientist": "Wieland Brendel",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2407.00143"
     },
     {
       "id": "scholar-v-JL-hsAAAAJ:f2IySw72cVMC",
@@ -9390,7 +9824,7 @@
       "year": 2024,
       "venue": "Frontiers in Computational Neuroscience 18, 1387077, 2024",
       "cited_by_count": 5,
-      "doi": null,
+      "doi": "https://doi.org/10.3389/fncom.2024.1387077",
       "citation_id": "v-JL-hsAAAAJ:f2IySw72cVMC",
       "authors": [
         "JO Caro",
@@ -9405,7 +9839,8 @@
       "scientist": "Wieland Brendel",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": true,
+      "oa_url": "https://www.frontiersin.org/articles/10.3389/fncom.2024.1387077/pdf?isPublishedV2=False"
     },
     {
       "id": "scholar-v-JL-hsAAAAJ:pyW8ca7W8N0C",
@@ -9427,7 +9862,8 @@
       "scientist": "Wieland Brendel",
       "confirmed_ellis_affiliation": false,
       "venue_category": "ICML",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-v-JL-hsAAAAJ:fPk4N6BV_jEC",
@@ -9435,7 +9871,7 @@
       "year": 2024,
       "venue": "Causal Learning and Reasoning, 41-70, 2024",
       "cited_by_count": 8,
-      "doi": null,
+      "doi": "https://doi.org/10.48550/arxiv.2311.18048",
       "citation_id": "v-JL-hsAAAAJ:fPk4N6BV_jEC",
       "authors": [
         "G Rajendran",
@@ -9447,7 +9883,8 @@
       "scientist": "Wieland Brendel",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2311.18048"
     },
     {
       "id": "scholar-v-JL-hsAAAAJ:D03iK_w7-QYC",
@@ -9466,7 +9903,8 @@
       "scientist": "Wieland Brendel",
       "confirmed_ellis_affiliation": false,
       "venue_category": "NeurIPS",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-v-JL-hsAAAAJ:4OULZ7Gr8RgC",
@@ -9488,7 +9926,8 @@
       "scientist": "Wieland Brendel",
       "confirmed_ellis_affiliation": false,
       "venue_category": "ICLR",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-v-JL-hsAAAAJ:SP6oXDckpogC",
@@ -9510,7 +9949,8 @@
       "scientist": "Wieland Brendel",
       "confirmed_ellis_affiliation": false,
       "venue_category": "NeurIPS",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-v-JL-hsAAAAJ:P5F9QuxV20EC",
@@ -9534,7 +9974,8 @@
       "scientist": "Wieland Brendel",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-v-JL-hsAAAAJ:u_35RYKgDlwC",
@@ -9555,7 +9996,8 @@
       "scientist": "Wieland Brendel",
       "confirmed_ellis_affiliation": false,
       "venue_category": "ICLR",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-v-JL-hsAAAAJ:zA6iFVUQeVQC",
@@ -9577,7 +10019,8 @@
       "scientist": "Wieland Brendel",
       "confirmed_ellis_affiliation": false,
       "venue_category": "ICLR",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-206vNCEAAAAJ:tOudhMTPpwUC",
@@ -9599,7 +10042,8 @@
       "scientist": "Jonas Geiping",
       "confirmed_ellis_affiliation": false,
       "venue_category": "NeurIPS",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-206vNCEAAAAJ:f2IySw72cVMC",
@@ -9623,14 +10067,15 @@
       "scientist": "Jonas Geiping",
       "confirmed_ellis_affiliation": false,
       "venue_category": "NeurIPS",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-206vNCEAAAAJ:3s1wT3WcHBgC",
       "title": "Privacy backdoors: Enhancing membership inference through poisoning pre-trained models",
       "year": 2024,
       "venue": "Advances in Neural Information Processing Systems 37, 83374-83396, 2024",
-      "cited_by_count": 65,
+      "cited_by_count": 66,
       "doi": null,
       "citation_id": "206vNCEAAAAJ:3s1wT3WcHBgC",
       "authors": [
@@ -9645,7 +10090,8 @@
       "scientist": "Jonas Geiping",
       "confirmed_ellis_affiliation": false,
       "venue_category": "NeurIPS",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-206vNCEAAAAJ:vRqMK49ujn8C",
@@ -9668,7 +10114,8 @@
       "scientist": "Jonas Geiping",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-206vNCEAAAAJ:tS2w5q8j5-wC",
@@ -9691,7 +10138,8 @@
       "scientist": "Jonas Geiping",
       "confirmed_ellis_affiliation": false,
       "venue_category": "ECCV",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-206vNCEAAAAJ:K3LRdlH-MEoC",
@@ -9709,7 +10157,8 @@
       "scientist": "Jonas Geiping",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-206vNCEAAAAJ:lSLTfruPkqcC",
@@ -9731,14 +10180,15 @@
       "scientist": "Jonas Geiping",
       "confirmed_ellis_affiliation": false,
       "venue_category": "CVPR",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-206vNCEAAAAJ:pyW8ca7W8N0C",
       "title": "Ai risk management should incorporate both safety and security",
       "year": 2024,
       "venue": "arXiv preprint arXiv:2405.19524, 2024",
-      "cited_by_count": 33,
+      "cited_by_count": 34,
       "doi": null,
       "citation_id": "206vNCEAAAAJ:pyW8ca7W8N0C",
       "authors": [
@@ -9755,14 +10205,15 @@
       "scientist": "Jonas Geiping",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-206vNCEAAAAJ:D03iK_w7-QYC",
       "title": "Transformers Can Do Arithmetic with the Right Embeddings",
       "year": 2024,
       "venue": "Advances in Neural Information Processing Systems, 2024, 2024",
-      "cited_by_count": 137,
+      "cited_by_count": 138,
       "doi": null,
       "citation_id": "206vNCEAAAAJ:D03iK_w7-QYC",
       "authors": [
@@ -9778,7 +10229,8 @@
       "scientist": "Jonas Geiping",
       "confirmed_ellis_affiliation": false,
       "venue_category": "NeurIPS",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-206vNCEAAAAJ:a0OBvERweLwC",
@@ -9801,7 +10253,8 @@
       "scientist": "Jonas Geiping",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-206vNCEAAAAJ:HoB7MX3m0LUC",
@@ -9825,7 +10278,8 @@
       "scientist": "Jonas Geiping",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-206vNCEAAAAJ:M05iB0D1s5AC",
@@ -9846,7 +10300,8 @@
       "scientist": "Jonas Geiping",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-206vNCEAAAAJ:ldfaerwXgEUC",
@@ -9868,7 +10323,8 @@
       "scientist": "Jonas Geiping",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-206vNCEAAAAJ:70eg2SAEIzsC",
@@ -9890,7 +10346,8 @@
       "scientist": "Jonas Geiping",
       "confirmed_ellis_affiliation": false,
       "venue_category": "ICML",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-206vNCEAAAAJ:08ZZubdj9fEC",
@@ -9911,7 +10368,8 @@
       "scientist": "Jonas Geiping",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-206vNCEAAAAJ:738O_yMBCRsC",
@@ -9935,7 +10393,8 @@
       "scientist": "Jonas Geiping",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-206vNCEAAAAJ:GnPB-g6toBAC",
@@ -9958,7 +10417,8 @@
       "scientist": "Jonas Geiping",
       "confirmed_ellis_affiliation": false,
       "venue_category": "ICLR",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-206vNCEAAAAJ:_Qo2XoVZTnwC",
@@ -9981,7 +10441,8 @@
       "scientist": "Jonas Geiping",
       "confirmed_ellis_affiliation": false,
       "venue_category": "ICLR",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-YUrxwrkAAAAJ:unp9ATQDT5gC",
@@ -10001,7 +10462,8 @@
       "scientist": "Frank Hutter",
       "confirmed_ellis_affiliation": false,
       "venue_category": "NeurIPS",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-YUrxwrkAAAAJ:1tZ8xJnm2c8C",
@@ -10022,7 +10484,8 @@
       "scientist": "Frank Hutter",
       "confirmed_ellis_affiliation": false,
       "venue_category": "NeurIPS",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-YUrxwrkAAAAJ:CYCckWUYoCcC",
@@ -10045,7 +10508,8 @@
       "scientist": "Frank Hutter",
       "confirmed_ellis_affiliation": false,
       "venue_category": "NeurIPS",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-YUrxwrkAAAAJ:wvYxNZNCP7wC",
@@ -10067,7 +10531,8 @@
       "scientist": "Frank Hutter",
       "confirmed_ellis_affiliation": false,
       "venue_category": "NeurIPS",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-YUrxwrkAAAAJ:T_ojBgVMvoEC",
@@ -10087,7 +10552,8 @@
       "scientist": "Frank Hutter",
       "confirmed_ellis_affiliation": false,
       "venue_category": "NeurIPS",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-YUrxwrkAAAAJ:AzKEL7Gb_04C",
@@ -10110,7 +10576,8 @@
       "scientist": "Frank Hutter",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-YUrxwrkAAAAJ:UmS_249rOGwC",
@@ -10133,7 +10600,8 @@
       "scientist": "Frank Hutter",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-YUrxwrkAAAAJ:NxmKEeNBbOMC",
@@ -10155,7 +10623,8 @@
       "scientist": "Frank Hutter",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-YUrxwrkAAAAJ:D_tqNUsBuKoC",
@@ -10177,7 +10646,8 @@
       "scientist": "Frank Hutter",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-YUrxwrkAAAAJ:z6xuaG2dYH0C",
@@ -10196,7 +10666,8 @@
       "scientist": "Frank Hutter",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-YUrxwrkAAAAJ:A8cqit5AE6sC",
@@ -10216,7 +10687,8 @@
       "scientist": "Frank Hutter",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-YUrxwrkAAAAJ:SAZ1SQo2q1kC",
@@ -10237,7 +10709,8 @@
       "scientist": "Frank Hutter",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-YUrxwrkAAAAJ:AZju0d2GQJ0C",
@@ -10257,7 +10730,8 @@
       "scientist": "Frank Hutter",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-YUrxwrkAAAAJ:oTdOBqtIf_kC",
@@ -10280,7 +10754,8 @@
       "scientist": "Frank Hutter",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-YUrxwrkAAAAJ:pQTOvowfQioC",
@@ -10302,7 +10777,8 @@
       "scientist": "Frank Hutter",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-YUrxwrkAAAAJ:AYInfyleIOsC",
@@ -10321,7 +10797,8 @@
       "scientist": "Frank Hutter",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-YUrxwrkAAAAJ:qE4H1tSSYIIC",
@@ -10344,7 +10821,8 @@
       "scientist": "Frank Hutter",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-YUrxwrkAAAAJ:isU91gLudPYC",
@@ -10367,7 +10845,8 @@
       "scientist": "Frank Hutter",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-YUrxwrkAAAAJ:RJOyoaXV5v8C",
@@ -10385,7 +10864,8 @@
       "scientist": "Frank Hutter",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-YUrxwrkAAAAJ:eAlLMO4JVmQC",
@@ -10406,7 +10886,8 @@
       "scientist": "Frank Hutter",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-YUrxwrkAAAAJ:0aBXIfxlw9sC",
@@ -10429,7 +10910,8 @@
       "scientist": "Frank Hutter",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-YUrxwrkAAAAJ:YlPif8NxrbYC",
@@ -10448,7 +10930,8 @@
       "scientist": "Frank Hutter",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-YUrxwrkAAAAJ:27LrP4qxOz0C",
@@ -10469,7 +10952,8 @@
       "scientist": "Frank Hutter",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-YUrxwrkAAAAJ:-DxkuPiZhfEC",
@@ -10489,7 +10973,8 @@
       "scientist": "Frank Hutter",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-YUrxwrkAAAAJ:pS0ncopqnHgC",
@@ -10510,7 +10995,8 @@
       "scientist": "Frank Hutter",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-YUrxwrkAAAAJ:qwy9JoKyICEC",
@@ -10531,7 +11017,8 @@
       "scientist": "Frank Hutter",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-YUrxwrkAAAAJ:v6i8RKmR8ToC",
@@ -10550,7 +11037,8 @@
       "scientist": "Frank Hutter",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-YUrxwrkAAAAJ:2v_ZtQDX9iAC",
@@ -10574,7 +11062,8 @@
       "scientist": "Frank Hutter",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-YUrxwrkAAAAJ:Xz60mAmATU4C",
@@ -10595,7 +11084,8 @@
       "scientist": "Frank Hutter",
       "confirmed_ellis_affiliation": false,
       "venue_category": "ICLR",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-YUrxwrkAAAAJ:2l5NCbZemmgC",
@@ -10614,7 +11104,8 @@
       "scientist": "Frank Hutter",
       "confirmed_ellis_affiliation": false,
       "venue_category": "ICLR",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-YUrxwrkAAAAJ:qe6vwMD2xtsC",
@@ -10638,7 +11129,8 @@
       "scientist": "Frank Hutter",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-YUrxwrkAAAAJ:DyXnQzXoVgIC",
@@ -10657,7 +11149,8 @@
       "scientist": "Frank Hutter",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-VRBv6mEAAAAJ:qUcmZB5y_30C",
@@ -10683,7 +11176,8 @@
       ],
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-VRBv6mEAAAAJ:hFOr9nPyWt4C",
@@ -10706,7 +11200,8 @@
       "scientist": "Maximilian Dax",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-VRBv6mEAAAAJ:kNdYIx-mwKoC",
@@ -10729,7 +11224,8 @@
       "scientist": "Maximilian Dax",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-xkuLyHoAAAAJ:JV2RwH3_ST0C",
@@ -10749,7 +11245,8 @@
       "scientist": "Antonio Orvieto",
       "confirmed_ellis_affiliation": false,
       "venue_category": "NeurIPS",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-xkuLyHoAAAAJ:isC4tDSrTZIC",
@@ -10769,7 +11266,8 @@
       "scientist": "Antonio Orvieto",
       "confirmed_ellis_affiliation": false,
       "venue_category": "NeurIPS",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-xkuLyHoAAAAJ:RHpTSmoSYBkC",
@@ -10787,7 +11285,8 @@
       "scientist": "Antonio Orvieto",
       "confirmed_ellis_affiliation": false,
       "venue_category": "NeurIPS",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-xkuLyHoAAAAJ:_Qo2XoVZTnwC",
@@ -10808,7 +11307,8 @@
       "scientist": "Antonio Orvieto",
       "confirmed_ellis_affiliation": false,
       "venue_category": "NeurIPS",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-xkuLyHoAAAAJ:TQgYirikUcIC",
@@ -10829,7 +11329,8 @@
       "scientist": "Antonio Orvieto",
       "confirmed_ellis_affiliation": false,
       "venue_category": "NeurIPS",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-xkuLyHoAAAAJ:maZDTaKrznsC",
@@ -10848,7 +11349,8 @@
       "scientist": "Antonio Orvieto",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-xkuLyHoAAAAJ:bEWYMUwI8FkC",
@@ -10866,7 +11368,8 @@
       "scientist": "Antonio Orvieto",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-xkuLyHoAAAAJ:j3f4tGmQtD8C",
@@ -10886,7 +11389,8 @@
       "scientist": "Antonio Orvieto",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-xkuLyHoAAAAJ:R3hNpaxXUhUC",
@@ -10905,7 +11409,8 @@
       "scientist": "Antonio Orvieto",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-xkuLyHoAAAAJ:hFOr9nPyWt4C",
@@ -10926,7 +11431,8 @@
       "scientist": "Antonio Orvieto",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:N63c6Z09yoIC",
@@ -10947,7 +11453,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": "Nature",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:nsiEqkQACMoC",
@@ -10967,7 +11474,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": "NeurIPS",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:EOr8ft1xfekC",
@@ -10989,7 +11497,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": "NeurIPS",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:VwfM2gf8564C",
@@ -11010,7 +11519,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": "NeurIPS",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:Ntb9snwAPhYC",
@@ -11034,7 +11544,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": "NeurIPS",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:al3mEprNw24C",
@@ -11055,7 +11566,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": "NeurIPS",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:F3rHZ6KMyv0C",
@@ -11077,7 +11589,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": "NeurIPS",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:9v7jY6XdEjAC",
@@ -11099,7 +11612,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:-rJzQCqpPy8C",
@@ -11123,7 +11637,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:KTLuBS02tHEC",
@@ -11144,7 +11659,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": "ICML",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:ltZ93CXAWXIC",
@@ -11167,7 +11683,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:8asMA1BQqT0C",
@@ -11186,7 +11703,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:YtoGvxwmUzsC",
@@ -11208,7 +11726,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": "ACL",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:BpgDKjSh8RsC",
@@ -11228,7 +11747,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:6_g6roSJJJ4C",
@@ -11252,7 +11772,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": "ACL",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:Yea2hB8LYAgC",
@@ -11272,7 +11793,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:pmdLmukq0H0C",
@@ -11294,7 +11816,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:w6WSaVXYMYwC",
@@ -11315,7 +11838,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:ebVesCmVcMYC",
@@ -11339,7 +11863,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:Mjvec00rDE4C",
@@ -11359,7 +11884,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:h4G4d0_olBQC",
@@ -11381,7 +11907,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:9uvUmQZnaecC",
@@ -11404,7 +11931,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": "ACL",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:k1NOPUYh3VEC",
@@ -11425,7 +11953,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:yOA6RG8w9-QC",
@@ -11447,7 +11976,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:9B7TFSB9VSQC",
@@ -11469,7 +11999,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:-gyp0GYJ1WwC",
@@ -11490,7 +12021,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": "CVPR",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:8CxxIT2TbpUC",
@@ -11510,7 +12042,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": "ICML",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:VdMmGtrFzgEC",
@@ -11530,7 +12063,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": "ICML",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:uY8R3MgUpSAC",
@@ -11549,7 +12083,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:n1YQmkHDcs0C",
@@ -11573,7 +12108,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:l5GUYxY__HEC",
@@ -11591,7 +12127,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:riyhFObUIdQC",
@@ -11610,7 +12147,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": "ICLR",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:ROnD9IZqNwUC",
@@ -11631,7 +12169,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": "ICLR",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:6YfGpzgWFesC",
@@ -11654,7 +12193,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": "ICLR",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:1gSrWeNtq_cC",
@@ -11681,7 +12221,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": "ICLR",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:QD-SiC0j1g8C",
@@ -11704,7 +12245,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": "ICLR",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:_DXyGQxYymYC",
@@ -11722,7 +12264,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": "ICLR",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:oM9rj33-3hoC",
@@ -11745,7 +12288,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": "ICLR",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:1NEBFUVDtJoC",
@@ -11766,7 +12310,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": "ICLR",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:4qnSi6I1oz4C",
@@ -11788,7 +12333,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:IXO3h7_Xq-wC",
@@ -11806,14 +12352,15 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:8ETf1LOvnQIC",
       "title": "Open x-embodiment: Robotic learning datasets and rt-x models: Open x-embodiment collaboration 0",
       "year": 2024,
       "venue": "2024 IEEE International Conference on Robotics and Automation (ICRA), 6892-6903, 2024",
-      "cited_by_count": 1987,
+      "cited_by_count": 1990,
       "doi": null,
       "citation_id": "DZ-fHPgAAAAJ:8ETf1LOvnQIC",
       "authors": [
@@ -11830,7 +12377,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": "ICRA",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:FVEhX82VnFwC",
@@ -11850,7 +12398,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:Ov0tOPCVJJ4C",
@@ -11869,7 +12418,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": "AISTATS",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:HnLqbUOjpDMC",
@@ -11892,7 +12442,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:lAFTa7HQ20YC",
@@ -11911,7 +12462,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:Lz6cV3Nr_5MC",
@@ -11933,7 +12485,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:o2RX7q-SfW0C",
@@ -11954,7 +12507,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:0efLm7myNzUC",
@@ -11978,7 +12532,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:D7MtZc7DZUgC",
@@ -11997,7 +12552,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:hNZCxRqK-JcC",
@@ -12020,7 +12576,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:fJm6x8J4LekC",
@@ -12039,7 +12596,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:F_SdxM1UnWgC",
@@ -12059,7 +12617,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": "NeurIPS",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:SZM63MrTTgUC",
@@ -12081,7 +12640,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": "ICML",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:a6UwSCtpZGAC",
@@ -12104,7 +12664,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:LpJ4L8tw5K0C",
@@ -12128,7 +12689,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": "NeurIPS",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:5Ls86DqQQHUC",
@@ -12148,7 +12710,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": "CVPR",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:yI8EsfspGhQC",
@@ -12170,7 +12733,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:Vz0tdIHChhsC",
@@ -12192,7 +12756,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:Wwb8F1fYdGUC",
@@ -12212,7 +12777,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:CDHg5-CjkwQC",
@@ -12236,7 +12802,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-UqtDdZUAAAAJ:-f6ydRqryjwC",
@@ -12258,7 +12825,8 @@
       "scientist": "Celestine Mendler-D\u00fcnner",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-206vNCEAAAAJ:NaGl4SEjCO4C",
@@ -12281,7 +12849,8 @@
       "scientist": "Jonas Geiping",
       "confirmed_ellis_affiliation": false,
       "venue_category": "NeurIPS",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-206vNCEAAAAJ:J_g5lzvAfSwC",
@@ -12302,7 +12871,8 @@
       "scientist": "Jonas Geiping",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-xkuLyHoAAAAJ:ZeXyd9-uunAC",
@@ -12322,7 +12892,8 @@
       "scientist": "Antonio Orvieto",
       "confirmed_ellis_affiliation": false,
       "venue_category": "NeurIPS",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-xkuLyHoAAAAJ:r0BpntZqJG4C",
@@ -12342,7 +12913,8 @@
       "scientist": "Antonio Orvieto",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:alQDt-lNFfsC",
@@ -12361,7 +12933,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:eR6iK5cjJ8UC",
@@ -12382,7 +12955,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:OnQ0iyPyVxgC",
@@ -12404,7 +12978,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:MIRdOSOK3M0C",
@@ -12429,7 +13004,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": "NeurIPS",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:0NjfygGRKBAC",
@@ -12451,7 +13027,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": "NeurIPS",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:87bMZUJgXBAC",
@@ -12473,7 +13050,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": "NeurIPS",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:huaeK-hngbUC",
@@ -12494,7 +13072,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": "NeurIPS",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:YCcYkCo-LYMC",
@@ -12516,7 +13095,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": "NeurIPS",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:AA0X8fE1wMwC",
@@ -12538,7 +13118,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": "NeurIPS",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:MZEFunz8frsC",
@@ -12561,7 +13142,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": "NeurIPS",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:u27vqak4FjcC",
@@ -12581,7 +13163,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": "NeurIPS",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:vtsb3mgoJX0C",
@@ -12605,7 +13188,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": "NeurIPS",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:1jSx-IFpb-IC",
@@ -12628,7 +13212,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": "NeurIPS",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:WCWDm03BpewC",
@@ -12646,7 +13231,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:svHGgEBqPSUC",
@@ -12666,7 +13252,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:BBcaknn8KDYC",
@@ -12688,7 +13275,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": "ACL",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:8vPgVXqUyKgC",
@@ -12707,7 +13295,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:VtE3cOHX7jYC",
@@ -12728,7 +13317,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:aX994SrUs_AC",
@@ -12750,7 +13340,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:zeEGDHUrsqcC",
@@ -12775,7 +13366,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:k7q84DbdwMkC",
@@ -12795,7 +13387,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:F2a-4B4e-pgC",
@@ -12816,7 +13409,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:pu1mUoDpsTEC",
@@ -12840,7 +13434,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": "ICCV",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:AI-5X4gT9lUC",
@@ -12858,7 +13453,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:ic_3QcYvHh4C",
@@ -12879,7 +13475,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:1leIBayAx6IC",
@@ -12902,7 +13499,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": "NeurIPS",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:Y2wsZ1s-vmcC",
@@ -12922,7 +13520,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:ubdS_u6ZWmMC",
@@ -12945,7 +13544,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:RCxWpCfmCtUC",
@@ -12967,7 +13567,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": "Nature",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:amTSNuT6G2IC",
@@ -12990,7 +13591,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": "Nature",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:VaMtIHQgT-EC",
@@ -13011,7 +13613,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:yFYWucPuYHUC",
@@ -13034,7 +13637,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:Q7cX_DQK2FYC",
@@ -13058,7 +13662,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:pmkFy0c9SFEC",
@@ -13078,7 +13683,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": "ICML",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:RqjVAqjNLL8C",
@@ -13099,7 +13705,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": "ICML",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:YQdBheiQDd0C",
@@ -13121,7 +13728,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": "ICML",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:zagfVoY6O0MC",
@@ -13141,7 +13749,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": "ICML",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:I-fR7Xm0cKsC",
@@ -13163,14 +13772,15 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": "ICML",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:4Xn8SalqYmMC",
       "title": "Homomorphism Autoencoder--Learning Group Structured Representations from Observed Transitions",
       "year": 2023,
       "venue": "International Conference on Machine Learning, 16190-16215, 2023",
-      "cited_by_count": 35,
+      "cited_by_count": 36,
       "doi": null,
       "citation_id": "DZ-fHPgAAAAJ:4Xn8SalqYmMC",
       "authors": [
@@ -13184,7 +13794,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": "ICML",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:PRjLZGxZpaIC",
@@ -13207,7 +13818,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": "ICML",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:Kcj38R9OIygC",
@@ -13228,7 +13840,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": "ICML",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:dEoS_iHvtpEC",
@@ -13248,7 +13861,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": "UAI",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:rxY-6i_7_qkC",
@@ -13270,7 +13884,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": "ACL",
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:COGLt2N6E6oC",
@@ -13291,7 +13906,8 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": false,
+      "oa_url": null
     }
   ],
   "per_scientist_counts": {
@@ -13462,7 +14078,7 @@
         "year": 2025,
         "scientist": "Wieland Brendel",
         "co_author": "JE Vogt (matched: julia vogt)",
-        "doi": null
+        "doi": "https://doi.org/10.48550/arxiv.2410.21869"
       },
       {
         "title": "Generalized linear mode connectivity for transformers",
@@ -13730,7 +14346,7 @@
         "year": 2026,
         "scientist": "Celestine Mendler-D\u00fcnner",
         "co_author": "M Hardt (matched: moritz hardt)",
-        "doi": null
+        "doi": "https://doi.org/10.1145/3774904.3792740"
       },
       {
         "title": "Learning Hybrid Biophysical Neuron Models with Neural ODEs",
@@ -13835,7 +14451,7 @@
         "year": 2025,
         "scientist": "Celestine Mendler-D\u00fcnner",
         "co_author": "M Hardt (matched: moritz hardt)",
-        "doi": null
+        "doi": "https://doi.org/10.1145/3706598.3713966"
       },
       {
         "title": "Performative prediction: Past and future",
@@ -13898,7 +14514,7 @@
         "year": 2024,
         "scientist": "Celestine Mendler-D\u00fcnner",
         "co_author": "M Hardt (matched: moritz hardt)",
-        "doi": null
+        "doi": "https://doi.org/10.52202/079017-1891"
       },
       {
         "title": "A realistic threat model for large language model jailbreaks",
@@ -14260,7 +14876,7 @@
         "year": 2025,
         "scientist": "Wieland Brendel",
         "co_author": "A Koepke (matched: a sophia koepke)",
-        "doi": null
+        "doi": "https://doi.org/10.1109/iccv51701.2025.00103"
       },
       {
         "title": "Generative intervention models for causal perturbation modeling",
@@ -14304,7 +14920,7 @@
         "year": 2026,
         "scientist": "Jonas Geiping",
         "co_author": "S Staab (matched: steffen staab)",
-        "doi": null
+        "doi": "https://doi.org/10.48550/arxiv.2509.09677"
       }
     ],
     "Unit Berlin": [
@@ -14313,7 +14929,7 @@
         "year": 2026,
         "scientist": "Jonas Geiping, Maksym Andriushchenko",
         "co_author": "W Samek (matched: wojciech samek)",
-        "doi": null
+        "doi": "https://doi.org/10.48550/arxiv.2509.18058"
       },
       {
         "title": "Hyperparameter optimization in machine learning",
@@ -14714,7 +15330,7 @@
       },
       {
         "year": 2026,
-        "citations": 541
+        "citations": 546
       }
     ],
     [
@@ -14730,31 +15346,31 @@
     [
       {
         "year": 2026,
-        "citations": 1853
+        "citations": 1862
       }
     ],
     [
       {
         "year": 2023,
-        "citations": 3656
+        "citations": 3657
       },
       {
         "year": 2024,
-        "citations": 3643
+        "citations": 3648
       },
       {
         "year": 2025,
-        "citations": 3925
+        "citations": 3927
       },
       {
         "year": 2026,
-        "citations": 3215
+        "citations": 3231
       }
     ],
     [
       {
         "year": 2023,
-        "citations": 1599
+        "citations": 1604
       },
       {
         "year": 2024,
@@ -14762,25 +15378,25 @@
       },
       {
         "year": 2025,
-        "citations": 4807
+        "citations": 4816
       },
       {
         "year": 2026,
-        "citations": 3789
+        "citations": 3800
       }
     ],
     [
       {
         "year": 2024,
-        "citations": 23492
+        "citations": 23504
       },
       {
         "year": 2025,
-        "citations": 29862
+        "citations": 29891
       },
       {
         "year": 2026,
-        "citations": 24173
+        "citations": 24280
       }
     ],
     [
@@ -14790,7 +15406,7 @@
       },
       {
         "year": 2026,
-        "citations": 440
+        "citations": 442
       }
     ],
     [
@@ -14800,17 +15416,17 @@
       },
       {
         "year": 2026,
-        "citations": 1290
+        "citations": 1292
       }
     ],
     [
       {
         "year": 2025,
-        "citations": 2832
+        "citations": 2834
       },
       {
         "year": 2026,
-        "citations": 2916
+        "citations": 2927
       }
     ],
     [
@@ -14830,11 +15446,11 @@
     [
       {
         "year": 2025,
-        "citations": 882
+        "citations": 885
       },
       {
         "year": 2026,
-        "citations": 615
+        "citations": 620
       }
     ],
     [
@@ -14852,31 +15468,31 @@
       },
       {
         "year": 2026,
-        "citations": 856
+        "citations": 857
       }
     ],
     [
       {
         "year": 2023,
-        "citations": 21773
+        "citations": 21780
       },
       {
         "year": 2024,
-        "citations": 23759
+        "citations": 23771
       },
       {
         "year": 2025,
-        "citations": 26886
+        "citations": 26908
       },
       {
         "year": 2026,
-        "citations": 20049
+        "citations": 20141
       }
     ],
     [
       {
         "year": 2025,
-        "citations": 1646
+        "citations": 1654
       },
       {
         "year": 2026,
@@ -14886,17 +15502,17 @@
     [
       {
         "year": 2025,
-        "citations": 2053
+        "citations": 2058
       },
       {
         "year": 2026,
-        "citations": 1611
+        "citations": 1619
       }
     ],
     [
       {
         "year": 2026,
-        "citations": 2816
+        "citations": 2826
       }
     ]
   ],
