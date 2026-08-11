@@ -21,6 +21,37 @@ async function loadData() {
   return res.json();
 }
 
+// Best available link for a paper, in priority order:
+//   1. oa_url  — direct free full-text PDF (open access), tagged "PDF"
+//   2. doi     — publisher landing page
+//   3. Google Scholar title search — universal fallback so no title is a dead
+//      link, even before the open-access enrichment has run.
+function paperLink(p) {
+  if (p.oa_url) {
+    return { url: p.oa_url, kind: 'pdf' };
+  }
+  if (p.doi) {
+    const url = /^https?:\/\//i.test(p.doi) ? p.doi : `https://doi.org/${p.doi}`;
+    return { url, kind: 'doi' };
+  }
+  return {
+    url: `https://scholar.google.com/scholar?q=${encodeURIComponent(p.title || '')}`,
+    kind: 'search',
+  };
+}
+
+// Renders a paper title as a link, with a "PDF" badge when a free full text
+// is available. The link always resolves to *something* (see paperLink).
+function titleLinkHtml(p) {
+  const { url, kind } = paperLink(p);
+  const safeUrl = esc(url);
+  const label = kind === 'pdf' ? 'View free PDF' : kind === 'doi' ? 'View at publisher' : 'Find on Google Scholar';
+  const badge = kind === 'pdf'
+    ? ` <a class="pdf-badge" href="${safeUrl}" target="_blank" rel="noopener" aria-label="Free PDF">PDF</a>`
+    : '';
+  return `<a class="pub-title-link" href="${safeUrl}" target="_blank" rel="noopener" title="${esc(label)}">${esc(p.title)}</a>${badge}`;
+}
+
 function renderStats(data) {
   const totalCitations = data.publications.reduce((s, p) => s + (p.cited_by_count || 0), 0);
   const numUnits = Object.keys(data.ellis_member_collaborations || {})
@@ -231,7 +262,7 @@ function renderMostCited(data) {
       <div class="topcited-row">
         <div class="topcited-rank">${i + 1}</div>
         <div class="topcited-main">
-          <div class="pub-title">${esc(p.title)}</div>
+          <div class="pub-title">${titleLinkHtml(p)}</div>
           <div class="pub-meta">${esc(scientistStr)} · ${esc(p.venue || p.venue_category || '—')} · ${p.year || '—'}</div>
         </div>
         <div class="topcited-cites">
@@ -312,7 +343,7 @@ function renderTable(data) {
       return `
         <tr>
           <td>
-            <div class="pub-title">${esc(p.title)}</div>
+            <div class="pub-title">${titleLinkHtml(p)}</div>
             <div class="pub-meta">${esc(p.venue || '—')} · ${esc(p.authors.join(', '))}</div>
           </td>
           <td>${esc(scientistList)}</td>
@@ -381,57 +412,6 @@ function renderCitationGrowthTotalChart(data) {
   });
 }
 
-function renderHIndex(data) {
-  const container = document.getElementById('hindexPlot');
-  const values = data.h_index_distribution || [];
-  if (!values.length) {
-    container.innerHTML = `<p style="color:var(--muted); font-size:13.5px;">No h-index data available.</p>`;
-    return;
-  }
-
-  const width = 900, height = 200;
-  const marginLeft = 40, marginRight = 40, plotY = 100;
-  const maxVal = Math.max(...values, 10);
-  const scaleX = v => marginLeft + (v / maxVal) * (width - marginLeft - marginRight);
-
-  // Simple deterministic jitter so identical values don't stack exactly on
-  // top of each other (still anonymous — jitter carries no information).
-  const jittered = values.map((v, i) => {
-    const sameValueBefore = values.slice(0, i).filter(x => x === v).length;
-    const jitter = (sameValueBefore % 2 === 0 ? 1 : -1) * Math.ceil(sameValueBefore / 2) * 14;
-    return { v, y: plotY + jitter };
-  });
-
-  const median = values[Math.floor(values.length / 2)];
-  const min = values[0], max = values[values.length - 1];
-
-  let dots = jittered.map(({ v, y }) =>
-    `<circle class="hindex-dot" cx="${scaleX(v).toFixed(1)}" cy="${y}" r="9" />`
-  ).join('');
-
-  let axisTicks = '';
-  const tickStep = Math.max(1, Math.ceil(maxVal / 8));
-  for (let t = 0; t <= maxVal; t += tickStep) {
-    const x = scaleX(t);
-    axisTicks += `
-      <line class="hindex-axis-line" x1="${x}" y1="${plotY + 45}" x2="${x}" y2="${plotY + 50}" />
-      <text class="hindex-axis-label" text-anchor="middle" x="${x}" y="${plotY + 65}">${t}</text>
-    `;
-  }
-
-  const svg = `
-    <svg viewBox="0 0 ${width} ${height}" xmlns="http://www.w3.org/2000/svg" class="hindex-svg-wrap">
-      <line class="hindex-axis-line" x1="${marginLeft}" y1="${plotY + 45}" x2="${width - marginRight}" y2="${plotY + 45}" />
-      ${axisTicks}
-      ${dots}
-      <text class="hindex-stat-label" x="${marginLeft}" y="20">min ${min}</text>
-      <text class="hindex-stat-label" text-anchor="middle" x="${width / 2}" y="20">median ${median}</text>
-      <text class="hindex-stat-label" text-anchor="end" x="${width - marginRight}" y="20">max ${max}</text>
-    </svg>
-  `;
-  container.innerHTML = svg;
-}
-
 let CURRENT_DATA = null;
 
 loadData().then(data => {
@@ -439,7 +419,6 @@ loadData().then(data => {
   renderStats(data);
   renderVenues(data);
   renderTrendChart(data);
-  renderHIndex(data);
   renderCitationGrowthTotalChart(data);
   renderNetwork(data);
   renderMostCited(data);
@@ -472,7 +451,7 @@ function openPapersModal(title, papers) {
           const scientistStr = Array.isArray(p.scientist) ? p.scientist.join(', ') : p.scientist;
           return `
             <div class="modal-pub-row">
-              <div class="pub-title">${esc(p.title)}</div>
+              <div class="pub-title">${titleLinkHtml(p)}</div>
               <div class="pub-meta">
                 <span class="highlight">${p.year || '—'}</span> ·
                 ${esc(scientistStr)} ·
@@ -498,7 +477,7 @@ function openCollabModal(unitName) {
   body.innerHTML = papers.length
     ? papers.map(p => `
         <div class="modal-pub-row">
-          <div class="pub-title">${esc(p.title)}</div>
+          <div class="pub-title">${titleLinkHtml(p)}</div>
           <div class="pub-meta">
             <span class="highlight">${p.year || '—'}</span> ·
             our scientist: ${esc(p.scientist)} ·

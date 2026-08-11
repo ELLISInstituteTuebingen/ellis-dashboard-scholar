@@ -277,7 +277,8 @@ def simplify_scholar_article(article, scientist_name):
         "scientist": scientist_name,
         "confirmed_ellis_affiliation": False,  # can't verify without per-paper institution data
         "venue_category": classify_venue_string(venue_str),
-        "is_oa": False,  # not available from Google Scholar
+        "is_oa": False,  # not available from Google Scholar; may be filled by OpenAlex enrichment
+        "oa_url": None,  # direct free-PDF URL, filled by OpenAlex enrichment when the paper is open access
     }
 
 
@@ -449,6 +450,7 @@ def apply_manual_additions(all_publications, known_papers):
             "confirmed_ellis_affiliation": False,
             "venue_category": entry["venue"],
             "is_oa": False,
+            "oa_url": None,
         }
         existing_titles.add(norm_title)
         added += 1
@@ -840,6 +842,8 @@ def enrich_open_access(all_publications):
         resolved += 1
         oa = cand.get("open_access") or {}
         pub["is_oa"] = bool(oa.get("is_oa"))
+        if oa.get("oa_url"):
+            pub["oa_url"] = oa["oa_url"]  # direct free-PDF link
         if not pub.get("doi") and cand.get("doi"):
             pub["doi"] = cand["doi"]
         if pub["is_oa"]:

@@ -309,13 +309,6 @@ section.block {
   font-size: 13px;
 }
 
-/* ---------- H-INDEX STRIP PLOT ---------- */
-.hindex-svg-wrap { width: 100%; height: 100%; }
-.hindex-dot { fill: var(--sandstone); opacity: 0.85; }
-.hindex-axis-line { stroke: var(--line); stroke-width: 1; }
-.hindex-axis-label { fill: var(--muted); font-family: var(--font-mono); font-size: 11px; }
-.hindex-stat-label { fill: var(--muted); font-family: var(--font-mono); font-size: 11px; }
-
 /* ---------- COLLAB DETAIL MODAL ---------- */
 .modal-overlay {
   display: none;
@@ -507,4 +500,34 @@ footer {
   font-family: var(--font-mono);
   font-size: 12px;
   color: var(--muted);
+}
+
+/* ---------- PAPER LINKS ---------- */
+a.pub-title-link {
+  color: var(--text);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+a.pub-title-link:hover, a.pub-title-link:focus-visible {
+  color: var(--network);
+  border-bottom-color: var(--network);
+}
+
+.pdf-badge {
+  display: inline-block;
+  margin-left: 8px;
+  padding: 1px 6px;
+  font-family: var(--font-mono);
+  font-size: 10px;
+  letter-spacing: 0.06em;
+  color: var(--sandstone);
+  border: 1px solid var(--sandstone-dim);
+  border-radius: 2px;
+  vertical-align: middle;
+  text-decoration: none;
+}
+a.pdf-badge:hover, a.pdf-badge:focus-visible {
+  background: var(--sandstone);
+  color: var(--bg);
 }
