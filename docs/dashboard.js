@@ -65,13 +65,6 @@ function renderStats(data) {
     { num: numUnits, label: 'ELLIS Sites collaborated with' },
   ];
 
-  // Only surface the open-access stat once the pipeline has actually
-  // populated it (it stays hidden until the first enriched run), so the
-  // card never shows a misleading 0%.
-  if (data.open_access_count > 0) {
-    stats.push({ num: `${data.open_access_percent}%`, label: 'Open access', isRaw: true });
-  }
-
   const row = document.getElementById('stat-row');
   row.innerHTML = stats.map(s => `
     <div class="stat">
