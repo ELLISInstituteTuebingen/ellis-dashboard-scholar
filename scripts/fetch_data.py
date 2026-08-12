@@ -635,15 +635,46 @@ def _merge_scientist_credit(keep_pub, dupe_pub):
         keep_pub["cited_by_count"] = dupe_pub["cited_by_count"]
 
 
+def _venue_rank(pub):
+    """Preference order when the same paper turns up under more than one
+    venue: a published top-tier / categorised venue (2) beats another named
+    venue (1), which beats an arXiv/preprint or blank venue (0). Used so that
+    when a preprint and its published version are merged, the PUBLISHED venue
+    is the label that survives."""
+    if pub.get("venue_category"):
+        return 2
+    v = (pub.get("venue") or "").lower()
+    if not v.strip() or "arxiv" in v or "biorxiv" in v or "medrxiv" in v:
+        return 0
+    return 1
+
+
+def _resolve_duplicate(all_publications, kept_wid, dupe_wid):
+    """Two records represent the same real-world paper. Keep whichever has the
+    better (more published) venue, fold the other's scientist credit and
+    richer citation count into it, delete the loser, and return the surviving
+    id. This is what ensures a preprint that also appears under its published
+    top-tier venue collapses onto the published record, not the arXiv one."""
+    kept, dupe = all_publications[kept_wid], all_publications[dupe_wid]
+    if _venue_rank(dupe) > _venue_rank(kept):
+        winner_wid, loser_wid = dupe_wid, kept_wid
+    else:
+        winner_wid, loser_wid = kept_wid, dupe_wid
+    _merge_scientist_credit(all_publications[winner_wid], all_publications[loser_wid])
+    del all_publications[loser_wid]
+    return winner_wid
+
+
 def dedupe_by_title(all_publications):
     """Google Scholar sometimes indexes the same real-world paper twice under
     slightly different titles — once per co-author's profile, occasionally
     with words reordered or lightly reworded (e.g. 'X is Required for Y' vs
     'Is X Required for Y?'). Two passes: first an exact-substring match
     (catches near-identical titles), then a same-word-set match (catches
-    reordered/rephrased duplicates the first pass misses). Keeps whichever
-    entry was seen first, but merges scientist attribution from the
-    discarded entry so co-authorship credit isn't silently lost."""
+    reordered/rephrased duplicates the first pass misses). When a match is
+    found the records are merged, keeping the one with the more-published
+    venue (see _resolve_duplicate) and carrying scientist attribution across
+    so co-authorship credit isn't silently lost."""
     seen_titles = {}
     removed = 0
     for wid in list(all_publications.keys()):
@@ -652,8 +683,7 @@ def dedupe_by_title(all_publications):
         if not norm:
             continue
         if norm in seen_titles:
-            _merge_scientist_credit(all_publications[seen_titles[norm]], all_publications[wid])
-            del all_publications[wid]
+            seen_titles[norm] = _resolve_duplicate(all_publications, seen_titles[norm], wid)
             removed += 1
         else:
             seen_titles[norm] = wid
@@ -665,8 +695,7 @@ def dedupe_by_title(all_publications):
         if not words:
             continue
         if words in seen_word_sets:
-            _merge_scientist_credit(all_publications[seen_word_sets[words]], all_publications[wid])
-            del all_publications[wid]
+            seen_word_sets[words] = _resolve_duplicate(all_publications, seen_word_sets[words], wid)
             removed += 1
         else:
             seen_word_sets[words] = wid
