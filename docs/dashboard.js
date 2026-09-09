@@ -1,10 +1,10 @@
 const COLORS = {
-  text: '#E8E6DE',
-  muted: '#8FA0A6',
+  text: '#000000',
+  muted: '#595959',
   sandstone: '#E38E48',
-  network: '#4BC5BE',
-  line: '#2A3338',
-  surface: '#171E22',
+  network: '#10827B',
+  line: '#E2E1DC',
+  surface: '#F7F7F4',
 };
 
 // Escape untrusted strings (paper titles, author names, venues from Google
@@ -407,6 +407,38 @@ function renderCitationGrowthTotalChart(data) {
 
 let CURRENT_DATA = null;
 
+function renderInstitutions(data) {
+  const container = document.getElementById('institutionBars');
+  if (!container) return;
+  const HOME_CLUSTER = new Set([
+    'Max Planck Institute for Intelligent Systems',
+    'University of Tübingen',
+    'Bernstein Center for Computational Neuroscience Tübingen',
+    'Tübingen AI Center',
+  ]);
+  const TOP_N = 15;
+  const collabs = data.institution_collaborations || {};
+  const meta = data.institution_collaboration_meta || {};
+  const metaEl = document.getElementById('instMetaPapers');
+  if (metaEl) metaEl.textContent = meta.papers_with_affiliation ?? '\u2014';
+
+  const entries = Object.entries(collabs).slice(0, TOP_N); // already sorted desc
+  if (!entries.length) {
+    container.innerHTML = '<div class="inst-empty">No affiliation data available yet.</div>';
+    return;
+  }
+  const max = entries[0][1] || 1;
+  container.innerHTML = entries.map(([name, count]) => {
+    const home = HOME_CLUSTER.has(name);
+    const pct = (count / max * 100).toFixed(1);
+    return `<div class="inst-row${home ? ' home' : ''}">
+      <div class="inst-name" title="${esc(name)}">${esc(name)}</div>
+      <div class="inst-track"><div class="inst-fill" style="width:${pct}%"></div></div>
+      <div class="inst-val">${count}</div>
+    </div>`;
+  }).join('');
+}
+
 loadData().then(data => {
   CURRENT_DATA = data;
   renderStats(data);
@@ -414,6 +446,7 @@ loadData().then(data => {
   renderTrendChart(data);
   renderCitationGrowthTotalChart(data);
   renderNetwork(data);
+  renderInstitutions(data);
   renderMostCited(data);
   renderTable(data);
 }).catch(err => {

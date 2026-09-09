@@ -797,91 +797,241 @@ def _titles_match(a, b):
     return len(ta & tb) / len(ta | tb) >= 0.9
 
 
-def enrich_open_access(all_publications):
-    """Best-effort open-access + DOI enrichment via OpenAlex title search.
+# --- OpenAlex config + helpers (usage-based pricing; see enrich_from_openalex) ---
+OPENALEX_API_KEY = os.environ.get("OPENALEX_API_KEY")
+OPENALEX_SELECT = "title,publication_year,doi,type,open_access,authorships"
+_ARXIV_IN_VENUE = re.compile(r"arxiv:\s*([0-9]{4}\.[0-9]{4,5})", re.I)
+_OWN_INSTITUTION_IDS = {"I4405263145"}  # ELLIS Institute Tuebingen
+_OWN_INSTITUTION_HINTS = ("ellis institute", "ellis institut")
+OPENALEX_BUDGET_EXHAUSTED = False  # set True once the daily budget is spent
 
-    Google Scholar gives us no DOI and no open-access flag, so both fields are
-    otherwise always empty. Here we look each paper up in OpenAlex by title
-    (relevance-ranked search), accept the top hit ONLY on a strong title match
-    — and, when both years are known, a matching year — then copy over its DOI
-    and open-access status.
 
-    Deliberately conservative: an ambiguous or weak match is left untouched
-    (is_oa stays False, doi stays None) rather than risk mislabeling a paper.
-    It uses OpenAlex purely as a per-title lookup, so it does NOT reintroduce
-    the author-profile fragmentation problem that made author-ID-based OpenAlex
-    fetching unreliable.
+def _oa_params(extra):
+    p = dict(extra)
+    if OPENALEX_API_KEY:
+        p["api_key"] = OPENALEX_API_KEY
+    return p
 
-    Fully defensive: every request is wrapped, so network errors / rate limits
-    / schema changes degrade to "no enrichment" and can never crash the run.
-    Enrichment only ADDS doi/is_oa — it never removes, reorders, or filters the
-    publication set. Set DISABLE_OA_ENRICHMENT in the environment to skip it."""
-    if os.environ.get("DISABLE_OA_ENRICHMENT"):
-        print("    [skip] Open-access enrichment disabled via DISABLE_OA_ENRICHMENT.")
-        return
 
-    pubs = list(all_publications.values())
-    resolved = 0   # strong title match found
-    oa_true = 0    # of those, confirmed open access
-    errors = 0
-    print(f"    Enriching open-access status from OpenAlex for {len(pubs)} papers "
-          f"(best-effort, strong-title-match only)...")
+def _oa_norm_doi(doi):
+    if not doi:
+        return None
+    return doi.strip().replace("https://doi.org/", "").replace("http://doi.org/", "").lower()
 
-    for i, pub in enumerate(pubs):
-        title = (pub.get("title") or "").strip()
-        if not title:
-            continue
+
+def _oa_canonical_doi(pub):
+    d = _oa_norm_doi(pub.get("doi"))
+    if d:
+        return d
+    m = _ARXIV_IN_VENUE.search(pub.get("venue") or "")
+    if m:
+        return f"10.48550/arxiv.{m.group(1).lower()}"
+    return None
+
+
+def _oa_is_own(inst):
+    oaid = (inst.get("id") or "").rsplit("/", 1)[-1]
+    if oaid in _OWN_INSTITUTION_IDS:
+        return True
+    name = (inst.get("display_name") or "").lower()
+    return any(h in name for h in _OWN_INSTITUTION_HINTS)
+
+
+def _oa_external_institutions(work):
+    out = {}
+    for a in work.get("authorships") or []:
+        for inst in a.get("institutions") or []:
+            if _oa_is_own(inst):
+                continue
+            oaid = (inst.get("id") or "").rsplit("/", 1)[-1]
+            if oaid:
+                out[oaid] = {"id": oaid, "name": inst.get("display_name"),
+                             "country": inst.get("country_code")}
+    return out
+
+
+def _oa_richness(work):
+    return sum(1 for a in (work.get("authorships") or []) if a.get("institutions"))
+
+
+def _oa_score(work):
+    published = 0 if (work.get("type") == "preprint") else 1
+    return (_oa_richness(work), published)
+
+
+def _oa_get(url, params, paid, retries=4):
+    """Budget-aware GET. `paid` marks calls that cost money (search); once the
+    budget is exhausted we skip further paid calls. Returns (json|None, ok)."""
+    global OPENALEX_BUDGET_EXHAUSTED
+    if paid and OPENALEX_BUDGET_EXHAUSTED:
+        return None, False
+    for attempt in range(retries + 1):
         try:
-            resp = requests.get(
-                OPENALEX_WORKS_URL,
-                params={
-                    "search": title,
-                    "per_page": 1,
-                    "select": "title,publication_year,doi,open_access",
-                },
-                headers=HEADERS,
-                timeout=20,
-            )
+            resp = requests.get(url, params=_oa_params(params), headers=HEADERS, timeout=25)
+            if resp.status_code == 404:
+                return None, True
             if resp.status_code == 429:
-                time.sleep(2)
+                body = ""
+                try:
+                    body = resp.text[:200].lower()
+                except Exception:
+                    pass
+                if "budget" in body or "insufficient" in body:
+                    OPENALEX_BUDGET_EXHAUSTED = True
+                    print("    [openalex] daily budget exhausted - stopping paid lookups; "
+                          "affiliation coverage will be partial this run.", file=sys.stderr)
+                    return None, False
+                time.sleep(min(2 ** attempt, 12))
                 continue
             resp.raise_for_status()
-            results = resp.json().get("results", [])
-        except Exception as e:  # best-effort: never fatal
-            errors += 1
-            if errors <= 3 or errors % 50 == 0:
-                print(f"    [warn] OpenAlex lookup issue (continuing): {e}", file=sys.stderr)
-            time.sleep(0.5)
-            continue
+            return resp.json(), True
+        except Exception:
+            if attempt < retries:
+                time.sleep(min(2 ** attempt, 12))
+                continue
+            return None, False
+    return None, False
 
-        if not results:
-            time.sleep(0.1)
-            continue
 
-        cand = results[0]
-        if not _titles_match(title, cand.get("title") or ""):
-            time.sleep(0.1)
-            continue
+def _oa_singleton_by_doi(doi):
+    if not doi:
+        return None
+    data, _ = _oa_get(f"{OPENALEX_WORKS_URL}/doi:{doi}", {"select": OPENALEX_SELECT}, paid=False)
+    return data
 
-        py = cand.get("publication_year")
+
+def _oa_title_search(pub):
+    if OPENALEX_BUDGET_EXHAUSTED:
+        return None
+    title = (pub.get("title") or "").strip()
+    if not title:
+        return None
+    data, ok = _oa_get(OPENALEX_WORKS_URL,
+                       {"search": title, "per_page": 10, "select": OPENALEX_SELECT}, paid=True)
+    if not ok or not data:
+        return None
+    cands = []
+    for c in data.get("results", []):
+        if not _titles_match(title, c.get("title") or ""):
+            continue
+        py = c.get("publication_year")
         if pub.get("year") and py and abs(int(pub["year"]) - int(py)) > 1:
-            time.sleep(0.1)  # top hit is a different edition/paper — skip
             continue
+        cands.append(c)
+    return max(cands, key=_oa_score) if cands else None
 
+
+def enrich_from_openalex(all_publications):
+    """Best-effort OpenAlex enrichment: open-access + DOI (as before) AND
+    per-paper external affiliations for the institution-collaboration graph.
+
+    OpenAlex moved to usage-based pricing (Feb 2026): every request needs a free
+    API key ($1/day free, resets midnight UTC). Single-entity lookups by DOI are
+    FREE; full-text search costs ~$0.001. So we resolve the ~half of the corpus
+    with a DOI or arXiv id via the FREE singleton endpoint, and only pay for a
+    title search on the rest, with a published-twin preference that recovers
+    affiliations arXiv preprint records often lack.
+
+    Fully defensive and budget-aware: network errors, rate limits, or an
+    exhausted daily budget degrade to partial/no enrichment and can never crash
+    the run or remove data. Set OPENALEX_API_KEY (a GitHub Actions secret in CI);
+    set DISABLE_OA_ENRICHMENT to skip this step entirely."""
+    if os.environ.get("DISABLE_OA_ENRICHMENT"):
+        print("    [skip] OpenAlex enrichment disabled via DISABLE_OA_ENRICHMENT.")
+        return
+    if not OPENALEX_API_KEY:
+        print("    [warn] OPENALEX_API_KEY not set — OpenAlex now requires a key; enrichment "
+              "will hit the $0.10/day tier and likely stop early.", file=sys.stderr)
+
+    pubs = list(all_publications.values())
+    resolved = oa_true = with_aff = rescued = 0
+    print(f"    Enriching {len(pubs)} papers from OpenAlex (free DOI lookups + paid title search)...")
+
+    for pub in pubs:
+        exact = _oa_singleton_by_doi(_oa_canonical_doi(pub))
+        exact_aff = _oa_external_institutions(exact) if exact else {}
+
+        work = exact
+        if not exact or not exact_aff:
+            twin = _oa_title_search(pub)
+            if twin is not None:
+                if work is None:
+                    work = twin
+                else:
+                    best = max([work, twin], key=_oa_score)
+                    if best is twin and not exact_aff and _oa_external_institutions(twin):
+                        rescued += 1
+                    work = best
+
+        if work is None:
+            continue
         resolved += 1
-        oa = cand.get("open_access") or {}
+
+        oa = work.get("open_access") or {}
         pub["is_oa"] = bool(oa.get("is_oa"))
         if oa.get("oa_url"):
-            pub["oa_url"] = oa["oa_url"]  # direct free-PDF link
-        if not pub.get("doi") and cand.get("doi"):
-            pub["doi"] = cand["doi"]
+            pub["oa_url"] = oa["oa_url"]
+        if not pub.get("doi") and work.get("doi"):
+            pub["doi"] = work["doi"]
         if pub["is_oa"]:
             oa_true += 1
-        time.sleep(0.1)  # polite pacing for the OpenAlex polite pool
 
-    print(f"    Open-access enrichment: matched {resolved} of {len(pubs)} papers in OpenAlex, "
-          f"{oa_true} confirmed open access"
-          + (f" ({errors} lookups skipped on errors)" if errors else ""))
+        externals = _oa_external_institutions(work)
+        pub["author_count"] = len(work.get("authorships") or [])
+        pub["institutions"] = list(externals.values())
+        pub["institution_ids"] = list(externals.keys())
+        if externals:
+            with_aff += 1
+
+    print(f"    OpenAlex enrichment: resolved {resolved} of {len(pubs)} papers, "
+          f"{oa_true} open access, {with_aff} with affiliations"
+          + (f", {rescued} preprints rescued via published twin" if rescued else "")
+          + (" [BUDGET EXHAUSTED - partial]" if OPENALEX_BUDGET_EXHAUSTED else ""))
+
+
+def compute_institution_collaborations(all_publications, overrides, author_cap=30):
+    """Count external institutions we co-publish with, by shared papers, from the
+    affiliations captured during enrichment - independent of ELLIS membership.
+
+    Papers with more than `author_cap` authors are skipped so mega-collaboration
+    papers (e.g. gravitational-wave consortia with hundreds of authors) can't
+    flood the counts. `overrides` (config/institution_overrides.json) supplies an
+    `ignore_ids` / `ignore_names` drop list (OpenAlex mis-parses) and a `merge`
+    map (alias id or exact name -> canonical display name) to fold duplicates."""
+    ignore_ids = set(overrides.get("ignore_ids", []))
+    ignore_names = {n.lower() for n in overrides.get("ignore_names", [])}
+    merge = dict(overrides.get("merge", {}))
+
+    counts = {}
+    meta = {"papers_with_affiliation": 0, "papers_capped_out": 0}
+
+    for pub in all_publications.values():
+        insts = pub.get("institutions") or []
+        if not insts:
+            continue
+        if author_cap and (pub.get("author_count") or 0) > author_cap:
+            meta["papers_capped_out"] += 1
+            continue
+        meta["papers_with_affiliation"] += 1
+        pid = pub.get("id")
+        seen = set()
+        for inst in insts:
+            iid = inst.get("id")
+            name = inst.get("name") or ""
+            if iid in ignore_ids or name.lower() in ignore_names:
+                continue
+            canon = merge.get(iid) or merge.get(name) or name
+            if canon:
+                seen.add(canon)
+        for canon in seen:
+            counts.setdefault(canon, set()).add(pid)
+
+    collaborations = dict(sorted(
+        ((name, len(pids)) for name, pids in counts.items()),
+        key=lambda kv: (-kv[1], kv[0])))
+    details = {name: sorted(p for p in pids if p) for name, pids in counts.items()}
+    meta["distinct_institutions"] = len(collaborations)
+    return collaborations, details, meta
 
 
 def main():
@@ -1009,13 +1159,26 @@ def main():
     # extra safety net on top of the function's own per-request guards, so
     # even an unexpected failure here can't abort the run or lose data.
     try:
-        enrich_open_access(all_publications)
+        enrich_from_openalex(all_publications)
     except Exception as e:  # noqa: BLE001
         print(f"    [warn] Open-access enrichment step failed entirely, continuing without it: {e}",
               file=sys.stderr)
 
     exact_lookup, fuzzy_lookup = build_member_lookup(members, team)
     member_collaborations, member_collaboration_details = compute_member_collaborations(all_publications, exact_lookup, fuzzy_lookup)
+
+    institution_overrides = {}
+    _ov_path = CONFIG_DIR / "institution_overrides.json"
+    if _ov_path.exists():
+        try:
+            institution_overrides = json.loads(_ov_path.read_text())
+        except Exception:
+            institution_overrides = {}
+    institution_collaborations, institution_collaboration_details, institution_meta = \
+        compute_institution_collaborations(all_publications, institution_overrides)
+    print(f"    Institution collaborations: {institution_meta['distinct_institutions']} "
+          f"institutions from {institution_meta['papers_with_affiliation']} papers with "
+          f"affiliations ({institution_meta['papers_capped_out']} mega-papers capped out)")
 
     top_venues_of_interest = ["NeurIPS", "ICML", "ICLR", "Nature"]
     top_venues_by_year = defaultdict(lambda: defaultdict(int))
@@ -1068,6 +1231,9 @@ def main():
         "top_venues_by_year": top_venues_by_year,
         "ellis_member_collaborations": member_collaborations,
         "ellis_member_collaboration_details": member_collaboration_details,
+        "institution_collaborations": institution_collaborations,
+        "institution_collaboration_details": institution_collaboration_details,
+        "institution_collaboration_meta": institution_meta,
         "h_index_distribution": sorted(h_index_values),
         "citation_history_by_person": citation_history_by_person,
         "budget_by_year": budget_cfg.get("budget_by_year", {}),
@@ -1098,6 +1264,21 @@ def main():
                 sys.exit(1)
         except (json.JSONDecodeError, KeyError):
             pass  # existing file unreadable — proceed and write fresh
+
+    # If this run's affiliation coverage was degraded by an exhausted OpenAlex
+    # budget, keep the previous (fuller) institution data rather than overwrite
+    # it with a thin partial. Everything else is still written normally.
+    if OPENALEX_BUDGET_EXHAUSTED and OUT_PATH.exists():
+        try:
+            _prev = json.loads(OUT_PATH.read_text())
+            if len(_prev.get("institution_collaborations", {})) > len(output.get("institution_collaborations", {})):
+                print("    [openalex] budget-degraded run - keeping previous institution "
+                      "collaborations to avoid overwriting fuller data.", file=sys.stderr)
+                output["institution_collaborations"] = _prev.get("institution_collaborations", {})
+                output["institution_collaboration_details"] = _prev.get("institution_collaboration_details", {})
+                output["institution_collaboration_meta"] = _prev.get("institution_collaboration_meta", output.get("institution_collaboration_meta"))
+        except Exception:
+            pass
 
     OUT_PATH.write_text(json.dumps(output, indent=2))
     print(f"Wrote {OUT_PATH} with {output['total_publications']} publications.")

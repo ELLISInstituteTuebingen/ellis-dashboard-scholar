@@ -1,0 +1,18 @@
+{
+  "_comment": "Cleanup for the institution-collaboration graph. 'ignore_ids'/'ignore_names' drop OpenAlex mis-parses or non-research entities; 'merge' folds an alias (by OpenAlex id or exact name) into a canonical display name. Edit freely — same idea as known_venues.json.",
+  "ignore_ids": [
+    "I4210134004",
+    "I143910747",
+    "I2801851002",
+    "I4210135397",
+    "I4210105785"
+  ],
+  "ignore_names": [
+    "The Priory Hospital",
+    "TH Bingen University of Applied Sciences",
+    "Harvard University Press",
+    "Zentrum für Foren in der Grafischen Datenverarbeitung",
+    "Intelligent Systems Research (United States)"
+  ],
+  "merge": {}
+}
