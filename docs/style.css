@@ -535,6 +535,7 @@ a.pdf-badge:hover, a.pdf-badge:focus-visible {
 
 
 /* ---- Institutional collaborations (bar chart) ---- */
+.inst-card { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 24px; }
 .inst-bars { display: flex; flex-direction: column; gap: 9px; max-width: 820px; }
 .inst-row { display: grid; grid-template-columns: minmax(210px, 310px) minmax(0, 1fr) 36px; align-items: center; gap: 16px; }
 .inst-name { font-size: .85rem; color: var(--text); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
