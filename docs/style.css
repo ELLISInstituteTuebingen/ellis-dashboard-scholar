@@ -11,9 +11,9 @@
   --network-dim: #4FA9A3;
   --ellis-green: #4BC5BE;
 
-  --font-display: 'Newsreader', serif;
+  --font-display: 'Roboto', sans-serif;
   --font-body: 'Roboto', sans-serif;
-  --font-mono: 'JetBrains Mono', monospace;
+  --font-mono: 'Roboto', sans-serif;
 }
 
 * { box-sizing: border-box; }
