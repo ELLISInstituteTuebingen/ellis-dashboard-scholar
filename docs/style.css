@@ -535,14 +535,14 @@ a.pdf-badge:hover, a.pdf-badge:focus-visible {
 
 
 /* ---- Institutional collaborations (bar chart) ---- */
-.inst-bars { display: flex; flex-direction: column; gap: 6px; }
-.inst-row { display: grid; grid-template-columns: minmax(150px, 250px) 1fr 44px; align-items: center; gap: 12px; }
+.inst-bars { display: flex; flex-direction: column; gap: 9px; max-width: 820px; }
+.inst-row { display: grid; grid-template-columns: minmax(210px, 310px) minmax(0, 1fr) 36px; align-items: center; gap: 16px; }
 .inst-name { font-size: .85rem; color: var(--text); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-.inst-track { background: var(--surface-2); border-radius: 4px; height: 16px; overflow: hidden; }
-.inst-fill { height: 100%; background: linear-gradient(90deg, var(--ellis-green), #2AA39B); border-radius: 4px; }
+.inst-track { background: var(--surface-2); border-radius: 5px; height: 18px; overflow: hidden; }
+.inst-fill { height: 100%; background: linear-gradient(90deg, var(--ellis-green), #2AA39B); border-radius: 5px; min-width: 2px; }
 .inst-row.home .inst-fill { background: linear-gradient(90deg, #c9ccce, #a9adb0); }
 .inst-val { font-size: .8rem; color: var(--muted); text-align: right; font-variant-numeric: tabular-nums; }
-.inst-legend { display: flex; gap: 18px; flex-wrap: wrap; margin-top: 16px; font-size: .8rem; color: var(--muted); }
+.inst-legend { display: flex; gap: 18px; flex-wrap: wrap; margin-top: 18px; font-size: .8rem; color: var(--muted); }
 .inst-legend .dot.inst-ext { background: var(--ellis-green); }
 .inst-legend .dot.inst-home { background: #bcbfc1; }
 .inst-empty { color: var(--muted); padding: 24px; text-align: center; }
