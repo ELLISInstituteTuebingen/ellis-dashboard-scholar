@@ -431,8 +431,9 @@ function renderInstitutions(data) {
   container.innerHTML = entries.map(([name, count]) => {
     const home = HOME_CLUSTER.has(name);
     const pct = (count / max * 100).toFixed(1);
-    return `<div class="inst-row${home ? ' home' : ''}">
-      <div class="inst-name" title="${esc(name)}">${esc(name)}</div>
+    const safe = name.replace(/'/g, "\\'");
+    return `<div class="inst-row${home ? ' home' : ''}" style="cursor:pointer;" onclick="openInstitutionModal('${safe}')">
+      <div class="inst-name" title="${esc(name)} — click for papers">${esc(name)}</div>
       <div class="inst-track"><div class="inst-fill" style="width:${pct}%"></div></div>
       <div class="inst-val">${count}</div>
     </div>`;
@@ -508,6 +509,32 @@ function openCollabModal(unitName) {
             <span class="highlight">${p.year || '—'}</span> ·
             our scientist: ${esc(p.scientist)} ·
             ELLIS co-author: <span class="highlight">${esc(p.co_author)}</span>
+          </div>
+        </div>
+      `).join('')
+    : `<p style="color:var(--muted); font-size:13.5px;">No paper details available.</p>`;
+
+  openModalShell();
+}
+
+function openInstitutionModal(instName) {
+  const details = (CURRENT_DATA && CURRENT_DATA.institution_collaboration_details) || {};
+  const ids = details[instName] || [];
+  const byId = {};
+  (CURRENT_DATA.publications || []).forEach(p => { byId[p.id] = p; });
+  const papers = ids.map(id => byId[id]).filter(Boolean)
+                    .sort((a, b) => (b.year || 0) - (a.year || 0));
+
+  document.getElementById('collabModalTitle').textContent =
+    `${instName} — ${papers.length} shared paper${papers.length === 1 ? '' : 's'}`;
+
+  const body = document.getElementById('collabModalBody');
+  body.innerHTML = papers.length
+    ? papers.map(p => `
+        <div class="modal-pub-row">
+          <div class="pub-title">${titleLinkHtml(p)}</div>
+          <div class="pub-meta">
+            <span class="highlight">${p.year || '—'}</span>${p.venue ? ' · ' + esc(p.venue) : ''}
           </div>
         </div>
       `).join('')
