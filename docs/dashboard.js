@@ -46,10 +46,7 @@ function titleLinkHtml(p) {
   const { url, kind } = paperLink(p);
   const safeUrl = esc(url);
   const label = kind === 'pdf' ? 'View free PDF' : kind === 'doi' ? 'View at publisher' : 'Find on Google Scholar';
-  const badge = kind === 'pdf'
-    ? ` <a class="pdf-badge" href="${safeUrl}" target="_blank" rel="noopener" aria-label="Free PDF">PDF</a>`
-    : '';
-  return `<a class="pub-title-link" href="${safeUrl}" target="_blank" rel="noopener" title="${esc(label)}">${esc(p.title)}</a>${badge}`;
+  return `<a class="pub-title-link" href="${safeUrl}" target="_blank" rel="noopener" title="${esc(label)}">${esc(p.title)}</a>`;
 }
 
 function renderStats(data) {
