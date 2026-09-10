@@ -412,7 +412,8 @@ function downloadChartPng(captureSel, filename) {
     bgcolor: '#ffffff',
     width: node.offsetWidth * scale,
     height: node.offsetHeight * scale,
-    style: { transform: 'scale(' + scale + ')', transformOrigin: 'top left' }
+    style: { transform: 'scale(' + scale + ')', transformOrigin: 'top left' },
+    filter: n => !(n.classList && n.classList.contains('png-btn'))
   }).then(dataUrl => {
     const a = document.createElement('a');
     a.href = dataUrl;
@@ -429,15 +430,15 @@ function addDownloadButtons() {
     ['#institutions', '#institutions .inst-card', 'institution-collaborations'],
   ];
   targets.forEach(([sectionSel, captureSel, fname]) => {
-    const head = document.querySelector(sectionSel + ' .block-head');
-    if (!head || head.querySelector('.png-btn')) return;
+    const card = document.querySelector(captureSel);
+    if (!card || card.querySelector('.png-btn')) return;
     const btn = document.createElement('button');
     btn.className = 'png-btn';
     btn.type = 'button';
     btn.textContent = 'Download PNG';
     btn.title = 'Download this chart as a PNG image';
     btn.addEventListener('click', () => downloadChartPng(captureSel, fname));
-    head.appendChild(btn);
+    card.appendChild(btn);
   });
 }
 

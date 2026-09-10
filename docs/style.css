@@ -550,9 +550,9 @@ a.pdf-badge:hover, a.pdf-badge:focus-visible {
 
 
 /* ---- Per-chart PNG download button ---- */
-.block-head { position: relative; }
+.chart-card, .network-card, .inst-card { position: relative; }
 .png-btn {
-  position: absolute; top: 2px; right: 0;
+  position: absolute; top: 12px; right: 12px; z-index: 3;
   font-family: var(--font-body); font-size: .72rem;
   background: var(--surface); color: var(--muted);
   border: 1px solid var(--line); border-radius: 6px;
