@@ -404,6 +404,43 @@ function renderCitationGrowthTotalChart(data) {
 
 let CURRENT_DATA = null;
 
+function downloadChartPng(captureSel, filename) {
+  const node = document.querySelector(captureSel);
+  if (!node || typeof domtoimage === 'undefined') return;
+  const scale = 2;
+  domtoimage.toPng(node, {
+    bgcolor: '#ffffff',
+    width: node.offsetWidth * scale,
+    height: node.offsetHeight * scale,
+    style: { transform: 'scale(' + scale + ')', transformOrigin: 'top left' }
+  }).then(dataUrl => {
+    const a = document.createElement('a');
+    a.href = dataUrl;
+    a.download = filename + '.png';
+    document.body.appendChild(a); a.click(); a.remove();
+  }).catch(() => alert('Sorry, could not export this chart as PNG.'));
+}
+
+function addDownloadButtons() {
+  const targets = [
+    ['#trends', '#trends .chart-card', 'publications-per-year'],
+    ['#network', '#network .network-card', 'ellis-sites-network'],
+    ['#citation-growth-total', '#citation-growth-total .chart-card', 'citation-growth'],
+    ['#institutions', '#institutions .inst-card', 'institution-collaborations'],
+  ];
+  targets.forEach(([sectionSel, captureSel, fname]) => {
+    const head = document.querySelector(sectionSel + ' .block-head');
+    if (!head || head.querySelector('.png-btn')) return;
+    const btn = document.createElement('button');
+    btn.className = 'png-btn';
+    btn.type = 'button';
+    btn.textContent = 'Download PNG';
+    btn.title = 'Download this chart as a PNG image';
+    btn.addEventListener('click', () => downloadChartPng(captureSel, fname));
+    head.appendChild(btn);
+  });
+}
+
 function renderInstitutions(data) {
   const container = document.getElementById('institutionBars');
   if (!container) return;
@@ -447,6 +484,7 @@ loadData().then(data => {
   renderCitationGrowthTotalChart(data);
   renderNetwork(data);
   renderInstitutions(data);
+  addDownloadButtons();
   renderMostCited(data);
   renderTable(data);
 }).catch(err => {

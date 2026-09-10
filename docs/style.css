@@ -547,3 +547,16 @@ a.pdf-badge:hover, a.pdf-badge:focus-visible {
 .inst-legend .dot.inst-ext { background: var(--ellis-green); }
 .inst-legend .dot.inst-home { background: #bcbfc1; }
 .inst-empty { color: var(--muted); padding: 24px; text-align: center; }
+
+
+/* ---- Per-chart PNG download button ---- */
+.block-head { position: relative; }
+.png-btn {
+  position: absolute; top: 2px; right: 0;
+  font-family: var(--font-body); font-size: .72rem;
+  background: var(--surface); color: var(--muted);
+  border: 1px solid var(--line); border-radius: 6px;
+  padding: 5px 11px; cursor: pointer; transition: color .15s, border-color .15s;
+}
+.png-btn:hover { color: var(--text); border-color: var(--ellis-green); }
+.png-btn:focus-visible { outline: 2px solid var(--ellis-green); outline-offset: 2px; }
