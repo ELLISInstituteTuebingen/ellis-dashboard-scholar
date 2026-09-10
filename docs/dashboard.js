@@ -412,18 +412,26 @@ function downloadChartPng(captureSel, filename) {
   const node = document.querySelector(captureSel);
   if (!node || typeof domtoimage === 'undefined') return;
   const scale = 2;
-  domtoimage.toPng(node, {
+  const opts = {
     bgcolor: '#ffffff',
     width: node.offsetWidth * scale,
     height: node.offsetHeight * scale,
     style: { transform: 'scale(' + scale + ')', transformOrigin: 'top left' },
     filter: n => !(n.classList && n.classList.contains('png-btn'))
-  }).then(dataUrl => {
+  };
+  const saveBlob = (blob) => {
+    const url = URL.createObjectURL(blob);
     const a = document.createElement('a');
-    a.href = dataUrl;
+    a.href = url;
     a.download = filename + '.png';
     document.body.appendChild(a); a.click(); a.remove();
-  }).catch(() => alert('Sorry, could not export this chart as PNG.'));
+    setTimeout(() => URL.revokeObjectURL(url), 1000);
+  };
+  const fn = domtoimage.toBlob
+    ? domtoimage.toBlob(node, opts).then(saveBlob)
+    : domtoimage.toPng(node, opts).then(dataUrl =>
+        fetch(dataUrl).then(r => r.blob()).then(saveBlob));
+  fn.catch(() => alert('Sorry, could not export this chart as PNG.'));
 }
 
 function addDownloadButtons() {
