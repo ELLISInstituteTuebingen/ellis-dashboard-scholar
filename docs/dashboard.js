@@ -211,7 +211,11 @@ function renderNetwork(data) {
       ${edges}
       <g class="node-institute" transform="translate(${cx},${cy})">
         <circle r="34" />
-        <text text-anchor="middle" dy="5" font-size="12" font-weight="600">ELLIS</text>
+        <text text-anchor="middle" font-size="9.5" font-weight="600">
+          <tspan x="0" dy="-9">ELLIS</tspan>
+          <tspan x="0" dy="10">Institute</tspan>
+          <tspan x="0" dy="10">Tübingen</tspan>
+        </text>
       </g>
       ${nodes}
     </svg>
