@@ -418,6 +418,8 @@ function renderInstitutions(data) {
   const meta = data.institution_collaboration_meta || {};
   const metaEl = document.getElementById('instMetaPapers');
   if (metaEl) metaEl.textContent = meta.papers_with_affiliation ?? '\u2014';
+  const totEl = document.getElementById('instMetaTotal');
+  if (totEl) totEl.textContent = (data.total_publications || (data.publications || []).length) ?? '\u2014';
 
   const entries = Object.entries(collabs).slice(0, TOP_N); // already sorted desc
   if (!entries.length) {
