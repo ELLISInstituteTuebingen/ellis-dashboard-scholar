@@ -210,11 +210,11 @@ function renderNetwork(data) {
     <svg viewBox="0 0 ${width} ${height}" xmlns="http://www.w3.org/2000/svg">
       ${edges}
       <g class="node-institute" transform="translate(${cx},${cy})">
-        <circle r="34" />
-        <text text-anchor="middle" font-size="9.5" font-weight="600">
-          <tspan x="0" dy="-9">ELLIS</tspan>
-          <tspan x="0" dy="10">Institute</tspan>
-          <tspan x="0" dy="10">Tübingen</tspan>
+        <circle r="50" />
+        <text text-anchor="middle" font-size="12" font-weight="600">
+          <tspan x="0" dy="-12">ELLIS</tspan>
+          <tspan x="0" dy="14">Institute</tspan>
+          <tspan x="0" dy="14">Tübingen</tspan>
         </text>
       </g>
       ${nodes}
