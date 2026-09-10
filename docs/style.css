@@ -541,11 +541,11 @@ a.pdf-badge:hover, a.pdf-badge:focus-visible {
 .inst-name { font-size: .85rem; color: var(--text); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .inst-track { background: var(--surface-2); border-radius: 5px; height: 18px; overflow: hidden; }
 .inst-fill { height: 100%; background: linear-gradient(90deg, var(--ellis-green), #2AA39B); border-radius: 5px; min-width: 2px; }
-.inst-row.home .inst-fill { background: linear-gradient(90deg, #c9ccce, #a9adb0); }
+.inst-row.home .inst-fill { background: linear-gradient(90deg, #E38E48, #C2691F); }
 .inst-val { font-size: .8rem; color: var(--muted); text-align: right; font-variant-numeric: tabular-nums; }
 .inst-legend { display: flex; gap: 18px; flex-wrap: wrap; margin-top: 18px; font-size: .8rem; color: var(--muted); }
 .inst-legend .dot.inst-ext { background: var(--ellis-green); }
-.inst-legend .dot.inst-home { background: #bcbfc1; }
+.inst-legend .dot.inst-home { background: #E38E48; }
 .inst-empty { color: var(--muted); padding: 24px; text-align: center; }
 
 
