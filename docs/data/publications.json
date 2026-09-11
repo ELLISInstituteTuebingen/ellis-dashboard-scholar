@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T06:46:10Z",
+  "generated_at": "2026-09-11T13:03:13Z",
   "institute": "ELLIS Institute T\u00fcbingen",
   "total_publications": 632,
   "confirmed_affiliation_count": 0,
@@ -170,7 +170,7 @@
       "institution_ids": [],
       "scientist": "Sahar Abdelnabi",
       "confirmed_ellis_affiliation": false,
-      "venue_category": null,
+      "venue_category": "TMLR",
       "is_oa": true,
       "oa_url": "https://arxiv.org/pdf/2502.01822",
       "author_count": 5,
@@ -313,7 +313,7 @@
       "title": "Hidden in memory: Sleeper memory poisoning in LLM agents",
       "year": 2026,
       "venue": "Agents in the Wild Workshop @ ICML 2026. Spotlight, 2026",
-      "cited_by_count": 19,
+      "cited_by_count": 22,
       "doi": null,
       "citation_id": "QEiYbDYAAAAJ:oynPyU19kbsC",
       "authors": [
@@ -331,7 +331,7 @@
       ],
       "scientist": "Sahar Abdelnabi",
       "confirmed_ellis_affiliation": false,
-      "venue_category": "ICML",
+      "venue_category": null,
       "is_oa": true,
       "oa_url": "https://arxiv.org/pdf/2605.15338",
       "author_count": 7,
@@ -1666,7 +1666,7 @@
       "institution_ids": [],
       "scientist": "Jonas Geiping",
       "confirmed_ellis_affiliation": false,
-      "venue_category": "ICML",
+      "venue_category": null,
       "is_oa": false,
       "oa_url": null
     },
@@ -2390,7 +2390,7 @@
       ],
       "scientist": "Frank Hutter",
       "confirmed_ellis_affiliation": false,
-      "venue_category": "ICLR",
+      "venue_category": null,
       "is_oa": true,
       "oa_url": "https://arxiv.org/pdf/2607.07500",
       "author_count": 5,
@@ -2717,7 +2717,7 @@
         "Shiwei Liu"
       ],
       "confirmed_ellis_affiliation": false,
-      "venue_category": "ICLR",
+      "venue_category": null,
       "is_oa": true,
       "oa_url": "https://arxiv.org/pdf/2606.04980",
       "author_count": 7,
@@ -2759,7 +2759,7 @@
       "institution_ids": [],
       "scientist": "T. Konstantin Rusch",
       "confirmed_ellis_affiliation": false,
-      "venue_category": "ICLR",
+      "venue_category": null,
       "is_oa": false,
       "oa_url": null
     },
@@ -3000,7 +3000,7 @@
       "year": 2026,
       "venue": "ICML 2026, 2026",
       "cited_by_count": 2,
-      "doi": "https://doi.org/10.48550/arxiv.2603.15389",
+      "doi": null,
       "citation_id": "73IbXtsAAAAJ:_Ybze24A_UAC",
       "authors": [
         "D Muhtar",
@@ -3016,7 +3016,7 @@
       "confirmed_ellis_affiliation": false,
       "venue_category": "ICML",
       "is_oa": true,
-      "oa_url": "https://doi.org/10.48550/arxiv.2603.15389",
+      "oa_url": "https://arxiv.org/pdf/2603.15389",
       "author_count": 7,
       "institutions": []
     },
@@ -3262,7 +3262,7 @@
       "institution_ids": [],
       "scientist": "Maksym Andriushchenko",
       "confirmed_ellis_affiliation": false,
-      "venue_category": "ICML",
+      "venue_category": null,
       "is_oa": false,
       "oa_url": null
     },
@@ -3283,7 +3283,7 @@
       "institution_ids": [],
       "scientist": "Maksym Andriushchenko",
       "confirmed_ellis_affiliation": false,
-      "venue_category": "ICML",
+      "venue_category": null,
       "is_oa": false,
       "oa_url": null
     },
@@ -3308,7 +3308,7 @@
       "institution_ids": [],
       "scientist": "Maksym Andriushchenko",
       "confirmed_ellis_affiliation": false,
-      "venue_category": "ICML",
+      "venue_category": null,
       "is_oa": false,
       "oa_url": null
     },
@@ -3330,7 +3330,7 @@
       "institution_ids": [],
       "scientist": "Maksym Andriushchenko",
       "confirmed_ellis_affiliation": false,
-      "venue_category": "ICML",
+      "venue_category": null,
       "is_oa": false,
       "oa_url": null
     },
@@ -3353,7 +3353,7 @@
       ],
       "scientist": "Maksym Andriushchenko",
       "confirmed_ellis_affiliation": false,
-      "venue_category": "ICML",
+      "venue_category": null,
       "is_oa": true,
       "oa_url": "https://arxiv.org/pdf/2607.20468",
       "author_count": 3,
@@ -3400,7 +3400,7 @@
         "Jonas Geiping"
       ],
       "confirmed_ellis_affiliation": false,
-      "venue_category": "ICML",
+      "venue_category": null,
       "is_oa": true,
       "oa_url": "https://arxiv.org/pdf/2605.15188",
       "author_count": 8,
@@ -3456,7 +3456,7 @@
       ],
       "scientist": "Maksym Andriushchenko",
       "confirmed_ellis_affiliation": false,
-      "venue_category": "ICML",
+      "venue_category": null,
       "is_oa": true,
       "oa_url": "https://arxiv.org/pdf/2604.28082",
       "author_count": 3,
@@ -3499,7 +3499,7 @@
         "Jonas Geiping"
       ],
       "confirmed_ellis_affiliation": false,
-      "venue_category": "ICML",
+      "venue_category": null,
       "is_oa": true,
       "oa_url": "https://arxiv.org/pdf/2603.24511",
       "author_count": 6,
@@ -3586,7 +3586,7 @@
       "institution_ids": [],
       "scientist": "Maksym Andriushchenko",
       "confirmed_ellis_affiliation": false,
-      "venue_category": "ICML",
+      "venue_category": null,
       "is_oa": true,
       "oa_url": "https://doi.org/10.48550/arxiv.2602.01031",
       "author_count": 4,
@@ -3712,7 +3712,7 @@
       "title": "International ai safety report 2026",
       "year": 2026,
       "venue": "arXiv preprint arXiv:2602.21012, 2026",
-      "cited_by_count": 151,
+      "cited_by_count": 153,
       "doi": "https://doi.org/10.48550/arxiv.2602.21012",
       "citation_id": "ZNtuJYoAAAAJ:XiSMed-E-HIC",
       "authors": [
@@ -3819,7 +3819,7 @@
       "title": "GWTC-4.0: constraints on the cosmic expansion rate and modified gravitational-wave propagation",
       "year": 2026,
       "venue": "The Astrophysical Journal Letters 1007 (1), L17, 2026",
-      "cited_by_count": 38,
+      "cited_by_count": 34,
       "doi": "https://doi.org/10.3847/2041-8213/ae69dd",
       "citation_id": "VRBv6mEAAAAJ:ns9cj8rnVeAC",
       "authors": [
@@ -4291,7 +4291,7 @@
       "year": 2026,
       "venue": "Physical Review D 114 (2), 022005, 2026",
       "cited_by_count": 2,
-      "doi": "https://doi.org/10.1103/s551-7pch",
+      "doi": null,
       "citation_id": "VRBv6mEAAAAJ:vV6vV6tmYwMC",
       "authors": [
         "AG Abac",
@@ -4302,409 +4302,19 @@
         "..."
       ],
       "institution_ids": [
-        "I4210127646",
-        "I131729948",
-        "I39555362",
-        "I2801239119",
-        "I56590836",
-        "I130769515",
-        "I114112103",
-        "I43579087",
-        "I122411786",
-        "I121820613",
-        "I11947397",
-        "I21491767",
-        "I95674353",
-        "I166337079",
-        "I2803209242",
-        "I2800403580",
-        "I80849659",
-        "I204730241",
-        "I116067653",
-        "I149213910",
-        "I4210159940",
-        "I4210099850",
-        "I76198965",
-        "I83816512",
-        "I71267560",
-        "I79510175",
-        "I118347636",
-        "I63966007",
-        "I34352273",
-        "I4210093566",
-        "I861853513",
-        "I277688954",
-        "I74801974",
-        "I4210132884",
-        "I4399598377",
-        "I2800738734",
-        "I4210150763",
-        "I33213144",
-        "I129043915",
-        "I112859197",
-        "I201448701",
-        "I142934699",
-        "I181647926",
-        "I100532134",
-        "I130701444",
-        "I19149307",
-        "I4210160447",
-        "I200475212",
-        "I190397597",
-        "I4210163613",
-        "I2800369878",
-        "I68947357",
-        "I183935753",
-        "I878022262",
-        "I98285908",
-        "I138728355",
-        "I193662353",
-        "I177877127",
-        "I63072094",
-        "I193223587",
-        "I27483092",
-        "I70983195",
-        "I59781447",
-        "I108290504",
-        "I4210092024",
-        "I71999127"
+        "I4210161779"
       ],
       "scientist": "Maximilian Dax",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
       "is_oa": true,
-      "oa_url": "https://doi.org/10.1103/s551-7pch",
+      "oa_url": "https://eprints.whiterose.ac.uk/id/eprint/243980/1/s551-7pch.pdf",
       "author_count": 100,
       "institutions": [
         {
-          "id": "I4210127646",
-          "name": "Max Planck Institute for Gravitational Physics",
-          "country": "DE"
-        },
-        {
-          "id": "I131729948",
-          "name": "University of Salerno",
-          "country": "IT"
-        },
-        {
-          "id": "I39555362",
-          "name": "University of Warwick",
-          "country": "GB"
-        },
-        {
-          "id": "I2801239119",
-          "name": "Australian Regenerative Medicine Institute",
-          "country": "AU"
-        },
-        {
-          "id": "I56590836",
-          "name": "Monash University",
-          "country": "AU"
-        },
-        {
-          "id": "I130769515",
-          "name": "Pennsylvania State University",
-          "country": "US"
-        },
-        {
-          "id": "I114112103",
-          "name": "Leibniz University Hannover",
-          "country": "DE"
-        },
-        {
-          "id": "I43579087",
-          "name": "University of Wisconsin\u2013Milwaukee",
-          "country": "US"
-        },
-        {
-          "id": "I122411786",
-          "name": "California Institute of Technology",
-          "country": "US"
-        },
-        {
-          "id": "I121820613",
-          "name": "Louisiana State University",
-          "country": "US"
-        },
-        {
-          "id": "I11947397",
-          "name": "Tata Institute of Fundamental Research",
-          "country": "IN"
-        },
-        {
-          "id": "I21491767",
-          "name": "Aix-Marseille Universit\u00e9",
-          "country": "FR"
-        },
-        {
-          "id": "I95674353",
-          "name": "UCLouvain",
-          "country": "BE"
-        },
-        {
-          "id": "I166337079",
-          "name": "Queen Mary University of London",
-          "country": "GB"
-        },
-        {
-          "id": "I2803209242",
-          "name": "University of California System",
-          "country": "US"
-        },
-        {
-          "id": "I2800403580",
-          "name": "University of Minnesota System",
-          "country": "US"
-        },
-        {
-          "id": "I80849659",
-          "name": "Instituto Nacional de Pesquisas Espaciais",
-          "country": "BR"
-        },
-        {
-          "id": "I204730241",
-          "name": "Universit\u00e9 Paris Cit\u00e9",
-          "country": "FR"
-        },
-        {
-          "id": "I116067653",
-          "name": "University of Rome Tor Vergata",
-          "country": "IT"
-        },
-        {
-          "id": "I149213910",
-          "name": "University of Antwerp",
-          "country": "BE"
-        },
-        {
-          "id": "I4210159940",
-          "name": "National Astronomical Observatory of Japan",
-          "country": "JP"
-        },
-        {
-          "id": "I4210099850",
-          "name": "Istituto Nazionale di Fisica Nucleare, Sezione di Torino",
-          "country": "IT"
-        },
-        {
-          "id": "I76198965",
-          "name": "Friedrich Schiller University Jena",
-          "country": "DE"
-        },
-        {
-          "id": "I83816512",
-          "name": "University of Genoa",
-          "country": "IT"
-        },
-        {
-          "id": "I71267560",
-          "name": "University of Naples Federico II",
-          "country": "IT"
-        },
-        {
-          "id": "I79510175",
-          "name": "Cardiff University",
-          "country": "GB"
-        },
-        {
-          "id": "I118347636",
-          "name": "Australian National University",
-          "country": "AU"
-        },
-        {
-          "id": "I63966007",
-          "name": "Massachusetts Institute of Technology",
-          "country": "US"
-        },
-        {
-          "id": "I34352273",
-          "name": "Maastricht University",
-          "country": "NL"
-        },
-        {
-          "id": "I4210093566",
-          "name": "National Institute for Subatomic Physics",
-          "country": "NL"
-        },
-        {
-          "id": "I861853513",
-          "name": "Sapienza University of Rome",
-          "country": "IT"
-        },
-        {
-          "id": "I277688954",
-          "name": "Universit\u00e9 Paris-Saclay",
-          "country": "FR"
-        },
-        {
-          "id": "I74801974",
-          "name": "The University of Tokyo",
-          "country": "JP"
-        },
-        {
-          "id": "I4210132884",
-          "name": "Barcelona Institute of Science and Technology",
-          "country": "ES"
-        },
-        {
-          "id": "I4399598377",
-          "name": "Institute of Science and Technology",
-          "country": null
-        },
-        {
-          "id": "I2800738734",
-          "name": "Istituto Nazionale di Fisica Nucleare, Laboratori Nazionali del Gran Sasso",
-          "country": "IT"
-        },
-        {
-          "id": "I4210150763",
-          "name": "Gran Sasso Science Institute",
-          "country": "IT"
-        },
-        {
-          "id": "I33213144",
-          "name": "University of Florida",
-          "country": "US"
-        },
-        {
-          "id": "I129043915",
-          "name": "University of Udine",
-          "country": "IT"
-        },
-        {
-          "id": "I112859197",
-          "name": "Universit\u00e0 di Camerino",
-          "country": "IT"
-        },
-        {
-          "id": "I201448701",
-          "name": "University of Washington",
-          "country": "US"
-        },
-        {
-          "id": "I142934699",
-          "name": "California State University, Fullerton",
-          "country": "US"
-        },
-        {
-          "id": "I181647926",
-          "name": "University of Strathclyde",
-          "country": "GB"
-        },
-        {
-          "id": "I100532134",
-          "name": "Lyon 1 Universit\u00e9",
-          "country": "FR"
-        },
-        {
-          "id": "I130701444",
-          "name": "Georgia Institute of Technology",
-          "country": "US"
-        },
-        {
-          "id": "I19149307",
-          "name": "Chennai Mathematical Institute",
-          "country": "IN"
-        },
-        {
-          "id": "I4210160447",
-          "name": "Universidad de Londres",
-          "country": "MX"
-        },
-        {
-          "id": "I200475212",
-          "name": "The Graduate University for Advanced Studies, SOKENDAI",
-          "country": "JP"
-        },
-        {
-          "id": "I190397597",
-          "name": "University of Urbino",
-          "country": "IT"
-        },
-        {
-          "id": "I4210163613",
-          "name": "European Gravitational Observatory",
-          "country": "IT"
-        },
-        {
-          "id": "I2800369878",
-          "name": "LIGO Scientific Collaboration",
-          "country": "US"
-        },
-        {
-          "id": "I68947357",
-          "name": "Universit\u00e9 de Strasbourg",
-          "country": "FR"
-        },
-        {
-          "id": "I183935753",
-          "name": "King's College London",
-          "country": "GB"
-        },
-        {
-          "id": "I878022262",
-          "name": "Korea Institute of Science & Technology Information",
-          "country": "KR"
-        },
-        {
-          "id": "I98285908",
-          "name": "The University of Osaka",
-          "country": "JP"
-        },
-        {
-          "id": "I138728355",
-          "name": "High Energy Accelerator Research Organization",
-          "country": "JP"
-        },
-        {
-          "id": "I193662353",
-          "name": "Utrecht University",
-          "country": "NL"
-        },
-        {
-          "id": "I177877127",
-          "name": "The University of Western Australia",
-          "country": "AU"
-        },
-        {
-          "id": "I63072094",
-          "name": "University of Portsmouth",
-          "country": "GB"
-        },
-        {
-          "id": "I193223587",
-          "name": "University of Trento",
-          "country": "IT"
-        },
-        {
-          "id": "I27483092",
-          "name": "University of Perugia",
-          "country": "IT"
-        },
-        {
-          "id": "I70983195",
-          "name": "Syracuse University",
-          "country": "US"
-        },
-        {
-          "id": "I59781447",
-          "name": "Inter-University Centre for Astronomy and Astrophysics",
-          "country": "IN"
-        },
-        {
-          "id": "I108290504",
-          "name": "University of Pisa",
-          "country": "IT"
-        },
-        {
-          "id": "I4210092024",
-          "name": "Institut d'Estudis Espacials de Catalunya",
-          "country": "ES"
-        },
-        {
-          "id": "I71999127",
-          "name": "Universitat de Barcelona",
-          "country": "ES"
+          "id": "I4210161779",
+          "name": "Campbell Collaboration",
+          "country": "NO"
         }
       ]
     },
@@ -9209,7 +8819,7 @@
       "title": "Black hole spectroscopy and tests of general relativity with GW250114",
       "year": 2026,
       "venue": "Physical Review Letters 136 (4), 041403, 2026",
-      "cited_by_count": 106,
+      "cited_by_count": 108,
       "doi": "https://doi.org/10.1103/6c61-fm1n",
       "citation_id": "VRBv6mEAAAAJ:OU6Ihb5iCvQC",
       "authors": [
@@ -9969,7 +9579,7 @@
       ],
       "scientist": "Antonio Orvieto",
       "confirmed_ellis_affiliation": false,
-      "venue_category": null,
+      "venue_category": "ACL",
       "is_oa": true,
       "oa_url": "https://aclanthology.org/2026.acl-long.2170.pdf",
       "author_count": 12,
@@ -10606,7 +10216,7 @@
       "title": "Direct Imaging Discovery of Giant Exoplanet \u03b2 Pictoris d: A Decade-long Game of Hide-and-seek",
       "year": 2026,
       "venue": "The Astrophysical Journal Letters 1006 (1), L10, 2026",
-      "cited_by_count": 7,
+      "cited_by_count": 8,
       "doi": "https://doi.org/10.3847/2041-8213/ae80a0",
       "citation_id": "DZ-fHPgAAAAJ:ov8qWdt4VJkC",
       "authors": [
@@ -10976,7 +10586,7 @@
       ],
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
-      "venue_category": null,
+      "venue_category": "ACL",
       "is_oa": true,
       "oa_url": "https://aclanthology.org/2026.acl-demo.39.pdf",
       "author_count": 21,
@@ -11025,7 +10635,7 @@
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
-      "venue_category": null,
+      "venue_category": "ACL",
       "is_oa": false,
       "oa_url": null
     },
@@ -11055,7 +10665,7 @@
       ],
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
-      "venue_category": null,
+      "venue_category": "ACL",
       "is_oa": true,
       "oa_url": "https://aclanthology.org/2026.acl-long.1693.pdf",
       "author_count": 11,
@@ -12007,7 +11617,7 @@
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
-      "venue_category": null,
+      "venue_category": "EACL",
       "is_oa": false,
       "oa_url": null
     },
@@ -12027,7 +11637,7 @@
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
-      "venue_category": null,
+      "venue_category": "EACL",
       "is_oa": false,
       "oa_url": null
     },
@@ -12365,7 +11975,7 @@
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
-      "venue_category": "ICLR",
+      "venue_category": null,
       "is_oa": true,
       "oa_url": "https://doi.org/10.13140/rg.2.2.32794.91849",
       "author_count": 7,
@@ -12842,7 +12452,7 @@
       "institution_ids": [],
       "scientist": "Wieland Brendel",
       "confirmed_ellis_affiliation": false,
-      "venue_category": null,
+      "venue_category": "TMLR",
       "is_oa": false,
       "oa_url": null
     },
@@ -13619,7 +13229,7 @@
       "title": "Tabarena: A living benchmark for machine learning on tabular data",
       "year": 2025,
       "venue": "Advances in Neural Information Processing Systems 38, 2026",
-      "cited_by_count": 205,
+      "cited_by_count": 206,
       "doi": "https://doi.org/10.52202/085713-0519",
       "citation_id": "YUrxwrkAAAAJ:sJPMR1oEGYQC",
       "authors": [
@@ -15310,7 +14920,7 @@
       "title": "Accurate predictions on small data with a tabular foundation model",
       "year": 2025,
       "venue": "Nature 637 (8045), 319-326, 2025",
-      "cited_by_count": 1828,
+      "cited_by_count": 1834,
       "doi": "https://doi.org/10.1038/s41586-024-08328-6",
       "citation_id": "YUrxwrkAAAAJ:ZqE1mSdD_DYC",
       "authors": [
@@ -15552,7 +15162,7 @@
       "institution_ids": [],
       "scientist": "Frank Hutter",
       "confirmed_ellis_affiliation": false,
-      "venue_category": null,
+      "venue_category": "TMLR",
       "is_oa": false,
       "oa_url": null
     },
@@ -15575,7 +15185,7 @@
       "institution_ids": [],
       "scientist": "Frank Hutter",
       "confirmed_ellis_affiliation": false,
-      "venue_category": "ICLR",
+      "venue_category": null,
       "is_oa": false,
       "oa_url": null
     },
@@ -15719,7 +15329,7 @@
         "Jonas Geiping"
       ],
       "confirmed_ellis_affiliation": false,
-      "venue_category": null,
+      "venue_category": "COLM",
       "is_oa": false,
       "oa_url": null
     },
@@ -16280,253 +15890,11 @@
       ]
     },
     {
-      "id": "scholar-ZNtuJYoAAAAJ:fQNAKQ3IYiAC",
-      "title": "International Al Safety Report: First Key Update Capabilities and Risk Implications",
-      "year": 2025,
-      "venue": "SuperIntelligence-Robotics-Safety & Alignment 2 (6), 2025",
-      "cited_by_count": 246,
-      "doi": "https://doi.org/10.70777/si.v2i6.16253",
-      "citation_id": "ZNtuJYoAAAAJ:fQNAKQ3IYiAC",
-      "authors": [
-        "Y Bengio",
-        "B Bucknall",
-        "S Clare",
-        "C Prunkl",
-        "M Andriushchenko",
-        "P Fox",
-        "T HU",
-        "..."
-      ],
-      "institution_ids": [
-        "I4210164802",
-        "I40120149",
-        "I1292020679",
-        "I4387155932",
-        "I193662353",
-        "I8087733",
-        "I4210126363",
-        "I241749",
-        "I59553526",
-        "I97018004",
-        "I4210128584",
-        "I2801851002",
-        "I4210154019",
-        "I34352273",
-        "I1280581677",
-        "I4210155582",
-        "I63966007",
-        "I131249849",
-        "I102134673",
-        "I185261750",
-        "I143804889",
-        "I100930933",
-        "I25112270",
-        "I4210112625",
-        "I4210116243",
-        "I4210129126",
-        "I52099693",
-        "I1304508199",
-        "I20089843",
-        "I95457486",
-        "I162148367",
-        "I170897317",
-        "I36194607",
-        "I1326498283",
-        "I99065089"
-      ],
-      "scientist": [
-        "Maksym Andriushchenko",
-        "Bernhard Sch\u00f6lkopf"
-      ],
-      "confirmed_ellis_affiliation": false,
-      "venue_category": null,
-      "is_oa": true,
-      "oa_url": "https://s-rsa.com/index.php/agi/article/download/16253/11521",
-      "author_count": 42,
-      "institutions": [
-        {
-          "id": "I4210164802",
-          "name": "Mila - Quebec Artificial Intelligence Institute",
-          "country": "CA"
-        },
-        {
-          "id": "I40120149",
-          "name": "University of Oxford",
-          "country": "GB"
-        },
-        {
-          "id": "I1292020679",
-          "name": "Institute on Governance",
-          "country": "CA"
-        },
-        {
-          "id": "I4387155932",
-          "name": "Centre for the Governance of AI",
-          "country": null
-        },
-        {
-          "id": "I193662353",
-          "name": "Utrecht University",
-          "country": "NL"
-        },
-        {
-          "id": "I8087733",
-          "name": "University of T\u00fcbingen",
-          "country": "DE"
-        },
-        {
-          "id": "I4210126363",
-          "name": "Kirov State Medical Academy",
-          "country": "RU"
-        },
-        {
-          "id": "I241749",
-          "name": "University of Cambridge",
-          "country": "GB"
-        },
-        {
-          "id": "I59553526",
-          "name": "Stony Brook University",
-          "country": "US"
-        },
-        {
-          "id": "I97018004",
-          "name": "Stanford University",
-          "country": "US"
-        },
-        {
-          "id": "I4210128584",
-          "name": "The Alan Turing Institute",
-          "country": "GB"
-        },
-        {
-          "id": "I2801851002",
-          "name": "Harvard University Press",
-          "country": "US"
-        },
-        {
-          "id": "I4210154019",
-          "name": "Apollo Instruments (United States)",
-          "country": "US"
-        },
-        {
-          "id": "I34352273",
-          "name": "Maastricht University",
-          "country": "NL"
-        },
-        {
-          "id": "I1280581677",
-          "name": "Defense Advanced Research Projects Agency",
-          "country": "US"
-        },
-        {
-          "id": "I4210155582",
-          "name": "Centre Universitaire de Mila",
-          "country": "DZ"
-        },
-        {
-          "id": "I63966007",
-          "name": "Massachusetts Institute of Technology",
-          "country": "US"
-        },
-        {
-          "id": "I131249849",
-          "name": "Oregon State University",
-          "country": "US"
-        },
-        {
-          "id": "I102134673",
-          "name": "Link\u00f6ping University",
-          "country": "SE"
-        },
-        {
-          "id": "I185261750",
-          "name": "University of Toronto",
-          "country": "CA"
-        },
-        {
-          "id": "I143804889",
-          "name": "Loughborough University",
-          "country": "GB"
-        },
-        {
-          "id": "I100930933",
-          "name": "University College Dublin",
-          "country": "IE"
-        },
-        {
-          "id": "I25112270",
-          "name": "Universidade Federal de Pernambuco",
-          "country": "BR"
-        },
-        {
-          "id": "I4210112625",
-          "name": "Collaborative Research Group",
-          "country": "AU"
-        },
-        {
-          "id": "I4210116243",
-          "name": "Collaborative Group (United States)",
-          "country": "US"
-        },
-        {
-          "id": "I4210129126",
-          "name": "Cambridge Collaborative (United States)",
-          "country": "US"
-        },
-        {
-          "id": "I52099693",
-          "name": "University of York",
-          "country": "GB"
-        },
-        {
-          "id": "I1304508199",
-          "name": "Carnegie Endowment for International Peace",
-          "country": "US"
-        },
-        {
-          "id": "I20089843",
-          "name": "Princeton University",
-          "country": "US"
-        },
-        {
-          "id": "I95457486",
-          "name": "University of California, Berkeley",
-          "country": "US"
-        },
-        {
-          "id": "I162148367",
-          "name": "Pontificia Universidad Cat\u00f3lica de Chile",
-          "country": "CL"
-        },
-        {
-          "id": "I170897317",
-          "name": "Duke University",
-          "country": "US"
-        },
-        {
-          "id": "I36194607",
-          "name": "Duke Energy (United States)",
-          "country": "US"
-        },
-        {
-          "id": "I1326498283",
-          "name": "Institut national de recherche en sciences et technologies du num\u00e9rique",
-          "country": "FR"
-        },
-        {
-          "id": "I99065089",
-          "name": "Tsinghua University",
-          "country": "CN"
-        }
-      ]
-    },
-    {
       "id": "scholar-ZNtuJYoAAAAJ:_xSYboBqXhAC",
       "title": "International AI safety report 2025: first key update: capabilities and risk implications",
       "year": 2025,
       "venue": "arXiv preprint arXiv:2510.13653, 2025",
-      "cited_by_count": 10,
+      "cited_by_count": 257,
       "doi": "https://doi.org/10.48550/arxiv.2510.13653",
       "citation_id": "ZNtuJYoAAAAJ:_xSYboBqXhAC",
       "authors": [
@@ -16622,7 +15990,7 @@
       "title": "GWTC-4.0: An introduction to version 4.0 of the gravitational-wave transient catalog",
       "year": 2025,
       "venue": "The Astrophysical Journal Letters 995 (1), L18, 2025",
-      "cited_by_count": 129,
+      "cited_by_count": 126,
       "doi": "https://doi.org/10.3847/2041-8213/ae0c06",
       "citation_id": "VRBv6mEAAAAJ:r0BpntZqJG4C",
       "authors": [
@@ -16986,7 +16354,7 @@
       "title": "GW231123: A Binary Black Hole Merger with Total Mass 190\u2013265 M\u2299",
       "year": 2025,
       "venue": "The Astrophysical Journal Letters 993 (1), L25, 2025",
-      "cited_by_count": 208,
+      "cited_by_count": 207,
       "doi": "https://doi.org/10.3847/2041-8213/ae0c9c",
       "citation_id": "VRBv6mEAAAAJ:M3NEmzRMIkIC",
       "authors": [
@@ -17946,7 +17314,7 @@
       "title": "GWTC-4.0: Updating the gravitational-wave transient catalog with observations from the first part of the fourth LIGO-Virgo-KAGRA observing run",
       "year": 2025,
       "venue": "arXiv preprint arXiv:2508.18082, 2025",
-      "cited_by_count": 327,
+      "cited_by_count": 321,
       "doi": "https://doi.org/10.3847/2041-8213/ae2c74",
       "citation_id": "VRBv6mEAAAAJ:maZDTaKrznsC",
       "authors": [
@@ -18358,7 +17726,7 @@
       "title": "GWTC-4.0: Population properties of merging compact binaries",
       "year": 2025,
       "venue": "arXiv preprint arXiv:2508.18083, 2025",
-      "cited_by_count": 72,
+      "cited_by_count": 86,
       "doi": "https://doi.org/10.3847/2041-8213/ae771e",
       "citation_id": "VRBv6mEAAAAJ:TFP_iSt0sucC",
       "authors": [
@@ -19797,7 +19165,7 @@
       "institution_ids": [],
       "scientist": "Antonio Orvieto",
       "confirmed_ellis_affiliation": false,
-      "venue_category": "ICML",
+      "venue_category": null,
       "is_oa": false,
       "oa_url": null
     },
@@ -20335,6 +19703,245 @@
       ]
     },
     {
+      "id": "scholar-DZ-fHPgAAAAJ:zvRK_E0joC0C",
+      "title": "International Al Safety Report: First Key Update Capabilities and Risk Implications",
+      "year": 2025,
+      "venue": "SuperIntelligence-Robotics-Safety & Alignment 2 (6), 2025",
+      "cited_by_count": 247,
+      "doi": "https://doi.org/10.70777/si.v2i6.16253",
+      "citation_id": "DZ-fHPgAAAAJ:zvRK_E0joC0C",
+      "authors": [
+        "Y Bengio",
+        "B Bucknall",
+        "S Clare",
+        "C Prunkl",
+        "M Andriushchenko",
+        "P Fox",
+        "T HU",
+        "..."
+      ],
+      "institution_ids": [
+        "I4210164802",
+        "I40120149",
+        "I1292020679",
+        "I4387155932",
+        "I193662353",
+        "I8087733",
+        "I4210126363",
+        "I241749",
+        "I59553526",
+        "I97018004",
+        "I4210128584",
+        "I2801851002",
+        "I4210154019",
+        "I34352273",
+        "I1280581677",
+        "I4210155582",
+        "I63966007",
+        "I131249849",
+        "I102134673",
+        "I185261750",
+        "I143804889",
+        "I100930933",
+        "I25112270",
+        "I4210112625",
+        "I4210116243",
+        "I4210129126",
+        "I52099693",
+        "I1304508199",
+        "I20089843",
+        "I95457486",
+        "I162148367",
+        "I170897317",
+        "I36194607",
+        "I1326498283",
+        "I99065089"
+      ],
+      "scientist": "Bernhard Sch\u00f6lkopf",
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null,
+      "is_oa": true,
+      "oa_url": "https://s-rsa.com/index.php/agi/article/download/16253/11521",
+      "author_count": 42,
+      "institutions": [
+        {
+          "id": "I4210164802",
+          "name": "Mila - Quebec Artificial Intelligence Institute",
+          "country": "CA"
+        },
+        {
+          "id": "I40120149",
+          "name": "University of Oxford",
+          "country": "GB"
+        },
+        {
+          "id": "I1292020679",
+          "name": "Institute on Governance",
+          "country": "CA"
+        },
+        {
+          "id": "I4387155932",
+          "name": "Centre for the Governance of AI",
+          "country": null
+        },
+        {
+          "id": "I193662353",
+          "name": "Utrecht University",
+          "country": "NL"
+        },
+        {
+          "id": "I8087733",
+          "name": "University of T\u00fcbingen",
+          "country": "DE"
+        },
+        {
+          "id": "I4210126363",
+          "name": "Kirov State Medical Academy",
+          "country": "RU"
+        },
+        {
+          "id": "I241749",
+          "name": "University of Cambridge",
+          "country": "GB"
+        },
+        {
+          "id": "I59553526",
+          "name": "Stony Brook University",
+          "country": "US"
+        },
+        {
+          "id": "I97018004",
+          "name": "Stanford University",
+          "country": "US"
+        },
+        {
+          "id": "I4210128584",
+          "name": "The Alan Turing Institute",
+          "country": "GB"
+        },
+        {
+          "id": "I2801851002",
+          "name": "Harvard University Press",
+          "country": "US"
+        },
+        {
+          "id": "I4210154019",
+          "name": "Apollo Instruments (United States)",
+          "country": "US"
+        },
+        {
+          "id": "I34352273",
+          "name": "Maastricht University",
+          "country": "NL"
+        },
+        {
+          "id": "I1280581677",
+          "name": "Defense Advanced Research Projects Agency",
+          "country": "US"
+        },
+        {
+          "id": "I4210155582",
+          "name": "Centre Universitaire de Mila",
+          "country": "DZ"
+        },
+        {
+          "id": "I63966007",
+          "name": "Massachusetts Institute of Technology",
+          "country": "US"
+        },
+        {
+          "id": "I131249849",
+          "name": "Oregon State University",
+          "country": "US"
+        },
+        {
+          "id": "I102134673",
+          "name": "Link\u00f6ping University",
+          "country": "SE"
+        },
+        {
+          "id": "I185261750",
+          "name": "University of Toronto",
+          "country": "CA"
+        },
+        {
+          "id": "I143804889",
+          "name": "Loughborough University",
+          "country": "GB"
+        },
+        {
+          "id": "I100930933",
+          "name": "University College Dublin",
+          "country": "IE"
+        },
+        {
+          "id": "I25112270",
+          "name": "Universidade Federal de Pernambuco",
+          "country": "BR"
+        },
+        {
+          "id": "I4210112625",
+          "name": "Collaborative Research Group",
+          "country": "AU"
+        },
+        {
+          "id": "I4210116243",
+          "name": "Collaborative Group (United States)",
+          "country": "US"
+        },
+        {
+          "id": "I4210129126",
+          "name": "Cambridge Collaborative (United States)",
+          "country": "US"
+        },
+        {
+          "id": "I52099693",
+          "name": "University of York",
+          "country": "GB"
+        },
+        {
+          "id": "I1304508199",
+          "name": "Carnegie Endowment for International Peace",
+          "country": "US"
+        },
+        {
+          "id": "I20089843",
+          "name": "Princeton University",
+          "country": "US"
+        },
+        {
+          "id": "I95457486",
+          "name": "University of California, Berkeley",
+          "country": "US"
+        },
+        {
+          "id": "I162148367",
+          "name": "Pontificia Universidad Cat\u00f3lica de Chile",
+          "country": "CL"
+        },
+        {
+          "id": "I170897317",
+          "name": "Duke University",
+          "country": "US"
+        },
+        {
+          "id": "I36194607",
+          "name": "Duke Energy (United States)",
+          "country": "US"
+        },
+        {
+          "id": "I1326498283",
+          "name": "Institut national de recherche en sciences et technologies du num\u00e9rique",
+          "country": "FR"
+        },
+        {
+          "id": "I99065089",
+          "name": "Tsinghua University",
+          "country": "CN"
+        }
+      ]
+    },
+    {
       "id": "scholar-DZ-fHPgAAAAJ:Nm_okVSxvOsC",
       "title": "Collective intelligence: On the promise and reality of multi-agent systems for ai-driven scientific discovery",
       "year": 2025,
@@ -20502,7 +20109,7 @@
       ],
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
-      "venue_category": null,
+      "venue_category": "ACL",
       "is_oa": true,
       "oa_url": "https://aclanthology.org/2025.acl-long.973.pdf",
       "author_count": 5,
@@ -20905,7 +20512,7 @@
       "title": "Use the 4S (signal-safe speckle subtraction): Explainable machine learning reveals the giant exoplanet AF Lep b in high-contrast imaging data from 2011",
       "year": 2025,
       "venue": "The Astronomical Journal 169 (4), 194, 2025",
-      "cited_by_count": 21,
+      "cited_by_count": 22,
       "doi": "https://doi.org/10.3847/1538-3881/adab79",
       "citation_id": "DZ-fHPgAAAAJ:BgA9TAIr_78C",
       "authors": [
@@ -21573,7 +21180,7 @@
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
-      "venue_category": "NeurIPS",
+      "venue_category": null,
       "is_oa": true,
       "oa_url": "http://hdl.handle.net/20.500.11850/795024",
       "author_count": 14,
@@ -21599,7 +21206,7 @@
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
-      "venue_category": "NeurIPS",
+      "venue_category": null,
       "is_oa": false,
       "oa_url": null
     },
@@ -22288,7 +21895,7 @@
       "institution_ids": [],
       "scientist": "Wieland Brendel",
       "confirmed_ellis_affiliation": false,
-      "venue_category": "NeurIPS",
+      "venue_category": null,
       "is_oa": false,
       "oa_url": null
     },
@@ -22498,7 +22105,7 @@
       "title": "Investigating style similarity in diffusion models",
       "year": 2024,
       "venue": "European Conference on Computer Vision, 143-160, 2024",
-      "cited_by_count": 141,
+      "cited_by_count": 142,
       "doi": "https://doi.org/10.1007/978-3-031-72848-8_9",
       "citation_id": "206vNCEAAAAJ:tS2w5q8j5-wC",
       "authors": [
@@ -22822,7 +22429,7 @@
       "institution_ids": [],
       "scientist": "Jonas Geiping",
       "confirmed_ellis_affiliation": false,
-      "venue_category": null,
+      "venue_category": "COLM",
       "is_oa": false,
       "oa_url": null
     },
@@ -22877,7 +22484,7 @@
       "title": "Universal guidance for diffusion models",
       "year": 2024,
       "venue": "The Twelfth International Conference on Learning Representations, 2024",
-      "cited_by_count": 631,
+      "cited_by_count": 632,
       "doi": "https://doi.org/10.1109/cvprw59228.2023.00091",
       "citation_id": "206vNCEAAAAJ:_Qo2XoVZTnwC",
       "authors": [
@@ -23031,7 +22638,7 @@
       "institution_ids": [],
       "scientist": "Frank Hutter",
       "confirmed_ellis_affiliation": false,
-      "venue_category": "NeurIPS",
+      "venue_category": null,
       "is_oa": false,
       "oa_url": null
     },
@@ -23724,7 +23331,7 @@
       "title": "Managing extreme AI risks amid rapid progress",
       "year": 2024,
       "venue": "Science 384 (6698), 842-845, 2024",
-      "cited_by_count": 804,
+      "cited_by_count": 805,
       "doi": "https://doi.org/10.1126/science.adn0117",
       "citation_id": "YUrxwrkAAAAJ:qe6vwMD2xtsC",
       "authors": [
@@ -24074,7 +23681,7 @@
       "title": "Recurrent neural networks: vanishing and exploding gradients are not the end of the story",
       "year": 2024,
       "venue": "Advances in Neural Information Processing Systems 37, 139402-139443, 2024",
-      "cited_by_count": 122,
+      "cited_by_count": 123,
       "doi": "https://doi.org/10.52202/079017-4425",
       "citation_id": "xkuLyHoAAAAJ:RHpTSmoSYBkC",
       "authors": [
@@ -24861,7 +24468,7 @@
       ],
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
-      "venue_category": null,
+      "venue_category": "ACL",
       "is_oa": true,
       "oa_url": "https://aclanthology.org/2024.acl-long.437.pdf",
       "author_count": 4,
@@ -24906,7 +24513,7 @@
       ],
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
-      "venue_category": null,
+      "venue_category": "ACL",
       "is_oa": true,
       "oa_url": "https://aclanthology.org/2024.acl-long.458.pdf",
       "author_count": 6,
@@ -25109,7 +24716,7 @@
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
-      "venue_category": "ICML",
+      "venue_category": null,
       "is_oa": true,
       "oa_url": "https://arxiv.org/pdf/2406.04344",
       "author_count": 4,
@@ -25132,7 +24739,7 @@
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
-      "venue_category": "ICML",
+      "venue_category": null,
       "is_oa": false,
       "oa_url": null
     },
@@ -25183,7 +24790,7 @@
       ],
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
-      "venue_category": null,
+      "venue_category": "NAACL",
       "is_oa": true,
       "oa_url": "https://aclanthology.org/2024.naacl-long.209.pdf",
       "author_count": 8,
@@ -25222,7 +24829,7 @@
       ],
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
-      "venue_category": null,
+      "venue_category": "NAACL",
       "is_oa": true,
       "oa_url": "https://aclanthology.org/2024.naacl-short.55.pdf",
       "author_count": 2,
@@ -25946,7 +25553,7 @@
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
-      "venue_category": "NeurIPS",
+      "venue_category": null,
       "is_oa": false,
       "oa_url": null
     },
@@ -25969,7 +25576,7 @@
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
-      "venue_category": "ICML",
+      "venue_category": null,
       "is_oa": false,
       "oa_url": null
     },
@@ -26018,7 +25625,7 @@
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
-      "venue_category": "NeurIPS",
+      "venue_category": null,
       "is_oa": false,
       "oa_url": null
     },
@@ -26039,7 +25646,7 @@
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
-      "venue_category": "CVPR",
+      "venue_category": null,
       "is_oa": false,
       "oa_url": null
     },
@@ -26231,7 +25838,7 @@
       "institution_ids": [],
       "scientist": "Antonio Orvieto",
       "confirmed_ellis_affiliation": false,
-      "venue_category": "NeurIPS",
+      "venue_category": null,
       "is_oa": false,
       "oa_url": null
     },
@@ -27525,7 +27132,7 @@
       ],
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
-      "venue_category": null,
+      "venue_category": "ACL",
       "is_oa": true,
       "oa_url": "https://aclanthology.org/2023.acl-long.32.pdf",
       "author_count": 5,
@@ -27547,7 +27154,7 @@
     "Frank Hutter": 123,
     "T. Konstantin Rusch": 11,
     "Shiwei Liu": 23,
-    "Maksym Andriushchenko": 27,
+    "Maksym Andriushchenko": 26,
     "Maximilian Dax": 62,
     "Rediet Abebe": 8,
     "Antonio Orvieto": 54,
@@ -27559,31 +27166,31 @@
   "publications_per_year": {
     "2023": 52,
     "2024": 145,
-    "2025": 223,
+    "2025": 222,
     "2026": 281
   },
   "top_venues_by_year": {
     "2023": {
-      "NeurIPS": 13,
+      "NeurIPS": 12,
       "Nature": 2,
       "ICML": 8
     },
     "2024": {
-      "NeurIPS": 28,
-      "ICML": 6,
+      "NeurIPS": 24,
+      "ICML": 3,
       "ICLR": 15,
       "Nature": 1
     },
     "2025": {
-      "NeurIPS": 26,
-      "ICML": 16,
-      "ICLR": 21,
+      "NeurIPS": 24,
+      "ICML": 15,
+      "ICLR": 20,
       "Nature": 5
     },
     "2026": {
-      "ICML": 28,
+      "ICML": 17,
       "Nature": 1,
-      "ICLR": 26
+      "ICLR": 22
     }
   },
   "ellis_member_collaborations": {
@@ -27657,7 +27264,7 @@
         "year": 2026,
         "scientist": "Shiwei Liu",
         "co_author": "T Hofmann (matched: thomas hofmann)",
-        "doi": "https://doi.org/10.48550/arxiv.2603.15389"
+        "doi": null
       },
       {
         "title": "Muown Implicitly Performs Angular Step-size Decay",
@@ -29219,31 +28826,6 @@
       "scholar-xkuLyHoAAAAJ:dfsIfKJdRG4C",
       "scholar-xkuLyHoAAAAJ:pqnbT2bcN3wC"
     ],
-    "Bernstein Center for Computational Neuroscience T\u00fcbingen": [
-      "scholar-206vNCEAAAAJ:DJbcl8HfkQkC",
-      "scholar-9LajlSsAAAAJ:g3aElNc5_aQC",
-      "scholar-D0WjJlsAAAAJ:Fu2w8maKXqMC",
-      "scholar-DZ-fHPgAAAAJ:Fkmlf-G3tl8C",
-      "scholar-DZ-fHPgAAAAJ:RmNfB3aBSJEC",
-      "scholar-DZ-fHPgAAAAJ:eZ3Jd4XgJWUC",
-      "scholar-DZ-fHPgAAAAJ:jKDndaUStp4C",
-      "scholar-FKOqtF8AAAAJ:tFyepMjQr3wC",
-      "scholar-QEiYbDYAAAAJ:IHkkN1K1AlAC",
-      "scholar-QEiYbDYAAAAJ:eAUscmXIlQ8C",
-      "scholar-QEiYbDYAAAAJ:oynPyU19kbsC",
-      "scholar-UqtDdZUAAAAJ:J_g5lzvAfSwC",
-      "scholar-VRBv6mEAAAAJ:D03iK_w7-QYC",
-      "scholar-VRBv6mEAAAAJ:HDshCWvjkbEC",
-      "scholar-VRBv6mEAAAAJ:dhFuZR0502QC",
-      "scholar-VRBv6mEAAAAJ:lSLTfruPkqcC",
-      "scholar-YUrxwrkAAAAJ:aEW5N-EHWIMC",
-      "scholar-YUrxwrkAAAAJ:sJPMR1oEGYQC",
-      "scholar-ZNtuJYoAAAAJ:vRqMK49ujn8C",
-      "scholar-sDHHglIAAAAJ:EYYDruWGBe4C",
-      "scholar-v-JL-hsAAAAJ:D_sINldO8mEC",
-      "scholar-xkuLyHoAAAAJ:P5F9QuxV20EC",
-      "scholar-xkuLyHoAAAAJ:WbkHhVStYXYC"
-    ],
     "Max Planck Institute for Intelligent Systems": [
       "scholar-206vNCEAAAAJ:FPJr55Dyh1AC",
       "scholar-206vNCEAAAAJ:WZBGuue-350C",
@@ -29322,15 +28904,36 @@
       "scholar-xkuLyHoAAAAJ:CHSYGLWDkRkC",
       "scholar-xkuLyHoAAAAJ:dfsIfKJdRG4C"
     ],
+    "Bernstein Center for Computational Neuroscience T\u00fcbingen": [
+      "scholar-206vNCEAAAAJ:DJbcl8HfkQkC",
+      "scholar-9LajlSsAAAAJ:g3aElNc5_aQC",
+      "scholar-D0WjJlsAAAAJ:Fu2w8maKXqMC",
+      "scholar-DZ-fHPgAAAAJ:Fkmlf-G3tl8C",
+      "scholar-DZ-fHPgAAAAJ:RmNfB3aBSJEC",
+      "scholar-DZ-fHPgAAAAJ:eZ3Jd4XgJWUC",
+      "scholar-DZ-fHPgAAAAJ:jKDndaUStp4C",
+      "scholar-FKOqtF8AAAAJ:tFyepMjQr3wC",
+      "scholar-QEiYbDYAAAAJ:IHkkN1K1AlAC",
+      "scholar-QEiYbDYAAAAJ:eAUscmXIlQ8C",
+      "scholar-QEiYbDYAAAAJ:oynPyU19kbsC",
+      "scholar-UqtDdZUAAAAJ:J_g5lzvAfSwC",
+      "scholar-VRBv6mEAAAAJ:D03iK_w7-QYC",
+      "scholar-VRBv6mEAAAAJ:HDshCWvjkbEC",
+      "scholar-VRBv6mEAAAAJ:dhFuZR0502QC",
+      "scholar-VRBv6mEAAAAJ:lSLTfruPkqcC",
+      "scholar-YUrxwrkAAAAJ:aEW5N-EHWIMC",
+      "scholar-YUrxwrkAAAAJ:sJPMR1oEGYQC",
+      "scholar-ZNtuJYoAAAAJ:vRqMK49ujn8C",
+      "scholar-sDHHglIAAAAJ:EYYDruWGBe4C",
+      "scholar-v-JL-hsAAAAJ:D_sINldO8mEC",
+      "scholar-xkuLyHoAAAAJ:P5F9QuxV20EC",
+      "scholar-xkuLyHoAAAAJ:WbkHhVStYXYC"
+    ],
     "Helmholtz Center for Information Security": [
       "scholar-DZ-fHPgAAAAJ:tvhbelPlAjoC",
       "scholar-QEiYbDYAAAAJ:eAUscmXIlQ8C",
       "scholar-QEiYbDYAAAAJ:oynPyU19kbsC",
       "scholar-QEiYbDYAAAAJ:q0uBw5dMOAkC"
-    ],
-    "The Alan Turing Institute": [
-      "scholar-DZ-fHPgAAAAJ:pu1mUoDpsTEC",
-      "scholar-QEiYbDYAAAAJ:xii_ZKWM4-0C"
     ],
     "Technische Universit\u00e4t Berlin": [
       "scholar-FKOqtF8AAAAJ:SNyOjmPOlygC",
@@ -29343,6 +28946,10 @@
       "scholar-YUrxwrkAAAAJ:8VtEwCQfWZkC",
       "scholar-YUrxwrkAAAAJ:KS-xo-ZNxMsC",
       "scholar-YUrxwrkAAAAJ:jlhcAiayVhoC"
+    ],
+    "The Alan Turing Institute": [
+      "scholar-DZ-fHPgAAAAJ:pu1mUoDpsTEC",
+      "scholar-QEiYbDYAAAAJ:xii_ZKWM4-0C"
     ],
     "University of Massachusetts Amherst": [
       "scholar-QEiYbDYAAAAJ:IHkkN1K1AlAC",
@@ -29360,27 +28967,28 @@
       "scholar-YUrxwrkAAAAJ:jlhcAiayVhoC",
       "scholar-YUrxwrkAAAAJ:s85pQhAUCrAC"
     ],
-    "Hertie Institute for Clinical Brain Research": [
-      "scholar-FKOqtF8AAAAJ:SNyOjmPOlygC"
-    ],
-    "KU Leuven": [
-      "scholar-DZ-fHPgAAAAJ:BgA9TAIr_78C",
-      "scholar-FKOqtF8AAAAJ:SNyOjmPOlygC"
-    ],
-    "Nvidia (United Kingdom)": [
-      "scholar-FKOqtF8AAAAJ:SNyOjmPOlygC"
-    ],
-    "Wellcome Centre for Integrative Neuroimaging": [
-      "scholar-FKOqtF8AAAAJ:SNyOjmPOlygC"
-    ],
-    "VIB-KU Leuven Center for Microbiology": [
-      "scholar-FKOqtF8AAAAJ:SNyOjmPOlygC"
-    ],
     "University Children's Hospital T\u00fcbingen": [
       "scholar-DZ-fHPgAAAAJ:amTSNuT6G2IC",
       "scholar-FKOqtF8AAAAJ:SNyOjmPOlygC"
     ],
     "Huawei Technologies (United Kingdom)": [
+      "scholar-FKOqtF8AAAAJ:SNyOjmPOlygC"
+    ],
+    "Technical University of Munich": [
+      "scholar-73IbXtsAAAAJ:2KloaMYe4IUC",
+      "scholar-DZ-fHPgAAAAJ:-rJzQCqpPy8C",
+      "scholar-FKOqtF8AAAAJ:SNyOjmPOlygC",
+      "scholar-YUrxwrkAAAAJ:nqdriD65xNoC",
+      "scholar-v-JL-hsAAAAJ:vRqMK49ujn8C",
+      "scholar-xkuLyHoAAAAJ:P5F9QuxV20EC"
+    ],
+    "University Hospital Bonn": [
+      "scholar-FKOqtF8AAAAJ:SNyOjmPOlygC"
+    ],
+    "Nvidia (United Kingdom)": [
+      "scholar-FKOqtF8AAAAJ:SNyOjmPOlygC"
+    ],
+    "Hertie Institute for Clinical Brain Research": [
       "scholar-FKOqtF8AAAAJ:SNyOjmPOlygC"
     ],
     "University of Oxford": [
@@ -29395,25 +29003,15 @@
       "scholar-YUrxwrkAAAAJ:qe6vwMD2xtsC",
       "scholar-YUrxwrkAAAAJ:yeL6HyUMUGUC"
     ],
-    "Technical University of Munich": [
-      "scholar-73IbXtsAAAAJ:2KloaMYe4IUC",
-      "scholar-DZ-fHPgAAAAJ:-rJzQCqpPy8C",
-      "scholar-FKOqtF8AAAAJ:SNyOjmPOlygC",
-      "scholar-YUrxwrkAAAAJ:nqdriD65xNoC",
-      "scholar-v-JL-hsAAAAJ:vRqMK49ujn8C",
-      "scholar-xkuLyHoAAAAJ:P5F9QuxV20EC"
-    ],
-    "University Hospital Bonn": [
+    "KU Leuven": [
+      "scholar-DZ-fHPgAAAAJ:BgA9TAIr_78C",
       "scholar-FKOqtF8AAAAJ:SNyOjmPOlygC"
     ],
-    "University of Nottingham": [
-      "scholar-FKOqtF8AAAAJ:tFyepMjQr3wC",
-      "scholar-VRBv6mEAAAAJ:HDshCWvjkbEC",
-      "scholar-VRBv6mEAAAAJ:R3hNpaxXUhUC",
-      "scholar-VRBv6mEAAAAJ:aqlVkmm33-oC",
-      "scholar-VRBv6mEAAAAJ:dshw04ExmUIC",
-      "scholar-VRBv6mEAAAAJ:lSLTfruPkqcC",
-      "scholar-VRBv6mEAAAAJ:p2g8aNsByqUC"
+    "VIB-KU Leuven Center for Microbiology": [
+      "scholar-FKOqtF8AAAAJ:SNyOjmPOlygC"
+    ],
+    "Wellcome Centre for Integrative Neuroimaging": [
+      "scholar-FKOqtF8AAAAJ:SNyOjmPOlygC"
     ],
     "T\u00fcbingen AI Center": [
       "scholar-9LajlSsAAAAJ:g3aElNc5_aQC",
@@ -29424,17 +29022,6 @@
       "scholar-sDHHglIAAAAJ:EYYDruWGBe4C",
       "scholar-sDHHglIAAAAJ:qxL8FJ1GzNcC",
       "scholar-v-JL-hsAAAAJ:D_sINldO8mEC"
-    ],
-    "Max Planck Institute for Gravitational Physics": [
-      "scholar-FKOqtF8AAAAJ:tFyepMjQr3wC",
-      "scholar-VRBv6mEAAAAJ:D03iK_w7-QYC",
-      "scholar-VRBv6mEAAAAJ:HDshCWvjkbEC",
-      "scholar-VRBv6mEAAAAJ:R3hNpaxXUhUC",
-      "scholar-VRBv6mEAAAAJ:aqlVkmm33-oC",
-      "scholar-VRBv6mEAAAAJ:dshw04ExmUIC",
-      "scholar-VRBv6mEAAAAJ:lSLTfruPkqcC",
-      "scholar-VRBv6mEAAAAJ:p2g8aNsByqUC",
-      "scholar-VRBv6mEAAAAJ:qUcmZB5y_30C"
     ],
     "University of Maryland, College Park": [
       "scholar-206vNCEAAAAJ:GnPB-g6toBAC",
@@ -29454,11 +29041,42 @@
       "scholar-VRBv6mEAAAAJ:lSLTfruPkqcC",
       "scholar-VRBv6mEAAAAJ:p2g8aNsByqUC"
     ],
+    "Max Planck Institute for Gravitational Physics": [
+      "scholar-FKOqtF8AAAAJ:tFyepMjQr3wC",
+      "scholar-VRBv6mEAAAAJ:D03iK_w7-QYC",
+      "scholar-VRBv6mEAAAAJ:HDshCWvjkbEC",
+      "scholar-VRBv6mEAAAAJ:R3hNpaxXUhUC",
+      "scholar-VRBv6mEAAAAJ:aqlVkmm33-oC",
+      "scholar-VRBv6mEAAAAJ:dshw04ExmUIC",
+      "scholar-VRBv6mEAAAAJ:lSLTfruPkqcC",
+      "scholar-VRBv6mEAAAAJ:p2g8aNsByqUC",
+      "scholar-VRBv6mEAAAAJ:qUcmZB5y_30C"
+    ],
+    "University of Nottingham": [
+      "scholar-FKOqtF8AAAAJ:tFyepMjQr3wC",
+      "scholar-VRBv6mEAAAAJ:HDshCWvjkbEC",
+      "scholar-VRBv6mEAAAAJ:R3hNpaxXUhUC",
+      "scholar-VRBv6mEAAAAJ:aqlVkmm33-oC",
+      "scholar-VRBv6mEAAAAJ:dshw04ExmUIC",
+      "scholar-VRBv6mEAAAAJ:lSLTfruPkqcC",
+      "scholar-VRBv6mEAAAAJ:p2g8aNsByqUC"
+    ],
     "\u00c9cole Polytechnique F\u00e9d\u00e9rale de Lausanne": [
       "scholar-DZ-fHPgAAAAJ:0_dNHEfHC9YC",
       "scholar-DZ-fHPgAAAAJ:9uvUmQZnaecC",
       "scholar-DZ-fHPgAAAAJ:BpgDKjSh8RsC",
       "scholar-v-JL-hsAAAAJ:V3AGJWp-ZtQC"
+    ],
+    "Mila - Quebec Artificial Intelligence Institute": [
+      "scholar-206vNCEAAAAJ:DJbcl8HfkQkC",
+      "scholar-D0WjJlsAAAAJ:Fu2w8maKXqMC",
+      "scholar-DZ-fHPgAAAAJ:ndteoNauYT4C",
+      "scholar-YUrxwrkAAAAJ:qe6vwMD2xtsC",
+      "scholar-v-JL-hsAAAAJ:eflP2zaiRacC",
+      "scholar-xkuLyHoAAAAJ:ZHo1McVdvXMC"
+    ],
+    "Cold Spring Harbor Laboratory": [
+      "scholar-v-JL-hsAAAAJ:eflP2zaiRacC"
     ],
     "Max Planck Institute for Biology": [
       "scholar-206vNCEAAAAJ:WZBGuue-350C",
@@ -29472,16 +29090,13 @@
       "scholar-v-JL-hsAAAAJ:eflP2zaiRacC",
       "scholar-xkuLyHoAAAAJ:dfsIfKJdRG4C"
     ],
-    "Cold Spring Harbor Laboratory": [
-      "scholar-v-JL-hsAAAAJ:eflP2zaiRacC"
+    "Baylor College of Medicine": [
+      "scholar-v-JL-hsAAAAJ:f2IySw72cVMC"
     ],
-    "Mila - Quebec Artificial Intelligence Institute": [
-      "scholar-206vNCEAAAAJ:DJbcl8HfkQkC",
-      "scholar-D0WjJlsAAAAJ:Fu2w8maKXqMC",
-      "scholar-DZ-fHPgAAAAJ:ndteoNauYT4C",
-      "scholar-YUrxwrkAAAAJ:qe6vwMD2xtsC",
-      "scholar-v-JL-hsAAAAJ:eflP2zaiRacC",
-      "scholar-xkuLyHoAAAAJ:ZHo1McVdvXMC"
+    "University of Trieste": [
+      "scholar-DZ-fHPgAAAAJ:dDWX_BJh2WwC",
+      "scholar-DZ-fHPgAAAAJ:h4G4d0_olBQC",
+      "scholar-v-JL-hsAAAAJ:f2IySw72cVMC"
     ],
     "Massachusetts Institute of Technology": [
       "scholar-sDHHglIAAAAJ:EYYDruWGBe4C",
@@ -29490,15 +29105,7 @@
     "Rice University": [
       "scholar-v-JL-hsAAAAJ:f2IySw72cVMC"
     ],
-    "University of Trieste": [
-      "scholar-DZ-fHPgAAAAJ:dDWX_BJh2WwC",
-      "scholar-DZ-fHPgAAAAJ:h4G4d0_olBQC",
-      "scholar-v-JL-hsAAAAJ:f2IySw72cVMC"
-    ],
     "Palo Alto Institute": [
-      "scholar-v-JL-hsAAAAJ:f2IySw72cVMC"
-    ],
-    "Baylor College of Medicine": [
       "scholar-v-JL-hsAAAAJ:f2IySw72cVMC"
     ],
     "Universit\u00e9 de Montr\u00e9al": [
@@ -29506,12 +29113,12 @@
       "scholar-DZ-fHPgAAAAJ:f0J-wGb7OGEC",
       "scholar-xkuLyHoAAAAJ:ZHo1McVdvXMC"
     ],
+    "Google (United States)": [
+      "scholar-206vNCEAAAAJ:DJbcl8HfkQkC"
+    ],
     "Google DeepMind (United Kingdom)": [
       "scholar-206vNCEAAAAJ:DJbcl8HfkQkC",
       "scholar-DZ-fHPgAAAAJ:f0J-wGb7OGEC"
-    ],
-    "Google (United States)": [
-      "scholar-206vNCEAAAAJ:DJbcl8HfkQkC"
     ],
     "Grado Zero Espace (Italy)": [
       "scholar-206vNCEAAAAJ:DJbcl8HfkQkC"
@@ -29550,16 +29157,16 @@
       "scholar-206vNCEAAAAJ:tzM49s52ZIMC",
       "scholar-DZ-fHPgAAAAJ:ndteoNauYT4C"
     ],
-    "Lawrence Livermore National Laboratory": [
-      "scholar-206vNCEAAAAJ:GnPB-g6toBAC",
-      "scholar-206vNCEAAAAJ:WZBGuue-350C",
-      "scholar-206vNCEAAAAJ:t6usbXjVLHcC"
-    ],
     "New York University": [
       "scholar-206vNCEAAAAJ:GnPB-g6toBAC",
       "scholar-206vNCEAAAAJ:WZBGuue-350C",
       "scholar-206vNCEAAAAJ:_Qo2XoVZTnwC",
       "scholar-DZ-fHPgAAAAJ:-rJzQCqpPy8C"
+    ],
+    "Lawrence Livermore National Laboratory": [
+      "scholar-206vNCEAAAAJ:GnPB-g6toBAC",
+      "scholar-206vNCEAAAAJ:WZBGuue-350C",
+      "scholar-206vNCEAAAAJ:t6usbXjVLHcC"
     ],
     "University of California, Berkeley": [
       "scholar-206vNCEAAAAJ:vRqMK49ujn8C",
@@ -29612,16 +29219,16 @@
     "Elizade University": [
       "scholar-YUrxwrkAAAAJ:aEW5N-EHWIMC"
     ],
+    "Johns Hopkins University": [
+      "scholar-VRBv6mEAAAAJ:R3hNpaxXUhUC",
+      "scholar-YUrxwrkAAAAJ:PlWzFYVEG4EC",
+      "scholar-YUrxwrkAAAAJ:bVQMTfhMCi4C"
+    ],
     "University Medical Center Freiburg": [
       "scholar-YUrxwrkAAAAJ:KS-xo-ZNxMsC",
       "scholar-YUrxwrkAAAAJ:PlWzFYVEG4EC",
       "scholar-YUrxwrkAAAAJ:ZqE1mSdD_DYC",
       "scholar-YUrxwrkAAAAJ:aDl3D7KC1E4C",
-      "scholar-YUrxwrkAAAAJ:bVQMTfhMCi4C"
-    ],
-    "Johns Hopkins University": [
-      "scholar-VRBv6mEAAAAJ:R3hNpaxXUhUC",
-      "scholar-YUrxwrkAAAAJ:PlWzFYVEG4EC",
       "scholar-YUrxwrkAAAAJ:bVQMTfhMCi4C"
     ],
     "ProbaYes (France)": [
@@ -29640,12 +29247,6 @@
     "Biblioth\u00e8que Nationale du Royaume du Maroc": [
       "scholar-YUrxwrkAAAAJ:3_LpOwP6eMYC"
     ],
-    "University of Mannheim": [
-      "scholar-YUrxwrkAAAAJ:sJPMR1oEGYQC"
-    ],
-    "\u00c9cole Polytechnique": [
-      "scholar-YUrxwrkAAAAJ:sJPMR1oEGYQC"
-    ],
     "Institut national de recherche en sciences et technologies du num\u00e9rique": [
       "scholar-YUrxwrkAAAAJ:s9ia6_kGH2AC",
       "scholar-YUrxwrkAAAAJ:sJPMR1oEGYQC"
@@ -29654,9 +29255,15 @@
       "scholar-YUrxwrkAAAAJ:aDl3D7KC1E4C",
       "scholar-YUrxwrkAAAAJ:sJPMR1oEGYQC"
     ],
+    "\u00c9cole Polytechnique": [
+      "scholar-YUrxwrkAAAAJ:sJPMR1oEGYQC"
+    ],
     "Amazon (United States)": [
       "scholar-DZ-fHPgAAAAJ:ndteoNauYT4C",
       "scholar-YUrxwrkAAAAJ:aDl3D7KC1E4C",
+      "scholar-YUrxwrkAAAAJ:sJPMR1oEGYQC"
+    ],
+    "University of Mannheim": [
       "scholar-YUrxwrkAAAAJ:sJPMR1oEGYQC"
     ],
     "University of Cambridge": [
@@ -29679,12 +29286,6 @@
     "University of Fribourg": [
       "scholar-YUrxwrkAAAAJ:RuPIJ_LgqDgC"
     ],
-    "Kyungpook National University Hospital": [
-      "scholar-YUrxwrkAAAAJ:bVQMTfhMCi4C"
-    ],
-    "Witten/Herdecke University": [
-      "scholar-YUrxwrkAAAAJ:bVQMTfhMCi4C"
-    ],
     "Martin Luther University Halle-Wittenberg": [
       "scholar-YUrxwrkAAAAJ:bVQMTfhMCi4C"
     ],
@@ -29694,37 +29295,32 @@
     "University of Maryland, Baltimore": [
       "scholar-YUrxwrkAAAAJ:bVQMTfhMCi4C"
     ],
-    "University of M\u00fcnster": [
+    "Witten/Herdecke University": [
+      "scholar-YUrxwrkAAAAJ:bVQMTfhMCi4C"
+    ],
+    "Kyungpook National University Hospital": [
+      "scholar-YUrxwrkAAAAJ:bVQMTfhMCi4C"
+    ],
+    "University of Warwick": [
+      "scholar-DZ-fHPgAAAAJ:f0J-wGb7OGEC",
       "scholar-YUrxwrkAAAAJ:aDl3D7KC1E4C"
     ],
     "Arizona State University": [
       "scholar-YUrxwrkAAAAJ:aDl3D7KC1E4C"
     ],
-    "University of Warwick": [
-      "scholar-DZ-fHPgAAAAJ:f0J-wGb7OGEC",
+    "University of M\u00fcnster": [
       "scholar-YUrxwrkAAAAJ:aDl3D7KC1E4C"
+    ],
+    "Google (Switzerland)": [
+      "scholar-YUrxwrkAAAAJ:KS-xo-ZNxMsC"
     ],
     "Centrum Wiskunde & Informatica": [
       "scholar-YUrxwrkAAAAJ:8VtEwCQfWZkC",
       "scholar-YUrxwrkAAAAJ:KS-xo-ZNxMsC",
       "scholar-YUrxwrkAAAAJ:jlhcAiayVhoC"
     ],
-    "Google (Switzerland)": [
-      "scholar-YUrxwrkAAAAJ:KS-xo-ZNxMsC"
-    ],
-    "Karlsruhe Institute of Technology": [
-      "scholar-YUrxwrkAAAAJ:nqdriD65xNoC"
-    ],
-    "Berlin Center for Epidemiology and Health Research": [
-      "scholar-YUrxwrkAAAAJ:nqdriD65xNoC"
-    ],
     "DB Engineering & Consulting (Germany)": [
       "scholar-YUrxwrkAAAAJ:nqdriD65xNoC"
-    ],
-    "University of Stuttgart": [
-      "scholar-DZ-fHPgAAAAJ:amTSNuT6G2IC",
-      "scholar-YUrxwrkAAAAJ:nqdriD65xNoC",
-      "scholar-ZNtuJYoAAAAJ:vRqMK49ujn8C"
     ],
     "Heilbronn University": [
       "scholar-YUrxwrkAAAAJ:nqdriD65xNoC"
@@ -29733,41 +29329,26 @@
       "scholar-YUrxwrkAAAAJ:0aBXIfxlw9sC",
       "scholar-YUrxwrkAAAAJ:nqdriD65xNoC"
     ],
+    "Karlsruhe Institute of Technology": [
+      "scholar-YUrxwrkAAAAJ:nqdriD65xNoC"
+    ],
+    "University of Stuttgart": [
+      "scholar-DZ-fHPgAAAAJ:amTSNuT6G2IC",
+      "scholar-YUrxwrkAAAAJ:nqdriD65xNoC",
+      "scholar-ZNtuJYoAAAAJ:vRqMK49ujn8C"
+    ],
+    "Berlin Center for Epidemiology and Health Research": [
+      "scholar-YUrxwrkAAAAJ:nqdriD65xNoC"
+    ],
     "Prioris.ai (Canada)": [
       "scholar-YUrxwrkAAAAJ:8VtEwCQfWZkC",
       "scholar-YUrxwrkAAAAJ:jlhcAiayVhoC"
     ],
-    "University of Technology Nuremberg": [
-      "scholar-YUrxwrkAAAAJ:8VtEwCQfWZkC",
-      "scholar-YUrxwrkAAAAJ:jlhcAiayVhoC"
-    ],
-    "Vrije Universiteit Amsterdam": [
-      "scholar-YUrxwrkAAAAJ:8VtEwCQfWZkC",
-      "scholar-YUrxwrkAAAAJ:jlhcAiayVhoC"
-    ],
-    "Microsoft (United States)": [
-      "scholar-YUrxwrkAAAAJ:8VtEwCQfWZkC",
-      "scholar-YUrxwrkAAAAJ:jlhcAiayVhoC"
-    ],
-    "Cordoba University": [
-      "scholar-YUrxwrkAAAAJ:8VtEwCQfWZkC",
-      "scholar-YUrxwrkAAAAJ:jlhcAiayVhoC"
-    ],
-    "University of Amsterdam": [
-      "scholar-73IbXtsAAAAJ:B3FOqHPlNUQC",
-      "scholar-YUrxwrkAAAAJ:8VtEwCQfWZkC",
-      "scholar-YUrxwrkAAAAJ:jlhcAiayVhoC",
-      "scholar-ZNtuJYoAAAAJ:LPZeul_q3PIC"
-    ],
-    "University of Antwerp": [
+    "EURECOM": [
       "scholar-YUrxwrkAAAAJ:8VtEwCQfWZkC",
       "scholar-YUrxwrkAAAAJ:jlhcAiayVhoC"
     ],
     "Cornell University": [
-      "scholar-YUrxwrkAAAAJ:8VtEwCQfWZkC",
-      "scholar-YUrxwrkAAAAJ:jlhcAiayVhoC"
-    ],
-    "EURECOM": [
       "scholar-YUrxwrkAAAAJ:8VtEwCQfWZkC",
       "scholar-YUrxwrkAAAAJ:jlhcAiayVhoC"
     ],
@@ -29782,22 +29363,48 @@
       "scholar-YUrxwrkAAAAJ:8VtEwCQfWZkC",
       "scholar-YUrxwrkAAAAJ:jlhcAiayVhoC"
     ],
+    "University of Technology Nuremberg": [
+      "scholar-YUrxwrkAAAAJ:8VtEwCQfWZkC",
+      "scholar-YUrxwrkAAAAJ:jlhcAiayVhoC"
+    ],
+    "Microsoft (United States)": [
+      "scholar-YUrxwrkAAAAJ:8VtEwCQfWZkC",
+      "scholar-YUrxwrkAAAAJ:jlhcAiayVhoC"
+    ],
+    "Cordoba University": [
+      "scholar-YUrxwrkAAAAJ:8VtEwCQfWZkC",
+      "scholar-YUrxwrkAAAAJ:jlhcAiayVhoC"
+    ],
+    "University of Antwerp": [
+      "scholar-YUrxwrkAAAAJ:8VtEwCQfWZkC",
+      "scholar-YUrxwrkAAAAJ:jlhcAiayVhoC"
+    ],
+    "University of Amsterdam": [
+      "scholar-73IbXtsAAAAJ:B3FOqHPlNUQC",
+      "scholar-YUrxwrkAAAAJ:8VtEwCQfWZkC",
+      "scholar-YUrxwrkAAAAJ:jlhcAiayVhoC",
+      "scholar-ZNtuJYoAAAAJ:LPZeul_q3PIC"
+    ],
+    "Vrije Universiteit Amsterdam": [
+      "scholar-YUrxwrkAAAAJ:8VtEwCQfWZkC",
+      "scholar-YUrxwrkAAAAJ:jlhcAiayVhoC"
+    ],
     "Thorlabs (Germany)": [
       "scholar-YUrxwrkAAAAJ:Zh0EY9V9P6UC"
     ],
     "Institute for Forecasting of the Slovak Academy of Sciences": [
       "scholar-YUrxwrkAAAAJ:MIg0yeAD4ggC"
     ],
-    "University of Vienna": [
-      "scholar-YUrxwrkAAAAJ:MIg0yeAD4ggC"
-    ],
     "Health Forecasting": [
       "scholar-YUrxwrkAAAAJ:MIg0yeAD4ggC"
     ],
-    "University of Education Freiburg": [
-      "scholar-YUrxwrkAAAAJ:ZqE1mSdD_DYC"
+    "University of Vienna": [
+      "scholar-YUrxwrkAAAAJ:MIg0yeAD4ggC"
     ],
     "Berlin Institute of Health at Charit\u00e9 - Universit\u00e4tsmedizin Berlin": [
+      "scholar-YUrxwrkAAAAJ:ZqE1mSdD_DYC"
+    ],
+    "University of Education Freiburg": [
       "scholar-YUrxwrkAAAAJ:ZqE1mSdD_DYC"
     ],
     "LMU Klinikum": [
@@ -29812,20 +29419,6 @@
     "Munich Center for Machine Learning": [
       "scholar-YUrxwrkAAAAJ:0aBXIfxlw9sC"
     ],
-    "University of British Columbia": [
-      "scholar-73IbXtsAAAAJ:2KloaMYe4IUC",
-      "scholar-VRBv6mEAAAAJ:dshw04ExmUIC",
-      "scholar-VRBv6mEAAAAJ:p2g8aNsByqUC",
-      "scholar-YUrxwrkAAAAJ:qe6vwMD2xtsC"
-    ],
-    "Hebrew University of Jerusalem": [
-      "scholar-DZ-fHPgAAAAJ:BBcaknn8KDYC",
-      "scholar-YUrxwrkAAAAJ:qe6vwMD2xtsC"
-    ],
-    "Tsinghua University": [
-      "scholar-73IbXtsAAAAJ:2KloaMYe4IUC",
-      "scholar-YUrxwrkAAAAJ:qe6vwMD2xtsC"
-    ],
     "University of Toronto": [
       "scholar-DZ-fHPgAAAAJ:2z2LaJNcrwkC",
       "scholar-DZ-fHPgAAAAJ:6_g6roSJJJ4C",
@@ -29834,11 +29427,31 @@
       "scholar-DZ-fHPgAAAAJ:dDWX_BJh2WwC",
       "scholar-YUrxwrkAAAAJ:qe6vwMD2xtsC"
     ],
+    "RAND Corporation": [
+      "scholar-YUrxwrkAAAAJ:qe6vwMD2xtsC"
+    ],
+    "Tsinghua University": [
+      "scholar-73IbXtsAAAAJ:2KloaMYe4IUC",
+      "scholar-YUrxwrkAAAAJ:qe6vwMD2xtsC"
+    ],
+    "Princeton Public Schools": [
+      "scholar-YUrxwrkAAAAJ:qe6vwMD2xtsC"
+    ],
+    "University of British Columbia": [
+      "scholar-73IbXtsAAAAJ:2KloaMYe4IUC",
+      "scholar-VRBv6mEAAAAJ:dshw04ExmUIC",
+      "scholar-VRBv6mEAAAAJ:p2g8aNsByqUC",
+      "scholar-YUrxwrkAAAAJ:qe6vwMD2xtsC"
+    ],
+    "Schwartz/Reisman Emergency Medicine Institute": [
+      "scholar-YUrxwrkAAAAJ:qe6vwMD2xtsC"
+    ],
     "Princeton University": [
       "scholar-DZ-fHPgAAAAJ:37C3itOipUAC",
       "scholar-YUrxwrkAAAAJ:qe6vwMD2xtsC"
     ],
-    "RAND Corporation": [
+    "Hebrew University of Jerusalem": [
+      "scholar-DZ-fHPgAAAAJ:BBcaknn8KDYC",
       "scholar-YUrxwrkAAAAJ:qe6vwMD2xtsC"
     ],
     "Vector Institute": [
@@ -29854,29 +29467,8 @@
     "East China University of Political Science and Law": [
       "scholar-YUrxwrkAAAAJ:qe6vwMD2xtsC"
     ],
-    "Princeton Public Schools": [
-      "scholar-YUrxwrkAAAAJ:qe6vwMD2xtsC"
-    ],
-    "Schwartz/Reisman Emergency Medicine Institute": [
-      "scholar-YUrxwrkAAAAJ:qe6vwMD2xtsC"
-    ],
     "Jimei University": [
       "scholar-9LajlSsAAAAJ:g3aElNc5_aQC"
-    ],
-    "German Institute for Disaster Medicine": [
-      "scholar-73IbXtsAAAAJ:fEOibwPWpKIC"
-    ],
-    "Upper Iowa University": [
-      "scholar-73IbXtsAAAAJ:fEOibwPWpKIC"
-    ],
-    "The University of Texas at Austin": [
-      "scholar-73IbXtsAAAAJ:2KloaMYe4IUC",
-      "scholar-73IbXtsAAAAJ:JoZmwDi-zQgC",
-      "scholar-73IbXtsAAAAJ:Mojj43d5GZwC",
-      "scholar-73IbXtsAAAAJ:fEOibwPWpKIC"
-    ],
-    "Together": [
-      "scholar-73IbXtsAAAAJ:fEOibwPWpKIC"
     ],
     "SuperGen (United States)": [
       "scholar-73IbXtsAAAAJ:fEOibwPWpKIC"
@@ -29886,6 +29478,21 @@
       "scholar-73IbXtsAAAAJ:JoZmwDi-zQgC",
       "scholar-73IbXtsAAAAJ:fEOibwPWpKIC",
       "scholar-73IbXtsAAAAJ:ye4kPcJQO24C"
+    ],
+    "The University of Texas at Austin": [
+      "scholar-73IbXtsAAAAJ:2KloaMYe4IUC",
+      "scholar-73IbXtsAAAAJ:JoZmwDi-zQgC",
+      "scholar-73IbXtsAAAAJ:Mojj43d5GZwC",
+      "scholar-73IbXtsAAAAJ:fEOibwPWpKIC"
+    ],
+    "German Institute for Disaster Medicine": [
+      "scholar-73IbXtsAAAAJ:fEOibwPWpKIC"
+    ],
+    "Together": [
+      "scholar-73IbXtsAAAAJ:fEOibwPWpKIC"
+    ],
+    "Upper Iowa University": [
+      "scholar-73IbXtsAAAAJ:fEOibwPWpKIC"
     ],
     "Nanyang Technological University": [
       "scholar-73IbXtsAAAAJ:2KloaMYe4IUC"
@@ -29900,20 +29507,20 @@
     "Hong Kong Polytechnic University": [
       "scholar-73IbXtsAAAAJ:ye4kPcJQO24C"
     ],
-    "The University of Sydney": [
+    "Mathematical Institute of the Slovak Academy of Sciences": [
       "scholar-73IbXtsAAAAJ:WA5NYHcadZ8C"
     ],
-    "Mathematical Institute of the Slovak Academy of Sciences": [
+    "Eindhoven University of Technology": [
+      "scholar-73IbXtsAAAAJ:Mojj43d5GZwC",
+      "scholar-73IbXtsAAAAJ:WA5NYHcadZ8C"
+    ],
+    "The University of Sydney": [
       "scholar-73IbXtsAAAAJ:WA5NYHcadZ8C"
     ],
     "University of Liverpool": [
       "scholar-73IbXtsAAAAJ:WA5NYHcadZ8C"
     ],
     "University of Exeter": [
-      "scholar-73IbXtsAAAAJ:WA5NYHcadZ8C"
-    ],
-    "Eindhoven University of Technology": [
-      "scholar-73IbXtsAAAAJ:Mojj43d5GZwC",
       "scholar-73IbXtsAAAAJ:WA5NYHcadZ8C"
     ],
     "Beijing Institute of Technology": [
@@ -29924,6 +29531,9 @@
       "scholar-73IbXtsAAAAJ:B3FOqHPlNUQC",
       "scholar-DZ-fHPgAAAAJ:2GvbujVKL5cC"
     ],
+    "Hong Kong University of Science and Technology": [
+      "scholar-73IbXtsAAAAJ:JoZmwDi-zQgC"
+    ],
     "Peking University": [
       "scholar-73IbXtsAAAAJ:JoZmwDi-zQgC"
     ],
@@ -29933,16 +29543,13 @@
       "scholar-DZ-fHPgAAAAJ:tENBw-I8_u0C",
       "scholar-VRBv6mEAAAAJ:e5wmG9Sq2KIC"
     ],
-    "Hong Kong University of Science and Technology": [
-      "scholar-73IbXtsAAAAJ:JoZmwDi-zQgC"
-    ],
-    "Peng Cheng Laboratory": [
-      "scholar-73IbXtsAAAAJ:Mojj43d5GZwC"
-    ],
     "Shenzhen Institutes of Advanced Technology": [
       "scholar-73IbXtsAAAAJ:Mojj43d5GZwC"
     ],
     "Sun Yat-sen University": [
+      "scholar-73IbXtsAAAAJ:Mojj43d5GZwC"
+    ],
+    "Peng Cheng Laboratory": [
       "scholar-73IbXtsAAAAJ:Mojj43d5GZwC"
     ],
     "University of Southampton": [
@@ -29962,11 +29569,11 @@
     "Fluid Gravity Engineering (United Kingdom)": [
       "scholar-VRBv6mEAAAAJ:D03iK_w7-QYC"
     ],
-    "California Institute of Technology": [
+    "Fundaci\u00f3 Universitat-Empresa de les Illes Balears": [
       "scholar-VRBv6mEAAAAJ:dshw04ExmUIC",
       "scholar-VRBv6mEAAAAJ:p2g8aNsByqUC"
     ],
-    "Fundaci\u00f3 Universitat-Empresa de les Illes Balears": [
+    "California Institute of Technology": [
       "scholar-VRBv6mEAAAAJ:dshw04ExmUIC",
       "scholar-VRBv6mEAAAAJ:p2g8aNsByqUC"
     ],
@@ -29974,23 +29581,23 @@
       "scholar-VRBv6mEAAAAJ:dshw04ExmUIC",
       "scholar-VRBv6mEAAAAJ:p2g8aNsByqUC"
     ],
-    "Bristol Robotics Laboratory": [
-      "scholar-VRBv6mEAAAAJ:R3hNpaxXUhUC"
-    ],
     "Istituto Nazionale di Fisica Nucleare, Laboratori Nazionali del Gran Sasso": [
       "scholar-VRBv6mEAAAAJ:R3hNpaxXUhUC"
     ],
     "Gran Sasso Science Institute": [
       "scholar-VRBv6mEAAAAJ:R3hNpaxXUhUC"
     ],
-    "University of Rhode Island": [
-      "scholar-VRBv6mEAAAAJ:HDshCWvjkbEC",
+    "Bristol Robotics Laboratory": [
+      "scholar-VRBv6mEAAAAJ:R3hNpaxXUhUC"
+    ],
+    "National Institute for Subatomic Physics": [
       "scholar-VRBv6mEAAAAJ:aqlVkmm33-oC"
     ],
     "Joint Space Science Institute": [
       "scholar-VRBv6mEAAAAJ:aqlVkmm33-oC"
     ],
-    "National Institute for Subatomic Physics": [
+    "University of Rhode Island": [
+      "scholar-VRBv6mEAAAAJ:HDshCWvjkbEC",
       "scholar-VRBv6mEAAAAJ:aqlVkmm33-oC"
     ],
     "Cardiff University": [
@@ -30008,28 +29615,28 @@
     "Solutions Through Innovative Technologies (United States)": [
       "scholar-sDHHglIAAAAJ:nZcligLrVowC"
     ],
-    "UC San Diego Health System": [
-      "scholar-sDHHglIAAAAJ:EYYDruWGBe4C"
-    ],
     "Moscow Institute of Thermal Technology": [
       "scholar-sDHHglIAAAAJ:EYYDruWGBe4C"
     ],
-    "Berkeley College": [
-      "scholar-sDHHglIAAAAJ:qxL8FJ1GzNcC"
+    "UC San Diego Health System": [
+      "scholar-sDHHglIAAAAJ:EYYDruWGBe4C"
     ],
     "IIT@Harvard": [
       "scholar-sDHHglIAAAAJ:qxL8FJ1GzNcC"
     ],
+    "Berkeley College": [
+      "scholar-sDHHglIAAAAJ:qxL8FJ1GzNcC"
+    ],
     "McGill University": [
+      "scholar-xkuLyHoAAAAJ:ZHo1McVdvXMC"
+    ],
+    "ServiceNow (United States)": [
       "scholar-xkuLyHoAAAAJ:ZHo1McVdvXMC"
     ],
     "Polytechnique Montr\u00e9al": [
       "scholar-xkuLyHoAAAAJ:ZHo1McVdvXMC"
     ],
     "Google (Canada)": [
-      "scholar-xkuLyHoAAAAJ:ZHo1McVdvXMC"
-    ],
-    "ServiceNow (United States)": [
       "scholar-xkuLyHoAAAAJ:ZHo1McVdvXMC"
     ],
     "University of Luxembourg": [
@@ -30039,16 +29646,16 @@
       "scholar-xkuLyHoAAAAJ:GnPB-g6toBAC",
       "scholar-xkuLyHoAAAAJ:u9iWguZQMMsC"
     ],
-    "University of Lucerne": [
+    "Diabetes Center Berne": [
       "scholar-DZ-fHPgAAAAJ:jKDndaUStp4C"
     ],
     "Max Planck Institute for Developmental Biology": [
       "scholar-DZ-fHPgAAAAJ:jKDndaUStp4C"
     ],
-    "Diabetes Center Berne": [
+    "University Hospital of Bern": [
       "scholar-DZ-fHPgAAAAJ:jKDndaUStp4C"
     ],
-    "University Hospital of Bern": [
+    "University of Lucerne": [
       "scholar-DZ-fHPgAAAAJ:jKDndaUStp4C"
     ],
     "Eurea": [
@@ -30059,16 +29666,16 @@
       "scholar-DZ-fHPgAAAAJ:0_dNHEfHC9YC",
       "scholar-DZ-fHPgAAAAJ:n1YQmkHDcs0C"
     ],
-    "University of Illinois Urbana-Champaign": [
-      "scholar-DZ-fHPgAAAAJ:37C3itOipUAC",
-      "scholar-DZ-fHPgAAAAJ:UEK1zEMUXZYC"
-    ],
     "Carnegie Mellon University": [
       "scholar-DZ-fHPgAAAAJ:37C3itOipUAC",
       "scholar-DZ-fHPgAAAAJ:6_g6roSJJJ4C",
       "scholar-DZ-fHPgAAAAJ:Sfpquvl-xlAC",
       "scholar-DZ-fHPgAAAAJ:n1YQmkHDcs0C",
       "scholar-DZ-fHPgAAAAJ:pu1mUoDpsTEC"
+    ],
+    "University of Illinois Urbana-Champaign": [
+      "scholar-DZ-fHPgAAAAJ:37C3itOipUAC",
+      "scholar-DZ-fHPgAAAAJ:UEK1zEMUXZYC"
     ],
     "Chinese University of Hong Kong": [
       "scholar-DZ-fHPgAAAAJ:2GvbujVKL5cC",
@@ -30081,9 +29688,6 @@
     "Ministry of the Interior and Administrative Reconstruction": [
       "scholar-DZ-fHPgAAAAJ:jEt36SqvAKIC"
     ],
-    "National Research Council Canada": [
-      "scholar-DZ-fHPgAAAAJ:UEK1zEMUXZYC"
-    ],
     "University of Ottawa": [
       "scholar-DZ-fHPgAAAAJ:UEK1zEMUXZYC"
     ],
@@ -30091,19 +29695,22 @@
       "scholar-DZ-fHPgAAAAJ:UEK1zEMUXZYC",
       "scholar-DZ-fHPgAAAAJ:eZ3Jd4XgJWUC"
     ],
+    "National Research Council Canada": [
+      "scholar-DZ-fHPgAAAAJ:UEK1zEMUXZYC"
+    ],
+    "Santa Fe Institute": [
+      "scholar-DZ-fHPgAAAAJ:f0J-wGb7OGEC"
+    ],
     "Google (United Kingdom)": [
       "scholar-DZ-fHPgAAAAJ:f0J-wGb7OGEC"
     ],
     "Stanford University": [
       "scholar-DZ-fHPgAAAAJ:f0J-wGb7OGEC"
     ],
-    "Santa Fe Institute": [
+    "University of Waterloo": [
       "scholar-DZ-fHPgAAAAJ:f0J-wGb7OGEC"
     ],
     "Max Planck Institute for Human Development": [
-      "scholar-DZ-fHPgAAAAJ:f0J-wGb7OGEC"
-    ],
-    "University of Waterloo": [
       "scholar-DZ-fHPgAAAAJ:f0J-wGb7OGEC"
     ],
     "Vitenparken": [
@@ -30113,10 +29720,10 @@
     "University of Copenhagen": [
       "scholar-DZ-fHPgAAAAJ:RaBBm4l2bqQC"
     ],
-    "GlaxoSmithKline (Switzerland)": [
+    "Saab (Switzerland)": [
       "scholar-DZ-fHPgAAAAJ:RmNfB3aBSJEC"
     ],
-    "Saab (Switzerland)": [
+    "GlaxoSmithKline (Switzerland)": [
       "scholar-DZ-fHPgAAAAJ:RmNfB3aBSJEC"
     ],
     "Helmholtz Munich": [
@@ -30128,16 +29735,13 @@
     "Max Planck Institute of Psychiatry": [
       "scholar-DZ-fHPgAAAAJ:YfAA0ZJ8dU0C"
     ],
-    "European Southern Observatory": [
+    "Institut de Plan\u00e9tologie et d'Astrophysique de Grenoble": [
       "scholar-DZ-fHPgAAAAJ:BgA9TAIr_78C"
     ],
     "Centre National de la Recherche Scientifique": [
       "scholar-DZ-fHPgAAAAJ:BgA9TAIr_78C"
     ],
-    "Institut de Plan\u00e9tologie et d'Astrophysique de Grenoble": [
-      "scholar-DZ-fHPgAAAAJ:BgA9TAIr_78C"
-    ],
-    "Universit\u00e9 Grenoble Alpes": [
+    "European Southern Observatory": [
       "scholar-DZ-fHPgAAAAJ:BgA9TAIr_78C"
     ],
     "Max Planck Institute for Astronomy": [
@@ -30146,20 +29750,16 @@
     "University of Li\u00e8ge": [
       "scholar-DZ-fHPgAAAAJ:BgA9TAIr_78C"
     ],
-    "University College London": [
-      "scholar-DZ-fHPgAAAAJ:RCxWpCfmCtUC",
-      "scholar-DZ-fHPgAAAAJ:ndteoNauYT4C"
+    "Universit\u00e9 Grenoble Alpes": [
+      "scholar-DZ-fHPgAAAAJ:BgA9TAIr_78C"
     ],
-    "German Red Cross": [
-      "scholar-DZ-fHPgAAAAJ:ndteoNauYT4C"
-    ],
-    "Friedrich Schiller University Jena": [
-      "scholar-DZ-fHPgAAAAJ:ndteoNauYT4C"
-    ],
-    "Red Cross Hospital": [
+    "Universitat de Val\u00e8ncia": [
       "scholar-DZ-fHPgAAAAJ:ndteoNauYT4C"
     ],
     "Max Planck Institute for Biogeochemistry": [
+      "scholar-DZ-fHPgAAAAJ:ndteoNauYT4C"
+    ],
+    "Red Cross Hospital": [
       "scholar-DZ-fHPgAAAAJ:ndteoNauYT4C"
     ],
     "World Food Programme": [
@@ -30168,20 +29768,27 @@
     "KTH Royal Institute of Technology": [
       "scholar-DZ-fHPgAAAAJ:ndteoNauYT4C"
     ],
-    "Universitat de Val\u00e8ncia": [
+    "Friedrich Schiller University Jena": [
       "scholar-DZ-fHPgAAAAJ:ndteoNauYT4C"
     ],
-    "Yonsei University": [
+    "German Red Cross": [
+      "scholar-DZ-fHPgAAAAJ:ndteoNauYT4C"
+    ],
+    "University College London": [
+      "scholar-DZ-fHPgAAAAJ:RCxWpCfmCtUC",
+      "scholar-DZ-fHPgAAAAJ:ndteoNauYT4C"
+    ],
+    "Institute for Basic Science": [
       "scholar-DZ-fHPgAAAAJ:N63c6Z09yoIC"
     ],
-    "Max Planck Institute for Medical Research": [
+    "Yonsei University": [
       "scholar-DZ-fHPgAAAAJ:N63c6Z09yoIC"
     ],
     "Heidelberg University": [
       "scholar-DZ-fHPgAAAAJ:N63c6Z09yoIC",
       "scholar-DZ-fHPgAAAAJ:amTSNuT6G2IC"
     ],
-    "Institute for Basic Science": [
+    "Max Planck Institute for Medical Research": [
       "scholar-DZ-fHPgAAAAJ:N63c6Z09yoIC"
     ],
     "Monash University": [
@@ -30205,10 +29812,10 @@
     "Mohamed bin Zayed University of Artificial Intelligence": [
       "scholar-DZ-fHPgAAAAJ:pu1mUoDpsTEC"
     ],
-    "King's College London": [
+    "University of Dundee": [
       "scholar-DZ-fHPgAAAAJ:RCxWpCfmCtUC"
     ],
-    "University of Dundee": [
+    "King's College London": [
       "scholar-DZ-fHPgAAAAJ:RCxWpCfmCtUC"
     ],
     "Siemens (Germany)": [
@@ -30217,10 +29824,10 @@
     "German Cancer Research Center": [
       "scholar-DZ-fHPgAAAAJ:amTSNuT6G2IC"
     ],
-    "Leipzig University": [
+    "Center for Scalable Data Analytics and Artificial Intelligence": [
       "scholar-usl__skAAAAJ:B3FOqHPlNUQC"
     ],
-    "Center for Scalable Data Analytics and Artificial Intelligence": [
+    "Leipzig University": [
       "scholar-usl__skAAAAJ:B3FOqHPlNUQC"
     ],
     "Coherent (United States)": [
@@ -30229,13 +29836,13 @@
     "Open Medicine Institute": [
       "scholar-D0WjJlsAAAAJ:ZfRJV9d4-WMC"
     ],
-    "Sony Corporation (United States)": [
+    "Sony (Taiwan)": [
       "scholar-D0WjJlsAAAAJ:hkOj_22Ku90C"
     ],
     "Sony (Japan)": [
       "scholar-D0WjJlsAAAAJ:hkOj_22Ku90C"
     ],
-    "Sony (Taiwan)": [
+    "Sony Corporation (United States)": [
       "scholar-D0WjJlsAAAAJ:hkOj_22Ku90C"
     ]
   },
@@ -30247,7 +29854,7 @@
   "h_index_distribution": [
     15,
     20,
-    20,
+    21,
     22,
     24,
     27,
@@ -30278,7 +29885,7 @@
       },
       {
         "year": 2026,
-        "citations": 636
+        "citations": 637
       }
     ],
     [
@@ -30288,13 +29895,13 @@
       },
       {
         "year": 2026,
-        "citations": 2583
+        "citations": 2588
       }
     ],
     [
       {
         "year": 2026,
-        "citations": 2061
+        "citations": 2056
       }
     ],
     [
@@ -30308,11 +29915,11 @@
       },
       {
         "year": 2025,
-        "citations": 3927
+        "citations": 3928
       },
       {
         "year": 2026,
-        "citations": 3706
+        "citations": 3710
       }
     ],
     [
@@ -30330,21 +29937,21 @@
       },
       {
         "year": 2026,
-        "citations": 4302
+        "citations": 4309
       }
     ],
     [
       {
         "year": 2024,
-        "citations": 23601
+        "citations": 23604
       },
       {
         "year": 2025,
-        "citations": 29965
+        "citations": 29964
       },
       {
         "year": 2026,
-        "citations": 27595
+        "citations": 27645
       }
     ],
     [
@@ -30370,11 +29977,11 @@
     [
       {
         "year": 2025,
-        "citations": 2828
+        "citations": 2829
       },
       {
         "year": 2026,
-        "citations": 3331
+        "citations": 3337
       }
     ],
     [
@@ -30388,7 +29995,7 @@
       },
       {
         "year": 2026,
-        "citations": 2305
+        "citations": 2307
       }
     ],
     [
@@ -30412,29 +30019,29 @@
       },
       {
         "year": 2025,
-        "citations": 885
+        "citations": 884
       },
       {
         "year": 2026,
-        "citations": 941
+        "citations": 942
       }
     ],
     [
       {
         "year": 2023,
-        "citations": 21927
+        "citations": 21929
       },
       {
         "year": 2024,
-        "citations": 23866
+        "citations": 23867
       },
       {
         "year": 2025,
-        "citations": 26968
+        "citations": 26965
       },
       {
         "year": 2026,
-        "citations": 22687
+        "citations": 22706
       }
     ],
     [
@@ -30444,7 +30051,7 @@
       },
       {
         "year": 2026,
-        "citations": 1254
+        "citations": 1258
       }
     ],
     [
@@ -30454,13 +30061,13 @@
       },
       {
         "year": 2026,
-        "citations": 1884
+        "citations": 1887
       }
     ],
     [
       {
         "year": 2026,
-        "citations": 3200
+        "citations": 3202
       }
     ]
   ],
@@ -30475,16 +30082,20 @@
     "2026": "Year in progress \u2014 not yet financially complete"
   },
   "venue_counts": {
-    "ICML": 58,
-    "NeurIPS": 67,
-    "ICLR": 62
+    "ICML": 43,
+    "NeurIPS": 60,
+    "ICLR": 57
   },
   "broader_venue_counts": {
+    "ACL": 16,
     "Nature": 9,
-    "ACL": 8,
-    "CVPR": 4,
+    "TMLR": 3,
+    "CVPR": 3,
     "EMNLP": 2,
     "ICCV": 2,
+    "COLM": 2,
+    "EACL": 2,
+    "NAACL": 2,
     "AAAI": 1,
     "ECCV": 1,
     "CoRL": 1,
@@ -30492,5 +30103,5 @@
     "AISTATS": 1,
     "UAI": 1
   },
-  "top_tier_total_count": 218
+  "top_tier_total_count": 207
 }
