@@ -305,6 +305,9 @@ BROADER_VENUE_PATTERNS = {
     "RSS": ["robotics: science and systems"],
     "CoRL": ["conference on robot learning", "corl"],
     "ICRA": ["international conference on robotics and automation", "icra"],
+    "EACL": ["european chapter of the association for computational linguistics"],
+    "TMLR": ["transactions on machine learning research", "tmlr"],
+    "COLM": ["conference on language modeling", "colm"],
     "Nature": ["nature"],
 }
 

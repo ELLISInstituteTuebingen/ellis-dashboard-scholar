@@ -838,6 +838,54 @@
       "venue": "NeurIPS",
       "year": 2025,
       "_note": "Genuine NeurIPS 2025 paper (proceedings vol. 38) — Scholar indexed the citation in 2026 and defaulted its year field to that instead of the true 2025 conference date."
+    },
+    {
+      "title": "GitChameleon 2.0: Evaluating AI Code Generation Against Python Library Version Incompatibilities",
+      "venue": "ACL"
+    },
+    {
+      "title": "PaperMentor: A human-centered multi-agent writing tutor for AI research papers in Overleaf",
+      "venue": "ACL"
+    },
+    {
+      "title": "On the Emergence and Test-Time Use of Structural Information in Large Language Models",
+      "venue": "ACL"
+    },
+    {
+      "title": "Test of time: Rethinking temporal signal of benchmark contamination",
+      "venue": "ACL"
+    },
+    {
+      "title": "Democratic or authoritarian? probing a new dimension of political biases in large language models",
+      "venue": "EACL"
+    },
+    {
+      "title": "How robust are router-llms? analysis of the fragility of llm routing capabilities",
+      "venue": "EACL"
+    },
+    {
+      "title": "Dars: Dynamic action re-sampling to enhance coding agent performance by adaptive tree traversal",
+      "venue": "ACL"
+    },
+    {
+      "title": "Moûsai: Efficient text-to-music diffusion models",
+      "venue": "ACL"
+    },
+    {
+      "title": "Competition of mechanisms: Tracing how language models handle facts and counterfactuals",
+      "venue": "ACL"
+    },
+    {
+      "title": "Analyzing the role of semantic representations in the era of large language models",
+      "venue": "NAACL"
+    },
+    {
+      "title": "A diverse multilingual news headlines dataset from around the world",
+      "venue": "NAACL"
+    },
+    {
+      "title": "A causal framework to quantify the robustness of mathematical reasoning with language models",
+      "venue": "ACL"
     }
   ]
 }
