@@ -322,6 +322,11 @@ def classify_venue_string(venue_str):
     if not venue_str:
         return None
     v = venue_str.lower()
+    # Workshop papers ride on the main conference's name (e.g. "ICML 2026
+    # Workshop on ...") but are not main-conference accepts, so they must not
+    # count as top-tier.
+    if "workshop" in v:
+        return None
     for venue_label, patterns in ALL_VENUE_PATTERNS.items():
         if any(p in v for p in patterns):
             return venue_label
