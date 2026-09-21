@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-14T10:27:21Z",
+  "generated_at": "2026-09-21T10:32:02Z",
   "institute": "ELLIS Institute T\u00fcbingen",
-  "total_publications": 635,
+  "total_publications": 639,
   "confirmed_affiliation_count": 0,
-  "open_access_count": 304,
-  "open_access_percent": 47.9,
+  "open_access_count": 308,
+  "open_access_percent": 48.2,
   "scientist_join_dates": [
     "2023-07-01",
     "2023-09-01",
@@ -126,7 +126,7 @@
       "year": 2026,
       "venue": "ICML, 2026",
       "cited_by_count": 7,
-      "doi": "https://doi.org/10.60882/cispa.32780832.v1",
+      "doi": "https://doi.org/10.60882/cispa.32780832",
       "citation_id": "QEiYbDYAAAAJ:q0uBw5dMOAkC",
       "authors": [
         "I Sheth",
@@ -142,7 +142,7 @@
       "confirmed_ellis_affiliation": false,
       "venue_category": "ICML",
       "is_oa": true,
-      "oa_url": "https://doi.org/10.60882/cispa.32780832.v1",
+      "oa_url": "https://doi.org/10.60882/cispa.32780832",
       "author_count": 5,
       "institutions": [
         {
@@ -157,7 +157,7 @@
       "title": "Firewalls to Secure Dynamic LLM Agentic Networks",
       "year": 2026,
       "venue": "TMLR, 2026",
-      "cited_by_count": 40,
+      "cited_by_count": 44,
       "doi": "https://doi.org/10.48550/arxiv.2502.01822",
       "citation_id": "QEiYbDYAAAAJ:v_tt_AnqfNMC",
       "authors": [
@@ -313,7 +313,7 @@
       "title": "Hidden in memory: Sleeper memory poisoning in LLM agents",
       "year": 2026,
       "venue": "Agents in the Wild Workshop @ ICML 2026. Spotlight, 2026",
-      "cited_by_count": 23,
+      "cited_by_count": 25,
       "doi": null,
       "citation_id": "QEiYbDYAAAAJ:oynPyU19kbsC",
       "authors": [
@@ -405,7 +405,7 @@
       "title": "Detecting Multi-Agent Collusion Through Multi-Agent Interpretability",
       "year": 2026,
       "venue": "arXiv preprint arXiv:2604.01151, 2026",
-      "cited_by_count": 12,
+      "cited_by_count": 13,
       "doi": "https://doi.org/10.48550/arxiv.2604.01151",
       "citation_id": "QEiYbDYAAAAJ:XtJa11BXPS4C",
       "authors": [
@@ -430,7 +430,7 @@
       "title": "Converse: Benchmarking contextual safety in agent-to-agent conversations",
       "year": 2026,
       "venue": "Findings of the Association for Computational Linguistics: EACL 2026, 3246-3268, 2026",
-      "cited_by_count": 14,
+      "cited_by_count": 15,
       "doi": "https://doi.org/10.48448/e9ya-9029",
       "citation_id": "QEiYbDYAAAAJ:HKviVsUxM5wC",
       "authors": [
@@ -460,7 +460,7 @@
       "title": "Skill-inject: Measuring agent vulnerability to skill file attacks",
       "year": 2026,
       "venue": "arXiv preprint arXiv:2602.20156, 2026",
-      "cited_by_count": 88,
+      "cited_by_count": 91,
       "doi": "https://doi.org/10.48550/arxiv.2602.20156",
       "citation_id": "QEiYbDYAAAAJ:It0W0vAlS5QC",
       "authors": [
@@ -486,7 +486,7 @@
       "title": "Colosseum: Auditing collusion in cooperative multi-agent systems",
       "year": 2026,
       "venue": "arXiv preprint arXiv:2602.15198, 2026",
-      "cited_by_count": 14,
+      "cited_by_count": 16,
       "doi": null,
       "citation_id": "QEiYbDYAAAAJ:IHkkN1K1AlAC",
       "authors": [
@@ -572,7 +572,7 @@
       "title": "Llmail-inject: A dataset from a realistic adaptive prompt injection challenge",
       "year": 2026,
       "venue": "EMNLP Findings, 2026",
-      "cited_by_count": 33,
+      "cited_by_count": 36,
       "doi": "https://doi.org/10.48550/arxiv.2506.09956",
       "citation_id": "QEiYbDYAAAAJ:wGzT3bKASkAC",
       "authors": [
@@ -706,7 +706,7 @@
       "title": "Neural timescales from a computational perspective",
       "year": 2026,
       "venue": "Nature Neuroscience, 1-14, 2026",
-      "cited_by_count": 22,
+      "cited_by_count": 23,
       "doi": null,
       "citation_id": "FKOqtF8AAAAJ:u1IMlZnpNFQC",
       "authors": [
@@ -1159,10 +1159,10 @@
     },
     {
       "id": "scholar-206vNCEAAAAJ:HeT0ZceujKMC",
-      "title": "Stealing Reasoning Traces from Proprietary LLM APIs",
+      "title": "Stealing reasoning traces from proprietary LLM APIs",
       "year": 2026,
       "venue": "arXiv preprint arXiv:2608.09867, 2026",
-      "cited_by_count": 3,
+      "cited_by_count": 5,
       "doi": "https://doi.org/10.48550/arxiv.2608.09867",
       "citation_id": "206vNCEAAAAJ:HeT0ZceujKMC",
       "authors": [
@@ -1483,7 +1483,7 @@
       "title": "Strategic dishonesty can undermine ai safety evaluations of frontier llms",
       "year": 2026,
       "venue": "International Conference on Learning Representations 2026, 49352-49410, 2026",
-      "cited_by_count": 19,
+      "cited_by_count": 21,
       "doi": "https://doi.org/10.48550/arxiv.2509.18058",
       "citation_id": "206vNCEAAAAJ:hMsQuOkrut0C",
       "authors": [
@@ -1512,7 +1512,7 @@
       "title": "The illusion of diminishing returns: Measuring long horizon execution in llms",
       "year": 2026,
       "venue": "International Conference on Learning Representations 2026, 35184-35211, 2026",
-      "cited_by_count": 63,
+      "cited_by_count": 65,
       "doi": "https://doi.org/10.48550/arxiv.2509.09677",
       "citation_id": "206vNCEAAAAJ:ILKRHgRFtOwC",
       "authors": [
@@ -1564,7 +1564,7 @@
       "title": "Pitfalls in evaluating language model forecasters",
       "year": 2026,
       "venue": "International Conference on Learning Representations 2026, 114207-114227, 2026",
-      "cited_by_count": 26,
+      "cited_by_count": 27,
       "doi": null,
       "citation_id": "206vNCEAAAAJ:evX43VCCuoAC",
       "authors": [
@@ -1671,6 +1671,61 @@
       "oa_url": null
     },
     {
+      "id": "scholar-YUrxwrkAAAAJ:RXiHnyRawswC",
+      "title": "TabPFN-3.5: Technical Report",
+      "year": 2026,
+      "venue": "arXiv preprint arXiv:2609.17895, 2026",
+      "cited_by_count": 0,
+      "doi": "https://doi.org/10.48550/arxiv.2609.17895",
+      "citation_id": "YUrxwrkAAAAJ:RXiHnyRawswC",
+      "authors": [
+        "B J\u00e4ger",
+        "N Erickson",
+        "L Grinsztajn",
+        "F Birkel",
+        "K Fl\u00f6ge",
+        "O Key",
+        "K Kaya",
+        "..."
+      ],
+      "institution_ids": [],
+      "scientist": [
+        "Frank Hutter",
+        "Bernhard Sch\u00f6lkopf",
+        "David Salinas"
+      ],
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2609.17895",
+      "author_count": 47,
+      "institutions": []
+    },
+    {
+      "id": "scholar-YUrxwrkAAAAJ:uUvzmPk0f8oC",
+      "title": "Attention Quantization for Tabular Foundation Models",
+      "year": 2026,
+      "venue": "arXiv preprint arXiv:2609.13031, 2026",
+      "cited_by_count": 1,
+      "doi": "https://doi.org/10.48550/arxiv.2609.13031",
+      "citation_id": "YUrxwrkAAAAJ:uUvzmPk0f8oC",
+      "authors": [
+        "JM K\u00fcbler",
+        "B J\u00e4ger",
+        "K Fl\u00f6ge",
+        "N Hollmann",
+        "F Hutter"
+      ],
+      "institution_ids": [],
+      "scientist": "Frank Hutter",
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2609.13031",
+      "author_count": 5,
+      "institutions": []
+    },
+    {
       "id": "scholar-YUrxwrkAAAAJ:JH5k92_tO-AC",
       "title": "Understanding the surprising generalization properties of tabular foundation models",
       "year": 2026,
@@ -1698,7 +1753,7 @@
       "title": "Advancing Open and Reproducible Relational Learning: RelArena-, TabPFN-Rel and RPI",
       "year": 2026,
       "venue": "arXiv preprint arXiv:2608.16319, 2026",
-      "cited_by_count": 1,
+      "cited_by_count": 2,
       "doi": "https://doi.org/10.48550/arxiv.2608.16319",
       "citation_id": "YUrxwrkAAAAJ:Ej9njvOgR2oC",
       "authors": [
@@ -1754,7 +1809,7 @@
       "title": "Beyond IID: How General Are Tabular Foundation Models, Really?",
       "year": 2026,
       "venue": "arXiv preprint arXiv:2606.30410, 2026",
-      "cited_by_count": 5,
+      "cited_by_count": 6,
       "doi": "https://doi.org/10.48550/arxiv.2606.30410",
       "citation_id": "YUrxwrkAAAAJ:I858iXPj1OkC",
       "authors": [
@@ -1967,7 +2022,7 @@
       "title": "Tabpfn-3: Technical report",
       "year": 2026,
       "venue": "arXiv preprint arXiv:2605.13986, 2026",
-      "cited_by_count": 42,
+      "cited_by_count": 46,
       "doi": "https://doi.org/10.48550/arxiv.2605.13986",
       "citation_id": "YUrxwrkAAAAJ:xGWFX6Gbr9MC",
       "authors": [
@@ -1999,7 +2054,7 @@
       "title": "STRABLE: Benchmarking Tabular Machine Learning with Strings",
       "year": 2026,
       "venue": "arXiv preprint arXiv:2605.12292, 2026",
-      "cited_by_count": 1,
+      "cited_by_count": 3,
       "doi": "https://doi.org/10.48550/arxiv.2605.12292",
       "citation_id": "YUrxwrkAAAAJ:YPNY0knpFBYC",
       "authors": [
@@ -2106,8 +2161,8 @@
       "title": "Evolving Many Worlds: Towards Open-Ended Discovery in Petri Dish NCA via Population-Based Training",
       "year": 2026,
       "venue": "arXiv preprint arXiv:2604.11248, 2026",
-      "cited_by_count": 0,
-      "doi": "https://doi.org/10.48550/arxiv.2604.11248",
+      "cited_by_count": 1,
+      "doi": "https://doi.org/10.1162/isal.a.1015",
       "citation_id": "YUrxwrkAAAAJ:yeL6HyUMUGUC",
       "authors": [
         "U Berdica",
@@ -2115,14 +2170,46 @@
         "F Hutter",
         "A Zela"
       ],
-      "institution_ids": [],
+      "institution_ids": [
+        "I40120149",
+        "I161046081",
+        "I4210134004",
+        "I8087733",
+        "I4210103064"
+      ],
       "scientist": "Frank Hutter",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
       "is_oa": true,
-      "oa_url": "https://doi.org/10.48550/arxiv.2604.11248",
+      "oa_url": "https://doi.org/10.1162/isal.a.1015",
       "author_count": 4,
-      "institutions": []
+      "institutions": [
+        {
+          "id": "I40120149",
+          "name": "University of Oxford",
+          "country": "GB"
+        },
+        {
+          "id": "I161046081",
+          "name": "University of Freiburg",
+          "country": "DE"
+        },
+        {
+          "id": "I4210134004",
+          "name": "The Priory Hospital",
+          "country": "GB"
+        },
+        {
+          "id": "I8087733",
+          "name": "University of T\u00fcbingen",
+          "country": "DE"
+        },
+        {
+          "id": "I4210103064",
+          "name": "Electric Propulsion Laboratory (United States)",
+          "country": "US"
+        }
+      ]
     },
     {
       "id": "scholar-YUrxwrkAAAAJ:bVQMTfhMCi4C",
@@ -2154,7 +2241,7 @@
       "title": "Can LLMs Beat Classical Hyperparameter Optimization Algorithms? A Study on autoresearch",
       "year": 2026,
       "venue": "arXiv preprint arXiv:2603.24647, 2026",
-      "cited_by_count": 8,
+      "cited_by_count": 10,
       "doi": "https://doi.org/10.48550/arxiv.2603.24647",
       "citation_id": "YUrxwrkAAAAJ:yTLRzDEmwhEC",
       "authors": [
@@ -2344,7 +2431,7 @@
       "title": "On State Reduction in Linear Attention",
       "year": 2026,
       "venue": "AdaptFM: Resource-Adaptive Foundation Model Inference (\ud835\udc0e\ud835\udc2b\ud835\udc1a\ud835\udc25), 2026",
-      "cited_by_count": 3,
+      "cited_by_count": 5,
       "doi": null,
       "citation_id": "9LajlSsAAAAJ:gsN89kCJA0AC",
       "authors": [
@@ -2363,7 +2450,7 @@
       "title": "Fixed-Point Reasoning: Stable and Adaptive Deep Looped Models",
       "year": 2026,
       "venue": "AdaptFM: Resource-Adaptive Foundation Model Inference, 2026",
-      "cited_by_count": 9,
+      "cited_by_count": 10,
       "doi": null,
       "citation_id": "9LajlSsAAAAJ:TIZ-Mc8IlK0C",
       "authors": [
@@ -2497,6 +2584,36 @@
       "oa_url": null
     },
     {
+      "id": "scholar-73IbXtsAAAAJ:VLnqNzywnoUC",
+      "title": "Amortizing Scaling Law Construction Costs",
+      "year": 2026,
+      "venue": "arXiv preprint arXiv:2609.05016, 2026",
+      "cited_by_count": 0,
+      "doi": "https://doi.org/10.48550/arxiv.2609.05016",
+      "citation_id": "73IbXtsAAAAJ:VLnqNzywnoUC",
+      "authors": [
+        "AK Jha",
+        "DA Onu\u0163u",
+        "N Mallik",
+        "S Haldar",
+        "S Laing",
+        "N Ajroldi",
+        "S Liu",
+        "..."
+      ],
+      "institution_ids": [],
+      "scientist": [
+        "Shiwei Liu",
+        "Aaron Klein"
+      ],
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2609.05016",
+      "author_count": 9,
+      "institutions": []
+    },
+    {
       "id": "scholar-73IbXtsAAAAJ:fEOibwPWpKIC",
       "title": "ISO: An RLVR-Native Optimization Stack",
       "year": 2026,
@@ -2549,7 +2666,7 @@
       "title": "Learning from the Self-future: On-policy Self-distillation for dLLMs",
       "year": 2026,
       "venue": "arXiv preprint arXiv:2606.18195, 2026",
-      "cited_by_count": 1,
+      "cited_by_count": 3,
       "doi": "https://doi.org/10.48550/arxiv.2606.18195",
       "citation_id": "73IbXtsAAAAJ:2KloaMYe4IUC",
       "authors": [
@@ -2692,7 +2809,7 @@
       "title": "Rewiring Experts on the Fly: Continuous Rerouting for Better Online Adaptation in Mixture-of-Expert models",
       "year": 2026,
       "venue": "ICML 2026, 2026",
-      "cited_by_count": 1,
+      "cited_by_count": 2,
       "doi": null,
       "citation_id": "73IbXtsAAAAJ:VL0QpB8kHFEC",
       "authors": [
@@ -2718,7 +2835,7 @@
       "title": "Why Diffusion Language Models Struggle with Truly Parallel (Non-Autoregressive) Decoding?",
       "year": 2026,
       "venue": "arXiv preprint arXiv:2602.23225, 2026",
-      "cited_by_count": 8,
+      "cited_by_count": 9,
       "doi": "https://doi.org/10.48550/arxiv.2602.23225",
       "citation_id": "73IbXtsAAAAJ:JQOojiI6XY0C",
       "authors": [
@@ -2787,7 +2904,7 @@
       "title": "Diffusion language model knows the answer before it decodes",
       "year": 2026,
       "venue": "The Fourteenth International Conference on Learning Representations, 2026",
-      "cited_by_count": 63,
+      "cited_by_count": 66,
       "doi": null,
       "citation_id": "73IbXtsAAAAJ:7T2F9Uy0os0C",
       "authors": [
@@ -2952,7 +3069,7 @@
       "title": "InferenceBench: A Benchmark for Open-Ended LLM Inference Optimization by AI Agents",
       "year": 2026,
       "venue": "ICML 2026 Workshop on Agents in the Wild (Spotlight), 2026",
-      "cited_by_count": 1,
+      "cited_by_count": 2,
       "doi": null,
       "citation_id": "ZNtuJYoAAAAJ:tS2w5q8j5-wC",
       "authors": [
@@ -3045,7 +3162,7 @@
       "title": "PostTrainBench: Can LLM Agents Automate LLM Post-Training?",
       "year": 2026,
       "venue": "ICML 2026, \ud83c\udfc6 Best Paper Award at ICLR 2026 Workshop on AI with Recursive \u2026, 2026",
-      "cited_by_count": 44,
+      "cited_by_count": 45,
       "doi": null,
       "citation_id": "ZNtuJYoAAAAJ:WbkHhVStYXYC",
       "authors": [
@@ -3134,7 +3251,7 @@
       "title": "Monitoring Decomposition Attacks in LLMs with Lightweight Sequential Monitors",
       "year": 2026,
       "venue": "ICLR 2026, 2026",
-      "cited_by_count": 28,
+      "cited_by_count": 29,
       "doi": null,
       "citation_id": "ZNtuJYoAAAAJ:RGFaLdJalmkC",
       "authors": [
@@ -3199,7 +3316,7 @@
       "title": "International ai safety report 2026",
       "year": 2026,
       "venue": "arXiv preprint arXiv:2602.21012, 2026",
-      "cited_by_count": 155,
+      "cited_by_count": 173,
       "doi": "https://doi.org/10.48550/arxiv.2602.21012",
       "citation_id": "ZNtuJYoAAAAJ:XiSMed-E-HIC",
       "authors": [
@@ -3328,7 +3445,7 @@
       "title": "GWTC-5.0: Tests of General Relativity",
       "year": 2026,
       "venue": "arXiv preprint arXiv:2607.19293, 2026",
-      "cited_by_count": 1,
+      "cited_by_count": 2,
       "doi": "https://doi.org/10.48550/arxiv.2607.19293",
       "citation_id": "VRBv6mEAAAAJ:UxriW0iASnsC",
       "authors": [
@@ -3354,7 +3471,7 @@
       "title": "Search for planetary-mass ultracompact binaries using data from the first part of the LIGO\u2013Virgo\u2013KAGRA fourth observing run",
       "year": 2026,
       "venue": "Physical Review D 114 (2), 022005, 2026",
-      "cited_by_count": 2,
+      "cited_by_count": 3,
       "doi": null,
       "citation_id": "VRBv6mEAAAAJ:vV6vV6tmYwMC",
       "authors": [
@@ -3377,7 +3494,7 @@
       "title": "Directional search for persistent gravitational waves: Results from the first part of LIGO-Virgo-KAGRA\u2019s fourth observing run",
       "year": 2026,
       "venue": "Physical Review D 114 (2), 022001, 2026",
-      "cited_by_count": 7,
+      "cited_by_count": 10,
       "doi": null,
       "citation_id": "VRBv6mEAAAAJ:O3NaXMp0MMsC",
       "authors": [
@@ -3400,7 +3517,7 @@
       "title": "Narrowband searches for continuous gravitational waves from known pulsars in the first two parts of the fourth LIGO\u2013Virgo\u2013KAGRA observing run",
       "year": 2026,
       "venue": "The Astrophysical Journal 1005 (2), 221, 2026",
-      "cited_by_count": 6,
+      "cited_by_count": 7,
       "doi": null,
       "citation_id": "VRBv6mEAAAAJ:a0OBvERweLwC",
       "authors": [
@@ -3527,7 +3644,7 @@
       "title": "Open data from LIGO, Virgo, and KAGRA through the first part of the fourth observing run",
       "year": 2026,
       "venue": "The Astrophysical Journal 1004 (2), 232, 2026",
-      "cited_by_count": 37,
+      "cited_by_count": 39,
       "doi": null,
       "citation_id": "VRBv6mEAAAAJ:bEWYMUwI8FkC",
       "authors": [
@@ -3550,7 +3667,7 @@
       "title": "GWTC-4.0: Methods for identifying and characterizing gravitational-wave transients",
       "year": 2026,
       "venue": "The Astrophysical Journal Letters 1004 (2), L21, 2026",
-      "cited_by_count": 51,
+      "cited_by_count": 52,
       "doi": null,
       "citation_id": "VRBv6mEAAAAJ:iH-uZ7U-co4C",
       "authors": [
@@ -3570,11 +3687,36 @@
       "oa_url": null
     },
     {
+      "id": "scholar-VRBv6mEAAAAJ:738O_yMBCRsC",
+      "title": "arXiv: GWTC-5.0: Methods for Identifying and Characterizing Gravitational-wave Transients",
+      "year": 2026,
+      "venue": "",
+      "cited_by_count": 0,
+      "doi": null,
+      "citation_id": "VRBv6mEAAAAJ:738O_yMBCRsC",
+      "authors": [
+        "AG Abac",
+        "C North",
+        "R Bhandare",
+        "G Pierra",
+        "A Amato",
+        "D Chen",
+        "B Haskell",
+        "..."
+      ],
+      "institution_ids": [],
+      "scientist": "Maximilian Dax",
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null,
+      "is_oa": false,
+      "oa_url": null
+    },
+    {
       "id": "scholar-VRBv6mEAAAAJ:KxtntwgDAa4C",
       "title": "GWTC-5.0: Observations from the Second Part of the Fourth LIGO-Virgo-KAGRA Observing Run and Updates to the Gravitational-Wave Transient Catalog",
       "year": 2026,
       "venue": "arXiv preprint arXiv:2605.27225, 2026",
-      "cited_by_count": 22,
+      "cited_by_count": 24,
       "doi": "https://doi.org/10.48550/arxiv.2605.27225",
       "citation_id": "VRBv6mEAAAAJ:KxtntwgDAa4C",
       "authors": [
@@ -3776,7 +3918,7 @@
       "year": 2026,
       "venue": "arXiv preprint arXiv:2603.29019, 2026",
       "cited_by_count": 4,
-      "doi": "https://doi.org/10.48550/arxiv.2603.29019",
+      "doi": "https://doi.org/10.3847/1538-4357/ae9479",
       "citation_id": "VRBv6mEAAAAJ:D03iK_w7-QYC",
       "authors": [
         "N Gupte",
@@ -3788,7 +3930,20 @@
         "J Gair",
         "..."
       ],
-      "institution_ids": [],
+      "institution_ids": [
+        "I4210127646",
+        "I66946132",
+        "I122411786",
+        "I141945490",
+        "I66752286",
+        "I142263535",
+        "I4210151758",
+        "I50441567",
+        "I4210133934",
+        "I4210135521",
+        "I4401726832",
+        "I8087733"
+      ],
       "scientist": [
         "Maximilian Dax",
         "Bernhard Sch\u00f6lkopf"
@@ -3796,9 +3951,70 @@
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
       "is_oa": true,
-      "oa_url": "https://hdl.handle.net/21.11116/0000-0012-ED95-9",
+      "oa_url": "https://doi.org/10.3847/1538-4357/ae9479",
       "author_count": 15,
-      "institutions": []
+      "institutions": [
+        {
+          "id": "I4210127646",
+          "name": "Max Planck Institute for Gravitational Physics",
+          "country": "DE"
+        },
+        {
+          "id": "I66946132",
+          "name": "University of Maryland, College Park",
+          "country": "US"
+        },
+        {
+          "id": "I122411786",
+          "name": "California Institute of Technology",
+          "country": "US"
+        },
+        {
+          "id": "I141945490",
+          "name": "University of British Columbia",
+          "country": "CA"
+        },
+        {
+          "id": "I66752286",
+          "name": "University of Milano-Bicocca",
+          "country": "IT"
+        },
+        {
+          "id": "I142263535",
+          "name": "University of Nottingham",
+          "country": "GB"
+        },
+        {
+          "id": "I4210151758",
+          "name": "Fundaci\u00f3 Universitat-Empresa de les Illes Balears",
+          "country": "ES"
+        },
+        {
+          "id": "I50441567",
+          "name": "Universitat de les Illes Balears",
+          "country": "ES"
+        },
+        {
+          "id": "I4210133934",
+          "name": "Bernstein Center for Computational Neuroscience T\u00fcbingen",
+          "country": "DE"
+        },
+        {
+          "id": "I4210135521",
+          "name": "Max Planck Institute for Intelligent Systems",
+          "country": "DE"
+        },
+        {
+          "id": "I4401726832",
+          "name": "T\u00fcbingen AI Center",
+          "country": null
+        },
+        {
+          "id": "I8087733",
+          "name": "University of T\u00fcbingen",
+          "country": "DE"
+        }
+      ]
     },
     {
       "id": "scholar-VRBv6mEAAAAJ:_xSYboBqXhAC",
@@ -3830,7 +4046,7 @@
       "title": "GWTC-4.0: Tests of General Relativity. III. Tests of the Remnants",
       "year": 2026,
       "venue": "arXiv preprint arXiv:2603.19021, 2026",
-      "cited_by_count": 12,
+      "cited_by_count": 14,
       "doi": "https://doi.org/10.48550/arxiv.2603.19021",
       "citation_id": "VRBv6mEAAAAJ:fPk4N6BV_jEC",
       "authors": [
@@ -3855,7 +4071,7 @@
       "title": "GWTC-4.0: Tests of General Relativity. I. Overview and General Tests",
       "year": 2026,
       "venue": "arXiv preprint arXiv:2603.19019, 2026",
-      "cited_by_count": 23,
+      "cited_by_count": 25,
       "doi": "https://doi.org/10.48550/arxiv.2603.19019",
       "citation_id": "VRBv6mEAAAAJ:u_35RYKgDlwC",
       "authors": [
@@ -3880,7 +4096,7 @@
       "title": "GWTC-4.0: Tests of general relativity. II. Parameterized tests",
       "year": 2026,
       "venue": "arXiv preprint arXiv:2603.19020, 2026",
-      "cited_by_count": 14,
+      "cited_by_count": 17,
       "doi": "https://doi.org/10.48550/arxiv.2603.19020",
       "citation_id": "VRBv6mEAAAAJ:zA6iFVUQeVQC",
       "authors": [
@@ -3931,7 +4147,7 @@
       "title": "Black hole spectroscopy and tests of general relativity with GW250114",
       "year": 2026,
       "venue": "Physical Review Letters 136 (4), 041403, 2026",
-      "cited_by_count": 111,
+      "cited_by_count": 116,
       "doi": null,
       "citation_id": "VRBv6mEAAAAJ:OU6Ihb5iCvQC",
       "authors": [
@@ -4151,7 +4367,7 @@
       "title": "Fixed-Point Reasoners: Stable and Adaptive Deep Looped Transformers",
       "year": 2026,
       "venue": "arXiv preprint arXiv:2606.18206, 2026",
-      "cited_by_count": 5,
+      "cited_by_count": 6,
       "doi": "https://doi.org/10.48550/arxiv.2606.18206",
       "citation_id": "xkuLyHoAAAAJ:XiSMed-E-HIC",
       "authors": [
@@ -4495,6 +4711,27 @@
       "oa_url": null
     },
     {
+      "id": "scholar-DZ-fHPgAAAAJ:s0PHN3aRImwC",
+      "title": "Trajectory forcing: Structure-first generation with controllable semantic trajectories",
+      "year": 2026,
+      "venue": "European Conference on Computer Vision, 645-663, 2026",
+      "cited_by_count": 1,
+      "doi": null,
+      "citation_id": "DZ-fHPgAAAAJ:s0PHN3aRImwC",
+      "authors": [
+        "M Kocabas",
+        "G Gao",
+        "B Sch\u00f6lkopf",
+        "A Geiger"
+      ],
+      "institution_ids": [],
+      "scientist": "Bernhard Sch\u00f6lkopf",
+      "confirmed_ellis_affiliation": false,
+      "venue_category": "ECCV",
+      "is_oa": false,
+      "oa_url": null
+    },
+    {
       "id": "scholar-DZ-fHPgAAAAJ:djz5WvnKLrQC",
       "title": "RAPTOR: Role-Aware Private Training for Mixture-of-Experts",
       "year": 2026,
@@ -4667,29 +4904,6 @@
       "institutions": []
     },
     {
-      "id": "scholar-DZ-fHPgAAAAJ:chjAzUkeghIC",
-      "title": "What Does a Discrete Diffusion Model Learn?",
-      "year": 2026,
-      "venue": "arXiv preprint arXiv:2607.05381, 2026",
-      "cited_by_count": 1,
-      "doi": "https://doi.org/10.48550/arxiv.2607.05381",
-      "citation_id": "DZ-fHPgAAAAJ:chjAzUkeghIC",
-      "authors": [
-        "RC Noguerales",
-        "B Sch\u00f6lkopf",
-        "T Hofmann",
-        "A Raoufi"
-      ],
-      "institution_ids": [],
-      "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": false,
-      "venue_category": null,
-      "is_oa": true,
-      "oa_url": "https://doi.org/10.48550/arxiv.2607.05381",
-      "author_count": 4,
-      "institutions": []
-    },
-    {
       "id": "scholar-DZ-fHPgAAAAJ:CJ98GCcPK54C",
       "title": "When Agents Lie: Premeditation, Persistence, and Exploitation in Repeated Games",
       "year": 2026,
@@ -4711,6 +4925,29 @@
       "is_oa": true,
       "oa_url": "https://doi.org/10.48550/arxiv.2607.05132",
       "author_count": 5,
+      "institutions": []
+    },
+    {
+      "id": "scholar-DZ-fHPgAAAAJ:e7LqAG2a08gC",
+      "title": "What Does a Discrete Diffusion Model Learn?",
+      "year": 2026,
+      "venue": "arXiv e-prints, arXiv: 2607.05381, 2026",
+      "cited_by_count": 1,
+      "doi": "https://doi.org/10.48550/arxiv.2607.05381",
+      "citation_id": "DZ-fHPgAAAAJ:e7LqAG2a08gC",
+      "authors": [
+        "R Casado Noguerales",
+        "B Sch\u00f6lkopf",
+        "T Hofmann",
+        "A Raoufi"
+      ],
+      "institution_ids": [],
+      "scientist": "Bernhard Sch\u00f6lkopf",
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.48550/arxiv.2607.05381",
+      "author_count": 4,
       "institutions": []
     },
     {
@@ -4832,10 +5069,10 @@
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:37C3itOipUAC",
-      "title": "Transferability for General Reasoning: An Automated Curriculum for Multi-Domain RLVR",
+      "title": "Transferability for general reasoning: An automated curriculum for multi-domain RLVR",
       "year": 2026,
       "venue": "arXiv preprint arXiv:2606.25178, 2026",
-      "cited_by_count": 2,
+      "cited_by_count": 3,
       "doi": "https://doi.org/10.48550/arxiv.2606.25178",
       "citation_id": "DZ-fHPgAAAAJ:37C3itOipUAC",
       "authors": [
@@ -4854,27 +5091,6 @@
       "oa_url": "https://doi.org/10.48550/arxiv.2606.25178",
       "author_count": 6,
       "institutions": []
-    },
-    {
-      "id": "scholar-DZ-fHPgAAAAJ:s0PHN3aRImwC",
-      "title": "Trajectory Forcing: Structure-First Generation with Controllable Semantic Trajectories",
-      "year": 2026,
-      "venue": "arXiv preprint arXiv:2606.22527, 2026",
-      "cited_by_count": 1,
-      "doi": null,
-      "citation_id": "DZ-fHPgAAAAJ:s0PHN3aRImwC",
-      "authors": [
-        "M Kocabas",
-        "G Gao",
-        "B Sch\u00f6lkopf",
-        "A Geiger"
-      ],
-      "institution_ids": [],
-      "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": false,
-      "venue_category": null,
-      "is_oa": false,
-      "oa_url": null
     },
     {
       "id": "scholar-DZ-fHPgAAAAJ:94lqp62Sop0C",
@@ -5307,7 +5523,7 @@
       "title": "Drifting fields are not conservative",
       "year": 2026,
       "venue": "arXiv preprint arXiv:2604.06333, 2026",
-      "cited_by_count": 7,
+      "cited_by_count": 8,
       "doi": "https://doi.org/10.48550/arxiv.2604.06333",
       "citation_id": "DZ-fHPgAAAAJ:_u2mwAEfKnEC",
       "authors": [
@@ -5518,7 +5734,7 @@
       "title": "Imagining and building wise machines: The centrality of AI metacognition",
       "year": 2026,
       "venue": "Trends in Cognitive Sciences, 2026",
-      "cited_by_count": 46,
+      "cited_by_count": 48,
       "doi": null,
       "citation_id": "DZ-fHPgAAAAJ:f0J-wGb7OGEC",
       "authors": [
@@ -5681,7 +5897,7 @@
       "id": "scholar-DZ-fHPgAAAAJ:lEOYFCBqCX4C",
       "title": "AI poses risks to democratic and social systems",
       "year": 2026,
-      "venue": "Working paper, https://zhijing-jin. com/d/2026-ai-risk. pdf, 2026",
+      "venue": "Working Paper. https://zhijing-jin. com/d/2026-ai-risk. pdf, 2026",
       "cited_by_count": 2,
       "doi": null,
       "citation_id": "DZ-fHPgAAAAJ:lEOYFCBqCX4C",
@@ -5746,33 +5962,6 @@
       "venue_category": null,
       "is_oa": false,
       "oa_url": null
-    },
-    {
-      "id": "scholar-usl__skAAAAJ:LPZeul_q3PIC",
-      "title": "Amortizing Scaling Law Construction Costs",
-      "year": 2026,
-      "venue": "arXiv preprint arXiv:2609.05016, 2026",
-      "cited_by_count": 0,
-      "doi": "https://doi.org/10.48550/arxiv.2609.05016",
-      "citation_id": "usl__skAAAAJ:LPZeul_q3PIC",
-      "authors": [
-        "AK Jha",
-        "DA Onu\u0163u",
-        "N Mallik",
-        "S Haldar",
-        "S Laing",
-        "N Ajroldi",
-        "S Liu",
-        "..."
-      ],
-      "institution_ids": [],
-      "scientist": "Aaron Klein",
-      "confirmed_ellis_affiliation": false,
-      "venue_category": null,
-      "is_oa": true,
-      "oa_url": "https://arxiv.org/pdf/2609.05016",
-      "author_count": 9,
-      "institutions": []
     },
     {
       "id": "scholar-usl__skAAAAJ:5Ul4iDaHHb8C",
@@ -5854,7 +6043,7 @@
       "title": "JudgeArena: A Unified Framework for Reproducible LLM-Judge Evaluation",
       "year": 2026,
       "venue": "arXiv preprint arXiv:2608.02620, 2026",
-      "cited_by_count": 1,
+      "cited_by_count": 3,
       "doi": "https://doi.org/10.48550/arxiv.2608.02620",
       "citation_id": "D0WjJlsAAAAJ:35r97b3x0nAC",
       "authors": [
@@ -5921,6 +6110,33 @@
       "oa_url": "https://doi.org/10.48550/arxiv.2603.08707",
       "author_count": 8,
       "institutions": []
+    },
+    {
+      "id": "scholar-vX5i2CcAAAAJ:M3NEmzRMIkIC",
+      "title": "Optimization-Guided Diffusion for Interactive Scene Generation",
+      "year": 2026,
+      "venue": "European Conference on Computer Vision, 228-244, 2026",
+      "cited_by_count": 0,
+      "doi": null,
+      "citation_id": "vX5i2CcAAAAJ:M3NEmzRMIkIC",
+      "authors": [
+        "S Li",
+        "N Ye",
+        "T Li",
+        "K Chitta",
+        "T An",
+        "P Su",
+        "B Wang",
+        "H Liu",
+        "C Lv",
+        "H Li"
+      ],
+      "institution_ids": [],
+      "scientist": "Kashyap Chitta",
+      "confirmed_ellis_affiliation": false,
+      "venue_category": "ECCV",
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-UqtDdZUAAAAJ:RGFaLdJalmkC",
@@ -5999,7 +6215,7 @@
       "title": "Performative prediction: Past and future",
       "year": 2025,
       "venue": "Statistical Science 40 (3), 417-436, 2025",
-      "cited_by_count": 109,
+      "cited_by_count": 112,
       "doi": "https://doi.org/10.1214/25-sts986",
       "citation_id": "UqtDdZUAAAAJ:M3NEmzRMIkIC",
       "authors": [
@@ -6028,7 +6244,7 @@
       "title": "The Hawthorne Effect in Reasoning Models: Evaluating and Steering Test Awareness",
       "year": 2025,
       "venue": "NeurIPS (Spotlight \ud83c\udfc6), 2025",
-      "cited_by_count": 49,
+      "cited_by_count": 50,
       "doi": "https://doi.org/10.52202/085713-4731",
       "citation_id": "QEiYbDYAAAAJ:_mQi-xiA4oYC",
       "authors": [
@@ -6063,7 +6279,7 @@
       "title": "Context-Aware Reasoning On Parametric Knowledge for Inferring Causal Variables",
       "year": 2025,
       "venue": "Findings of EMNLP, 2025",
-      "cited_by_count": 10,
+      "cited_by_count": 11,
       "doi": null,
       "citation_id": "QEiYbDYAAAAJ:5LPo_wSKItgC",
       "authors": [
@@ -6083,7 +6299,7 @@
       "title": "Agent skills enable a new class of realistic and trivially simple prompt injections",
       "year": 2025,
       "venue": "arXiv preprint arXiv:2510.26328, 2025",
-      "cited_by_count": 39,
+      "cited_by_count": 41,
       "doi": "https://doi.org/10.48550/arxiv.2510.26328",
       "citation_id": "QEiYbDYAAAAJ:oldoQiaHq2UC",
       "authors": [
@@ -6108,7 +6324,7 @@
       "title": "Terrarium: Revisiting the blackboard for multi-agent safety, privacy, and security studies",
       "year": 2025,
       "venue": "arXiv preprint arXiv:2510.14312, 2025",
-      "cited_by_count": 8,
+      "cited_by_count": 10,
       "doi": "https://doi.org/10.48550/arxiv.2510.14312",
       "citation_id": "QEiYbDYAAAAJ:AFXcoJnoRH0C",
       "authors": [
@@ -6528,7 +6744,7 @@
       "title": "Training ai co-scientists using rubric rewards",
       "year": 2025,
       "venue": "arXiv preprint arXiv:2512.23707, 2025",
-      "cited_by_count": 26,
+      "cited_by_count": 27,
       "doi": "https://doi.org/10.48550/arxiv.2512.23707",
       "citation_id": "206vNCEAAAAJ:foquWX3nUaYC",
       "authors": [
@@ -6555,8 +6771,8 @@
       "title": "Teaching pretrained language models to think deeper with retrofitted recurrence",
       "year": 2025,
       "venue": "arXiv preprint arXiv:2511.07384, 2025",
-      "cited_by_count": 21,
-      "doi": "https://doi.org/10.48550/arxiv.2511.07384",
+      "cited_by_count": 23,
+      "doi": null,
       "citation_id": "206vNCEAAAAJ:WZBGuue-350C",
       "authors": [
         "S McLeish",
@@ -6567,14 +6783,52 @@
         "B Kailkhura",
         "..."
       ],
-      "institution_ids": [],
+      "institution_ids": [
+        "I66946132",
+        "I57206974",
+        "I1282311441",
+        "I4210135521",
+        "I4210165766",
+        "I78577930"
+      ],
       "scientist": "Jonas Geiping",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
       "is_oa": true,
-      "oa_url": "https://doi.org/10.48550/arxiv.2511.07384",
+      "oa_url": "https://arxiv.org/pdf/2511.07384",
       "author_count": 10,
-      "institutions": []
+      "institutions": [
+        {
+          "id": "I66946132",
+          "name": "University of Maryland, College Park",
+          "country": "US"
+        },
+        {
+          "id": "I57206974",
+          "name": "New York University",
+          "country": "US"
+        },
+        {
+          "id": "I1282311441",
+          "name": "Lawrence Livermore National Laboratory",
+          "country": "US"
+        },
+        {
+          "id": "I4210135521",
+          "name": "Max Planck Institute for Intelligent Systems",
+          "country": "DE"
+        },
+        {
+          "id": "I4210165766",
+          "name": "Max Planck Institute for Biology",
+          "country": "DE"
+        },
+        {
+          "id": "I78577930",
+          "name": "Columbia University",
+          "country": "US"
+        }
+      ]
     },
     {
       "id": "scholar-206vNCEAAAAJ:b1wdh0AR-JQC",
@@ -6624,7 +6878,7 @@
       "title": "Answer matching outperforms multiple choice for language model evaluation",
       "year": 2025,
       "venue": "arXiv preprint arXiv:2507.02856, 2025",
-      "cited_by_count": 50,
+      "cited_by_count": 51,
       "doi": "https://doi.org/10.48550/arxiv.2507.02856",
       "citation_id": "206vNCEAAAAJ:fEOibwPWpKIC",
       "authors": [
@@ -6722,7 +6976,7 @@
       "year": 2025,
       "venue": "Findings of the Association for Computational Linguistics: NAACL 2025, 5231-5249, 2025",
       "cited_by_count": 2,
-      "doi": null,
+      "doi": "https://doi.org/10.18653/v1/2025.findings-naacl.290",
       "citation_id": "206vNCEAAAAJ:tzM49s52ZIMC",
       "authors": [
         "JS Li",
@@ -6731,19 +6985,41 @@
         "A Saha",
         "T Goldstein"
       ],
-      "institution_ids": [],
+      "institution_ids": [
+        "I66946132",
+        "I4210135521",
+        "I78577930"
+      ],
       "scientist": "Jonas Geiping",
       "confirmed_ellis_affiliation": false,
       "venue_category": "ACL",
-      "is_oa": false,
-      "oa_url": null
+      "is_oa": true,
+      "oa_url": "https://aclanthology.org/2025.findings-naacl.290.pdf",
+      "author_count": 5,
+      "institutions": [
+        {
+          "id": "I66946132",
+          "name": "University of Maryland, College Park",
+          "country": "US"
+        },
+        {
+          "id": "I4210135521",
+          "name": "Max Planck Institute for Intelligent Systems",
+          "country": "DE"
+        },
+        {
+          "id": "I78577930",
+          "name": "Columbia University",
+          "country": "US"
+        }
+      ]
     },
     {
       "id": "scholar-206vNCEAAAAJ:7T2F9Uy0os0C",
       "title": "Can language models falsify? evaluating algorithmic reasoning with counterexample creation",
       "year": 2025,
       "venue": "arXiv preprint arXiv:2502.19414, 2025",
-      "cited_by_count": 8,
+      "cited_by_count": 10,
       "doi": "https://doi.org/10.48550/arxiv.2502.19414",
       "citation_id": "206vNCEAAAAJ:7T2F9Uy0os0C",
       "authors": [
@@ -6793,8 +7069,8 @@
       "title": "Scaling up test-time compute with latent reasoning: A recurrent depth approach",
       "year": 2025,
       "venue": "The Thirty-ninth Annual Conference on Neural Information Processing Systems, 2025",
-      "cited_by_count": 370,
-      "doi": null,
+      "cited_by_count": 383,
+      "doi": "https://doi.org/10.52202/085713-1380",
       "citation_id": "206vNCEAAAAJ:t6usbXjVLHcC",
       "authors": [
         "J Geiping",
@@ -6805,12 +7081,34 @@
         "BR Bartoldson",
         "..."
       ],
-      "institution_ids": [],
+      "institution_ids": [
+        "I4210135521",
+        "I66946132",
+        "I1282311441"
+      ],
       "scientist": "Jonas Geiping",
       "confirmed_ellis_affiliation": false,
       "venue_category": "NeurIPS",
-      "is_oa": false,
-      "oa_url": null
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2502.05171",
+      "author_count": 9,
+      "institutions": [
+        {
+          "id": "I4210135521",
+          "name": "Max Planck Institute for Intelligent Systems",
+          "country": "DE"
+        },
+        {
+          "id": "I66946132",
+          "name": "University of Maryland, College Park",
+          "country": "US"
+        },
+        {
+          "id": "I1282311441",
+          "name": "Lawrence Livermore National Laboratory",
+          "country": "US"
+        }
+      ]
     },
     {
       "id": "scholar-206vNCEAAAAJ:olpn-zPbct0C",
@@ -6838,7 +7136,7 @@
       "title": "Great models think alike and this undermines ai oversight",
       "year": 2025,
       "venue": "arXiv preprint arXiv:2502.04313, 2025",
-      "cited_by_count": 65,
+      "cited_by_count": 66,
       "doi": "https://doi.org/10.48550/arxiv.2502.04313",
       "citation_id": "206vNCEAAAAJ:XiVPGOgt02cC",
       "authors": [
@@ -6864,7 +7162,7 @@
       "title": "Tabarena: A living benchmark for machine learning on tabular data",
       "year": 2025,
       "venue": "Advances in Neural Information Processing Systems 38, 2026",
-      "cited_by_count": 211,
+      "cited_by_count": 223,
       "doi": null,
       "citation_id": "YUrxwrkAAAAJ:sJPMR1oEGYQC",
       "authors": [
@@ -6891,7 +7189,7 @@
       "title": "Do-pfn: In-context learning for causal effect estimation",
       "year": 2025,
       "venue": "Advances in Neural Information Processing Systems 38, 174811-174848, 2026",
-      "cited_by_count": 54,
+      "cited_by_count": 55,
       "doi": null,
       "citation_id": "YUrxwrkAAAAJ:dAp6zn-oMfAC",
       "authors": [
@@ -6940,7 +7238,7 @@
       "title": "Deltaproduct: Improving state-tracking in linear rnns via householder products",
       "year": 2025,
       "venue": "Advances in Neural Information Processing Systems 38, 153738-153782, 2026",
-      "cited_by_count": 62,
+      "cited_by_count": 69,
       "doi": null,
       "citation_id": "YUrxwrkAAAAJ:s85pQhAUCrAC",
       "authors": [
@@ -7123,7 +7421,7 @@
       "title": "Tabpfn-2.5: Advancing the state of the art in tabular foundation models",
       "year": 2025,
       "venue": "arXiv preprint arXiv:2511.08667, 2025",
-      "cited_by_count": 137,
+      "cited_by_count": 143,
       "doi": "https://doi.org/10.48550/arxiv.2511.08667",
       "citation_id": "YUrxwrkAAAAJ:M0leSnx2MbUC",
       "authors": [
@@ -7292,7 +7590,7 @@
       "title": "Tempopfn: Synthetic pre-training of linear rnns for zero-shot time series forecasting",
       "year": 2025,
       "venue": "arXiv preprint arXiv:2510.25502, 2025",
-      "cited_by_count": 12,
+      "cited_by_count": 13,
       "doi": "https://doi.org/10.48550/arxiv.2510.25502",
       "citation_id": "YUrxwrkAAAAJ:R-LXmdHK_14C",
       "authors": [
@@ -7545,7 +7843,7 @@
       "title": "Towards benchmarking foundation models for tabular data with text",
       "year": 2025,
       "venue": "arXiv preprint arXiv:2507.07829, 2025",
-      "cited_by_count": 15,
+      "cited_by_count": 16,
       "doi": "https://doi.org/10.48550/arxiv.2507.07829",
       "citation_id": "YUrxwrkAAAAJ:naSTrk-c4S8C",
       "authors": [
@@ -7786,7 +8084,7 @@
       "title": "Unlocking state-tracking in linear RNNs through negative eigenvalues",
       "year": 2025,
       "venue": "International Conference on Learning Representations 2025, 36565-36597, 2025",
-      "cited_by_count": 96,
+      "cited_by_count": 104,
       "doi": null,
       "citation_id": "YUrxwrkAAAAJ:zwpXiJ37cpgC",
       "authors": [
@@ -7831,7 +8129,7 @@
       "title": "Diffusion-based neural network weights generation",
       "year": 2025,
       "venue": "International Conference on Learning Representations 2025, 99644-99675, 2025",
-      "cited_by_count": 57,
+      "cited_by_count": 58,
       "doi": null,
       "citation_id": "YUrxwrkAAAAJ:PkcyUWeTMh0C",
       "authors": [
@@ -7992,7 +8290,7 @@
       "title": "Deltaproduct: Increasing the expressivity of deltanet through products of householders",
       "year": 2025,
       "venue": "arXiv preprint arXiv:2502.10297, 2025",
-      "cited_by_count": 18,
+      "cited_by_count": 19,
       "doi": "https://doi.org/10.48550/arxiv.2502.10297",
       "citation_id": "YUrxwrkAAAAJ:RtRctb2lSbAC",
       "authors": [
@@ -8039,7 +8337,7 @@
       "title": "Accurate predictions on small data with a tabular foundation model",
       "year": 2025,
       "venue": "Nature 637 (8045), 319-326, 2025",
-      "cited_by_count": 1864,
+      "cited_by_count": 1908,
       "doi": null,
       "citation_id": "YUrxwrkAAAAJ:ZqE1mSdD_DYC",
       "authors": [
@@ -8114,7 +8412,7 @@
       "title": "Decoupled weight decay regularization. arXiv. 2017 doi: 10.48550",
       "year": 2025,
       "venue": "arXiv preprint arXiv.1711.05101 1711, 2025",
-      "cited_by_count": 78,
+      "cited_by_count": 79,
       "doi": null,
       "citation_id": "YUrxwrkAAAAJ:L24QuVWYgZ0C",
       "authors": [
@@ -8411,7 +8709,7 @@
       "title": "Demystifying the roles of llm layers in retrieval, knowledge, and reasoning",
       "year": 2025,
       "venue": "ICASSP 2026, arXiv preprint arXiv:2510.02091, 2025",
-      "cited_by_count": 22,
+      "cited_by_count": 23,
       "doi": null,
       "citation_id": "73IbXtsAAAAJ:ye4kPcJQO24C",
       "authors": [
@@ -8555,7 +8853,7 @@
       "title": "Europe and the geopolitics of AGI",
       "year": 2025,
       "venue": "",
-      "cited_by_count": 3,
+      "cited_by_count": 6,
       "doi": null,
       "citation_id": "ZNtuJYoAAAAJ:NhqRSupF_l8C",
       "authors": [
@@ -8609,7 +8907,7 @@
       "title": "International AI safety report 2025: first key update: capabilities and risk implications",
       "year": 2025,
       "venue": "arXiv preprint arXiv:2510.13653, 2025",
-      "cited_by_count": 260,
+      "cited_by_count": 263,
       "doi": "https://doi.org/10.48550/arxiv.2510.13653",
       "citation_id": "ZNtuJYoAAAAJ:_xSYboBqXhAC",
       "authors": [
@@ -8689,7 +8987,7 @@
       "title": "GWTC-4.0: An introduction to version 4.0 of the gravitational-wave transient catalog",
       "year": 2025,
       "venue": "The Astrophysical Journal Letters 995 (1), L18, 2025",
-      "cited_by_count": 132,
+      "cited_by_count": 138,
       "doi": null,
       "citation_id": "VRBv6mEAAAAJ:r0BpntZqJG4C",
       "authors": [
@@ -8738,7 +9036,7 @@
       "title": "All-sky search for short gravitational-wave bursts in the first part of the fourth LIGO-Virgo-KAGRA observing run",
       "year": 2025,
       "venue": "Physical review D 112 (10), 102005, 2025",
-      "cited_by_count": 30,
+      "cited_by_count": 32,
       "doi": null,
       "citation_id": "VRBv6mEAAAAJ:YFjsv_pBGBYC",
       "authors": [
@@ -8784,7 +9082,7 @@
       "title": "Evidence for eccentricity in the population of binary black holes observed by LIGO-Virgo-KAGRA",
       "year": 2025,
       "venue": "Physical Review D 112 (10), 104045, 2025",
-      "cited_by_count": 116,
+      "cited_by_count": 120,
       "doi": null,
       "citation_id": "VRBv6mEAAAAJ:aqlVkmm33-oC",
       "authors": [
@@ -8810,7 +9108,7 @@
       "title": "GW241011 and GW241110: Exploring binary formation and fundamental physics with asymmetric, high-spin black hole coalescences",
       "year": 2025,
       "venue": "The Astrophysical Journal Letters 993 (1), L21, 2025",
-      "cited_by_count": 89,
+      "cited_by_count": 91,
       "doi": null,
       "citation_id": "VRBv6mEAAAAJ:RGFaLdJalmkC",
       "authors": [
@@ -8833,7 +9131,7 @@
       "title": "GW231123: A Binary Black Hole Merger with Total Mass 190\u2013265 M\u2299",
       "year": 2025,
       "venue": "The Astrophysical Journal Letters 993 (1), L25, 2025",
-      "cited_by_count": 214,
+      "cited_by_count": 222,
       "doi": null,
       "citation_id": "VRBv6mEAAAAJ:M3NEmzRMIkIC",
       "authors": [
@@ -8906,7 +9204,7 @@
       "title": "GW250114: Testing Hawking\u2019s area law and the Kerr nature of black holes",
       "year": 2025,
       "venue": "Physical review letters 135 (11), 111403, 2025",
-      "cited_by_count": 277,
+      "cited_by_count": 284,
       "doi": null,
       "citation_id": "VRBv6mEAAAAJ:JV2RwH3_ST0C",
       "authors": [
@@ -9166,7 +9464,7 @@
       "title": "GWTC-4.0: constraints on the cosmic expansion rate and modified gravitational-wave propagation",
       "year": 2025,
       "venue": "arXiv preprint arXiv:2509.04348, 2025",
-      "cited_by_count": 40,
+      "cited_by_count": 44,
       "doi": "https://doi.org/10.48550/arxiv.2509.04348",
       "citation_id": "VRBv6mEAAAAJ:ns9cj8rnVeAC",
       "authors": [
@@ -9191,7 +9489,7 @@
       "title": "Upper Limits on the Isotropic Gravitational-Wave Background from the first part of LIGO, Virgo, and KAGRA's fourth Observing Run",
       "year": 2025,
       "venue": "arXiv preprint arXiv:2508.20721, 2025",
-      "cited_by_count": 24,
+      "cited_by_count": 25,
       "doi": "https://doi.org/10.48550/arxiv.2508.20721",
       "citation_id": "VRBv6mEAAAAJ:k_IJM867U9cC",
       "authors": [
@@ -9216,7 +9514,7 @@
       "title": "GWTC-4.0: Updating the gravitational-wave transient catalog with observations from the first part of the fourth LIGO-Virgo-KAGRA observing run",
       "year": 2025,
       "venue": "arXiv preprint arXiv:2508.18082, 2025",
-      "cited_by_count": 333,
+      "cited_by_count": 346,
       "doi": "https://doi.org/10.48550/arxiv.2508.18082",
       "citation_id": "VRBv6mEAAAAJ:maZDTaKrznsC",
       "authors": [
@@ -9242,7 +9540,7 @@
       "title": "GWTC-4.0: Population properties of merging compact binaries",
       "year": 2025,
       "venue": "arXiv preprint arXiv:2508.18083, 2025",
-      "cited_by_count": 76,
+      "cited_by_count": 82,
       "doi": "https://doi.org/10.48550/arxiv.2508.18083",
       "citation_id": "VRBv6mEAAAAJ:TFP_iSt0sucC",
       "authors": [
@@ -9287,7 +9585,7 @@
       "title": "Search for gravitational waves emitted from SN 2023ixf",
       "year": 2025,
       "venue": "The Astrophysical Journal 985 (2), 183, 2025",
-      "cited_by_count": 31,
+      "cited_by_count": 32,
       "doi": null,
       "citation_id": "VRBv6mEAAAAJ:IWHjjKOFINEC",
       "authors": [
@@ -9311,7 +9609,7 @@
       "title": "Search for continuous gravitational waves from known pulsars in the first part of the fourth LIGO-Virgo-KAGRA observing run",
       "year": 2025,
       "venue": "The Astrophysical Journal 983 (2), 99, 2025",
-      "cited_by_count": 61,
+      "cited_by_count": 63,
       "doi": null,
       "citation_id": "VRBv6mEAAAAJ:hC7cP41nSMkC",
       "authors": [
@@ -9358,7 +9656,7 @@
       "title": "Real-time inference for binary neutron star mergers using machine learning",
       "year": 2025,
       "venue": "Nature 639 (8053), 49-53, 2025",
-      "cited_by_count": 111,
+      "cited_by_count": 112,
       "doi": null,
       "citation_id": "VRBv6mEAAAAJ:HDshCWvjkbEC",
       "authors": [
@@ -9540,7 +9838,7 @@
       "title": "Difficult lessons on social prediction from Wisconsin public schools",
       "year": 2025,
       "venue": "Proceedings of the 2025 ACM Conference on Fairness, Accountability, and \u2026, 2025",
-      "cited_by_count": 72,
+      "cited_by_count": 73,
       "doi": null,
       "citation_id": "sDHHglIAAAAJ:qxL8FJ1GzNcC",
       "authors": [
@@ -9561,7 +9859,7 @@
       "title": "Fixed-point RNNs: Interpolating from diagonal to dense",
       "year": 2025,
       "venue": "Advances in Neural Information Processing Systems 38, 44873-44908, 2026",
-      "cited_by_count": 18,
+      "cited_by_count": 19,
       "doi": null,
       "citation_id": "xkuLyHoAAAAJ:dfsIfKJdRG4C",
       "authors": [
@@ -9582,7 +9880,7 @@
       "title": "Generalized linear mode connectivity for transformers",
       "year": 2025,
       "venue": "Advances in Neural Information Processing Systems 38, 136197-136225, 2026",
-      "cited_by_count": 16,
+      "cited_by_count": 17,
       "doi": null,
       "citation_id": "xkuLyHoAAAAJ:M05iB0D1s5AC",
       "authors": [
@@ -9710,7 +10008,7 @@
       "title": "Revisiting associative recall in modern recurrent models",
       "year": 2025,
       "venue": "arXiv preprint arXiv:2508.19029, 2025",
-      "cited_by_count": 10,
+      "cited_by_count": 12,
       "doi": "https://doi.org/10.48550/arxiv.2508.19029",
       "citation_id": "xkuLyHoAAAAJ:NaGl4SEjCO4C",
       "authors": [
@@ -9845,7 +10143,7 @@
       "title": "Generalized interpolating discrete diffusion",
       "year": 2025,
       "venue": "arXiv preprint arXiv:2503.04482, 2025",
-      "cited_by_count": 63,
+      "cited_by_count": 64,
       "doi": "https://doi.org/10.48550/arxiv.2503.04482",
       "citation_id": "xkuLyHoAAAAJ:1sJd4Hv_s6UC",
       "authors": [
@@ -10107,7 +10405,7 @@
       "title": "Quriosity: Analyzing Human Questioning Behavior and Causal Inquiry through Curiosity-Driven Queries",
       "year": 2025,
       "venue": "Proceedings of the 14th International Joint Conference on Natural Language \u2026, 2025",
-      "cited_by_count": 5,
+      "cited_by_count": 6,
       "doi": null,
       "citation_id": "DZ-fHPgAAAAJ:eZ3Jd4XgJWUC",
       "authors": [
@@ -10182,7 +10480,7 @@
       "title": "Dexterous robotic piano playing at scale",
       "year": 2025,
       "venue": "arXiv preprint arXiv:2511.02504, 2025",
-      "cited_by_count": 7,
+      "cited_by_count": 8,
       "doi": "https://doi.org/10.48550/arxiv.2511.02504",
       "citation_id": "DZ-fHPgAAAAJ:iTIPypF6y-oC",
       "authors": [
@@ -10209,7 +10507,7 @@
       "title": "Decode-gLM: tools to interpret, audit, and steer genomic language models",
       "year": 2025,
       "venue": "bioRxiv, 2025.10. 31.685860, 2025",
-      "cited_by_count": 5,
+      "cited_by_count": 7,
       "doi": null,
       "citation_id": "DZ-fHPgAAAAJ:zpiM1xuKXZIC",
       "authors": [
@@ -10232,7 +10530,7 @@
       "title": "Orthogonal finetuning made scalable",
       "year": 2025,
       "venue": "Proceedings of the 2025 Conference on Empirical Methods in Natural Language \u2026, 2025",
-      "cited_by_count": 9,
+      "cited_by_count": 10,
       "doi": null,
       "citation_id": "DZ-fHPgAAAAJ:tENBw-I8_u0C",
       "authors": [
@@ -10253,7 +10551,7 @@
       "title": "Improving large language model safety with contrastive representation learning",
       "year": 2025,
       "venue": "Proceedings of the 2025 Conference on Empirical Methods in Natural Language \u2026, 2025",
-      "cited_by_count": 5,
+      "cited_by_count": 6,
       "doi": null,
       "citation_id": "DZ-fHPgAAAAJ:gGo9PeUW_JsC",
       "authors": [
@@ -10274,7 +10572,7 @@
       "title": "Are Language Models Consequentialist or Deontological Moral Reasoners?",
       "year": 2025,
       "venue": "Proceedings of the 2025 Conference on Empirical Methods in Natural Language \u2026, 2025",
-      "cited_by_count": 21,
+      "cited_by_count": 22,
       "doi": null,
       "citation_id": "DZ-fHPgAAAAJ:9t3yfu3yIAcC",
       "authors": [
@@ -10321,7 +10619,7 @@
       "title": "International Al Safety Report: First Key Update Capabilities and Risk Implications",
       "year": 2025,
       "venue": "SuperIntelligence-Robotics-Safety & Alignment 2 (6), 2025",
-      "cited_by_count": 249,
+      "cited_by_count": 252,
       "doi": null,
       "citation_id": "DZ-fHPgAAAAJ:zvRK_E0joC0C",
       "authors": [
@@ -10527,7 +10825,7 @@
       "title": "Can theoretical physics research benefit from language agents?",
       "year": 2025,
       "venue": "arXiv preprint arXiv:2506.06214, 2025",
-      "cited_by_count": 12,
+      "cited_by_count": 13,
       "doi": "https://doi.org/10.48550/arxiv.2506.06214",
       "citation_id": "DZ-fHPgAAAAJ:h8Z0oieY4pgC",
       "authors": [
@@ -10574,7 +10872,7 @@
       "title": "Corrupted by reasoning: Reasoning language models become free-riders in public goods games",
       "year": 2025,
       "venue": "arXiv e-prints, arXiv: 2506.23276, 2025",
-      "cited_by_count": 33,
+      "cited_by_count": 35,
       "doi": "https://doi.org/10.48550/arxiv.2506.23276",
       "citation_id": "DZ-fHPgAAAAJ:IEFOukzuKpAC",
       "authors": [
@@ -10599,7 +10897,7 @@
       "title": "Adaptable cardiovascular disease risk prediction from heterogeneous data using large language models",
       "year": 2025,
       "venue": "arXiv preprint arXiv:2505.24655, 2025",
-      "cited_by_count": 8,
+      "cited_by_count": 9,
       "doi": "https://doi.org/10.48550/arxiv.2505.24655",
       "citation_id": "DZ-fHPgAAAAJ:Rz4odBi1C0wC",
       "authors": [
@@ -10830,7 +11128,7 @@
       "title": "Use the 4S (signal-safe speckle subtraction): Explainable machine learning reveals the giant exoplanet AF Lep b in high-contrast imaging data from 2011",
       "year": 2025,
       "venue": "The Astronomical Journal 169 (4), 194, 2025",
-      "cited_by_count": 24,
+      "cited_by_count": 26,
       "doi": null,
       "citation_id": "DZ-fHPgAAAAJ:BgA9TAIr_78C",
       "authors": [
@@ -10853,7 +11151,7 @@
       "title": "Multi-armed bandits and quantum channel oracles",
       "year": 2025,
       "venue": "Quantum 9, 1672, 2025",
-      "cited_by_count": 5,
+      "cited_by_count": 6,
       "doi": null,
       "citation_id": "DZ-fHPgAAAAJ:DVyGZPgByDIC",
       "authors": [
@@ -10894,7 +11192,7 @@
       "title": "Early warning of complex climate risk with integrated artificial intelligence",
       "year": 2025,
       "venue": "Nature Communications 16 (1), 2564, 2025",
-      "cited_by_count": 198,
+      "cited_by_count": 203,
       "doi": null,
       "citation_id": "DZ-fHPgAAAAJ:ndteoNauYT4C",
       "authors": [
@@ -10943,7 +11241,7 @@
       "title": "Artificial intelligence for modelling infectious disease epidemics",
       "year": 2025,
       "venue": "Nature 638 (8051), 623-635, 2025",
-      "cited_by_count": 239,
+      "cited_by_count": 245,
       "doi": null,
       "citation_id": "DZ-fHPgAAAAJ:nELodgEtCAkC",
       "authors": [
@@ -11136,7 +11434,7 @@
       "title": "CauSciBench: Assessing LLM causal reasoning for scientific research",
       "year": 2025,
       "venue": "NeurIPS 2025 Workshop on CauScien: Uncovering Causality in Science, 2025",
-      "cited_by_count": 5,
+      "cited_by_count": 6,
       "doi": null,
       "citation_id": "DZ-fHPgAAAAJ:SCyikjQ18VQC",
       "authors": [
@@ -11234,7 +11532,7 @@
       "title": "Hyperparameter optimization in machine learning",
       "year": 2025,
       "venue": "Foundations and Trends\u00ae in Machine Learning 18 (6), 975-1109, 2025",
-      "cited_by_count": 109,
+      "cited_by_count": 114,
       "doi": null,
       "citation_id": "usl__skAAAAJ:dshw04ExmUIC",
       "authors": [
@@ -11390,7 +11688,7 @@
       "title": "An engine not a camera: Measuring performative power of online search",
       "year": 2024,
       "venue": "NeurIPS 2024, 2024",
-      "cited_by_count": 17,
+      "cited_by_count": 18,
       "doi": "https://doi.org/10.52202/079017-1891",
       "citation_id": "UqtDdZUAAAAJ:hMod-77fHWUC",
       "authors": [
@@ -11477,7 +11775,7 @@
       "title": "InfoNCE: Identifying the Gap Between Theory and Practice",
       "year": 2024,
       "venue": "AISTATS 2025, 2024",
-      "cited_by_count": 110,
+      "cited_by_count": 111,
       "doi": "https://doi.org/10.48550/arxiv.2407.00143",
       "citation_id": "v-JL-hsAAAAJ:EUQCXRtRnyEC",
       "authors": [
@@ -11572,7 +11870,7 @@
       "title": "Understanding LLMs Requires More Than Statistical Generalization",
       "year": 2024,
       "venue": "ICML 2024, 2024",
-      "cited_by_count": 38,
+      "cited_by_count": 39,
       "doi": null,
       "citation_id": "v-JL-hsAAAAJ:pyW8ca7W8N0C",
       "authors": [
@@ -11618,7 +11916,7 @@
       "title": "Measuring Per-Unit Interpretability at Scale Without Humans",
       "year": 2024,
       "venue": "NeurIPS 2024, 2024",
-      "cited_by_count": 17,
+      "cited_by_count": 18,
       "doi": null,
       "citation_id": "v-JL-hsAAAAJ:D03iK_w7-QYC",
       "authors": [
@@ -11638,7 +11936,7 @@
       "title": "Effective pruning of web-scale datasets based on complexity of concept clusters",
       "year": 2024,
       "venue": "ICLR 2024, 2024",
-      "cited_by_count": 51,
+      "cited_by_count": 52,
       "doi": null,
       "citation_id": "v-JL-hsAAAAJ:4OULZ7Gr8RgC",
       "authors": [
@@ -11709,7 +12007,7 @@
       "title": "Does CLIP's Generalization Performance Mainly Stem from High Train-Test Similarity?",
       "year": 2024,
       "venue": "ICLR 2024, 2023",
-      "cited_by_count": 56,
+      "cited_by_count": 57,
       "doi": null,
       "citation_id": "v-JL-hsAAAAJ:u_35RYKgDlwC",
       "authors": [
@@ -11757,7 +12055,7 @@
       "year": 2024,
       "venue": "Advances in Neural Information Processing Systems 37, 92983-93010, 2024",
       "cited_by_count": 5,
-      "doi": null,
+      "doi": "https://doi.org/10.52202/079017-2952",
       "citation_id": "206vNCEAAAAJ:tOudhMTPpwUC",
       "authors": [
         "G Somepalli",
@@ -11772,15 +12070,17 @@
       "confirmed_ellis_affiliation": false,
       "venue_category": "NeurIPS",
       "is_oa": false,
-      "oa_url": null
+      "oa_url": null,
+      "author_count": 6,
+      "institutions": []
     },
     {
       "id": "scholar-206vNCEAAAAJ:f2IySw72cVMC",
       "title": "Be like a goldfish, don't memorize! mitigating memorization in generative llms",
       "year": 2024,
       "venue": "Advances in Neural Information Processing Systems 37, 24022-24045, 2024",
-      "cited_by_count": 88,
-      "doi": null,
+      "cited_by_count": 90,
+      "doi": "https://doi.org/10.52202/079017-0757",
       "citation_id": "206vNCEAAAAJ:f2IySw72cVMC",
       "authors": [
         "A Hans",
@@ -11797,7 +12097,9 @@
       "confirmed_ellis_affiliation": false,
       "venue_category": "NeurIPS",
       "is_oa": false,
-      "oa_url": null
+      "oa_url": null,
+      "author_count": 11,
+      "institutions": []
     },
     {
       "id": "scholar-206vNCEAAAAJ:3s1wT3WcHBgC",
@@ -11805,7 +12107,7 @@
       "year": 2024,
       "venue": "Advances in Neural Information Processing Systems 37, 83374-83396, 2024",
       "cited_by_count": 66,
-      "doi": null,
+      "doi": "https://doi.org/10.52202/079017-2652",
       "citation_id": "206vNCEAAAAJ:3s1wT3WcHBgC",
       "authors": [
         "Y Wen",
@@ -11820,7 +12122,9 @@
       "confirmed_ellis_affiliation": false,
       "venue_category": "NeurIPS",
       "is_oa": false,
-      "oa_url": null
+      "oa_url": null,
+      "author_count": 6,
+      "institutions": []
     },
     {
       "id": "scholar-206vNCEAAAAJ:vRqMK49ujn8C",
@@ -11851,7 +12155,7 @@
       "title": "Investigating style similarity in diffusion models",
       "year": 2024,
       "venue": "European Conference on Computer Vision, 143-160, 2024",
-      "cited_by_count": 143,
+      "cited_by_count": 148,
       "doi": null,
       "citation_id": "206vNCEAAAAJ:tS2w5q8j5-wC",
       "authors": [
@@ -12072,7 +12376,7 @@
       "title": "Spotting llms with binoculars: Zero-shot detection of machine-generated text",
       "year": 2024,
       "venue": "Forty-first International Conference on Machine Learning, ICML 2024, 2024",
-      "cited_by_count": 434,
+      "cited_by_count": 447,
       "doi": null,
       "citation_id": "206vNCEAAAAJ:70eg2SAEIzsC",
       "authors": [
@@ -12095,7 +12399,7 @@
       "title": "A realistic threat model for large language model jailbreaks",
       "year": 2024,
       "venue": "",
-      "cited_by_count": 23,
+      "cited_by_count": 24,
       "doi": null,
       "citation_id": "206vNCEAAAAJ:08ZZubdj9fEC",
       "authors": [
@@ -12142,7 +12446,7 @@
       "title": "Neftune: Noisy embeddings improve instruction finetuning",
       "year": 2024,
       "venue": "The Twelfth International Conference on Learning Representations 6 (2024), 2024",
-      "cited_by_count": 208,
+      "cited_by_count": 209,
       "doi": null,
       "citation_id": "206vNCEAAAAJ:GnPB-g6toBAC",
       "authors": [
@@ -12166,7 +12470,7 @@
       "title": "Universal guidance for diffusion models",
       "year": 2024,
       "venue": "The Twelfth International Conference on Learning Representations, 2024",
-      "cited_by_count": 636,
+      "cited_by_count": 644,
       "doi": null,
       "citation_id": "206vNCEAAAAJ:_Qo2XoVZTnwC",
       "authors": [
@@ -12211,7 +12515,7 @@
       "title": "Drift-resilient tabpfn: In-context learning temporal distribution shifts on tabular data",
       "year": 2024,
       "venue": "Advances in Neural Information Processing Systems 37, 98742-98781, 2024",
-      "cited_by_count": 49,
+      "cited_by_count": 50,
       "doi": null,
       "citation_id": "YUrxwrkAAAAJ:1tZ8xJnm2c8C",
       "authors": [
@@ -12257,7 +12561,7 @@
       "title": "Tunetables: Context optimization for scalable prior-data fitted networks",
       "year": 2024,
       "venue": "Advances in Neural Information Processing Systems 37, 83430-83464, 2024",
-      "cited_by_count": 83,
+      "cited_by_count": 84,
       "doi": null,
       "citation_id": "YUrxwrkAAAAJ:wvYxNZNCP7wC",
       "authors": [
@@ -12280,7 +12584,7 @@
       "title": "The tabular foundation model tabpfn outperforms specialized time series forecasting models based on simple features",
       "year": 2024,
       "venue": "NeurIPS workshop on time series in the age of large models, 2024",
-      "cited_by_count": 143,
+      "cited_by_count": 145,
       "doi": null,
       "citation_id": "YUrxwrkAAAAJ:T_ojBgVMvoEC",
       "authors": [
@@ -12444,7 +12748,7 @@
       "title": "Mamba4cast: Efficient zero-shot time series forecasting with state space models",
       "year": 2024,
       "venue": "arXiv preprint arXiv:2410.09385, 2024",
-      "cited_by_count": 41,
+      "cited_by_count": 42,
       "doi": "https://doi.org/10.48550/arxiv.2410.09385",
       "citation_id": "YUrxwrkAAAAJ:SAZ1SQo2q1kC",
       "authors": [
@@ -12727,7 +13031,7 @@
       "title": "Fairpfn: Transformers can do counterfactual fairness",
       "year": 2024,
       "venue": "arXiv preprint arXiv:2407.05732, 2024",
-      "cited_by_count": 16,
+      "cited_by_count": 17,
       "doi": "https://doi.org/10.48550/arxiv.2407.05732",
       "citation_id": "YUrxwrkAAAAJ:-DxkuPiZhfEC",
       "authors": [
@@ -12816,7 +13120,7 @@
       "title": "Position: A call to action for a human-centered AutoML paradigm",
       "year": 2024,
       "venue": "arXiv preprint arXiv:2406.03348, 2024",
-      "cited_by_count": 30,
+      "cited_by_count": 32,
       "doi": "https://doi.org/10.48550/arxiv.2406.03348",
       "citation_id": "YUrxwrkAAAAJ:2v_ZtQDX9iAC",
       "authors": [
@@ -12843,7 +13147,7 @@
       "title": "Quick-tune: Quickly learning which pretrained model to finetune and how",
       "year": 2024,
       "venue": "International Conference on Learning Representations 2024, 13013-13032, 2024",
-      "cited_by_count": 37,
+      "cited_by_count": 38,
       "doi": null,
       "citation_id": "YUrxwrkAAAAJ:Xz60mAmATU4C",
       "authors": [
@@ -12885,7 +13189,7 @@
       "title": "Managing extreme AI risks amid rapid progress",
       "year": 2024,
       "venue": "Science 384 (6698), 842-845, 2024",
-      "cited_by_count": 810,
+      "cited_by_count": 819,
       "doi": null,
       "citation_id": "YUrxwrkAAAAJ:qe6vwMD2xtsC",
       "authors": [
@@ -12983,7 +13287,7 @@
       "title": "Search for eccentric black hole coalescences during the third observing run of LIGO and Virgo",
       "year": 2024,
       "venue": "The Astrophysical Journal 973 (2), 132, 2024",
-      "cited_by_count": 78,
+      "cited_by_count": 79,
       "doi": null,
       "citation_id": "VRBv6mEAAAAJ:kNdYIx-mwKoC",
       "authors": [
@@ -13049,7 +13353,7 @@
       "title": "Recurrent neural networks: vanishing and exploding gradients are not the end of the story",
       "year": 2024,
       "venue": "Advances in Neural Information Processing Systems 37, 139402-139443, 2024",
-      "cited_by_count": 124,
+      "cited_by_count": 128,
       "doi": null,
       "citation_id": "xkuLyHoAAAAJ:RHpTSmoSYBkC",
       "authors": [
@@ -13090,7 +13394,7 @@
       "title": "Theoretical foundations of deep selective state-space models",
       "year": 2024,
       "venue": "Advances in Neural Information Processing Systems 37, 127226-127272, 2024",
-      "cited_by_count": 122,
+      "cited_by_count": 126,
       "doi": null,
       "citation_id": "xkuLyHoAAAAJ:TQgYirikUcIC",
       "authors": [
@@ -13224,7 +13528,7 @@
       "title": "Low-power scalable multilayer optoelectronic neural networks enabled with incoherent light",
       "year": 2024,
       "venue": "Nature communications 15 (1), 10692, 2024",
-      "cited_by_count": 43,
+      "cited_by_count": 46,
       "doi": null,
       "citation_id": "DZ-fHPgAAAAJ:N63c6Z09yoIC",
       "authors": [
@@ -13290,7 +13594,7 @@
       "title": "From causal to concept-based representation learning",
       "year": 2024,
       "venue": "Advances in Neural Information Processing Systems 37, 101250-101296, 2024",
-      "cited_by_count": 43,
+      "cited_by_count": 44,
       "doi": null,
       "citation_id": "DZ-fHPgAAAAJ:VwfM2gf8564C",
       "authors": [
@@ -13359,7 +13663,7 @@
       "title": "Cooperate or collapse: Emergence of sustainable cooperation in a society of llm agents",
       "year": 2024,
       "venue": "Advances in Neural Information Processing Systems 37, 111715-111759, 2024",
-      "cited_by_count": 205,
+      "cited_by_count": 210,
       "doi": null,
       "citation_id": "DZ-fHPgAAAAJ:F3rHZ6KMyv0C",
       "authors": [
@@ -13502,7 +13806,7 @@
       "title": "Do llms think fast and slow? a causal study on sentiment analysis",
       "year": 2024,
       "venue": "Findings of the Association for Computational Linguistics: EMNLP 2024, 9353-9372, 2024",
-      "cited_by_count": 5,
+      "cited_by_count": 6,
       "doi": null,
       "citation_id": "DZ-fHPgAAAAJ:YtoGvxwmUzsC",
       "authors": [
@@ -13525,7 +13829,7 @@
       "title": "The odyssey of commonsense causality: From foundational benchmarks to cutting-edge reasoning",
       "year": 2024,
       "venue": "Proceedings of the 2024 conference on empirical methods in natural language \u2026, 2024",
-      "cited_by_count": 14,
+      "cited_by_count": 15,
       "doi": null,
       "citation_id": "DZ-fHPgAAAAJ:BpgDKjSh8RsC",
       "authors": [
@@ -13546,7 +13850,7 @@
       "title": "Implicit personalization in language models: A systematic study",
       "year": 2024,
       "venue": "Findings of the Association for Computational Linguistics: EMNLP 2024, 12309 \u2026, 2024",
-      "cited_by_count": 30,
+      "cited_by_count": 31,
       "doi": null,
       "citation_id": "DZ-fHPgAAAAJ:6_g6roSJJJ4C",
       "authors": [
@@ -13615,7 +13919,7 @@
       "title": "Rp1m: A large-scale motion dataset for piano playing with bi-manual dexterous robot hands",
       "year": 2024,
       "venue": "arXiv preprint arXiv:2408.11048, 2024",
-      "cited_by_count": 13,
+      "cited_by_count": 14,
       "doi": "https://doi.org/10.48550/arxiv.2408.11048",
       "citation_id": "DZ-fHPgAAAAJ:ebVesCmVcMYC",
       "authors": [
@@ -13642,7 +13946,7 @@
       "title": "Mo\u00fbsai: Efficient text-to-music diffusion models",
       "year": 2024,
       "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational \u2026, 2024",
-      "cited_by_count": 292,
+      "cited_by_count": 293,
       "doi": null,
       "citation_id": "DZ-fHPgAAAAJ:Mjvec00rDE4C",
       "authors": [
@@ -13784,7 +14088,7 @@
       "title": "Graphdreamer: Compositional 3d scene synthesis from scene graphs",
       "year": 2024,
       "venue": "2024 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR \u2026, 2024",
-      "cited_by_count": 148,
+      "cited_by_count": 152,
       "doi": null,
       "citation_id": "DZ-fHPgAAAAJ:-gyp0GYJ1WwC",
       "authors": [
@@ -13806,7 +14110,7 @@
       "title": "Verbalized machine learning: Revisiting machine learning with language models",
       "year": 2024,
       "venue": "ICML 2024 Workshop on In-Context Learning, 2024",
-      "cited_by_count": 32,
+      "cited_by_count": 33,
       "doi": null,
       "citation_id": "DZ-fHPgAAAAJ:8CxxIT2TbpUC",
       "authors": [
@@ -13848,7 +14152,7 @@
       "title": "Products, abstractions and inclusions of causal spaces",
       "year": 2024,
       "venue": "arXiv preprint arXiv:2406.00388, 2024",
-      "cited_by_count": 4,
+      "cited_by_count": 5,
       "doi": "https://doi.org/10.48550/arxiv.2406.00388",
       "citation_id": "DZ-fHPgAAAAJ:uY8R3MgUpSAC",
       "authors": [
@@ -14051,7 +14355,7 @@
       "title": "Can large language models infer causation from correlation?",
       "year": 2024,
       "venue": "International Conference on Learning Representations 2024, 28663-28679, 2024",
-      "cited_by_count": 294,
+      "cited_by_count": 298,
       "doi": null,
       "citation_id": "DZ-fHPgAAAAJ:oM9rj33-3hoC",
       "authors": [
@@ -14075,7 +14379,7 @@
       "title": "Delphic offline reinforcement learning under nonidentifiable hidden confounding",
       "year": 2024,
       "venue": "International Conference on Learning Representations 2024, 2768-2796, 2024",
-      "cited_by_count": 23,
+      "cited_by_count": 24,
       "doi": null,
       "citation_id": "DZ-fHPgAAAAJ:1NEBFUVDtJoC",
       "authors": [
@@ -14097,7 +14401,7 @@
       "title": "Learning beyond pattern matching? assaying mathematical understanding in llms",
       "year": 2024,
       "venue": "arXiv preprint arXiv:2405.15485, 2024",
-      "cited_by_count": 11,
+      "cited_by_count": 12,
       "doi": "https://doi.org/10.48550/arxiv.2405.15485",
       "citation_id": "DZ-fHPgAAAAJ:4qnSi6I1oz4C",
       "authors": [
@@ -14143,7 +14447,7 @@
       "title": "Open x-embodiment: Robotic learning datasets and rt-x models: Open x-embodiment collaboration 0",
       "year": 2024,
       "venue": "2024 IEEE International Conference on Robotics and Automation (ICRA), 6892-6903, 2024",
-      "cited_by_count": 2143,
+      "cited_by_count": 2194,
       "doi": null,
       "citation_id": "DZ-fHPgAAAAJ:8ETf1LOvnQIC",
       "authors": [
@@ -14191,7 +14495,7 @@
       "title": "Causal modeling with stationary diffusions",
       "year": 2024,
       "venue": "International Conference on Artificial Intelligence and Statistics, 1927-1935, 2024",
-      "cited_by_count": 37,
+      "cited_by_count": 39,
       "doi": null,
       "citation_id": "DZ-fHPgAAAAJ:Ov0tOPCVJJ4C",
       "authors": [
@@ -14638,7 +14942,7 @@
       "title": "A performance-driven benchmark for feature selection in tabular deep learning",
       "year": 2023,
       "venue": "Advances in Neural Information Processing Systems 36, 41956-41979, 2023",
-      "cited_by_count": 64,
+      "cited_by_count": 65,
       "doi": null,
       "citation_id": "206vNCEAAAAJ:NaGl4SEjCO4C",
       "authors": [
@@ -14797,7 +15101,7 @@
       "title": "Controlling text-to-image diffusion by orthogonal finetuning",
       "year": 2023,
       "venue": "Advances in neural information processing systems 36, 79320-79362, 2023",
-      "cited_by_count": 285,
+      "cited_by_count": 288,
       "doi": null,
       "citation_id": "DZ-fHPgAAAAJ:MIRdOSOK3M0C",
       "authors": [
@@ -14846,7 +15150,7 @@
       "title": "Flow matching for scalable simulation-based inference",
       "year": 2023,
       "venue": "Advances in Neural Information Processing Systems 36, 16837-16864, 2023",
-      "cited_by_count": 165,
+      "cited_by_count": 166,
       "doi": null,
       "citation_id": "DZ-fHPgAAAAJ:87bMZUJgXBAC",
       "authors": [
@@ -14914,7 +15218,7 @@
       "title": "Nonparametric identifiability of causal representations from unknown interventions",
       "year": 2023,
       "venue": "Advances in Neural Information Processing Systems 36, 48603-48638, 2023",
-      "cited_by_count": 151,
+      "cited_by_count": 152,
       "doi": null,
       "citation_id": "DZ-fHPgAAAAJ:AA0X8fE1wMwC",
       "authors": [
@@ -14961,7 +15265,7 @@
       "title": "A measure-theoretic axiomatisation of causality",
       "year": 2023,
       "venue": "Advances in Neural Information Processing Systems 36, 28510-28540, 2023",
-      "cited_by_count": 20,
+      "cited_by_count": 21,
       "doi": null,
       "citation_id": "DZ-fHPgAAAAJ:u27vqak4FjcC",
       "authors": [
@@ -14982,7 +15286,7 @@
       "title": "Cladder: Assessing causal reasoning in language models",
       "year": 2023,
       "venue": "Advances in Neural Information Processing Systems 36, 31038-31065, 2023",
-      "cited_by_count": 378,
+      "cited_by_count": 383,
       "doi": null,
       "citation_id": "DZ-fHPgAAAAJ:vtsb3mgoJX0C",
       "authors": [
@@ -15116,7 +15420,7 @@
       "title": "Kernel-based independence tests for causal structure learning on functional data",
       "year": 2023,
       "venue": "Entropy 25 (12), 1597, 2023",
-      "cited_by_count": 16,
+      "cited_by_count": 17,
       "doi": null,
       "citation_id": "DZ-fHPgAAAAJ:VtE3cOHX7jYC",
       "authors": [
@@ -15163,7 +15467,7 @@
       "title": "Open x-embodiment: Robotic learning datasets and rt-x models",
       "year": 2023,
       "venue": "Towards Generalist Robots: Learning Paradigms for Scalable Skill Acquisition \u2026, 2023",
-      "cited_by_count": 169,
+      "cited_by_count": 173,
       "doi": null,
       "citation_id": "DZ-fHPgAAAAJ:zeEGDHUrsqcC",
       "authors": [
@@ -15328,7 +15632,7 @@
       "title": "On the interventional Kullback-Leibler divergence",
       "year": 2023,
       "venue": "Conference on Causal Learning and Reasoning, 328-349, 2023",
-      "cited_by_count": 12,
+      "cited_by_count": 13,
       "doi": null,
       "citation_id": "DZ-fHPgAAAAJ:Y2wsZ1s-vmcC",
       "authors": [
@@ -15420,7 +15724,7 @@
       "title": "Glare removal for astronomical images with high local dynamic range",
       "year": 2023,
       "venue": "2023 IEEE International Conference on Computational Photography (ICCP), 1-11, 2023",
-      "cited_by_count": 1,
+      "cited_by_count": 2,
       "doi": null,
       "citation_id": "DZ-fHPgAAAAJ:VaMtIHQgT-EC",
       "authors": [
@@ -15582,7 +15886,7 @@
       "title": "On the identifiability and estimation of causal location-scale noise models",
       "year": 2023,
       "venue": "International Conference on Machine Learning, 14316-14332, 2023",
-      "cited_by_count": 90,
+      "cited_by_count": 93,
       "doi": null,
       "citation_id": "DZ-fHPgAAAAJ:I-fR7Xm0cKsC",
       "authors": [
@@ -15651,7 +15955,7 @@
       "title": "Diffusion based representation learning",
       "year": 2023,
       "venue": "International conference on machine learning, 24963-24982, 2023",
-      "cited_by_count": 55,
+      "cited_by_count": 56,
       "doi": null,
       "citation_id": "DZ-fHPgAAAAJ:Kcj38R9OIygC",
       "authors": [
@@ -15694,7 +15998,7 @@
       "title": "Membership inference attacks against language models via neighbourhood comparison",
       "year": 2023,
       "venue": "Findings of the Association for Computational Linguistics: ACL 2023, 11330-11343, 2023",
-      "cited_by_count": 421,
+      "cited_by_count": 427,
       "doi": null,
       "citation_id": "DZ-fHPgAAAAJ:rxY-6i_7_qkC",
       "authors": [
@@ -15717,7 +16021,7 @@
       "title": "A causal framework to quantify the robustness of mathematical reasoning with language models",
       "year": 2023,
       "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational \u2026, 2023",
-      "cited_by_count": 96,
+      "cited_by_count": 97,
       "doi": null,
       "citation_id": "DZ-fHPgAAAAJ:COGLt2N6E6oC",
       "authors": [
@@ -15741,23 +16045,23 @@
     "Jakob Macke": 4,
     "Wieland Brendel": 38,
     "Jonas Geiping": 59,
-    "Frank Hutter": 123,
+    "Frank Hutter": 125,
     "T. Konstantin Rusch": 11,
-    "Shiwei Liu": 24,
+    "Shiwei Liu": 25,
     "Maksym Andriushchenko": 26,
-    "Maximilian Dax": 62,
+    "Maximilian Dax": 63,
     "Rediet Abebe": 8,
     "Antonio Orvieto": 54,
-    "Bernhard Sch\u00f6lkopf": 240,
+    "Bernhard Sch\u00f6lkopf": 239,
     "Aaron Klein": 10,
-    "David Salinas": 15,
-    "Kashyap Chitta": 0
+    "David Salinas": 16,
+    "Kashyap Chitta": 1
   },
   "publications_per_year": {
     "2023": 52,
     "2024": 145,
     "2025": 223,
-    "2026": 283
+    "2026": 288
   },
   "top_venues_by_year": {
     "2023": {
@@ -16223,6 +16527,13 @@
         "doi": null
       },
       {
+        "title": "Trajectory forcing: Structure-first generation with controllable semantic trajectories",
+        "year": 2026,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "A Geiger (matched: andreas geiger)",
+        "doi": null
+      },
+      {
         "title": "Where Does Generative Difficulty Reside? An Empirical Study of Target Representations",
         "year": 2026,
         "scientist": "Bernhard Sch\u00f6lkopf",
@@ -16231,13 +16542,6 @@
       },
       {
         "title": "Echoes of the Prior: A Computational Phenomenology of Forgetting",
-        "year": 2026,
-        "scientist": "Bernhard Sch\u00f6lkopf",
-        "co_author": "A Geiger (matched: andreas geiger)",
-        "doi": null
-      },
-      {
-        "title": "Trajectory Forcing: Structure-First Generation with Controllable Semantic Trajectories",
         "year": 2026,
         "scientist": "Bernhard Sch\u00f6lkopf",
         "co_author": "A Geiger (matched: andreas geiger)",
@@ -16418,7 +16722,7 @@
         "year": 2026,
         "scientist": "Sahar Abdelnabi",
         "co_author": "M Fritz (matched: mario fritz)",
-        "doi": "https://doi.org/10.60882/cispa.32780832.v1"
+        "doi": "https://doi.org/10.60882/cispa.32780832"
       },
       {
         "title": "Hidden in memory: Sleeper memory poisoning in LLM agents",
@@ -18475,29 +18779,29 @@
       },
       {
         "year": 2026,
-        "citations": 658
+        "citations": 682
       }
     ],
     [
       {
         "year": 2025,
-        "citations": 1317
+        "citations": 1320
       },
       {
         "year": 2026,
-        "citations": 2644
+        "citations": 2759
       }
     ],
     [
       {
         "year": 2026,
-        "citations": 2097
+        "citations": 2171
       }
     ],
     [
       {
         "year": 2023,
-        "citations": 3679
+        "citations": 3678
       },
       {
         "year": 2024,
@@ -18505,11 +18809,11 @@
       },
       {
         "year": 2025,
-        "citations": 3925
+        "citations": 3921
       },
       {
         "year": 2026,
-        "citations": 3770
+        "citations": 3912
       }
     ],
     [
@@ -18519,7 +18823,7 @@
       },
       {
         "year": 2024,
-        "citations": 3470
+        "citations": 3467
       },
       {
         "year": 2025,
@@ -18527,75 +18831,75 @@
       },
       {
         "year": 2026,
-        "citations": 4395
+        "citations": 4546
       }
     ],
     [
       {
         "year": 2024,
-        "citations": 23595
+        "citations": 23610
       },
       {
         "year": 2025,
-        "citations": 29959
+        "citations": 29921
       },
       {
         "year": 2026,
-        "citations": 28162
+        "citations": 29234
       }
     ],
     [
       {
         "year": 2025,
-        "citations": 571
+        "citations": 569
       },
       {
         "year": 2026,
-        "citations": 524
+        "citations": 550
       }
     ],
     [
       {
         "year": 2025,
-        "citations": 1561
+        "citations": 1555
       },
       {
         "year": 2026,
-        "citations": 1443
+        "citations": 1479
       }
     ],
     [
       {
         "year": 2025,
-        "citations": 2825
+        "citations": 2822
       },
       {
         "year": 2026,
-        "citations": 3406
+        "citations": 3519
       }
     ],
     [
       {
         "year": 2024,
-        "citations": 504
+        "citations": 506
       },
       {
         "year": 2025,
-        "citations": 1105
+        "citations": 1100
       },
       {
         "year": 2026,
-        "citations": 2378
+        "citations": 2488
       }
     ],
     [
       {
         "year": 2025,
-        "citations": 884
+        "citations": 885
       },
       {
         "year": 2026,
-        "citations": 724
+        "citations": 741
       }
     ],
     [
@@ -18605,7 +18909,7 @@
       },
       {
         "year": 2024,
-        "citations": 559
+        "citations": 558
       },
       {
         "year": 2025,
@@ -18613,51 +18917,51 @@
       },
       {
         "year": 2026,
-        "citations": 957
+        "citations": 982
       }
     ],
     [
       {
         "year": 2023,
-        "citations": 21928
+        "citations": 21939
       },
       {
         "year": 2024,
-        "citations": 23853
+        "citations": 23863
       },
       {
         "year": 2025,
-        "citations": 26958
+        "citations": 26959
       },
       {
         "year": 2026,
-        "citations": 23119
+        "citations": 23913
       }
     ],
     [
       {
         "year": 2025,
-        "citations": 1661
+        "citations": 1659
       },
       {
         "year": 2026,
-        "citations": 1285
+        "citations": 1341
       }
     ],
     [
       {
         "year": 2025,
-        "citations": 2066
+        "citations": 2068
       },
       {
         "year": 2026,
-        "citations": 1926
+        "citations": 2007
       }
     ],
     [
       {
         "year": 2026,
-        "citations": 3268
+        "citations": 3383
       }
     ]
   ],
@@ -18681,17 +18985,17 @@
     "Nature": 9,
     "TMLR": 3,
     "CVPR": 3,
+    "ECCV": 3,
     "EMNLP": 2,
     "ICCV": 2,
     "COLM": 2,
     "EACL": 2,
     "NAACL": 2,
     "AAAI": 1,
-    "ECCV": 1,
     "CoRL": 1,
     "ICRA": 1,
     "AISTATS": 1,
     "UAI": 1
   },
-  "top_tier_total_count": 207
+  "top_tier_total_count": 209
 }
