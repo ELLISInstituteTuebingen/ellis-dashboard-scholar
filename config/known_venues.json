@@ -886,6 +886,91 @@
     {
       "title": "A causal framework to quantify the robustness of mathematical reasoning with language models",
       "venue": "ACL"
+    },
+    {
+      "title": "Representations for the physical sciences",
+      "venue": "NeurIPS",
+      "year": 2026
+    },
+    {
+      "title": "PVFormer: Proper Velocity Transformer for Stable and Scalable Hyperbolic Representation Learning",
+      "venue": "NeurIPS",
+      "year": 2026
+    },
+    {
+      "title": "Umbilic Multinomial Logistic Regression",
+      "venue": "NeurIPS",
+      "year": 2026
+    },
+    {
+      "title": "GT-HarmBench: Benchmarking AI Safety Risks Through the Lens of Game Theory",
+      "venue": "NeurIPS",
+      "year": 2026
+    },
+    {
+      "title": "PENEX: AdaBoost-Inspired Neural Network Regularization",
+      "venue": "NeurIPS",
+      "year": 2026
+    },
+    {
+      "title": "DiffRatio: Training One-Step Diffusion Models Without Teacher Supervision",
+      "venue": "NeurIPS",
+      "year": 2026
+    },
+    {
+      "title": "SuperSycophantic: Stress-Testing Frontier LLMs from Single- to Multi-Turn Sycophancy",
+      "venue": "NeurIPS",
+      "year": 2026
+    },
+    {
+      "title": "Transferability for General Reasoning: An Automated Curriculum for Multi-Domain LLM RL",
+      "venue": "NeurIPS",
+      "year": 2026
+    },
+    {
+      "title": "Intrinsically Interpretable Attention via Sparse Post-Training",
+      "venue": "NeurIPS",
+      "year": 2026
+    },
+    {
+      "title": "The Alien Space of Science: Sampling Coherent but Cognitively Unavailable Research Directions",
+      "venue": "NeurIPS",
+      "year": 2026
+    },
+    {
+      "title": "Learning POMDP World Models from Observations with Language-Model Priors",
+      "venue": "NeurIPS",
+      "year": 2026
+    },
+    {
+      "title": "Perception for Action in Latent World Models",
+      "venue": "NeurIPS",
+      "year": 2026
+    },
+    {
+      "title": "Drifting Fields are not Conservative",
+      "venue": "NeurIPS",
+      "year": 2026
+    },
+    {
+      "title": "Deriving Hyperparameter Scaling Laws via Modern Optimization Theory",
+      "venue": "NeurIPS",
+      "year": 2026
+    },
+    {
+      "title": "Causality can systematically address the monsters under the bench(marks)",
+      "venue": "NeurIPS",
+      "year": 2026
+    },
+    {
+      "title": "LAION-BVD: A 10-Million-Hour Open Video Dataset for Multimodal Pre-training",
+      "venue": "NeurIPS",
+      "year": 2026
+    },
+    {
+      "title": "AM-Bench: A Unified Taxonomy and Evaluation Suite for Agentic Misalignment",
+      "venue": "NeurIPS",
+      "year": 2026
     }
   ]
 }
