@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-28T07:07:59Z",
+  "generated_at": "2026-09-28T11:52:42Z",
   "institute": "ELLIS Institute T\u00fcbingen",
   "total_publications": 643,
   "confirmed_affiliation_count": 0,
-  "open_access_count": 308,
-  "open_access_percent": 47.9,
+  "open_access_count": 299,
+  "open_access_percent": 46.5,
   "scientist_join_dates": [
     "2023-07-01",
     "2023-09-01",
@@ -59,41 +59,19 @@
       "year": 2026,
       "venue": "Proceedings of the ACM Web Conference 2026, 408-419, 2026",
       "cited_by_count": 0,
-      "doi": "https://doi.org/10.1145/3774904.3792740",
+      "doi": null,
       "citation_id": "UqtDdZUAAAAJ:J_g5lzvAfSwC",
       "authors": [
         "AA Stoica",
         "C Mendler-D\u00fcnner",
         "M Hardt"
       ],
-      "institution_ids": [
-        "I4210133934",
-        "I8087733",
-        "I4210135521"
-      ],
+      "institution_ids": [],
       "scientist": "Celestine Mendler-D\u00fcnner",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": true,
-      "oa_url": "https://doi.org/10.1145/3774904.3792740",
-      "author_count": 3,
-      "institutions": [
-        {
-          "id": "I4210133934",
-          "name": "Bernstein Center for Computational Neuroscience T\u00fcbingen",
-          "country": "DE"
-        },
-        {
-          "id": "I8087733",
-          "name": "University of T\u00fcbingen",
-          "country": "DE"
-        },
-        {
-          "id": "I4210135521",
-          "name": "Max Planck Institute for Intelligent Systems",
-          "country": "DE"
-        }
-      ]
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-UqtDdZUAAAAJ:RYcK_YlVTxYC",
@@ -150,7 +128,7 @@
       "year": 2026,
       "venue": "NeurIPS, 2026",
       "cited_by_count": 11,
-      "doi": "https://doi.org/10.48550/arxiv.2605.17634",
+      "doi": null,
       "citation_id": "QEiYbDYAAAAJ:vD2iS2Kej30C",
       "authors": [
         "S Abdelnabi",
@@ -160,10 +138,8 @@
       "scientist": "Sahar Abdelnabi",
       "confirmed_ellis_affiliation": false,
       "venue_category": "NeurIPS",
-      "is_oa": true,
-      "oa_url": "https://arxiv.org/pdf/2605.17634",
-      "author_count": 2,
-      "institutions": []
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-QEiYbDYAAAAJ:eAUscmXIlQ8C",
@@ -182,40 +158,12 @@
         "T Eisenhofer",
         "..."
       ],
-      "institution_ids": [
-        "I4210128801",
-        "I4210105785",
-        "I4210133934",
-        "I4210135521"
-      ],
+      "institution_ids": [],
       "scientist": "Sahar Abdelnabi",
       "confirmed_ellis_affiliation": false,
       "venue_category": "NeurIPS",
-      "is_oa": true,
-      "oa_url": "https://arxiv.org/pdf/2605.12233",
-      "author_count": 8,
-      "institutions": [
-        {
-          "id": "I4210128801",
-          "name": "Helmholtz Center for Information Security",
-          "country": "DE"
-        },
-        {
-          "id": "I4210105785",
-          "name": "Intelligent Systems Research (United States)",
-          "country": "US"
-        },
-        {
-          "id": "I4210133934",
-          "name": "Bernstein Center for Computational Neuroscience T\u00fcbingen",
-          "country": "DE"
-        },
-        {
-          "id": "I4210135521",
-          "name": "Max Planck Institute for Intelligent Systems",
-          "country": "DE"
-        }
-      ]
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-QEiYbDYAAAAJ:It0W0vAlS5QC",
@@ -223,7 +171,7 @@
       "year": 2026,
       "venue": "NeurIPS E&D, 2026",
       "cited_by_count": 92,
-      "doi": "https://doi.org/10.48550/arxiv.2602.20156",
+      "doi": null,
       "citation_id": "QEiYbDYAAAAJ:It0W0vAlS5QC",
       "authors": [
         "D Schmotz",
@@ -238,10 +186,8 @@
       ],
       "confirmed_ellis_affiliation": false,
       "venue_category": "NeurIPS",
-      "is_oa": true,
-      "oa_url": "https://arxiv.org/pdf/2602.20156",
-      "author_count": 4,
-      "institutions": []
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-QEiYbDYAAAAJ:IHkkN1K1AlAC",
@@ -249,7 +195,7 @@
       "year": 2026,
       "venue": "NeurIPS E&D, 2026",
       "cited_by_count": 19,
-      "doi": "https://doi.org/10.48550/arxiv.2602.15198",
+      "doi": null,
       "citation_id": "QEiYbDYAAAAJ:IHkkN1K1AlAC",
       "authors": [
         "M Nakamura",
@@ -264,10 +210,8 @@
       "scientist": "Sahar Abdelnabi",
       "confirmed_ellis_affiliation": false,
       "venue_category": "NeurIPS",
-      "is_oa": true,
-      "oa_url": "https://arxiv.org/pdf/2602.15198",
-      "author_count": 8,
-      "institutions": []
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-QEiYbDYAAAAJ:q0uBw5dMOAkC",
@@ -275,7 +219,7 @@
       "year": 2026,
       "venue": "ICML, 2026",
       "cited_by_count": 8,
-      "doi": "https://doi.org/10.60882/cispa.32780832",
+      "doi": null,
       "citation_id": "QEiYbDYAAAAJ:q0uBw5dMOAkC",
       "authors": [
         "I Sheth",
@@ -284,22 +228,12 @@
         "R Binkyte*",
         "M Fritz"
       ],
-      "institution_ids": [
-        "I4210128801"
-      ],
+      "institution_ids": [],
       "scientist": "Sahar Abdelnabi",
       "confirmed_ellis_affiliation": false,
       "venue_category": "ICML",
-      "is_oa": true,
-      "oa_url": "https://doi.org/10.60882/cispa.32780832",
-      "author_count": 5,
-      "institutions": [
-        {
-          "id": "I4210128801",
-          "name": "Helmholtz Center for Information Security",
-          "country": "DE"
-        }
-      ]
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-QEiYbDYAAAAJ:v_tt_AnqfNMC",
@@ -414,7 +348,8 @@
         "M Fritz"
       ],
       "institution_ids": [
-        "I4210133934",
+        "I4401726832",
+        "I227586296",
         "I4210128801"
       ],
       "scientist": "Sahar Abdelnabi",
@@ -425,9 +360,14 @@
       "author_count": 7,
       "institutions": [
         {
-          "id": "I4210133934",
-          "name": "Bernstein Center for Computational Neuroscience T\u00fcbingen",
-          "country": "DE"
+          "id": "I4401726832",
+          "name": "T\u00fcbingen AI Center",
+          "country": null
+        },
+        {
+          "id": "I227586296",
+          "name": "American Physical Therapy Association",
+          "country": "US"
         },
         {
           "id": "I4210128801",
@@ -475,9 +415,7 @@
         "S Abdelnabi"
       ],
       "institution_ids": [
-        "I1290206253",
-        "I4210105785",
-        "I4210135521"
+        "I1290206253"
       ],
       "scientist": "Sahar Abdelnabi",
       "confirmed_ellis_affiliation": false,
@@ -490,16 +428,6 @@
           "id": "I1290206253",
           "name": "Microsoft (United States)",
           "country": "US"
-        },
-        {
-          "id": "I4210105785",
-          "name": "Intelligent Systems Research (United States)",
-          "country": "US"
-        },
-        {
-          "id": "I4210135521",
-          "name": "Max Planck Institute for Intelligent Systems",
-          "country": "DE"
         }
       ]
     },
@@ -585,9 +513,7 @@
         "I141945490",
         "I66752286",
         "I142263535",
-        "I4210151758",
         "I50441567",
-        "I4210133934",
         "I4210135521",
         "I4401726832",
         "I8087733"
@@ -634,19 +560,9 @@
           "country": "GB"
         },
         {
-          "id": "I4210151758",
-          "name": "Fundaci\u00f3 Universitat-Empresa de les Illes Balears",
-          "country": "ES"
-        },
-        {
           "id": "I50441567",
           "name": "Universitat de les Illes Balears",
           "country": "ES"
-        },
-        {
-          "id": "I4210133934",
-          "name": "Bernstein Center for Computational Neuroscience T\u00fcbingen",
-          "country": "DE"
         },
         {
           "id": "I4210135521",
@@ -688,14 +604,15 @@
         "I62916508",
         "I4577782",
         "I40120149",
-        "I4210125796",
+        "I4210134521",
+        "I4210094118",
         "I4210141865",
         "I8087733",
         "I4210101881",
-        "I4210115377",
+        "I4401726832",
+        "I4210153928",
+        "I4405260244",
         "I99464096",
-        "I4210160618",
-        "I1304085615",
         "I4392738274",
         "I4210135521"
       ],
@@ -727,8 +644,13 @@
           "country": "GB"
         },
         {
-          "id": "I4210125796",
-          "name": "University Children's Hospital T\u00fcbingen",
+          "id": "I4210134521",
+          "name": "UniDistance Suisse",
+          "country": "CH"
+        },
+        {
+          "id": "I4210094118",
+          "name": "Universit\u00e4tsklinikum T\u00fcbingen",
           "country": "DE"
         },
         {
@@ -747,24 +669,24 @@
           "country": "GB"
         },
         {
-          "id": "I4210115377",
-          "name": "VIB-KU Leuven Center for Microbiology",
+          "id": "I4401726832",
+          "name": "T\u00fcbingen AI Center",
+          "country": null
+        },
+        {
+          "id": "I4210153928",
+          "name": "VIB-KU Leuven Center for Brain & Disease Research",
+          "country": "BE"
+        },
+        {
+          "id": "I4405260244",
+          "name": "VIB.AI",
           "country": "BE"
         },
         {
           "id": "I99464096",
           "name": "KU Leuven",
           "country": "BE"
-        },
-        {
-          "id": "I4210160618",
-          "name": "Huawei Technologies (United Kingdom)",
-          "country": "GB"
-        },
-        {
-          "id": "I1304085615",
-          "name": "Nvidia (United Kingdom)",
-          "country": "GB"
         },
         {
           "id": "I4392738274",
@@ -818,8 +740,8 @@
       "institution_ids": [
         "I4210112925",
         "I4210133934",
-        "I8087733",
         "I4401726832",
+        "I8087733",
         "I4210135521",
         "I114090438"
       ],
@@ -841,14 +763,14 @@
           "country": "DE"
         },
         {
-          "id": "I8087733",
-          "name": "University of T\u00fcbingen",
-          "country": "DE"
-        },
-        {
           "id": "I4401726832",
           "name": "T\u00fcbingen AI Center",
           "country": null
+        },
+        {
+          "id": "I8087733",
+          "name": "University of T\u00fcbingen",
+          "country": "DE"
         },
         {
           "id": "I4210135521",
@@ -868,7 +790,7 @@
       "year": 2026,
       "venue": "Physical Review Letters 136 (25), 251401, 2026",
       "cited_by_count": 13,
-      "doi": "https://doi.org/10.1103/n3ld-b4wv",
+      "doi": null,
       "citation_id": "FKOqtF8AAAAJ:tFyepMjQr3wC",
       "authors": [
         "A Kofler",
@@ -880,15 +802,7 @@
         "J Gair",
         "..."
       ],
-      "institution_ids": [
-        "I4210127646",
-        "I4210135521",
-        "I4210133934",
-        "I4401726832",
-        "I142263535",
-        "I66946132",
-        "I8087733"
-      ],
+      "institution_ids": [],
       "scientist": [
         "Jakob Macke",
         "Maximilian Dax",
@@ -896,46 +810,8 @@
       ],
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": true,
-      "oa_url": "https://doi.org/10.1103/n3ld-b4wv",
-      "author_count": 9,
-      "institutions": [
-        {
-          "id": "I4210127646",
-          "name": "Max Planck Institute for Gravitational Physics",
-          "country": "DE"
-        },
-        {
-          "id": "I4210135521",
-          "name": "Max Planck Institute for Intelligent Systems",
-          "country": "DE"
-        },
-        {
-          "id": "I4210133934",
-          "name": "Bernstein Center for Computational Neuroscience T\u00fcbingen",
-          "country": "DE"
-        },
-        {
-          "id": "I4401726832",
-          "name": "T\u00fcbingen AI Center",
-          "country": null
-        },
-        {
-          "id": "I142263535",
-          "name": "University of Nottingham",
-          "country": "GB"
-        },
-        {
-          "id": "I66946132",
-          "name": "University of Maryland, College Park",
-          "country": "US"
-        },
-        {
-          "id": "I8087733",
-          "name": "University of T\u00fcbingen",
-          "country": "DE"
-        }
-      ]
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-FKOqtF8AAAAJ:9UF2BbDYXHIC",
@@ -993,7 +869,7 @@
       "id": "scholar-v-JL-hsAAAAJ:olpn-zPbct0C",
       "title": "LittleLearner: Language Models Under Pedagogically Controlled Knowledge Exposure",
       "year": 2026,
-      "venue": "arXiv preprint arXiv:2608.13545, 2026",
+      "venue": "NeurIPS 2026 (oral), 2026",
       "cited_by_count": 0,
       "doi": "https://doi.org/10.48550/arxiv.2608.13545",
       "citation_id": "v-JL-hsAAAAJ:olpn-zPbct0C",
@@ -1009,7 +885,7 @@
       "institution_ids": [],
       "scientist": "Wieland Brendel",
       "confirmed_ellis_affiliation": false,
-      "venue_category": null,
+      "venue_category": "NeurIPS",
       "is_oa": true,
       "oa_url": "https://arxiv.org/pdf/2608.13545",
       "author_count": 7,
@@ -1040,7 +916,7 @@
       "id": "scholar-v-JL-hsAAAAJ:V3AGJWp-ZtQC",
       "title": "Stabilizing Extrapolation in Looped Transformers via Learned Stochastic Stopping",
       "year": 2026,
-      "venue": "arXiv preprint arXiv:2606.29983, 2026",
+      "venue": "NeurIPS 2026, 2026",
       "cited_by_count": 0,
       "doi": "https://doi.org/10.48550/arxiv.2606.29983",
       "citation_id": "v-JL-hsAAAAJ:V3AGJWp-ZtQC",
@@ -1054,7 +930,7 @@
       "institution_ids": [],
       "scientist": "Wieland Brendel",
       "confirmed_ellis_affiliation": false,
-      "venue_category": null,
+      "venue_category": "NeurIPS",
       "is_oa": true,
       "oa_url": "https://arxiv.org/pdf/2606.29983",
       "author_count": 5,
@@ -1146,7 +1022,6 @@
       "institution_ids": [
         "I4210135521",
         "I8087733",
-        "I4210133934",
         "I4401726832"
       ],
       "scientist": "Wieland Brendel",
@@ -1164,11 +1039,6 @@
         {
           "id": "I8087733",
           "name": "University of T\u00fcbingen",
-          "country": "DE"
-        },
-        {
-          "id": "I4210133934",
-          "name": "Bernstein Center for Computational Neuroscience T\u00fcbingen",
           "country": "DE"
         },
         {
@@ -1524,7 +1394,7 @@
       "year": 2026,
       "venue": "International Conference on Learning Representations 2026, 49352-49410, 2026",
       "cited_by_count": 21,
-      "doi": "https://doi.org/10.48550/arxiv.2509.18058",
+      "doi": null,
       "citation_id": "206vNCEAAAAJ:hMsQuOkrut0C",
       "authors": [
         "A Panfilov",
@@ -1542,10 +1412,8 @@
       ],
       "confirmed_ellis_affiliation": false,
       "venue_category": "ICLR",
-      "is_oa": true,
-      "oa_url": "https://arxiv.org/pdf/2509.18058",
-      "author_count": 9,
-      "institutions": []
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-206vNCEAAAAJ:ILKRHgRFtOwC",
@@ -1812,12 +1680,22 @@
         "V Thomas",
         "AL Caterini"
       ],
-      "institution_ids": [],
+      "institution_ids": [
+        "I185261750"
+      ],
       "scientist": "Frank Hutter",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false,
-      "oa_url": null
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2608.17957",
+      "author_count": 6,
+      "institutions": [
+        {
+          "id": "I185261750",
+          "name": "University of Toronto",
+          "country": "CA"
+        }
+      ]
     },
     {
       "id": "scholar-YUrxwrkAAAAJ:Ej9njvOgR2oC",
@@ -2233,7 +2111,7 @@
       "year": 2026,
       "venue": "arXiv preprint arXiv:2604.11248, 2026",
       "cited_by_count": 1,
-      "doi": null,
+      "doi": "https://doi.org/10.1162/isal.a.1015",
       "citation_id": "YUrxwrkAAAAJ:yeL6HyUMUGUC",
       "authors": [
         "U Berdica",
@@ -2241,12 +2119,34 @@
         "F Hutter",
         "A Zela"
       ],
-      "institution_ids": [],
+      "institution_ids": [
+        "I40120149",
+        "I161046081",
+        "I5124864"
+      ],
       "scientist": "Frank Hutter",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false,
-      "oa_url": null
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1162/isal.a.1015",
+      "author_count": 4,
+      "institutions": [
+        {
+          "id": "I40120149",
+          "name": "University of Oxford",
+          "country": "GB"
+        },
+        {
+          "id": "I161046081",
+          "name": "University of Freiburg",
+          "country": "DE"
+        },
+        {
+          "id": "I5124864",
+          "name": "\u00c9cole Polytechnique F\u00e9d\u00e9rale de Lausanne",
+          "country": "CH"
+        }
+      ]
     },
     {
       "id": "scholar-YUrxwrkAAAAJ:bVQMTfhMCi4C",
@@ -2254,7 +2154,7 @@
       "year": 2026,
       "venue": "bioRxiv, 2026.03. 30.715265, 2026",
       "cited_by_count": 2,
-      "doi": null,
+      "doi": "https://doi.org/10.64898/2026.03.30.715265",
       "citation_id": "YUrxwrkAAAAJ:bVQMTfhMCi4C",
       "authors": [
         "M Schoberth",
@@ -2266,12 +2166,64 @@
         "OM Woodward",
         "..."
       ],
-      "institution_ids": [],
+      "institution_ids": [
+        "I161046081",
+        "I155976169",
+        "I68956291",
+        "I126744593",
+        "I145311948",
+        "I2799853436",
+        "I2801673063",
+        "I2801240073"
+      ],
       "scientist": "Frank Hutter",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false,
-      "oa_url": null
+      "is_oa": true,
+      "oa_url": "https://www.biorxiv.org/content/biorxiv/early/2026/04/01/2026.03.30.715265.full.pdf",
+      "author_count": 14,
+      "institutions": [
+        {
+          "id": "I161046081",
+          "name": "University of Freiburg",
+          "country": "DE"
+        },
+        {
+          "id": "I155976169",
+          "name": "Witten/Herdecke University",
+          "country": "DE"
+        },
+        {
+          "id": "I68956291",
+          "name": "Martin Luther University Halle-Wittenberg",
+          "country": "DE"
+        },
+        {
+          "id": "I126744593",
+          "name": "University of Maryland, Baltimore",
+          "country": "US"
+        },
+        {
+          "id": "I145311948",
+          "name": "Johns Hopkins University",
+          "country": "US"
+        },
+        {
+          "id": "I2799853436",
+          "name": "Johns Hopkins Medicine",
+          "country": "US"
+        },
+        {
+          "id": "I2801673063",
+          "name": "Kyungpook National University Hospital",
+          "country": "KR"
+        },
+        {
+          "id": "I2801240073",
+          "name": "University Medical Center Freiburg",
+          "country": "DE"
+        }
+      ]
     },
     {
       "id": "scholar-YUrxwrkAAAAJ:yTLRzDEmwhEC",
@@ -2303,7 +2255,7 @@
       "year": 2026,
       "venue": "1st ICLR Workshop on Time Series in the Age of Large Models, 2026",
       "cited_by_count": 3,
-      "doi": null,
+      "doi": "https://doi.org/10.48550/arxiv.2607.07500",
       "citation_id": "YUrxwrkAAAAJ:In6cVmBjs0IC",
       "authors": [
         "J K\u00fcken",
@@ -2315,8 +2267,10 @@
       "scientist": "Frank Hutter",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": false,
-      "oa_url": null
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2607.07500",
+      "author_count": 5,
+      "institutions": []
     },
     {
       "id": "scholar-YUrxwrkAAAAJ:7H_jS4BsgvYC",
@@ -6168,7 +6122,7 @@
       "year": 2025,
       "venue": "NeurIPS 2025, 2025",
       "cited_by_count": 13,
-      "doi": "https://doi.org/10.52202/085713-4652",
+      "doi": null,
       "citation_id": "UqtDdZUAAAAJ:ns9cj8rnVeAC",
       "authors": [
         "G K\u00f6nig",
@@ -6177,34 +6131,12 @@
         "C Mendler-D\u00fcnner",
         "U von Luxburg"
       ],
-      "institution_ids": [
-        "I8087733",
-        "I887064364",
-        "I8204097"
-      ],
+      "institution_ids": [],
       "scientist": "Celestine Mendler-D\u00fcnner",
       "confirmed_ellis_affiliation": false,
       "venue_category": "NeurIPS",
-      "is_oa": true,
-      "oa_url": "https://arxiv.org/pdf/2506.15366",
-      "author_count": 5,
-      "institutions": [
-        {
-          "id": "I8087733",
-          "name": "University of T\u00fcbingen",
-          "country": "DE"
-        },
-        {
-          "id": "I887064364",
-          "name": "University of Amsterdam",
-          "country": "NL"
-        },
-        {
-          "id": "I8204097",
-          "name": "Ludwig-Maximilians-Universit\u00e4t M\u00fcnchen",
-          "country": "DE"
-        }
-      ]
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-UqtDdZUAAAAJ:GnPB-g6toBAC",
@@ -6212,29 +6144,19 @@
       "year": 2025,
       "venue": "ACM CHI 2025 - Proceedings of the 2025 CHI Conference on Human Factors in \u2026, 2025",
       "cited_by_count": 15,
-      "doi": "https://doi.org/10.1145/3706598.3713966",
+      "doi": null,
       "citation_id": "UqtDdZUAAAAJ:GnPB-g6toBAC",
       "authors": [
         "D Sigg",
         "M Hardt",
         "C Mendler-D\u00fcnner"
       ],
-      "institution_ids": [
-        "I4210135521"
-      ],
+      "institution_ids": [],
       "scientist": "Celestine Mendler-D\u00fcnner",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": true,
-      "oa_url": "https://doi.org/10.1145/3706598.3713966",
-      "author_count": 3,
-      "institutions": [
-        {
-          "id": "I4210135521",
-          "name": "Max Planck Institute for Intelligent Systems",
-          "country": "DE"
-        }
-      ]
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-UqtDdZUAAAAJ:M3NEmzRMIkIC",
@@ -6242,28 +6164,18 @@
       "year": 2025,
       "venue": "Statistical Science 40 (3), 417-436, 2025",
       "cited_by_count": 112,
-      "doi": "https://doi.org/10.1214/25-sts986",
+      "doi": null,
       "citation_id": "UqtDdZUAAAAJ:M3NEmzRMIkIC",
       "authors": [
         "M Hardt",
         "C Mendler-D\u00fcnner"
       ],
-      "institution_ids": [
-        "I4210135521"
-      ],
+      "institution_ids": [],
       "scientist": "Celestine Mendler-D\u00fcnner",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
       "is_oa": false,
-      "oa_url": null,
-      "author_count": 2,
-      "institutions": [
-        {
-          "id": "I4210135521",
-          "name": "Max Planck Institute for Intelligent Systems",
-          "country": "DE"
-        }
-      ]
+      "oa_url": null
     },
     {
       "id": "scholar-QEiYbDYAAAAJ:_mQi-xiA4oYC",
@@ -6271,28 +6183,18 @@
       "year": 2025,
       "venue": "NeurIPS (Spotlight \ud83c\udfc6), 2025",
       "cited_by_count": 51,
-      "doi": "https://doi.org/10.52202/085713-4731",
+      "doi": null,
       "citation_id": "QEiYbDYAAAAJ:_mQi-xiA4oYC",
       "authors": [
         "S Abdelnabi",
         "A Salem"
       ],
-      "institution_ids": [
-        "I4210164937"
-      ],
+      "institution_ids": [],
       "scientist": "Sahar Abdelnabi",
       "confirmed_ellis_affiliation": false,
       "venue_category": "NeurIPS",
       "is_oa": false,
-      "oa_url": null,
-      "author_count": 2,
-      "institutions": [
-        {
-          "id": "I4210164937",
-          "name": "Microsoft Research (United Kingdom)",
-          "country": "GB"
-        }
-      ]
+      "oa_url": null
     },
     {
       "id": "scholar-QEiYbDYAAAAJ:5LPo_wSKItgC",
@@ -6617,7 +6519,7 @@
       "year": 2025,
       "venue": "Proceedings of the ieee/cvf international conference on computer vision \u2026, 2025",
       "cited_by_count": 10,
-      "doi": "https://doi.org/10.1109/iccv51701.2025.00103",
+      "doi": null,
       "citation_id": "v-JL-hsAAAAJ:vRqMK49ujn8C",
       "authors": [
         "D Zverev",
@@ -6627,28 +6529,12 @@
         "W Brendel",
         "A Koepke"
       ],
-      "institution_ids": [
-        "I62916508",
-        "I143910747"
-      ],
+      "institution_ids": [],
       "scientist": "Wieland Brendel",
       "confirmed_ellis_affiliation": false,
       "venue_category": "ICCV",
-      "is_oa": true,
-      "oa_url": "https://arxiv.org/pdf/2508.08237",
-      "author_count": 6,
-      "institutions": [
-        {
-          "id": "I62916508",
-          "name": "Technical University of Munich",
-          "country": "DE"
-        },
-        {
-          "id": "I143910747",
-          "name": "TH Bingen University of Applied Sciences",
-          "country": "DE"
-        }
-      ]
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-v-JL-hsAAAAJ:dshw04ExmUIC",
@@ -6681,7 +6567,7 @@
       "year": 2025,
       "venue": "ICLR 2025, 2024",
       "cited_by_count": 36,
-      "doi": "https://doi.org/10.48550/arxiv.2410.21869",
+      "doi": null,
       "citation_id": "v-JL-hsAAAAJ:nb7KW1ujOQ8C",
       "authors": [
         "P Reizinger",
@@ -6696,10 +6582,8 @@
       "scientist": "Wieland Brendel",
       "confirmed_ellis_affiliation": false,
       "venue_category": "ICLR",
-      "is_oa": true,
-      "oa_url": "https://arxiv.org/pdf/2410.21869",
-      "author_count": 7,
-      "institutions": []
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-v-JL-hsAAAAJ:NhqRSupF_l8C",
@@ -6707,7 +6591,7 @@
       "year": 2025,
       "venue": "ICLR 2025, 2024",
       "cited_by_count": 28,
-      "doi": "https://doi.org/10.48550/arxiv.2410.08258",
+      "doi": null,
       "citation_id": "v-JL-hsAAAAJ:NhqRSupF_l8C",
       "authors": [
         "P Mayilvahanan",
@@ -6721,10 +6605,8 @@
       "scientist": "Wieland Brendel",
       "confirmed_ellis_affiliation": false,
       "venue_category": "ICLR",
-      "is_oa": true,
-      "oa_url": "https://arxiv.org/pdf/2410.08258",
-      "author_count": 7,
-      "institutions": []
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-v-JL-hsAAAAJ:_xSYboBqXhAC",
@@ -7068,7 +6950,7 @@
       "year": 2025,
       "venue": "The Thirty-ninth Annual Conference on Neural Information Processing Systems, 2025",
       "cited_by_count": 396,
-      "doi": "https://doi.org/10.52202/085713-1380",
+      "doi": null,
       "citation_id": "206vNCEAAAAJ:t6usbXjVLHcC",
       "authors": [
         "J Geiping",
@@ -7079,34 +6961,12 @@
         "BR Bartoldson",
         "..."
       ],
-      "institution_ids": [
-        "I4210135521",
-        "I66946132",
-        "I1282311441"
-      ],
+      "institution_ids": [],
       "scientist": "Jonas Geiping",
       "confirmed_ellis_affiliation": false,
       "venue_category": "NeurIPS",
-      "is_oa": true,
-      "oa_url": "https://arxiv.org/pdf/2502.05171",
-      "author_count": 9,
-      "institutions": [
-        {
-          "id": "I4210135521",
-          "name": "Max Planck Institute for Intelligent Systems",
-          "country": "DE"
-        },
-        {
-          "id": "I66946132",
-          "name": "University of Maryland, College Park",
-          "country": "US"
-        },
-        {
-          "id": "I1282311441",
-          "name": "Lawrence Livermore National Laboratory",
-          "country": "US"
-        }
-      ]
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-206vNCEAAAAJ:olpn-zPbct0C",
@@ -7161,7 +7021,7 @@
       "year": 2025,
       "venue": "Advances in Neural Information Processing Systems 38, 2026",
       "cited_by_count": 231,
-      "doi": null,
+      "doi": "https://doi.org/10.52202/085713-0519",
       "citation_id": "YUrxwrkAAAAJ:sJPMR1oEGYQC",
       "authors": [
         "N Erickson",
@@ -7172,15 +7032,61 @@
         "D Salinas",
         "..."
       ],
-      "institution_ids": [],
+      "institution_ids": [
+        "I1311688040",
+        "I161046081",
+        "I177802217",
+        "I1326498283",
+        "I4210126360",
+        "I4405259981",
+        "I4405260763"
+      ],
       "scientist": [
         "Frank Hutter",
         "David Salinas"
       ],
       "confirmed_ellis_affiliation": false,
       "venue_category": "NeurIPS",
-      "is_oa": false,
-      "oa_url": null
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2506.16791",
+      "author_count": 7,
+      "institutions": [
+        {
+          "id": "I1311688040",
+          "name": "Amazon (United States)",
+          "country": "US"
+        },
+        {
+          "id": "I161046081",
+          "name": "University of Freiburg",
+          "country": "DE"
+        },
+        {
+          "id": "I177802217",
+          "name": "University of Mannheim",
+          "country": "DE"
+        },
+        {
+          "id": "I1326498283",
+          "name": "Institut national de recherche en sciences et technologies du num\u00e9rique",
+          "country": "FR"
+        },
+        {
+          "id": "I4210126360",
+          "name": "Centre Inria de Saclay",
+          "country": "FR"
+        },
+        {
+          "id": "I4405259981",
+          "name": "SODA: M\u00e9thodes computationnelles et math\u00e9matiques pour comprendre la soci\u00e9t\u00e9 et la sant\u00e9 \u00e0 partir de donn\u00e9es",
+          "country": "FR"
+        },
+        {
+          "id": "I4405260763",
+          "name": "SIERRA: Apprentissage Statistique et optimisation",
+          "country": "FR"
+        }
+      ]
     },
     {
       "id": "scholar-YUrxwrkAAAAJ:dAp6zn-oMfAC",
@@ -7237,7 +7143,7 @@
       "year": 2025,
       "venue": "Advances in Neural Information Processing Systems 38, 153738-153782, 2026",
       "cited_by_count": 69,
-      "doi": null,
+      "doi": "https://doi.org/10.52202/085713-5141",
       "citation_id": "YUrxwrkAAAAJ:s85pQhAUCrAC",
       "authors": [
         "J Siems",
@@ -7247,12 +7153,34 @@
         "M Pontil",
         "R Grazzi"
       ],
-      "institution_ids": [],
+      "institution_ids": [
+        "I161046081",
+        "I45129253",
+        "I1290206253"
+      ],
       "scientist": "Frank Hutter",
       "confirmed_ellis_affiliation": false,
       "venue_category": "NeurIPS",
       "is_oa": false,
-      "oa_url": null
+      "oa_url": null,
+      "author_count": 6,
+      "institutions": [
+        {
+          "id": "I161046081",
+          "name": "University of Freiburg",
+          "country": "DE"
+        },
+        {
+          "id": "I45129253",
+          "name": "University College London",
+          "country": "GB"
+        },
+        {
+          "id": "I1290206253",
+          "name": "Microsoft (United States)",
+          "country": "US"
+        }
+      ]
     },
     {
       "id": "scholar-YUrxwrkAAAAJ:s9ia6_kGH2AC",
@@ -7283,7 +7211,7 @@
       "year": 2025,
       "venue": "Advances in Neural Information Processing Systems 38, 63699-63730, 2026",
       "cited_by_count": 6,
-      "doi": null,
+      "doi": "https://doi.org/10.52202/085713-2139",
       "citation_id": "YUrxwrkAAAAJ:RuPIJ_LgqDgC",
       "authors": [
         "I Das",
@@ -7291,12 +7219,28 @@
         "S Adriaensen",
         "F Hutter"
       ],
-      "institution_ids": [],
+      "institution_ids": [
+        "I161046081",
+        "I154338468"
+      ],
       "scientist": "Frank Hutter",
       "confirmed_ellis_affiliation": false,
       "venue_category": "NeurIPS",
-      "is_oa": false,
-      "oa_url": null
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2502.03654",
+      "author_count": 4,
+      "institutions": [
+        {
+          "id": "I161046081",
+          "name": "University of Freiburg",
+          "country": "DE"
+        },
+        {
+          "id": "I154338468",
+          "name": "University of Fribourg",
+          "country": "CH"
+        }
+      ]
     },
     {
       "id": "scholar-YUrxwrkAAAAJ:KS-xo-ZNxMsC",
@@ -11662,7 +11606,7 @@
       "year": 2024,
       "venue": "NeurIPS 2024, 2024",
       "cited_by_count": 18,
-      "doi": "https://doi.org/10.52202/079017-1891",
+      "doi": null,
       "citation_id": "UqtDdZUAAAAJ:hMod-77fHWUC",
       "authors": [
         "C Mendler-D\u00fcnner",
@@ -11674,9 +11618,7 @@
       "confirmed_ellis_affiliation": false,
       "venue_category": "NeurIPS",
       "is_oa": false,
-      "oa_url": null,
-      "author_count": 3,
-      "institutions": []
+      "oa_url": null
     },
     {
       "id": "scholar-UqtDdZUAAAAJ:blknAaTinKkC",
@@ -11684,7 +11626,7 @@
       "year": 2024,
       "venue": "NeurIPS 2024, 2024",
       "cited_by_count": 19,
-      "doi": "https://doi.org/10.52202/079017-3784",
+      "doi": null,
       "citation_id": "UqtDdZUAAAAJ:blknAaTinKkC",
       "authors": [
         "J Baumann",
@@ -11695,9 +11637,7 @@
       "confirmed_ellis_affiliation": false,
       "venue_category": "NeurIPS",
       "is_oa": false,
-      "oa_url": null,
-      "author_count": 2,
-      "institutions": []
+      "oa_url": null
     },
     {
       "id": "scholar-v-JL-hsAAAAJ:CHSYGLWDkRkC",
@@ -11788,7 +11728,6 @@
       "institution_ids": [
         "I181547552",
         "I74775410",
-        "I4210124598",
         "I4210135521",
         "I8087733",
         "I142444530",
@@ -11809,11 +11748,6 @@
         {
           "id": "I74775410",
           "name": "Rice University",
-          "country": "US"
-        },
-        {
-          "id": "I4210124598",
-          "name": "Palo Alto Institute",
           "country": "US"
         },
         {
@@ -11867,7 +11801,7 @@
       "year": 2024,
       "venue": "Causal Learning and Reasoning, 41-70, 2024",
       "cited_by_count": 9,
-      "doi": "https://doi.org/10.48550/arxiv.2311.18048",
+      "doi": null,
       "citation_id": "v-JL-hsAAAAJ:fPk4N6BV_jEC",
       "authors": [
         "G Rajendran",
@@ -11879,10 +11813,8 @@
       "scientist": "Wieland Brendel",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": true,
-      "oa_url": "https://arxiv.org/pdf/2311.18048",
-      "author_count": 4,
-      "institutions": []
+      "is_oa": false,
+      "oa_url": null
     },
     {
       "id": "scholar-v-JL-hsAAAAJ:D03iK_w7-QYC",
@@ -12053,7 +11985,7 @@
       "year": 2024,
       "venue": "Advances in Neural Information Processing Systems 37, 24022-24045, 2024",
       "cited_by_count": 90,
-      "doi": null,
+      "doi": "https://doi.org/10.52202/079017-0757",
       "citation_id": "206vNCEAAAAJ:f2IySw72cVMC",
       "authors": [
         "A Hans",
@@ -12070,7 +12002,9 @@
       "confirmed_ellis_affiliation": false,
       "venue_category": "NeurIPS",
       "is_oa": false,
-      "oa_url": null
+      "oa_url": null,
+      "author_count": 11,
+      "institutions": []
     },
     {
       "id": "scholar-206vNCEAAAAJ:3s1wT3WcHBgC",
@@ -12078,7 +12012,7 @@
       "year": 2024,
       "venue": "Advances in Neural Information Processing Systems 37, 83374-83396, 2024",
       "cited_by_count": 68,
-      "doi": null,
+      "doi": "https://doi.org/10.52202/079017-2652",
       "citation_id": "206vNCEAAAAJ:3s1wT3WcHBgC",
       "authors": [
         "Y Wen",
@@ -12093,7 +12027,9 @@
       "confirmed_ellis_affiliation": false,
       "venue_category": "NeurIPS",
       "is_oa": false,
-      "oa_url": null
+      "oa_url": null,
+      "author_count": 6,
+      "institutions": []
     },
     {
       "id": "scholar-206vNCEAAAAJ:vRqMK49ujn8C",
@@ -12101,7 +12037,7 @@
       "year": 2024,
       "venue": "SC24: International Conference for High Performance Computing, Networking \u2026, 2024",
       "cited_by_count": 25,
-      "doi": null,
+      "doi": "https://doi.org/10.1109/sc41406.2024.00010",
       "citation_id": "206vNCEAAAAJ:vRqMK49ujn8C",
       "authors": [
         "S Singh",
@@ -12112,12 +12048,34 @@
         "Y Wen",
         "..."
       ],
-      "institution_ids": [],
+      "institution_ids": [
+        "I66946132",
+        "I4210135521",
+        "I95457486"
+      ],
       "scientist": "Jonas Geiping",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
       "is_oa": false,
-      "oa_url": null
+      "oa_url": null,
+      "author_count": 12,
+      "institutions": [
+        {
+          "id": "I66946132",
+          "name": "University of Maryland, College Park",
+          "country": "US"
+        },
+        {
+          "id": "I4210135521",
+          "name": "Max Planck Institute for Intelligent Systems",
+          "country": "DE"
+        },
+        {
+          "id": "I95457486",
+          "name": "University of California, Berkeley",
+          "country": "US"
+        }
+      ]
     },
     {
       "id": "scholar-206vNCEAAAAJ:tS2w5q8j5-wC",
@@ -12170,7 +12128,7 @@
       "year": 2024,
       "venue": "2024 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR \u2026, 2024",
       "cited_by_count": 20,
-      "doi": null,
+      "doi": "https://doi.org/10.1109/cvpr52733.2024.01575",
       "citation_id": "206vNCEAAAAJ:lSLTfruPkqcC",
       "authors": [
         "K Yue",
@@ -12180,12 +12138,28 @@
         "T Goldstein",
         "SN Lim"
       ],
-      "institution_ids": [],
+      "institution_ids": [
+        "I66946132",
+        "I106165777"
+      ],
       "scientist": "Jonas Geiping",
       "confirmed_ellis_affiliation": false,
       "venue_category": "CVPR",
       "is_oa": false,
-      "oa_url": null
+      "oa_url": null,
+      "author_count": 6,
+      "institutions": [
+        {
+          "id": "I66946132",
+          "name": "University of Maryland, College Park",
+          "country": "US"
+        },
+        {
+          "id": "I106165777",
+          "name": "University of Central Florida",
+          "country": "US"
+        }
+      ]
     },
     {
       "id": "scholar-206vNCEAAAAJ:pyW8ca7W8N0C",
@@ -12220,7 +12194,7 @@
       "year": 2024,
       "venue": "Advances in Neural Information Processing Systems, 2024, 2024",
       "cited_by_count": 143,
-      "doi": null,
+      "doi": "https://doi.org/10.52202/079017-3430",
       "citation_id": "206vNCEAAAAJ:D03iK_w7-QYC",
       "authors": [
         "S McLeish",
@@ -12236,7 +12210,9 @@
       "confirmed_ellis_affiliation": false,
       "venue_category": "NeurIPS",
       "is_oa": false,
-      "oa_url": null
+      "oa_url": null,
+      "author_count": 11,
+      "institutions": []
     },
     {
       "id": "scholar-206vNCEAAAAJ:a0OBvERweLwC",
@@ -12440,7 +12416,7 @@
       "year": 2024,
       "venue": "The Twelfth International Conference on Learning Representations, 2024",
       "cited_by_count": 649,
-      "doi": null,
+      "doi": "https://doi.org/10.1109/cvprw59228.2023.00091",
       "citation_id": "206vNCEAAAAJ:_Qo2XoVZTnwC",
       "authors": [
         "A Bansal",
@@ -12451,12 +12427,34 @@
         "J Geiping",
         "..."
       ],
-      "institution_ids": [],
+      "institution_ids": [
+        "I66946132",
+        "I114027177",
+        "I57206974"
+      ],
       "scientist": "Jonas Geiping",
       "confirmed_ellis_affiliation": false,
       "venue_category": "ICLR",
       "is_oa": false,
-      "oa_url": null
+      "oa_url": null,
+      "author_count": 7,
+      "institutions": [
+        {
+          "id": "I66946132",
+          "name": "University of Maryland, College Park",
+          "country": "US"
+        },
+        {
+          "id": "I114027177",
+          "name": "University of North Carolina at Chapel Hill",
+          "country": "US"
+        },
+        {
+          "id": "I57206974",
+          "name": "New York University",
+          "country": "US"
+        }
+      ]
     },
     {
       "id": "scholar-YUrxwrkAAAAJ:unp9ATQDT5gC",
@@ -14912,7 +14910,7 @@
       "year": 2023,
       "venue": "Advances in Neural Information Processing Systems 36, 41956-41979, 2023",
       "cited_by_count": 66,
-      "doi": null,
+      "doi": "https://doi.org/10.52202/075280-1818",
       "citation_id": "206vNCEAAAAJ:NaGl4SEjCO4C",
       "authors": [
         "V Cherepanova",
@@ -14928,7 +14926,9 @@
       "confirmed_ellis_affiliation": false,
       "venue_category": "NeurIPS",
       "is_oa": false,
-      "oa_url": null
+      "oa_url": null,
+      "author_count": 8,
+      "institutions": []
     },
     {
       "id": "scholar-206vNCEAAAAJ:J_g5lzvAfSwC",
@@ -16051,7 +16051,7 @@
       "Nature": 5
     },
     "2026": {
-      "NeurIPS": 10,
+      "NeurIPS": 12,
       "ICML": 17,
       "Nature": 1,
       "ICLR": 22
@@ -16191,7 +16191,7 @@
         "year": 2025,
         "scientist": "Wieland Brendel",
         "co_author": "JE Vogt (matched: julia vogt)",
-        "doi": "https://doi.org/10.48550/arxiv.2410.21869"
+        "doi": null
       },
       {
         "title": "Generalized linear mode connectivity for transformers",
@@ -16459,7 +16459,7 @@
         "year": 2026,
         "scientist": "Celestine Mendler-D\u00fcnner",
         "co_author": "M Hardt (matched: moritz hardt)",
-        "doi": "https://doi.org/10.1145/3774904.3792740"
+        "doi": null
       },
       {
         "title": "Learning Hybrid Biophysical Neuron Models with Neural ODEs",
@@ -16557,21 +16557,21 @@
         "year": 2025,
         "scientist": "Celestine Mendler-D\u00fcnner",
         "co_author": "U von Luxburg (matched: ulrike von luxburg)",
-        "doi": "https://doi.org/10.52202/085713-4652"
+        "doi": null
       },
       {
         "title": "Decline now: A combinatorial model for algorithmic collective action",
         "year": 2025,
         "scientist": "Celestine Mendler-D\u00fcnner",
         "co_author": "M Hardt (matched: moritz hardt)",
-        "doi": "https://doi.org/10.1145/3706598.3713966"
+        "doi": null
       },
       {
         "title": "Performative prediction: Past and future",
         "year": 2025,
         "scientist": "Celestine Mendler-D\u00fcnner",
         "co_author": "M Hardt (matched: moritz hardt)",
-        "doi": "https://doi.org/10.1214/25-sts986"
+        "doi": null
       },
       {
         "title": "Scaling open-ended reasoning to predict the future",
@@ -16627,7 +16627,7 @@
         "year": 2024,
         "scientist": "Celestine Mendler-D\u00fcnner",
         "co_author": "M Hardt (matched: moritz hardt)",
-        "doi": "https://doi.org/10.52202/079017-1891"
+        "doi": null
       },
       {
         "title": "A realistic threat model for large language model jailbreaks",
@@ -16699,7 +16699,7 @@
         "year": 2026,
         "scientist": "Sahar Abdelnabi",
         "co_author": "M Fritz (matched: mario fritz)",
-        "doi": "https://doi.org/10.60882/cispa.32780832"
+        "doi": null
       },
       {
         "title": "Hidden in memory: Sleeper memory poisoning in LLM agents",
@@ -17026,7 +17026,7 @@
         "year": 2025,
         "scientist": "Wieland Brendel",
         "co_author": "A Koepke (matched: a sophia koepke)",
-        "doi": "https://doi.org/10.1109/iccv51701.2025.00103"
+        "doi": null
       },
       {
         "title": "Generative intervention models for causal perturbation modeling",
@@ -17063,7 +17063,7 @@
         "year": 2026,
         "scientist": "Jonas Geiping, Maksym Andriushchenko",
         "co_author": "W Samek (matched: wojciech samek)",
-        "doi": "https://doi.org/10.48550/arxiv.2509.18058"
+        "doi": null
       },
       {
         "title": "Hyperparameter optimization in machine learning",
@@ -17215,7 +17215,7 @@
         "year": 2025,
         "scientist": "Frank Hutter",
         "co_author": "M Pontil (matched: massimiliano pontil)",
-        "doi": null
+        "doi": "https://doi.org/10.52202/085713-5141"
       },
       {
         "title": "Deltaproduct: Increasing the expressivity of deltanet through products of householders",
@@ -18954,7 +18954,7 @@
   },
   "venue_counts": {
     "ICML": 43,
-    "NeurIPS": 70,
+    "NeurIPS": 72,
     "ICLR": 57
   },
   "broader_venue_counts": {
@@ -18974,5 +18974,5 @@
     "AISTATS": 1,
     "UAI": 1
   },
-  "top_tier_total_count": 219
+  "top_tier_total_count": 221
 }
