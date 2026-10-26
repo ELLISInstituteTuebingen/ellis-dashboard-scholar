@@ -279,7 +279,8 @@ function renderTable(data) {
   const scientists = Object.keys(data.per_scientist_counts).sort();
   scientists.forEach(s => {
     const opt = document.createElement('option');
-    opt.value = s; opt.textContent = s;
+    opt.value = s;
+    opt.textContent = `${s} (${data.per_scientist_counts[s]})`;
     scientistFilter.appendChild(opt);
   });
 
