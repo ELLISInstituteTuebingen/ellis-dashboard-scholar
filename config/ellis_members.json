@@ -1,5 +1,143 @@
 [
   {
+    "name": "Honza Cernocky",
+    "units": [
+      "Unit Czechia"
+    ]
+  },
+  {
+    "name": "Ondrej Bojar",
+    "units": [
+      "Unit Czechia"
+    ]
+  },
+  {
+    "name": "Jan Křetínský",
+    "units": [
+      "Unit Czechia"
+    ]
+  },
+  {
+    "name": "Anni-Yasmin Turhan",
+    "units": [
+      "Unit NRW"
+    ]
+  },
+  {
+    "name": "Giovanni Cinà",
+    "units": [
+      "Unit Amsterdam"
+    ]
+  },
+  {
+    "name": "Jan Hajič",
+    "units": [
+      "Unit Czechia"
+    ]
+  },
+  {
+    "name": "Stanislav Mazurenko",
+    "units": [
+      "Unit Czechia"
+    ]
+  },
+  {
+    "name": "Viliam Lisý",
+    "units": [
+      "Unit Czechia"
+    ]
+  },
+  {
+    "name": "Martin Saska",
+    "units": [
+      "Unit Czechia"
+    ]
+  },
+  {
+    "name": "Vít Musil",
+    "units": [
+      "Unit Czechia"
+    ]
+  },
+  {
+    "name": "Antonín Kučera",
+    "units": [
+      "Unit Czechia"
+    ]
+  },
+  {
+    "name": "Johanna Baehr",
+    "units": [
+      "Unit Hamburg"
+    ]
+  },
+  {
+    "name": "Agostina Palmigiano",
+    "units": [
+      "Unit London"
+    ]
+  },
+  {
+    "name": "Holger Hoos",
+    "units": [
+      "Unit NRW"
+    ]
+  },
+  {
+    "name": "Petr Novotný",
+    "units": [
+      "Unit Czechia"
+    ]
+  },
+  {
+    "name": "Szymon Łukasik",
+    "units": [
+      "Unit Warsaw"
+    ]
+  },
+  {
+    "name": "Sebastian Schelter",
+    "units": [
+      "Unit Berlin"
+    ]
+  },
+  {
+    "name": "Hao Dong",
+    "units": [
+      "Institute Finland"
+    ]
+  },
+  {
+    "name": "Jean-Luc Dugelay",
+    "units": [
+      "Unit Côte d'Azur"
+    ]
+  },
+  {
+    "name": "Jakub Marecek",
+    "units": [
+      "Unit Czechia"
+    ]
+  },
+  {
+    "name": "Maria Vakalopoulou",
+    "units": [
+      "Unit Paris"
+    ]
+  },
+  {
+    "name": "Philipp Cimiano",
+    "units": [
+      "Unit NRW"
+    ]
+  },
+  {
+    "name": "Jaap Kamps",
+    "units": [
+      "Unit Amsterdam"
+    ]
+  },
+  {
     "name": "Carlos Rodríguez-Pardo",
     "units": [
       "Unit Milan"
@@ -15,6 +153,18 @@
     "name": "Stefano Coniglio",
     "units": [
       "Unit Milan"
+    ]
+  },
+  {
+    "name": "Masoud Mansoury",
+    "units": [
+      "Unit Delft"
+    ]
+  },
+  {
+    "name": "Jingyuan Sun",
+    "units": [
+      "Unit Manchester"
     ]
   },
   {
@@ -66,9 +216,21 @@
     ]
   },
   {
+    "name": "Wojciech Kusa",
+    "units": [
+      "Unit Warsaw"
+    ]
+  },
+  {
     "name": "Marc Lelarge",
     "units": [
       "Unit Paris"
+    ]
+  },
+  {
+    "name": "Martha Lewis",
+    "units": [
+      "Unit Amsterdam"
     ]
   },
   {
@@ -108,6 +270,18 @@
     ]
   },
   {
+    "name": "Raphaël Troncy",
+    "units": [
+      "Unit Côte d'Azur"
+    ]
+  },
+  {
+    "name": "Suzanne Little",
+    "units": [
+      "Unit Ireland"
+    ]
+  },
+  {
     "name": "Siddharth Swaroop",
     "units": [
       "Unit London"
@@ -132,6 +306,18 @@
     ]
   },
   {
+    "name": "Emile van Krieken",
+    "units": [
+      "Unit Amsterdam"
+    ]
+  },
+  {
+    "name": "Stefan Bonn",
+    "units": [
+      "Unit Hamburg"
+    ]
+  },
+  {
     "name": "Christian Wolf",
     "units": [
       "Unit Grenoble"
@@ -141,6 +327,12 @@
     "name": "Moritz Helias",
     "units": [
       "Unit NRW"
+    ]
+  },
+  {
+    "name": "Adrián Arnaiz Rodríguez",
+    "units": [
+      "Unit Alicante"
     ]
   },
   {
@@ -174,6 +366,18 @@
     ]
   },
   {
+    "name": "Cristina Becchio",
+    "units": [
+      "Unit Hamburg"
+    ]
+  },
+  {
+    "name": "Adam Jatowt",
+    "units": [
+      "Unit Innsbruck"
+    ]
+  },
+  {
     "name": "Manuel Mazo Espinosa",
     "units": [
       "Unit Delft"
@@ -183,12 +387,6 @@
     "name": "Matthias Caro",
     "units": [
       "Unit Oxford"
-    ]
-  },
-  {
-    "name": "Jacek Mańdziuk",
-    "units": [
-      "Unit Warsaw"
     ]
   },
   {
@@ -216,9 +414,21 @@
     ]
   },
   {
+    "name": "Victor Charpenay",
+    "units": [
+      "Unit Côte d'Azur"
+    ]
+  },
+  {
     "name": "Kamil Deja",
     "units": [
       "Unit Warsaw"
+    ]
+  },
+  {
+    "name": "Niall Murray",
+    "units": [
+      "Unit Ireland"
     ]
   },
   {
@@ -249,6 +459,12 @@
     "name": "Heike Trautmann",
     "units": [
       "Unit NRW"
+    ]
+  },
+  {
+    "name": "Piera Riccio",
+    "units": [
+      "Unit Amsterdam"
     ]
   },
   {
@@ -331,6 +547,24 @@
     ]
   },
   {
+    "name": "Francesca Finotello",
+    "units": [
+      "Unit Innsbruck"
+    ]
+  },
+  {
+    "name": "Eva Zangerle",
+    "units": [
+      "Unit Innsbruck"
+    ]
+  },
+  {
+    "name": "John Kelleher",
+    "units": [
+      "Unit Ireland"
+    ]
+  },
+  {
     "name": "Leena Chennuru Vankadara",
     "units": [
       "Unit London"
@@ -367,15 +601,45 @@
     ]
   },
   {
+    "name": "Barry O’Sullivan",
+    "units": [
+      "Unit Ireland"
+    ]
+  },
+  {
     "name": "Aaron Klein",
     "units": [
       "Institute Tübingen"
     ]
   },
   {
+    "name": "Binh-Son Hua",
+    "units": [
+      "Unit Ireland"
+    ]
+  },
+  {
     "name": "Dimitar Iliev Dimitrov",
     "units": [
       "Unit Sofia"
+    ]
+  },
+  {
+    "name": "Oliver Niggemann",
+    "units": [
+      "Unit Hamburg"
+    ]
+  },
+  {
+    "name": "Barak Pearlmutter",
+    "units": [
+      "Unit Ireland"
+    ]
+  },
+  {
+    "name": "Brian Mac Namee",
+    "units": [
+      "Unit Ireland"
     ]
   },
   {
@@ -391,7 +655,7 @@
     ]
   },
   {
-    "name": "Vanessa Gómez Verdejo",
+    "name": "Vanessa Gómez-Verdejo",
     "units": [
       "Unit Madrid"
     ]
@@ -403,9 +667,21 @@
     ]
   },
   {
+    "name": "Simone Rossi",
+    "units": [
+      "Unit Côte d'Azur"
+    ]
+  },
+  {
     "name": "Shiwei Liu",
     "units": [
       "Institute Tübingen"
+    ]
+  },
+  {
+    "name": "Giulio Franzese",
+    "units": [
+      "Unit Côte d'Azur"
     ]
   },
   {
@@ -427,6 +703,12 @@
     ]
   },
   {
+    "name": "Martin Grohe",
+    "units": [
+      "Unit NRW"
+    ]
+  },
+  {
     "name": "Joost-Pieter Katoen",
     "units": [
       "Unit NRW"
@@ -436,6 +718,12 @@
     "name": "Marcos Treviso",
     "units": [
       "Unit Lisbon"
+    ]
+  },
+  {
+    "name": "Reza Arghandeh",
+    "units": [
+      "Unit Norway"
     ]
   },
   {
@@ -451,9 +739,45 @@
     ]
   },
   {
+    "name": "Anastasiia Koloskova",
+    "units": [
+      "Unit Lausanne"
+    ]
+  },
+  {
+    "name": "Sheila Castilho",
+    "units": [
+      "Unit Ireland"
+    ]
+  },
+  {
+    "name": "Paul Buitelaar",
+    "units": [
+      "Unit Ireland"
+    ]
+  },
+  {
     "name": "Daniel Truhn",
     "units": [
       "Unit NRW"
+    ]
+  },
+  {
+    "name": "Jennifer Foster",
+    "units": [
+      "Unit Ireland"
+    ]
+  },
+  {
+    "name": "Ivana Dusparic",
+    "units": [
+      "Unit Ireland"
+    ]
+  },
+  {
+    "name": "Luca Rossetto",
+    "units": [
+      "Unit Ireland"
     ]
   },
   {
@@ -463,9 +787,33 @@
     ]
   },
   {
+    "name": "Frank Steinicke",
+    "units": [
+      "Unit Hamburg"
+    ]
+  },
+  {
+    "name": "Serena Villata",
+    "units": [
+      "Unit Côte d'Azur"
+    ]
+  },
+  {
+    "name": "Nicolas Schuck",
+    "units": [
+      "Unit Hamburg"
+    ]
+  },
+  {
     "name": "Stefan Heindorf",
     "units": [
       "Unit NRW"
+    ]
+  },
+  {
+    "name": "Cathal Gurrin",
+    "units": [
+      "Unit Ireland"
     ]
   },
   {
@@ -490,6 +838,36 @@
     "name": "Jhony H. Giraldo",
     "units": [
       "Unit Paris"
+    ]
+  },
+  {
+    "name": "John McCrae",
+    "units": [
+      "Unit Ireland"
+    ]
+  },
+  {
+    "name": "Mohammed Hasanuzzaman",
+    "units": [
+      "Unit Ireland"
+    ]
+  },
+  {
+    "name": "Vinay Setty",
+    "units": [
+      "Unit Norway"
+    ]
+  },
+  {
+    "name": "Anis Yazidi",
+    "units": [
+      "Unit Norway"
+    ]
+  },
+  {
+    "name": "Martin Burger",
+    "units": [
+      "Unit Hamburg"
     ]
   },
   {
@@ -559,6 +937,18 @@
     ]
   },
   {
+    "name": "Andrew Hines",
+    "units": [
+      "Unit Ireland"
+    ]
+  },
+  {
+    "name": "Steven Prestwich",
+    "units": [
+      "Unit Ireland"
+    ]
+  },
+  {
     "name": "Elena Demidova",
     "units": [
       "Unit NRW"
@@ -601,9 +991,27 @@
     ]
   },
   {
+    "name": "Anya Belz",
+    "units": [
+      "Unit Ireland"
+    ]
+  },
+  {
     "name": "Tom Viering",
     "units": [
       "Unit Delft"
+    ]
+  },
+  {
+    "name": "Dympna O'Sullivan",
+    "units": [
+      "Unit Ireland"
+    ]
+  },
+  {
+    "name": "Krisztian Balog",
+    "units": [
+      "Unit Norway"
     ]
   },
   {
@@ -631,6 +1039,12 @@
     ]
   },
   {
+    "name": "Kjersti Engan",
+    "units": [
+      "Unit Norway"
+    ]
+  },
+  {
     "name": "Rodrigo Moreno",
     "units": [
       "Unit Sweden"
@@ -640,6 +1054,12 @@
     "name": "Anna Gautier",
     "units": [
       "Unit Sweden"
+    ]
+  },
+  {
+    "name": "Georgiana Ifrim",
+    "units": [
+      "Unit Ireland"
     ]
   },
   {
@@ -655,6 +1075,12 @@
     ]
   },
   {
+    "name": "Mateja Jamnik",
+    "units": [
+      "Unit Cambridge"
+    ]
+  },
+  {
     "name": "Vittorio Cuculo",
     "units": [
       "Unit Modena"
@@ -664,6 +1090,18 @@
     "name": "Sahar Abdelnabi",
     "units": [
       "Institute Tübingen"
+    ]
+  },
+  {
+    "name": "Ginevra Castellano",
+    "units": [
+      "Unit Sweden"
+    ]
+  },
+  {
+    "name": "Kerstin Bach",
+    "units": [
+      "Unit Norway"
     ]
   },
   {
@@ -739,6 +1177,12 @@
     ]
   },
   {
+    "name": "Arnoldo Frigessi",
+    "units": [
+      "Unit Norway"
+    ]
+  },
+  {
     "name": "Alexander Heinlein",
     "units": [
       "Unit Delft"
@@ -799,6 +1243,12 @@
     ]
   },
   {
+    "name": "Florian Tramèr",
+    "units": [
+      "Unit Zurich"
+    ]
+  },
+  {
     "name": "Stefan Harmeling",
     "units": [
       "Unit NRW"
@@ -817,7 +1267,19 @@
     ]
   },
   {
+    "name": "Qing Liu",
+    "units": [
+      "Unit Norway"
+    ]
+  },
+  {
     "name": "Michal Valko",
+    "units": [
+      "Unit Paris"
+    ]
+  },
+  {
+    "name": "Edwige Cyffers",
     "units": [
       "Unit Paris"
     ]
@@ -865,6 +1327,18 @@
     ]
   },
   {
+    "name": "Linara Adilova",
+    "units": [
+      "Unit NRW"
+    ]
+  },
+  {
+    "name": "Kristoffer Wickstrøm",
+    "units": [
+      "Unit Norway"
+    ]
+  },
+  {
     "name": "Birgit Lugrin",
     "units": [
       "Unit Franconia"
@@ -892,6 +1366,12 @@
     "name": "Attilio Fiandrotti",
     "units": [
       "Unit Turin"
+    ]
+  },
+  {
+    "name": "Georgios Leontidis",
+    "units": [
+      "Unit Norway"
     ]
   },
   {
@@ -931,6 +1411,24 @@
     ]
   },
   {
+    "name": "Ayush Tewari",
+    "units": [
+      "Unit Cambridge"
+    ]
+  },
+  {
+    "name": "Sukalpa Chanda",
+    "units": [
+      "Unit Norway"
+    ]
+  },
+  {
+    "name": "Marco Lorenzi",
+    "units": [
+      "Unit Côte d'Azur"
+    ]
+  },
+  {
     "name": "Zongwei Wu",
     "units": [
       "Unit Franconia"
@@ -946,6 +1444,12 @@
     "name": "Mira Mezini",
     "units": [
       "Unit Darmstadt"
+    ]
+  },
+  {
+    "name": "Alexandros Iosifidis",
+    "units": [
+      "Institute Finland"
     ]
   },
   {
@@ -998,9 +1502,15 @@
     ]
   },
   {
-    "name": "Marek Cygan",
+    "name": "Aurelien Lucchi",
     "units": [
-      "Unit Warsaw"
+      "Unit Lausanne"
+    ]
+  },
+  {
+    "name": "Filip Ilievski",
+    "units": [
+      "Unit Amsterdam"
     ]
   },
   {
@@ -1013,6 +1523,12 @@
     "name": "Przemysław Biecek",
     "units": [
       "Unit Warsaw"
+    ]
+  },
+  {
+    "name": "Stefano Nichele",
+    "units": [
+      "Unit Norway"
     ]
   },
   {
@@ -1136,6 +1652,12 @@
     ]
   },
   {
+    "name": "Jan Dirk Wegner",
+    "units": [
+      "Unit Zurich"
+    ]
+  },
+  {
     "name": "Sebastijan Dumančić",
     "units": [
       "Unit Delft"
@@ -1184,9 +1706,21 @@
     ]
   },
   {
+    "name": "Adam Kortylewski",
+    "units": [
+      "Unit Freiburg"
+    ]
+  },
+  {
     "name": "Sagie Benaim",
     "units": [
       "Unit Tel Aviv"
+    ]
+  },
+  {
+    "name": "Vincent François-Lavet",
+    "units": [
+      "Unit Amsterdam"
     ]
   },
   {
@@ -1205,6 +1739,12 @@
     "name": "Jan Zahálka",
     "units": [
       "Unit Czechia"
+    ]
+  },
+  {
+    "name": "Adín Ramírez Rivera",
+    "units": [
+      "Unit Norway"
     ]
   },
   {
@@ -1241,6 +1781,12 @@
     "name": "Sebastian Cygert",
     "units": [
       "Unit Warsaw"
+    ]
+  },
+  {
+    "name": "Filippo Maria Bianchi",
+    "units": [
+      "Unit Norway"
     ]
   },
   {
@@ -1331,6 +1877,12 @@
     "name": "Alessandro Gianola",
     "units": [
       "Unit Lisbon"
+    ]
+  },
+  {
+    "name": "Jens Behley",
+    "units": [
+      "Unit NRW"
     ]
   },
   {
@@ -1699,6 +2251,12 @@
     ]
   },
   {
+    "name": "Esa Rahtu",
+    "units": [
+      "Institute Finland"
+    ]
+  },
+  {
     "name": "Carl Henrik Ek",
     "units": [
       "Unit Cambridge"
@@ -1736,6 +2294,12 @@
     ]
   },
   {
+    "name": "Dilip K. Prasad",
+    "units": [
+      "Unit Norway"
+    ]
+  },
+  {
     "name": "Christian Sohler",
     "units": [
       "Unit NRW"
@@ -1748,15 +2312,21 @@
     ]
   },
   {
-    "name": "Po-Ling Loh",
+    "name": "Giorgia Ramponi",
     "units": [
-      "Unit Cambridge"
+      "Unit Zurich"
     ]
   },
   {
-    "name": "Johann Brehmer",
+    "name": "Maria A. Zuluaga",
     "units": [
-      "Unit Amsterdam"
+      "Unit Côte d'Azur"
+    ]
+  },
+  {
+    "name": "Po-Ling Loh",
+    "units": [
+      "Unit Cambridge"
     ]
   },
   {
@@ -1844,6 +2414,12 @@
     ]
   },
   {
+    "name": "Hongpeng Zhou",
+    "units": [
+      "Unit Manchester"
+    ]
+  },
+  {
     "name": "Nanne van Noord",
     "units": [
       "Unit Amsterdam"
@@ -1893,6 +2469,12 @@
     ]
   },
   {
+    "name": "Chris Biemann",
+    "units": [
+      "Unit Hamburg"
+    ]
+  },
+  {
     "name": "Suvrit Sra",
     "units": [
       "Unit Munich"
@@ -1908,6 +2490,12 @@
     "name": "Sašo Džeroski",
     "units": [
       "Unit Slovenia"
+    ]
+  },
+  {
+    "name": "Kevin S. Luck",
+    "units": [
+      "Unit Amsterdam"
     ]
   },
   {
@@ -1935,6 +2523,12 @@
     ]
   },
   {
+    "name": "George Drettakis",
+    "units": [
+      "Unit Côte d'Azur"
+    ]
+  },
+  {
     "name": "Martha Larson",
     "units": [
       "Unit Nijmegen"
@@ -1950,6 +2544,12 @@
     "name": "Edmond Boyer",
     "units": [
       "Unit Grenoble"
+    ]
+  },
+  {
+    "name": "Francesca Grisoni",
+    "units": [
+      "Unit Linz"
     ]
   },
   {
@@ -1997,7 +2597,7 @@
   {
     "name": "Xucong Zhang",
     "units": [
-      "Unit Delft"
+      "Institute Finland"
     ]
   },
   {
@@ -2271,9 +2871,21 @@
     ]
   },
   {
+    "name": "Charlotte Frenkel",
+    "units": [
+      "Unit Delft"
+    ]
+  },
+  {
     "name": "Terry Lyons",
     "units": [
       "Unit Oxford"
+    ]
+  },
+  {
+    "name": "Ali Ramezani-Kebrya",
+    "units": [
+      "Unit Norway"
     ]
   },
   {
@@ -2283,15 +2895,15 @@
     ]
   },
   {
-    "name": "Gitta Kutyniok",
+    "name": "Jörg Lücke",
     "units": [
-      "Unit Munich"
+      "Unit Innsbruck"
     ]
   },
   {
-    "name": "Theodore Papamarkou",
+    "name": "Gitta Kutyniok",
     "units": [
-      "Unit Manchester"
+      "Unit Munich"
     ]
   },
   {
@@ -2316,6 +2928,12 @@
     "name": "Anna Lukina",
     "units": [
       "Unit Delft"
+    ]
+  },
+  {
+    "name": "Anne Lauscher",
+    "units": [
+      "Unit Hamburg"
     ]
   },
   {
@@ -2349,12 +2967,6 @@
     ]
   },
   {
-    "name": "Holger Caesar",
-    "units": [
-      "Unit Delft"
-    ]
-  },
-  {
     "name": "Tingting Mu",
     "units": [
       "Unit Manchester"
@@ -2364,6 +2976,12 @@
     "name": "Paolo Rota",
     "units": [
       "Unit Trento"
+    ]
+  },
+  {
+    "name": "Elizabeth Daly",
+    "units": [
+      "Unit Ireland"
     ]
   },
   {
@@ -2454,12 +3072,6 @@
     "name": "Luca Magri",
     "units": [
       "Unit Milan"
-    ]
-  },
-  {
-    "name": "Andrew  Yates",
-    "units": [
-      "Unit Amsterdam"
     ]
   },
   {
@@ -2778,12 +3390,6 @@
     ]
   },
   {
-    "name": "Natasa Przulj",
-    "units": [
-      "Unit Barcelona"
-    ]
-  },
-  {
     "name": "Gábor Lugosi",
     "units": [
       "Unit Barcelona"
@@ -2818,12 +3424,6 @@
     "name": "Elisabeth Lex",
     "units": [
       "Unit Graz"
-    ]
-  },
-  {
-    "name": "Dimitrios Tzionas",
-    "units": [
-      "Unit Amsterdam"
     ]
   },
   {
@@ -2961,12 +3561,6 @@
     ]
   },
   {
-    "name": "Wei Pan",
-    "units": [
-      "Unit Manchester"
-    ]
-  },
-  {
     "name": "Dirk Hovy",
     "units": [
       "Unit Milan"
@@ -3061,7 +3655,6 @@
   {
     "name": "Amartya Sanyal",
     "units": [
-      "Unit Copenhagen",
       "Unit Denmark"
     ]
   },
@@ -3750,6 +4343,12 @@
     ]
   },
   {
+    "name": "Antitza Dantcheva",
+    "units": [
+      "Unit Côte d'Azur"
+    ]
+  },
+  {
     "name": "Giuseppe Averta",
     "units": [
       "Unit Turin"
@@ -3760,6 +4359,12 @@
     "units": [
       "Unit Copenhagen",
       "Unit Denmark"
+    ]
+  },
+  {
+    "name": "Motonobu Kanagawa",
+    "units": [
+      "Unit Côte d'Azur"
     ]
   },
   {
@@ -3781,6 +4386,12 @@
     ]
   },
   {
+    "name": "Charles Bouveyron",
+    "units": [
+      "Unit Côte d'Azur"
+    ]
+  },
+  {
     "name": "Andreas Hotho",
     "units": [
       "Unit Franconia"
@@ -3790,6 +4401,12 @@
     "name": "David A. Clifton",
     "units": [
       "Unit Oxford"
+    ]
+  },
+  {
+    "name": "Paolo Papotti",
+    "units": [
+      "Unit Côte d'Azur"
     ]
   },
   {
@@ -3902,6 +4519,12 @@
   },
   {
     "name": "Balázs Kégl",
+    "units": [
+      "Unit Paris"
+    ]
+  },
+  {
+    "name": "Aurélien Bellet",
     "units": [
       "Unit Paris"
     ]
@@ -4039,12 +4662,6 @@
     ]
   },
   {
-    "name": "Niels Peek",
-    "units": [
-      "Unit Manchester"
-    ]
-  },
-  {
     "name": "Matthew Sperrin",
     "units": [
       "Unit Manchester"
@@ -4091,6 +4708,12 @@
     "name": "Matteo Saveriano",
     "units": [
       "Unit Trento"
+    ]
+  },
+  {
+    "name": "Wouter M. Koolen",
+    "units": [
+      "Unit Amsterdam"
     ]
   },
   {
@@ -4322,6 +4945,12 @@
     ]
   },
   {
+    "name": "Hans J. Briegel",
+    "units": [
+      "Unit Innsbruck"
+    ]
+  },
+  {
     "name": "Christian Igel",
     "units": [
       "Unit Copenhagen",
@@ -4428,6 +5057,12 @@
     ]
   },
   {
+    "name": "Joseph Salmon",
+    "units": [
+      "Unit Paris"
+    ]
+  },
+  {
     "name": "Giorgio Valentini",
     "units": [
       "Unit Milan"
@@ -4455,7 +5090,6 @@
   {
     "name": "Isabelle Augenstein",
     "units": [
-      "Unit Copenhagen",
       "Unit Denmark"
     ]
   },
@@ -4594,12 +5228,6 @@
     ]
   },
   {
-    "name": "Dieuwke Hupkes",
-    "units": [
-      "Unit Amsterdam"
-    ]
-  },
-  {
     "name": "Eric Schulz",
     "units": [
       "Unit Munich"
@@ -4709,12 +5337,6 @@
     ]
   },
   {
-    "name": "Mustafa Mert Çelikok",
-    "units": [
-      "Unit Delft"
-    ]
-  },
-  {
     "name": "Sebastian U. Stich",
     "units": [
       "Unit Saarbrücken"
@@ -4754,6 +5376,12 @@
     "name": "Marc Pollefeys",
     "units": [
       "Unit Zurich"
+    ]
+  },
+  {
+    "name": "Alan Smeaton",
+    "units": [
+      "Unit Ireland"
     ]
   },
   {
@@ -4857,6 +5485,12 @@
     "name": "Emmanuel Abbé",
     "units": [
       "Unit Lausanne"
+    ]
+  },
+  {
+    "name": "Rico Sennrich",
+    "units": [
+      "Unit Zurich"
     ]
   },
   {
@@ -4979,12 +5613,6 @@
     "name": "Isabelle Guyon",
     "units": [
       "Unit Paris"
-    ]
-  },
-  {
-    "name": "Klaus-Robert Müller",
-    "units": [
-      "Unit Berlin"
     ]
   },
   {
@@ -5239,6 +5867,12 @@
     ]
   },
   {
+    "name": "Davide Scaramuzza",
+    "units": [
+      "Unit Zurich"
+    ]
+  },
+  {
     "name": "Cordelia Schmid",
     "units": [
       "Unit Paris"
@@ -5275,6 +5909,12 @@
     ]
   },
   {
+    "name": "Sander Bohte",
+    "units": [
+      "Unit Amsterdam"
+    ]
+  },
+  {
     "name": "Marc Toussaint",
     "units": [
       "Unit Berlin"
@@ -5305,6 +5945,12 @@
     ]
   },
   {
+    "name": "Peter  Grünwald",
+    "units": [
+      "Unit Amsterdam"
+    ]
+  },
+  {
     "name": "Andrea Vedaldi",
     "units": [
       "Unit Oxford"
@@ -5315,6 +5961,12 @@
     "units": [
       "Unit Tübingen",
       "Unit Munich"
+    ]
+  },
+  {
+    "name": "Antonio Torralba",
+    "units": [
+      "Unit Barcelona"
     ]
   },
   {
@@ -5333,12 +5985,6 @@
     "name": "Giulio Biroli",
     "units": [
       "Unit Paris"
-    ]
-  },
-  {
-    "name": "Arnold  Smeulders",
-    "units": [
-      "Unit Amsterdam"
     ]
   },
   {
@@ -5713,6 +6359,12 @@
     ]
   },
   {
+    "name": "Gabriel Peyré",
+    "units": [
+      "Unit Paris"
+    ]
+  },
+  {
     "name": "Joris M. Mooij",
     "units": [
       "Unit Amsterdam"
@@ -5743,141 +6395,15 @@
     ]
   },
   {
-    "name": "Andreas Krause",
+    "name": "Mustafa Mert Çelikok",
     "units": [
-      "Unit Zurich"
+      "Unit Denmark"
     ]
   },
   {
-    "name": "Sepp Hochreiter",
+    "name": "Saskia Nagel",
     "units": [
-      "Unit Linz"
-    ]
-  },
-  {
-    "name": "Bernt Schiele",
-    "units": [
-      "Unit Saarbrücken"
-    ]
-  },
-  {
-    "name": "Christoph H. Lampert",
-    "units": [
-      "Unit Vienna"
-    ]
-  },
-  {
-    "name": "Nicu Sebe",
-    "units": [
-      "Unit Trento"
-    ]
-  },
-  {
-    "name": "Bruno Lepri",
-    "units": [
-      "Unit Trento"
-    ]
-  },
-  {
-    "name": "Miguel Hernández-Lobato",
-    "units": [
-      "Unit Cambridge"
-    ]
-  },
-  {
-    "name": "Arthur Gretton",
-    "units": [
-      "Unit London"
-    ]
-  },
-  {
-    "name": "Massimiliano Pontil",
-    "units": [
-      "Unit Genoa"
-    ]
-  },
-  {
-    "name": "Rita Cucchiara",
-    "units": [
-      "Unit Modena"
-    ]
-  },
-  {
-    "name": "Ole Winther",
-    "units": [
-      "Unit Copenhagen"
-    ]
-  },
-  {
-    "name": "Ralf Herbrich",
-    "units": [
-      "Unit Potsdam"
-    ]
-  },
-  {
-    "name": "Ingo Steinwart",
-    "units": [
-      "Unit Stuttgart"
-    ]
-  },
-  {
-    "name": "Markus Reichstein",
-    "units": [
-      "Unit Jena"
-    ]
-  },
-  {
-    "name": "Marcel van Gerven",
-    "units": [
-      "Unit Nijmegen"
-    ]
-  },
-  {
-    "name": "Amir Globerson",
-    "units": [
-      "Unit Tel Aviv"
-    ]
-  },
-  {
-    "name": "Shie Mannor",
-    "units": [
-      "Unit Haifa"
-    ]
-  },
-  {
-    "name": "Tomasz Trzciński",
-    "units": [
-      "Unit Warsaw"
-    ]
-  },
-  {
-    "name": "Dimosthenis Karatzas",
-    "units": [
-      "Unit Barcelona"
-    ]
-  },
-  {
-    "name": "Carme Torras",
-    "units": [
-      "Unit Barcelona"
-    ]
-  },
-  {
-    "name": "Fabian Theis",
-    "units": [
-      "Unit Munich"
-    ]
-  },
-  {
-    "name": "Andreas Bulling",
-    "units": [
-      "Unit Stuttgart"
-    ]
-  },
-  {
-    "name": "Frans A. Oliehoek",
-    "units": [
-      "Unit Delft"
+      "Unit NRW"
     ]
   }
 ]
