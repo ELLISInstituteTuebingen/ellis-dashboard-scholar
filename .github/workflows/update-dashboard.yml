@@ -25,6 +25,11 @@ jobs:
     # regular content/code push just deploys whatever's already committed.
     if: github.event_name != 'push'
     runs-on: ubuntu-latest
+    # Backstop: a healthy run takes ~14-16 min. If anything hangs (e.g. a
+    # SerpAPI slowdown that slips past the script's own circuit breaker),
+    # GitHub kills the job at 25 min with a clean "timed out" instead of
+    # letting it crawl for 40+ minutes.
+    timeout-minutes: 25
     steps:
       - uses: actions/checkout@v4
 

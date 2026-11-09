@@ -71,12 +71,30 @@ _CONSECUTIVE_FULL_FAILURES = 0  # tracks repeated total-retry-exhaustion across
                                  # it's a real quota limit, not a momentary blip
 
 
+SERPAPI_UNREACHABLE = False  # set True once SerpAPI has timed out / refused
+                              # connections too many times in a row. A SerpAPI
+                              # outage or slowdown then makes the run FAIL FAST
+                              # instead of spending the full 30s timeout on
+                              # every remaining call (which previously hung the
+                              # whole GitHub Action for 40+ minutes before it
+                              # was killed).
+
+_CONSECUTIVE_NET_FAILURES = 0   # consecutive network-level failures (timeouts /
+                                 # connection errors) across calls; trips
+                                 # SERPAPI_UNREACHABLE once it crosses the max.
+
+MAX_CONSECUTIVE_NET_FAILURES = 5  # ~5 straight timeouts (≈2-3 min) ⇒ treat
+                                   # SerpAPI as down and stop for this run.
+
+
 def _serpapi_get(params, name):
-    """Shared SerpAPI request helper with retry-on-429 and quota detection.
-    Returns the parsed JSON response, or None if the request failed, was
-    rate-limited past retries, or the monthly quota is exhausted."""
-    global SERPAPI_QUOTA_EXHAUSTED, _CONSECUTIVE_FULL_FAILURES
-    if not _SERPAPI_KEY or SERPAPI_QUOTA_EXHAUSTED:
+    """Shared SerpAPI request helper with retry-on-429, quota detection, and a
+    network-failure circuit breaker. Returns the parsed JSON response, or None
+    if the request failed, was rate-limited past retries, the monthly quota is
+    exhausted, or SerpAPI has become unreachable for the rest of this run."""
+    global SERPAPI_QUOTA_EXHAUSTED, SERPAPI_UNREACHABLE
+    global _CONSECUTIVE_FULL_FAILURES, _CONSECUTIVE_NET_FAILURES
+    if not _SERPAPI_KEY or SERPAPI_QUOTA_EXHAUSTED or SERPAPI_UNREACHABLE:
         return None
 
     full_params = dict(params, api_key=_SERPAPI_KEY)
@@ -84,7 +102,16 @@ def _serpapi_get(params, name):
         try:
             resp = requests.get("https://serpapi.com/search", params=full_params, timeout=30)
         except requests.RequestException as e:
-            print(f"    [warn] SerpAPI request failed for {name}: {e}", file=sys.stderr)
+            _CONSECUTIVE_NET_FAILURES += 1
+            print(f"    [warn] SerpAPI request failed for {name}: {e} "
+                  f"(consecutive network failures: {_CONSECUTIVE_NET_FAILURES}/"
+                  f"{MAX_CONSECUTIVE_NET_FAILURES})", file=sys.stderr)
+            if _CONSECUTIVE_NET_FAILURES >= MAX_CONSECUTIVE_NET_FAILURES:
+                print("    [error] SerpAPI looks unreachable — too many consecutive timeouts / "
+                      "connection errors. Stopping Scholar calls for the rest of this run. This is "
+                      "almost always a SerpAPI outage or slowdown, NOT your API key or monthly "
+                      "quota. Re-run once SerpAPI is healthy again.", file=sys.stderr)
+                SERPAPI_UNREACHABLE = True
             return None
 
         if resp.status_code == 429:
@@ -117,6 +144,7 @@ def _serpapi_get(params, name):
                 print(f"    [warn] SerpAPI error for {name}: {error}", file=sys.stderr)
             return None
         _CONSECUTIVE_FULL_FAILURES = 0  # a real success resets the counter
+        _CONSECUTIVE_NET_FAILURES = 0   # network recovered — reset the breaker
         return data
 
     # Exhausted all 3 retries without success. If this keeps happening
