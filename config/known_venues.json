@@ -971,6 +971,26 @@
       "title": "AM-Bench: A Unified Taxonomy and Evaluation Suite for Agentic Misalignment",
       "venue": "NeurIPS",
       "year": 2026
+    },
+    {
+      "title": "Fixed-Point Reasoners: Stable and Adaptive Deep Looped Transformers",
+      "venue": "NeurIPS",
+      "year": 2026
+    },
+    {
+      "title": "Beyond a Single Explanation of the Adam-SGD Gap",
+      "venue": "NeurIPS",
+      "year": 2026
+    },
+    {
+      "title": "Towards Understanding Self-Pretraining for Sequence Classification",
+      "venue": "NeurIPS",
+      "year": 2026
+    },
+    {
+      "title": "Improved state mixing in higher-order and block diagonal linear recurrent networks",
+      "venue": "NeurIPS",
+      "year": 2026
     }
   ]
 }
