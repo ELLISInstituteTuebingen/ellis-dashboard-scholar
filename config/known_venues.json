@@ -991,6 +991,166 @@
       "title": "Improved state mixing in higher-order and block diagonal linear recurrent networks",
       "venue": "NeurIPS",
       "year": 2026
+    },
+    {
+      "title": "Reaching a Consensus in Predictive Loops",
+      "venue": "NeurIPS",
+      "year": 2026
+    },
+    {
+      "title": "Claudini: Autoresearch Discovers State-of-the-Art Adversarial Attack Algorithms for LLMs",
+      "venue": "NeurIPS",
+      "year": 2026
+    },
+    {
+      "title": "FutureSim: Replaying World Events to Evaluate Adaptive Agents",
+      "venue": "NeurIPS",
+      "year": 2026
+    },
+    {
+      "title": "Instrumental Choices: Measuring the Propensity of LLM Agents to Pursue Instrumental Behaviors",
+      "venue": "NeurIPS",
+      "year": 2026
+    },
+    {
+      "title": "Skill-Inject: Measuring Agent Vulnerability to Skill File Attacks",
+      "venue": "NeurIPS",
+      "year": 2026
+    },
+    {
+      "title": "From Contexts to Conditionals: Statistical Self-Consistency of Persona Prompting",
+      "venue": "NeurIPS",
+      "year": 2026
+    },
+    {
+      "title": "Beyond IID: How General Are Tabular Foundation Models, Really?",
+      "venue": "NeurIPS",
+      "year": 2026
+    },
+    {
+      "title": "Encoding RNA Topology into Synthetic Alignments for 3D Structure Prediction",
+      "venue": "NeurIPS",
+      "year": 2026
+    },
+    {
+      "title": "MulTaBench: Benchmarking Multimodal Tabular Learning with Text and Image",
+      "venue": "NeurIPS",
+      "year": 2026
+    },
+    {
+      "title": "STRABLE: Benchmarking Tabular Machine Learning with Strings",
+      "venue": "NeurIPS",
+      "year": 2026
+    },
+    {
+      "title": "TempoPFN: Synthetic Pre-training of Linear RNNs for Zero-shot Time Series Forecasting",
+      "venue": "NeurIPS",
+      "year": 2026
+    },
+    {
+      "title": "Understanding the Surprising Generalization Properties of Tabular Foundation Models",
+      "venue": "NeurIPS",
+      "year": 2026
+    },
+    {
+      "title": "When is Warmstarting Effective for Scaling Language Models?",
+      "venue": "NeurIPS",
+      "year": 2026
+    },
+    {
+      "title": "AlphaQ: Calibration-Free Bit Allocation for Mixture-of-Experts Quantization",
+      "venue": "NeurIPS",
+      "year": 2026
+    },
+    {
+      "title": "Fixed-Point Reasoning: Stable and Adaptive Deep Looped Models",
+      "venue": "NeurIPS",
+      "year": 2026
+    },
+    {
+      "title": "PhyTS: A Benchmark for Scientific Time Series",
+      "venue": "NeurIPS",
+      "year": 2026
+    },
+    {
+      "title": "AI Agents May Always Fall for Prompt Injections",
+      "venue": "NeurIPS",
+      "year": 2026
+    },
+    {
+      "title": "Colosseum: Auditing Collusion in Cooperative Multi-Agent Systems",
+      "venue": "NeurIPS",
+      "year": 2026
+    },
+    {
+      "title": "Models That Know How Evaluations Are Designed Score Safer",
+      "venue": "NeurIPS",
+      "year": 2026
+    },
+    {
+      "title": "No More, No Less: Task Alignment in Terminal Agents",
+      "venue": "NeurIPS",
+      "year": 2026
+    },
+    {
+      "title": "KiteNorm: Variance Regularisation for Stable and Scalable Post-LN Transformers",
+      "venue": "NeurIPS",
+      "year": 2026
+    },
+    {
+      "title": "Revisiting the Adam–SGD Gap Beyond Single Factors",
+      "venue": "NeurIPS",
+      "year": 2026
+    },
+    {
+      "title": "Evaluating Neural Data Tokenizers: A Framework for Assessing Learned Representations of Spiking Activity",
+      "venue": "NeurIPS",
+      "year": 2026
+    },
+    {
+      "title": "LittleLearner: Language Models Under Pedagogically-Controlled Knowledge Exposure",
+      "venue": "NeurIPS",
+      "year": 2026
+    },
+    {
+      "title": "Stabilizing Extrapolation in Looped Transformers via Learned Stochastic Stopping",
+      "venue": "NeurIPS",
+      "year": 2026
+    },
+    {
+      "title": "Tio: Language Models with Parallel Streams of Thoughts, Inputs and Outputs",
+      "venue": "NeurIPS",
+      "year": 2026
+    },
+    {
+      "title": "Learning from the Self-future: On-policy Self-distillation for dLLMs",
+      "venue": "NeurIPS",
+      "year": 2026
+    },
+    {
+      "title": "An Open-Source Training Dataset for Foundation Models for Black-box Optimization",
+      "venue": "NeurIPS",
+      "year": 2026
+    },
+    {
+      "title": "From Uncertain Judgments to Calibrated Rankings: Conformal Elo Estimation for LLM Evaluation",
+      "venue": "NeurIPS",
+      "year": 2026
+    },
+    {
+      "title": "Strong Post-Training from Permissive, Reasoning-Dominant, Web-Scale Pretraining",
+      "venue": "NeurIPS",
+      "year": 2026
+    },
+    {
+      "title": "An Open-Source Training Dataset for Foundation Models for Hyperparameter Optimization",
+      "venue": "NeurIPS",
+      "year": 2026
+    },
+    {
+      "title": "Multi-Stream LLMs: Unblocking Language Models with Parallel Streams of Thoughts, Inputs and Outputs",
+      "venue": "NeurIPS",
+      "year": 2026
     }
   ]
 }
