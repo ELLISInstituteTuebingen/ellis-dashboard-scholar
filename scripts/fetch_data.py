@@ -87,7 +87,7 @@ MAX_CONSECUTIVE_NET_FAILURES = 5  # ~5 straight timeouts (≈2-3 min) ⇒ treat
                                    # SerpAPI as down and stop for this run.
 
 
-def _serpapi_get(params, name):
+def _serpapi_get(params, name, timeout=30, count_toward_breaker=True):
     """Shared SerpAPI request helper with retry-on-429, quota detection, and a
     network-failure circuit breaker. Returns the parsed JSON response, or None
     if the request failed, was rate-limited past retries, the monthly quota is
@@ -100,8 +100,13 @@ def _serpapi_get(params, name):
     full_params = dict(params, api_key=_SERPAPI_KEY)
     for attempt in range(3):
         try:
-            resp = requests.get("https://serpapi.com/search", params=full_params, timeout=30)
+            resp = requests.get("https://serpapi.com/search", params=full_params, timeout=timeout)
         except requests.RequestException as e:
+            if not count_toward_breaker:
+                # Optional extra calls (e.g. precise-date lookups) must never
+                # be able to trip the breaker and kill the main fetch.
+                print(f"    [warn] optional SerpAPI call failed for {name}: {e}", file=sys.stderr)
+                return None
             _CONSECUTIVE_NET_FAILURES += 1
             print(f"    [warn] SerpAPI request failed for {name}: {e} "
                   f"(consecutive network failures: {_CONSECUTIVE_NET_FAILURES}/"
@@ -160,6 +165,21 @@ def _serpapi_get(params, name):
     return None
 
 
+PRECISE_DATES_DISABLED = False   # set True for the rest of the run once the
+                                  # citation-detail view keeps failing.
+_PRECISE_DATE_FAILURES = 0
+MAX_PRECISE_DATE_FAILURES = 2
+
+# Since ~8 Nov 2026 SerpAPI's citation-detail view (view_op=view_citation)
+# times out for everyone — Google appears to be putting that page behind a
+# login. SerpAPI tracks it as public-roadmap issue #4559 and has parked it.
+# Those timeouts used to trip the network circuit breaker and abort the
+# WHOLE weekly run. Now these lookups are optional: a short timeout, they
+# never count toward the breaker, and after 2 failures we stop trying for
+# this run (it is retried automatically next run, so it self-heals once
+# SerpAPI fixes it).
+
+
 def fetch_precise_publication_date(scholar_id, citation_id, name):
     """Fetches the exact publication date (often day-precision, e.g.
     '2023/2/23') for a single paper via SerpAPI's citation-detail view.
@@ -167,16 +187,25 @@ def fetch_precise_publication_date(scholar_id, citation_id, name):
     day-precision determines whether they should actually count — costs
     one extra API call per paper checked, so used sparingly rather than
     for every single paper."""
-    if not scholar_id or not citation_id:
+    global PRECISE_DATES_DISABLED, _PRECISE_DATE_FAILURES
+    if not scholar_id or not citation_id or PRECISE_DATES_DISABLED:
         return None
     data = _serpapi_get({
         "engine": "google_scholar_author",
         "author_id": scholar_id,
         "view_op": "view_citation",
         "citation_id": citation_id,
-    }, name)
+    }, name, timeout=20, count_toward_breaker=False)
     if not data:
+        _PRECISE_DATE_FAILURES += 1
+        if _PRECISE_DATE_FAILURES >= MAX_PRECISE_DATE_FAILURES and not PRECISE_DATES_DISABLED:
+            PRECISE_DATES_DISABLED = True
+            print("    [warn] SerpAPI's citation-detail view is not responding (known SerpAPI "
+                  "issue #4559). Skipping precise-date checks for the rest of this run and "
+                  "reusing last week's verified decisions instead. The main fetch continues "
+                  "normally.", file=sys.stderr)
         return None
+    _PRECISE_DATE_FAILURES = 0
     date_str = (data.get("citation") or {}).get("publication_date")
     if not date_str:
         return None
@@ -1086,6 +1115,19 @@ def main():
     for scientist in team["scientists"]:
         per_scientist_counts[scientist["name"]] = 0
 
+    # Papers already published on the dashboard last time passed the
+    # precise-date check back when it still worked. If the check is
+    # unavailable now, we reuse that decision instead of guessing.
+    previously_verified_ids, previously_verified_titles = set(), set()
+    try:
+        _prev = json.loads(OUT_PATH.read_text()).get("publications", [])
+        for _p in _prev:
+            previously_verified_ids.add(_p.get("id"))
+            previously_verified_titles.add(_normalize_title(_p.get("title", "")))
+    except Exception:  # noqa: BLE001
+        pass
+    needs_review = []  # (scientist, title) — new join-year papers we couldn't verify
+
     h_index_values = []  # anonymized list, no names attached — for the plot
     citation_history_by_person = []  # anonymized list of per-year citation histories
 
@@ -1146,7 +1188,22 @@ def main():
                     continue
                 precise_date = fetch_precise_publication_date(scholar_id, p.get("citation_id"), scientist["name"])
                 if precise_date is None:
-                    still_kept.append(p)  # fail open — don't exclude on an API hiccup
+                    if (p["id"] in previously_verified_ids
+                            or _normalize_title(p.get("title", "")) in previously_verified_titles):
+                        still_kept.append(p)  # verified on an earlier run
+                    elif join_year < _date.today().year:
+                        # Joined in an earlier year and this paper was NOT on
+                        # the dashboard before -> it was almost certainly
+                        # excluded by the precise-date check back then. Keep
+                        # it excluded (protects against the confirmed
+                        # pre-join-date error), but list it for a quick look.
+                        excluded_precise += 1
+                        needs_review.append((scientist["name"], p.get("title", ""), "excluded"))
+                    else:
+                        # Joined this year: a new paper is most likely after
+                        # the join date. Keep it, but list it for a quick look.
+                        still_kept.append(p)
+                        needs_review.append((scientist["name"], p.get("title", ""), "kept"))
                 elif precise_date >= join_date_obj:
                     still_kept.append(p)
                 else:
@@ -1171,6 +1228,14 @@ def main():
                     all_publications[wid]["scientist"].append(scientist["name"])
 
             per_scientist_counts[scientist["name"]] += 1
+
+    if needs_review:
+        print(f"\n    [review] {len(needs_review)} paper(s) dated in a join year could not get a "
+              f"precise-date check this run (SerpAPI citation view down). Decision taken for each "
+              f"— worth a quick look:", file=sys.stderr)
+        for who, title, decision in needs_review:
+            print(f"      - {decision.upper():8} {who}: {title}", file=sys.stderr)
+        print("", file=sys.stderr)
 
     removed_dupes = dedupe_by_title(all_publications)
     print(f"    Removed {removed_dupes} duplicate Google Scholar records for the same paper (matched by title)")
