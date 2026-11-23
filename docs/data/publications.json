@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T12:22:30Z",
+  "generated_at": "2026-11-23T15:45:21Z",
   "institute": "ELLIS Institute T\u00fcbingen",
   "total_publications": 707,
   "confirmed_affiliation_count": 0,
@@ -136,7 +136,7 @@
       "title": "AI agents may always fall for prompt injections",
       "year": 2026,
       "venue": "NeurIPS, 2026",
-      "cited_by_count": 28,
+      "cited_by_count": 29,
       "doi": "https://doi.org/10.48550/arxiv.2605.17634",
       "citation_id": "QEiYbDYAAAAJ:vD2iS2Kej30C",
       "authors": [
@@ -231,7 +231,7 @@
       "title": "Colosseum: Auditing collusion in cooperative multi-agent systems",
       "year": 2026,
       "venue": "NeurIPS E&D, 2026",
-      "cited_by_count": 98,
+      "cited_by_count": 106,
       "doi": "https://doi.org/10.48550/arxiv.2602.15198",
       "citation_id": "QEiYbDYAAAAJ:IHkkN1K1AlAC",
       "authors": [
@@ -578,10 +578,10 @@
     },
     {
       "id": "scholar-QEiYbDYAAAAJ:KqnX2w3egDsC",
-      "title": "SEABench: Benchmarking Endogenous Misalignment In Self-Evolving Agents",
+      "title": "SEABench: Benchmarking endogenous misalignment in self-evolving agents",
       "year": 2026,
       "venue": "arXiv preprint arXiv:2609.35596, 2026",
-      "cited_by_count": 5,
+      "cited_by_count": 6,
       "doi": "https://doi.org/10.48550/arxiv.2609.35596",
       "citation_id": "QEiYbDYAAAAJ:KqnX2w3egDsC",
       "authors": [
@@ -688,7 +688,7 @@
       "title": "Firewalls to Secure Dynamic LLM Agentic Networks",
       "year": 2026,
       "venue": "TMLR, 2026",
-      "cited_by_count": 63,
+      "cited_by_count": 65,
       "doi": "https://doi.org/10.48550/arxiv.2502.01822",
       "citation_id": "QEiYbDYAAAAJ:v_tt_AnqfNMC",
       "authors": [
@@ -781,7 +781,7 @@
       "title": "Hidden in memory: Sleeper memory poisoning in LLM agents",
       "year": 2026,
       "venue": "Agents in the Wild Workshop @ ICML 2026. Spotlight, 2026",
-      "cited_by_count": 47,
+      "cited_by_count": 48,
       "doi": "https://doi.org/10.48550/arxiv.2605.15338",
       "citation_id": "QEiYbDYAAAAJ:oynPyU19kbsC",
       "authors": [
@@ -821,7 +821,7 @@
       "title": "Detecting Multi-Agent Collusion Through Multi-Agent Interpretability",
       "year": 2026,
       "venue": "arXiv preprint arXiv:2604.01151, 2026",
-      "cited_by_count": 53,
+      "cited_by_count": 54,
       "doi": "https://doi.org/10.70777/si.v3i4.18909",
       "citation_id": "QEiYbDYAAAAJ:XtJa11BXPS4C",
       "authors": [
@@ -6354,10 +6354,10 @@
     },
     {
       "id": "scholar-VRBv6mEAAAAJ:Tiz5es2fbqcC",
-      "title": "Updated Upper Limits on the isotropic gravitational-wave background from LIGO, Virgo, and KAGRA data through April 2025",
+      "title": "Updated upper limits on the isotropic gravitational-wave background from LIGO, Virgo, and KAGRA data through April 2025",
       "year": 2026,
       "venue": "arXiv preprint arXiv:2608.23477, 2026",
-      "cited_by_count": 4,
+      "cited_by_count": 6,
       "doi": "https://doi.org/10.1103/fvk7-qcjr",
       "citation_id": "VRBv6mEAAAAJ:Tiz5es2fbqcC",
       "authors": [
@@ -8205,7 +8205,7 @@
       "title": "Searches for Continuous Gravitational Waves from Supernova Remnants in the first part of the LIGO-Virgo-KAGRA Fourth Observing run",
       "year": 2026,
       "venue": "The Astrophysical Journal 1004 (2), 204, 2026",
-      "cited_by_count": 7,
+      "cited_by_count": 8,
       "doi": null,
       "citation_id": "VRBv6mEAAAAJ:pyW8ca7W8N0C",
       "authors": [
@@ -8228,7 +8228,7 @@
       "title": "Open data from LIGO, Virgo, and KAGRA through the first part of the fourth observing run",
       "year": 2026,
       "venue": "The Astrophysical Journal 1004 (2), 232, 2026",
-      "cited_by_count": 63,
+      "cited_by_count": 65,
       "doi": null,
       "citation_id": "VRBv6mEAAAAJ:bEWYMUwI8FkC",
       "authors": [
@@ -8251,7 +8251,7 @@
       "title": "GWTC-4.0: Methods for identifying and characterizing gravitational-wave transients",
       "year": 2026,
       "venue": "The Astrophysical Journal Letters 1004 (2), L21, 2026",
-      "cited_by_count": 70,
+      "cited_by_count": 73,
       "doi": null,
       "citation_id": "VRBv6mEAAAAJ:iH-uZ7U-co4C",
       "authors": [
@@ -8300,7 +8300,7 @@
       "title": "GWTC-5.0: Observations from the Second Part of the Fourth LIGO-Virgo-KAGRA Observing Run and Updates to the Gravitational-Wave Transient Catalog",
       "year": 2026,
       "venue": "arXiv preprint arXiv:2605.27225, 2026",
-      "cited_by_count": 54,
+      "cited_by_count": 56,
       "doi": "https://doi.org/10.48550/arxiv.2605.27225",
       "citation_id": "VRBv6mEAAAAJ:KxtntwgDAa4C",
       "authors": [
@@ -10076,7 +10076,7 @@
       "title": "Searches for Binary Mergers with Sub-solar Mass Components in Data from the First Part of LIGO--Virgo--KAGRA's Fourth Observing Run",
       "year": 2026,
       "venue": "arXiv preprint arXiv:2605.05444, 2026",
-      "cited_by_count": 6,
+      "cited_by_count": 7,
       "doi": "https://doi.org/10.48550/arxiv.2605.05444",
       "citation_id": "VRBv6mEAAAAJ:EUQCXRtRnyEC",
       "authors": [
@@ -10102,7 +10102,7 @@
       "title": "All-sky search for long-duration gravitational-wave transients in the first part of the fourth LIGO-Virgo-KAGRA observing run",
       "year": 2026,
       "venue": "Physical Review D 113 (8), 082004, 2026",
-      "cited_by_count": 13,
+      "cited_by_count": 14,
       "doi": null,
       "citation_id": "VRBv6mEAAAAJ:j3f4tGmQtD8C",
       "authors": [
@@ -10251,7 +10251,7 @@
       "title": "Black hole spectroscopy and tests of general relativity with GW250114",
       "year": 2026,
       "venue": "Physical Review Letters 136 (4), 041403, 2026",
-      "cited_by_count": 162,
+      "cited_by_count": 164,
       "doi": null,
       "citation_id": "VRBv6mEAAAAJ:OU6Ihb5iCvQC",
       "authors": [
@@ -14215,7 +14215,7 @@
       "title": "Terrarium: Revisiting the blackboard for multi-agent safety, privacy, and security studies",
       "year": 2025,
       "venue": "arXiv preprint arXiv:2510.14312, 2025",
-      "cited_by_count": 14,
+      "cited_by_count": 15,
       "doi": "https://doi.org/10.48550/arxiv.2510.14312",
       "citation_id": "QEiYbDYAAAAJ:AFXcoJnoRH0C",
       "authors": [
@@ -14342,7 +14342,7 @@
       "confirmed_ellis_affiliation": false,
       "venue_category": "ICML",
       "is_oa": true,
-      "oa_url": "https://arxiv.org/pdf/2512.08854",
+      "oa_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/brady26b/brady26b.pdf",
       "author_count": 5,
       "institutions": [
         {
@@ -18008,7 +18008,7 @@
       "title": "GWTC-4.0: Searches for Gravitational-Wave Lensing Signatures",
       "year": 2025,
       "venue": "arXiv preprint arXiv:2512.16347, 2025",
-      "cited_by_count": 5,
+      "cited_by_count": 6,
       "doi": "https://doi.org/10.48550/arxiv.2512.16347",
       "citation_id": "VRBv6mEAAAAJ:M05iB0D1s5AC",
       "authors": [
@@ -18033,7 +18033,7 @@
       "title": "GWTC-4.0: An introduction to version 4.0 of the gravitational-wave transient catalog",
       "year": 2025,
       "venue": "The Astrophysical Journal Letters 995 (1), L18, 2025",
-      "cited_by_count": 184,
+      "cited_by_count": 173,
       "doi": null,
       "citation_id": "VRBv6mEAAAAJ:r0BpntZqJG4C",
       "authors": [
@@ -18082,7 +18082,7 @@
       "title": "All-sky search for short gravitational-wave bursts in the first part of the fourth LIGO-Virgo-KAGRA observing run",
       "year": 2025,
       "venue": "Physical review D 112 (10), 102005, 2025",
-      "cited_by_count": 37,
+      "cited_by_count": 38,
       "doi": null,
       "citation_id": "VRBv6mEAAAAJ:YFjsv_pBGBYC",
       "authors": [
@@ -19745,7 +19745,7 @@
       "title": "Cosmological and High Energy Physics implications from gravitational-wave background searches in LIGO-Virgo-KAGRA's O1-O4a runs",
       "year": 2025,
       "venue": "arXiv preprint arXiv:2510.26848, 2025",
-      "cited_by_count": 16,
+      "cited_by_count": 18,
       "doi": "https://doi.org/10.1103/dlfv-z6m2",
       "citation_id": "VRBv6mEAAAAJ:35N4QoGY0k4C",
       "authors": [
@@ -21302,7 +21302,7 @@
       "title": "GW250114: Testing Hawking\u2019s area law and the Kerr nature of black holes",
       "year": 2025,
       "venue": "Physical review letters 135 (11), 111403, 2025",
-      "cited_by_count": 344,
+      "cited_by_count": 349,
       "doi": null,
       "citation_id": "VRBv6mEAAAAJ:JV2RwH3_ST0C",
       "authors": [
@@ -24583,7 +24583,7 @@
       "title": "Upper Limits on the Isotropic Gravitational-Wave Background from the first part of LIGO, Virgo, and KAGRA's fourth Observing Run",
       "year": 2025,
       "venue": "arXiv preprint arXiv:2508.20721, 2025",
-      "cited_by_count": 43,
+      "cited_by_count": 45,
       "doi": "https://doi.org/10.1103/wq57-sjt2",
       "citation_id": "VRBv6mEAAAAJ:k_IJM867U9cC",
       "authors": [
@@ -26134,7 +26134,7 @@
       "title": "GWTC-4.0: Updating the gravitational-wave transient catalog with observations from the first part of the fourth LIGO-Virgo-KAGRA observing run",
       "year": 2025,
       "venue": "arXiv preprint arXiv:2508.18082, 2025",
-      "cited_by_count": 423,
+      "cited_by_count": 456,
       "doi": "https://doi.org/10.48550/arxiv.2508.18082",
       "citation_id": "VRBv6mEAAAAJ:maZDTaKrznsC",
       "authors": [
@@ -27851,7 +27851,7 @@
       "title": "Search for continuous gravitational waves from known pulsars in the first part of the fourth LIGO-Virgo-KAGRA observing run",
       "year": 2025,
       "venue": "The Astrophysical Journal 983 (2), 99, 2025",
-      "cited_by_count": 75,
+      "cited_by_count": 76,
       "doi": null,
       "citation_id": "VRBv6mEAAAAJ:hC7cP41nSMkC",
       "authors": [
@@ -30539,7 +30539,7 @@
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
       "is_oa": true,
-      "oa_url": "https://arxiv.org/pdf/2311.18048",
+      "oa_url": "https://proceedings.mlr.press/v236/rajendran24a.html",
       "author_count": 4,
       "institutions": [
         {
@@ -32465,7 +32465,7 @@
       "title": "A search using GEO600 for gravitational waves coincident with fast radio bursts from SGR 1935+ 2154",
       "year": 2024,
       "venue": "The Astrophysical Journal 977 (2), 255, 2024",
-      "cited_by_count": 19,
+      "cited_by_count": 20,
       "doi": null,
       "citation_id": "VRBv6mEAAAAJ:hFOr9nPyWt4C",
       "authors": [
@@ -35769,7 +35769,7 @@
     "T. Konstantin Rusch": 19,
     "Shiwei Liu": 35,
     "Maksym Andriushchenko": 32,
-    "Maximilian Dax": 64,
+    "Maximilian Dax": 65,
     "Rediet Abebe": 9,
     "Antonio Orvieto": 62,
     "Bernhard Sch\u00f6lkopf": 249,
@@ -35780,7 +35780,7 @@
   "publications_per_year": {
     "2023": 52,
     "2024": 147,
-    "2025": 220,
+    "2025": 221,
     "2026": 370
   },
   "top_venues_by_year": {
@@ -38703,7 +38703,7 @@
     24,
     26,
     27,
-    29,
+    30,
     30,
     33,
     34,
@@ -38740,7 +38740,7 @@
       },
       {
         "year": 2026,
-        "citations": 4391
+        "citations": 4456
       }
     ],
     [
@@ -38832,21 +38832,21 @@
     [
       {
         "year": 2024,
-        "citations": 508
+        "citations": 511
       },
       {
         "year": 2025,
-        "citations": 1091
+        "citations": 1106
       },
       {
         "year": 2026,
-        "citations": 3337
+        "citations": 3389
       }
     ],
     [
       {
         "year": 2025,
-        "citations": 881
+        "citations": 882
       },
       {
         "year": 2026,
@@ -38892,21 +38892,21 @@
     [
       {
         "year": 2025,
-        "citations": 1668
+        "citations": 1669
       },
       {
         "year": 2026,
-        "citations": 1733
+        "citations": 1746
       }
     ],
     [
       {
         "year": 2025,
-        "citations": 2087
+        "citations": 2086
       },
       {
         "year": 2026,
-        "citations": 2787
+        "citations": 2814
       }
     ],
     [
