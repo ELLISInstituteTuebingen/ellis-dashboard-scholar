@@ -458,12 +458,6 @@ function addDownloadButtons() {
 function renderInstitutions(data) {
   const container = document.getElementById('institutionBars');
   if (!container) return;
-  const HOME_CLUSTER = new Set([
-    'Max Planck Institute for Intelligent Systems',
-    'University of Tübingen',
-    'Bernstein Center for Computational Neuroscience Tübingen',
-    'Tübingen AI Center',
-  ]);
   const TOP_N = 15;
   const collabs = data.institution_collaborations || {};
   const meta = data.institution_collaboration_meta || {};
@@ -477,10 +471,9 @@ function renderInstitutions(data) {
   }
   const max = entries[0][1] || 1;
   container.innerHTML = entries.map(([name, count]) => {
-    const home = HOME_CLUSTER.has(name);
     const pct = (count / max * 100).toFixed(1);
     const safe = name.replace(/'/g, "\\'");
-    return `<div class="inst-row${home ? ' home' : ''}" style="cursor:pointer;" onclick="openInstitutionModal('${safe}')">
+    return `<div class="inst-row" style="cursor:pointer;" onclick="openInstitutionModal('${safe}')">
       <div class="inst-name" title="${esc(name)} — click for papers">${esc(name)}</div>
       <div class="inst-track"><div class="inst-fill" style="width:${pct}%"></div></div>
       <div class="inst-val">${count}</div>
